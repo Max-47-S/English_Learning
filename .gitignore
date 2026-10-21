@@ -1,0 +1,18 @@
+# Operating-system metadata
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Temporary files and editor backups
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+!.env.template

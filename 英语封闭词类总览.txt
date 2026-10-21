@@ -1,0 +1,57 @@
+英语封闭词类总览
+大类	细分类别	代表单词
+
+
+助动词	基本助动词	be, have, do
+助动词	核心情态动词	can, could, may, might, must, shall, should, will, would
+
+
+冠词	定冠词、不定冠词	the, a, an
+
+
+代词	人称主格	I, you, he, she, it, we, they
+代词	人称宾格	me, you, him, her, it, us, them
+代词	名词性物主代词	mine, yours, his, hers, ours, theirs
+代词	反身代词	myself, yourself, himself, herself, itself, ourselves, yourselves, themselves
+代词	相互代词	each other, one another
+代词	不定代词	someone, anyone, everyone, nobody, something, anything 等
+代词	疑问代词	who, whom, whose, what, which
+代词	关系代词	who, whom, whose, which, that
+
+
+限定词	指示限定词	this, that, these, those
+限定词	形容词性物主限定词	my, your, his, her, its, our, their
+限定词	分配限定词	each, every, either, neither
+限定词	数量限定词	some, any, all, both, many, much, few, little, several, enough 等
+
+
+连词	并列连词	and, but, or, nor, for, yet, so
+连词	从属连词	because, although, if, unless, while, since, until, whether, though 等
+
+
+介词	时间、空间、关系介词	in, on, at, by, for, of, with, from, to, under, over, between, through 等
+
+
+疑问词	疑问副词	when, where, why, how
+
+
+小品词	不定式标记	to
+小品词	否定标记	not, n't
+小品词	短语动词小品词	up, down, out, off, away 等
+
+
+
+比较标记：than, as, more, most, less, least
+否定表达：no, not, never, neither, nor
+程度表达：very, too, so, quite, rather, enough
+存在句与形式主语：there, it
+边缘情态表达：ought to, used to, need, dare
+
+
+
+
+
+be 动词形式	8	be, am, is, are, was, were, been, being
+do 的形式	5	do, does, did, done, doing
+have 的形式	4	have, has, had, having
+

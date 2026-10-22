@@ -11,7 +11,7 @@
 | [词汇数量统计.md](词汇数量统计.md) | 两份词表的数量、去重规则和原表拼写项索引 |
 | [英语封闭词类总览.txt](英语封闭词类总览.txt) | 原始词类资料 |
 | [时态.txt](时态.txt) | 时态学习笔记 |
-| [smallHabits.txt](smallHabits.txt) | 阅读学习资料 |
+| [smallHabits.md](smallHabits.md) | 阅读学习资料 |
 | [habitsCopy.txt](habitsCopy.txt) | 阅读学习资料副本 |
 | [American_Oxford_3000.pdf](American_Oxford_3000.pdf) | 美式 Oxford 3000 词表 |
 | [oxford-3000-by-cefr-level.pdf](oxford-3000-by-cefr-level.pdf) | 按 CEFR 等级整理的 Oxford 3000 词表 |

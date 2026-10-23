@@ -1,0 +1,443 @@
+{
+  "@404": {
+    "meaning_zh": "一月",
+    "english": "The course starts in January.",
+    "chinese": "这门课程一月开始。",
+    "phrases": [
+      "in January（在一月）",
+      "early January（一月初）"
+    ]
+  },
+  "@274": {
+    "meaning_zh": "二月",
+    "english": "The course starts in February.",
+    "chinese": "这门课程二月开始。",
+    "phrases": [
+      "in February（在二月）",
+      "early February（二月初）"
+    ]
+  },
+  "@459": {
+    "meaning_zh": "三月",
+    "english": "The course starts in March.",
+    "chinese": "这门课程三月开始。",
+    "phrases": [
+      "in March（在三月）",
+      "early March（三月初）"
+    ]
+  },
+  "@36": {
+    "meaning_zh": "四月",
+    "english": "The course starts in April.",
+    "chinese": "这门课程四月开始。",
+    "phrases": [
+      "in April（在四月）",
+      "early April（四月初）"
+    ]
+  },
+  "@463": {
+    "meaning_zh": "五月",
+    "english": "The course starts in May.",
+    "chinese": "这门课程五月开始。",
+    "phrases": [
+      "in May（在五月）",
+      "early May（五月初）"
+    ]
+  },
+  "@411": {
+    "meaning_zh": "六月",
+    "english": "The course starts in June.",
+    "chinese": "这门课程六月开始。",
+    "phrases": [
+      "in June（在六月）",
+      "early June（六月初）"
+    ]
+  },
+  "@410": {
+    "meaning_zh": "七月",
+    "english": "The course starts in July.",
+    "chinese": "这门课程七月开始。",
+    "phrases": [
+      "in July（在七月）",
+      "early July（七月初）"
+    ]
+  },
+  "@47": {
+    "meaning_zh": "八月",
+    "english": "The course starts in August.",
+    "chinese": "这门课程八月开始。",
+    "phrases": [
+      "in August（在八月）",
+      "early August（八月初）"
+    ]
+  },
+  "@674": {
+    "meaning_zh": "九月",
+    "english": "The course starts in September.",
+    "chinese": "这门课程九月开始。",
+    "phrases": [
+      "in September（在九月）",
+      "early September（九月初）"
+    ]
+  },
+  "@534": {
+    "meaning_zh": "十月",
+    "english": "The course starts in October.",
+    "chinese": "这门课程十月开始。",
+    "phrases": [
+      "in October（在十月）",
+      "early October（十月初）"
+    ]
+  },
+  "@529": {
+    "meaning_zh": "十一月",
+    "english": "The course starts in November.",
+    "chinese": "这门课程十一月开始。",
+    "phrases": [
+      "in November（在十一月）",
+      "early November（十一月初）"
+    ]
+  },
+  "@192": {
+    "meaning_zh": "十二月",
+    "english": "The course starts in December.",
+    "chinese": "这门课程十二月开始。",
+    "phrases": [
+      "in December（在十二月）",
+      "early December（十二月初）"
+    ]
+  },
+  "@486": {
+    "meaning_zh": "星期一",
+    "english": "The library is closed on Monday.",
+    "chinese": "图书馆星期一不开放。",
+    "phrases": [
+      "on Monday（在星期一）",
+      "next Monday（下个星期一）"
+    ]
+  },
+  "@817": {
+    "meaning_zh": "星期二",
+    "english": "The library is closed on Tuesday.",
+    "chinese": "图书馆星期二不开放。",
+    "phrases": [
+      "on Tuesday（在星期二）",
+      "next Tuesday（下个星期二）"
+    ]
+  },
+  "@859": {
+    "meaning_zh": "星期三",
+    "english": "The library is closed on Wednesday.",
+    "chinese": "图书馆星期三不开放。",
+    "phrases": [
+      "on Wednesday（在星期三）",
+      "next Wednesday（下个星期三）"
+    ]
+  },
+  "@791": {
+    "meaning_zh": "星期四",
+    "english": "The library is closed on Thursday.",
+    "chinese": "图书馆星期四不开放。",
+    "phrases": [
+      "on Thursday（在星期四）",
+      "next Thursday（下个星期四）"
+    ]
+  },
+  "@309": {
+    "meaning_zh": "星期五",
+    "english": "The library is closed on Friday.",
+    "chinese": "图书馆星期五不开放。",
+    "phrases": [
+      "on Friday（在星期五）",
+      "next Friday（下个星期五）"
+    ]
+  },
+  "@661": {
+    "meaning_zh": "星期六",
+    "english": "The library is closed on Saturday.",
+    "chinese": "图书馆星期六不开放。",
+    "phrases": [
+      "on Saturday（在星期六）",
+      "next Saturday（下个星期六）"
+    ]
+  },
+  "@746": {
+    "meaning_zh": "星期日",
+    "english": "The library is closed on Sunday.",
+    "chinese": "图书馆星期日不开放。",
+    "phrases": [
+      "on Sunday（在星期日）",
+      "next Sunday（下个星期日）"
+    ]
+  },
+  "@1": {
+    "meaning_zh": "不定冠词：一个；某一个（an 用于元音音素前）",
+    "english": "I have a book and an umbrella.",
+    "chinese": "我有一本书和一把伞。",
+    "phrases": [
+      "a book（一本书）",
+      "an umbrella（一把伞）"
+    ]
+  },
+  "@67": {
+    "meaning_zh": "卧室",
+    "english": "My bedroom is next to the bathroom.",
+    "chinese": "我的卧室紧挨着浴室。",
+    "phrases": [
+      "a small bedroom（小卧室）",
+      "a spare bedroom（备用卧室）"
+    ]
+  },
+  "@128": {
+    "meaning_zh": "猫",
+    "english": "The cat is sleeping on the sofa.",
+    "chinese": "猫正在沙发上睡觉。",
+    "phrases": [
+      "a pet cat（宠物猫）",
+      "a black cat（黑猫）"
+    ]
+  },
+  "@218": {
+    "meaning_zh": "画；绘画；拉；抽取",
+    "english": "She likes to draw pictures of animals.",
+    "chinese": "她喜欢画动物。",
+    "phrases": [
+      "draw a picture（画画）",
+      "draw a line（画一条线）"
+    ]
+  },
+  "@397": {
+    "meaning_zh": "面试；采访；面谈",
+    "english": "I have a job interview tomorrow morning.",
+    "chinese": "我明天上午有一场求职面试。",
+    "phrases": [
+      "a job interview（求职面试）",
+      "interview sb for a job（对某人进行招聘面试）"
+    ]
+  },
+  "@499": {
+    "meaning_zh": "妈妈（英式口语）",
+    "english": "My mum works at the local hospital.",
+    "chinese": "我妈妈在当地医院工作。",
+    "phrases": [
+      "my mum（我妈妈）",
+      "mum and dad（爸爸妈妈）"
+    ]
+  },
+  "@515": {
+    "meaning_zh": "紧挨着；在……旁边",
+    "english": "The bank is next to the supermarket.",
+    "chinese": "银行紧挨着超市。",
+    "phrases": [
+      "sit next to sb（坐在某人旁边）",
+      "next to the window（紧挨着窗户）"
+    ]
+  },
+  "@774": {
+    "meaning_zh": "定冠词：特指的人或事物；双方已知的事物",
+    "english": "Please close the window by the door.",
+    "chinese": "请把门旁边的那扇窗户关上。",
+    "phrases": [
+      "the sun（太阳）",
+      "the same（同一个）"
+    ]
+  },
+  "@991": {
+    "meaning_zh": "一点；少量；小块",
+    "english": "I need a bit of help with this box.",
+    "chinese": "搬这个箱子我需要一点帮助。",
+    "phrases": [
+      "a bit of（一点）",
+      "a little bit（少许）"
+    ]
+  },
+  "@1189": {
+    "meaning_zh": "秋天（美式）；掉落；下降",
+    "english": "The leaves change colour in the fall.",
+    "chinese": "树叶在秋天变色。",
+    "phrases": [
+      "in the fall（在秋天）",
+      "a fall in prices（价格下降）"
+    ]
+  },
+  "@1358": {
+    "meaning_zh": "卡车；货车（英式）",
+    "english": "The lorry delivered food to the shop.",
+    "chinese": "卡车把食品送到了商店。",
+    "phrases": [
+      "a lorry driver（卡车司机）",
+      "by lorry（用卡车）"
+    ]
+  },
+  "@1651": {
+    "meaning_zh": "石头；石块；果核",
+    "english": "He picked up a smooth stone by the river.",
+    "chinese": "他在河边捡起了一块光滑的石头。",
+    "phrases": [
+      "a stone wall（石墙）",
+      "made of stone（石制的）"
+    ]
+  },
+  "@1717": {
+    "meaning_zh": "卡车；货车",
+    "english": "The truck is carrying furniture to our new house.",
+    "chinese": "卡车正往我们的新家运送家具。",
+    "phrases": [
+      "a truck driver（卡车司机）",
+      "a delivery truck（送货卡车）"
+    ]
+  },
+  "@1849": {
+    "meaning_zh": "品牌；给……打烙印；把……称为",
+    "english": "The company sells its own brand of coffee.",
+    "chinese": "这家公司销售自有品牌的咖啡。",
+    "phrases": [
+      "a well-known brand（知名品牌）",
+      "a brand name（品牌名称）"
+    ]
+  },
+  "@2905": {
+    "meaning_zh": "搜寻；狩猎",
+    "english": "The hunt for a new office took several weeks.",
+    "chinese": "寻找新办公室花了好几个星期。",
+    "phrases": [
+      "a job hunt（找工作）",
+      "a hunt for sth（搜寻某物）"
+    ]
+  },
+  "@2971": {
+    "meaning_zh": "肺",
+    "english": "Fresh air is good for your lungs.",
+    "chinese": "新鲜空气对肺有益。",
+    "phrases": [
+      "lung disease（肺部疾病）",
+      "healthy lungs（健康的肺）"
+    ]
+  },
+  "@3301": {
+    "meaning_zh": "价值；价值一定金额的东西",
+    "english": "The ring has little financial worth.",
+    "chinese": "这枚戒指的经济价值不高。",
+    "phrases": [
+      "a week's worth（一周的量）",
+      "net worth（净资产）"
+    ]
+  },
+  "@2564": {
+    "meaning_zh": "意志；意愿；遗嘱",
+    "english": "Her strong will helped her finish the course.",
+    "chinese": "她坚强的意志帮助她完成了课程。",
+    "phrases": [
+      "a strong will（坚强的意志）",
+      "make a will（立遗嘱）"
+    ]
+  },
+  "@1844": {
+    "meaning_zh": "登上（车、船、飞机）",
+    "english": "We will board the train in ten minutes.",
+    "chinese": "我们将在十分钟后上火车。",
+    "phrases": [
+      "board a train（上火车）",
+      "board a plane（登机）"
+    ]
+  },
+  "@2814": {
+    "meaning_zh": "同等的人或物；对手",
+    "english": "She has no equal as a storyteller.",
+    "chinese": "作为讲故事的人，她无人能及。",
+    "phrases": [
+      "have no equal（无人能及）",
+      "treat sb as an equal（平等对待某人）"
+    ]
+  },
+  "@3202": {
+    "meaning_zh": "货摊；看台；立场；架子",
+    "english": "They sell fruit from a stand near the station.",
+    "chinese": "他们在车站附近的一个摊位卖水果。",
+    "phrases": [
+      "a market stand（市场摊位）",
+      "take a stand（表明立场）"
+    ]
+  },
+  "@1208": {
+    "meaning_zh": "最先的人或事物；首次",
+    "english": "The trip was a first for both of us.",
+    "chinese": "这次旅行对我们两人来说都是头一回。",
+    "phrases": [
+      "a first for sb（对某人来说是第一次）",
+      "the first of its kind（同类中的首个）"
+    ]
+  },
+  "@1841": {
+    "meaning_zh": "更好的情况；较好者",
+    "english": "The new job brought a change for the better.",
+    "chinese": "这份新工作使情况有所好转。",
+    "phrases": [
+      "a change for the better（好转）",
+      "for better or worse（无论好坏）"
+    ]
+  },
+  "@2025": {
+    "meaning_zh": "预期的；预计的",
+    "english": "The expected delivery date is Friday.",
+    "chinese": "预计送达日期是星期五。",
+    "phrases": [
+      "the expected result（预期结果）",
+      "at the expected time（在预定时间）"
+    ]
+  },
+  "@2052": {
+    "meaning_zh": "固定的；不变的",
+    "english": "The tickets are sold at a fixed price.",
+    "chinese": "这些票按固定价格出售。",
+    "phrases": [
+      "a fixed price（固定价格）",
+      "fixed costs（固定成本）"
+    ]
+  },
+  "@2100": {
+    "meaning_zh": "仇恨；憎恶",
+    "english": "She felt no hate towards her old rival.",
+    "chinese": "她对以前的对手没有仇恨。",
+    "phrases": [
+      "a feeling of hate（仇恨感）",
+      "hate speech（仇恨言论）"
+    ]
+  },
+  "@2121": {
+    "meaning_zh": "想象中的；虚构的",
+    "english": "The child told us about an imaginary friend.",
+    "chinese": "孩子向我们说起了一位想象中的朋友。",
+    "phrases": [
+      "an imaginary friend（想象中的朋友）",
+      "an imaginary world（虚构世界）"
+    ]
+  },
+  "@2706": {
+    "meaning_zh": "保守的；守旧的；保守派人士",
+    "english": "That is a conservative estimate of the cost.",
+    "chinese": "那是对成本的保守估计。",
+    "phrases": [
+      "a conservative estimate（保守估计）",
+      "a conservative view（保守观点）"
+    ]
+  },
+  "@3006": {
+    "meaning_zh": "整洁的；工整的；巧妙的",
+    "english": "Her handwriting is neat and easy to read.",
+    "chinese": "她的字迹工整，容易辨认。",
+    "phrases": [
+      "neat handwriting（工整的字迹）",
+      "a neat room（整洁的房间）"
+    ]
+  },
+  "@3067": {
+    "meaning_zh": "潜力；可能性；潜在的",
+    "english": "This plan has great potential for success.",
+    "chinese": "这项计划很有成功的潜力。",
+    "phrases": [
+      "realize your potential（发挥你的潜力）",
+      "potential benefits（潜在好处）"
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "@263": [
+    "false information（虚假信息）",
+    "a false alarm（虚惊）"
+  ],
+  "@321": [
+    "physical geography（自然地理）",
+    "study geography（学习地理）"
+  ],
+  "@329": [
+    "say goodbye（道别）",
+    "wave goodbye（挥手告别）"
+  ],
+  "@350": [
+    "have to do sth（必须做某事）",
+    "do not have to（不必）"
+  ],
+  "@532": [
+    "a heavy object（重物）",
+    "a flying object（飞行物）"
+  ],
+  "@546": [
+    "online shopping（网购）",
+    "go online（上网）"
+  ],
+  "@784": [
+    "feel thirsty（感到口渴）",
+    "get thirsty（口渴起来）"
+  ],
+  "@934": [
+    "twist an ankle（扭伤脚踝）",
+    "an ankle injury（踝部受伤）"
+  ],
+  "@950": [
+    "make arrangements（作安排）",
+    "travel arrangements（旅行安排）"
+  ],
+  "@979": [
+    "good behaviour（良好行为）",
+    "human behaviour（人类行为）"
+  ],
+  "@1013": [
+    "go camping（去露营）",
+    "camping equipment（露营装备）"
+  ],
+  "@1183": [
+    "extreme weather（极端天气）",
+    "extreme conditions（极端条件）"
+  ],
+  "@1208": [
+    "a first for sb（对某人来说是第一次）",
+    "the first of its kind（同类中的首个）"
+  ],
+  "@1224": [
+    "fortunately for sb（某人很幸运）",
+    "fortunately enough（很幸运地）"
+  ],
+  "@1263": [
+    "be helpful to sb（对某人有帮助）",
+    "a helpful suggestion（有益的建议）"
+  ],
+  "@1296": [
+    "a serious injury（严重受伤）",
+    "avoid injury（避免受伤）"
+  ],
+  "@1301": [
+    "a driving instructor（驾驶教练）",
+    "a fitness instructor（健身教练）"
+  ],
+  "@1365": [
+    "feel lucky（感到幸运）",
+    "be lucky enough to（幸运地能够）"
+  ],
+  "@1368": [
+    "a male student（男学生）",
+    "male and female（男性和女性；雄性和雌性）"
+  ],
+  "@1376": [
+    "a maths teacher（数学老师）",
+    "a maths problem（数学题）"
+  ],
+  "@1517": [
+    "react to（对……作出反应）",
+    "react quickly（迅速反应）"
+  ],
+  "@1528": [
+    "recycle paper（回收纸张）",
+    "recycle waste（回收废物）"
+  ],
+  "@1542": [
+    "do research（做研究）",
+    "research into（对……的研究）"
+  ],
+  "@1608": [
+    "yes, sir（是的，先生）",
+    "Dear Sir（尊敬的先生，用于信件）"
+  ],
+  "@1672": [
+    "a surprising result（令人惊讶的结果）",
+    "it is surprising that（令人惊讶的是）"
+  ],
+  "@1682": [
+    "teaching methods（教学方法）",
+    "a teaching job（教学工作）"
+  ],
+  "@1689": [
+    "thick ice（厚冰）",
+    "a thick coat（厚外套）"
+  ],
+  "@1713": [
+    "job training（职业培训）",
+    "a training course（培训课程）"
+  ],
+  "@1767": [
+    "wow, that is amazing（哇，太棒了）",
+    "wow, look at that（哇，看那个）"
+  ],
+  "@1821": [
+    "have the authority to（有权做……）",
+    "local authorities（地方当局）"
+  ],
+  "@1841": [
+    "a change for the better（好转）",
+    "for better or worse（无论好坏）"
+  ],
+  "@1850": [
+    "a brave person（勇敢的人）",
+    "a brave decision（勇敢的决定）"
+  ],
+  "@1918": [
+    "consumer rights（消费者权益）",
+    "consumer demand（消费者需求）"
+  ],
+  "@1951": [
+    "define a term（定义术语）",
+    "be defined as（被定义为）"
+  ],
+  "@2011": [
+    "a dictionary entry（词典词条）",
+    "an entry fee（入场费）"
+  ],
+  "@2025": [
+    "the expected result（预期结果）",
+    "at the expected time（在预定时间）"
+  ],
+  "@2034": [
+    "pay extra（额外付费）",
+    "optional extras（可选的额外项目）"
+  ],
+  "@2047": [
+    "heavy fighting（激烈战斗）",
+    "street fighting（巷战）"
+  ],
+  "@2052": [
+    "a fixed price（固定价格）",
+    "fixed costs（固定成本）"
+  ],
+  "@2078": [
+    "the next generation（下一代）",
+    "from generation to generation（代代相传）"
+  ],
+  "@2100": [
+    "a feeling of hate（仇恨感）",
+    "hate speech（仇恨言论）"
+  ],
+  "@2121": [
+    "an imaginary friend（想象中的朋友）",
+    "an imaginary world（虚构世界）"
+  ],
+  "@2128": [
+    "an impressive performance（出色的表现）",
+    "an impressive achievement（令人赞叹的成就）"
+  ],
+  "@2188": [
+    "a luxury hotel（豪华酒店）",
+    "a life of luxury（奢华生活）"
+  ],
+  "@2237": [
+    "an official statement（官方声明）",
+    "an official visit（正式访问）"
+  ],
+  "@2238": [
+    "old-fashioned clothes（老式衣服）",
+    "an old-fashioned idea（陈旧观念）"
+  ],
+  "@2282": [
+    "poisonous plants（有毒植物）",
+    "poisonous gas（有毒气体）"
+  ],
+  "@2287": [
+    "a busy port（繁忙的港口）",
+    "arrive in port（抵港）"
+  ],
+  "@2298": [
+    "make a prediction（作出预测）",
+    "an accurate prediction（准确的预测）"
+  ],
+  "@2318": [
+    "promote a product（推广产品）",
+    "be promoted to（晋升为）"
+  ],
+  "@2353": [
+    "feel relaxed（感到放松）",
+    "a relaxed atmosphere（轻松的气氛）"
+  ],
+  "@2358": [
+    "religious beliefs（宗教信仰）",
+    "a religious leader（宗教领袖）"
+  ],
+  "@2379": [
+    "a rise in prices（价格上涨）",
+    "give rise to（引起；导致）"
+  ],
+  "@2385": [
+    "a rough surface（粗糙表面）",
+    "a rough idea（大致的想法）"
+  ],
+  "@2402": [
+    "a sensible decision（明智的决定）",
+    "sensible advice（合理的建议）"
+  ],
+  "@2437": [
+    "solid food（固体食物）",
+    "a solid foundation（牢固的基础）"
+  ],
+  "@2533": [
+    "unnecessary expense（不必要的开支）",
+    "unnecessary work（无谓的工作）"
+  ],
+  "@2566": [
+    "a bird's wing（鸟的翅膀）",
+    "the left wing（左翼）"
+  ],
+  "@2586": [
+    "accurate information（准确信息）",
+    "an accurate estimate（准确的估计）"
+  ],
+  "@2606": [
+    "amount to（总计；相当于）",
+    "amount to little（几乎无足轻重）"
+  ],
+  "@2619": [
+    "arise from（由……引起）",
+    "a problem arises（问题出现）"
+  ],
+  "@2655": [
+    "a live broadcast（现场直播）",
+    "broadcast a programme（播出节目）"
+  ],
+  "@2686": [
+    "a sudden collapse（突然倒塌）",
+    "collapse under pressure（在压力下崩溃）"
+  ],
+  "@2706": [
+    "a conservative estimate（保守估计）",
+    "a conservative view（保守观点）"
+  ],
+  "@2764": [
+    "feel depressed（感到沮丧）",
+    "become depressed（变得沮丧）"
+  ],
+  "@2765": [
+    "depressing news（令人沮丧的消息）",
+    "a depressing situation（令人沮丧的处境）"
+  ],
+  "@2767": [
+    "desert a post（擅离岗位）",
+    "desert one's family（抛弃家人）"
+  ],
+  "@2779": [
+    "dismiss an idea（不予考虑某个想法）",
+    "dismiss sb from a job（解雇某人）"
+  ],
+  "@2785": [
+    "division of labour（分工）",
+    "a division between（……之间的分歧）"
+  ],
+  "@2796": [
+    "an efficient system（高效的系统）",
+    "an efficient worker（能干的员工）"
+  ],
+  "@2802": [
+    "place emphasis on（强调）",
+    "special emphasis（特别强调）"
+  ],
+  "@2810": [
+    "enthusiasm for（对……的热情）",
+    "show enthusiasm（表现出热情）"
+  ],
+  "@2837": [
+    "have faith in（信任）",
+    "lose faith in（对……失去信心）"
+  ],
+  "@2893": [
+    "an all-time high（历史最高点）",
+    "reach a new high（达到新高）"
+  ],
+  "@2947": [
+    "social justice（社会正义）",
+    "bring sb to justice（将某人绳之以法）"
+  ],
+  "@2959": [
+    "a driving licence（驾驶执照）",
+    "a business licence（营业执照）"
+  ],
+  "@3006": [
+    "neat handwriting（工整的字迹）",
+    "a neat room（整洁的房间）"
+  ],
+  "@3023": [
+    "offensive language（冒犯性语言）",
+    "an offensive remark（无礼的话）"
+  ],
+  "@3024": [
+    "a government official（政府官员）",
+    "an elected official（民选官员）"
+  ],
+  "@3026": [
+    "operate a machine（操作机器）",
+    "operate on sb（给某人做手术）"
+  ],
+  "@3046": [
+    "be patient with（对……有耐心）",
+    "a patient teacher（有耐心的老师）"
+  ],
+  "@3093": [
+    "the publication of（……的出版）",
+    "a scientific publication（科学出版物）"
+  ],
+  "@3105": [
+    "a realistic goal（现实的目标）",
+    "be realistic about（对……持现实态度）"
+  ],
+  "@3116": [
+    "relevant to（与……有关）",
+    "relevant information（相关信息）"
+  ],
+  "@3150": [
+    "scream for help（尖叫求助）",
+    "let out a scream（发出尖叫）"
+  ],
+  "@3220": [
+    "submit an application（提交申请）",
+    "submit a report（提交报告）"
+  ],
+  "@3236": [
+    "a temporary job（临时工作）",
+    "a temporary solution（暂时的解决办法）"
+  ],
+  "@3250": [
+    "a fair trial（公正的审判）",
+    "on trial（受审；试用中）"
+  ],
+  "@3296": [
+    "an electric wire（电线）",
+    "a piece of wire（一段金属丝）"
+  ]
+}
+

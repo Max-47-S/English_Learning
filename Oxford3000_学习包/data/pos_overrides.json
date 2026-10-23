@@ -1,0 +1,1281 @@
+{
+  "@610": {
+    "meaning_zh": "练习；训练；实践（英式动词）",
+    "english": "You need to practise speaking English every day.",
+    "chinese": "你需要每天练习说英语。",
+    "phrases": [
+      "practise doing sth（练习做某事）",
+      "practise the piano（练钢琴）"
+    ]
+  },
+  "@937": {
+    "meaning_zh": "（否定句中）再也（不）；不再",
+    "english": "I do not live there any more.",
+    "chinese": "我已经不住在那里了。",
+    "phrases": [
+      "not ... any more（不再……）",
+      "not need sth any more（不再需要某物）"
+    ]
+  },
+  "@1204": {
+    "meaning_zh": "决赛；期末考试",
+    "english": "Our team reached the final last year.",
+    "chinese": "我们队去年进入了决赛。",
+    "phrases": [
+      "reach the final（进入决赛）",
+      "the cup final（杯赛决赛）"
+    ]
+  },
+  "@1226": {
+    "meaning_zh": "免费地；不受束缚地",
+    "english": "Children under five can travel free.",
+    "chinese": "五岁以下的儿童可以免费乘车。",
+    "phrases": [
+      "travel free（免费乘车）",
+      "go free（获释）"
+    ]
+  },
+  "@1559": {
+    "meaning_zh": "垃圾；废物；无稽之谈",
+    "english": "Please put the rubbish in the bin.",
+    "chinese": "请把垃圾放进垃圾桶。",
+    "phrases": [
+      "take out the rubbish（倒垃圾）",
+      "a rubbish bin（垃圾桶）"
+    ]
+  },
+  "@1687": {
+    "meaning_zh": "发短信；用短信通知",
+    "english": "Please text me when you get home.",
+    "chinese": "你到家后请给我发短信。",
+    "phrases": [
+      "text sb（给某人发短信）",
+      "text a message（发送短信）"
+    ]
+  },
+  "@1714": {
+    "meaning_zh": "交通；运输；运输工具",
+    "english": "Public transport is cheaper than driving.",
+    "chinese": "公共交通比开车便宜。",
+    "phrases": [
+      "public transport（公共交通）",
+      "a means of transport（交通工具）"
+    ]
+  },
+  "@1772": {
+    "meaning_zh": "学术的；学习的；学校的",
+    "english": "The academic year begins in September.",
+    "chinese": "学年从九月开始。",
+    "phrases": [
+      "academic research（学术研究）",
+      "academic performance（学业表现）"
+    ]
+  },
+  "@1869": {
+    "meaning_zh": "以……为中心；集中于",
+    "english": "The discussion will centre on the new plan.",
+    "chinese": "讨论将围绕新计划展开。",
+    "phrases": [
+      "centre on（以……为中心）",
+      "centre around（围绕）"
+    ]
+  },
+  "@1935": {
+    "meaning_zh": "奶油色的；淡黄色的",
+    "english": "She chose cream curtains for the bedroom.",
+    "chinese": "她给卧室选了奶油色的窗帘。",
+    "phrases": [
+      "a cream wall（奶油色的墙）",
+      "cream curtains（奶油色窗帘）"
+    ]
+  },
+  "@2059": {
+    "meaning_zh": "下列事物；追随者；拥护者",
+    "english": "Please read the following before you sign.",
+    "chinese": "签字前请阅读以下内容。",
+    "phrases": [
+      "the following（以下内容）",
+      "a large following（众多追随者）"
+    ]
+  },
+  "@2135": {
+    "meaning_zh": "在室内；进入室内",
+    "english": "We stayed indoors because of the rain.",
+    "chinese": "因为下雨，我们待在室内。",
+    "phrases": [
+      "stay indoors（待在室内）",
+      "go indoors（进入室内）"
+    ]
+  },
+  "@2149": {
+    "meaning_zh": "信息技术（information technology 的缩写）",
+    "english": "She works in the IT department.",
+    "chinese": "她在信息技术部门工作。",
+    "phrases": [
+      "IT skills（信息技术技能）",
+      "the IT industry（信息技术行业）"
+    ]
+  },
+  "@2156": {
+    "meaning_zh": "杀死；杀戮；致死",
+    "english": "The police are investigating the killing.",
+    "chinese": "警方正在调查这起杀人事件。",
+    "phrases": [
+      "an unlawful killing（非法杀人）",
+      "the killing of civilians（杀害平民）"
+    ]
+  },
+  "@2212": {
+    "meaning_zh": "音乐剧；音乐片",
+    "english": "We went to see a musical last weekend.",
+    "chinese": "我们上周末去看了一场音乐剧。",
+    "phrases": [
+      "a stage musical（舞台音乐剧）",
+      "a popular musical（受欢迎的音乐剧）"
+    ]
+  },
+  "@2225": {
+    "meaning_zh": "下一个人或事物",
+    "english": "One bus was full, so we waited for the next.",
+    "chinese": "一辆公交车满了，所以我们等下一辆。",
+    "phrases": [
+      "from one day to the next（日复一日）",
+      "one after the next（一个接一个）"
+    ]
+  },
+  "@2227": {
+    "meaning_zh": "常态；正常水平",
+    "english": "Life has returned to normal after the holiday.",
+    "chinese": "假期过后，生活已恢复正常。",
+    "phrases": [
+      "return to normal（恢复正常）",
+      "above normal（高于正常水平）"
+    ]
+  },
+  "@2228": {
+    "meaning_zh": "北方的；北部的",
+    "english": "They live in the northern part of the country.",
+    "chinese": "他们住在这个国家的北部。",
+    "phrases": [
+      "northern Europe（北欧）",
+      "the northern coast（北部海岸）"
+    ]
+  },
+  "@2248": {
+    "meaning_zh": "在户外；向户外",
+    "english": "We often eat outdoors in summer.",
+    "chinese": "夏天我们经常在户外吃饭。",
+    "phrases": [
+      "work outdoors（在户外工作）",
+      "spend time outdoors（在户外活动）"
+    ]
+  },
+  "@2365": {
+    "meaning_zh": "反复的；多次的",
+    "english": "Repeated practice will help you improve.",
+    "chinese": "反复练习会帮助你进步。",
+    "phrases": [
+      "repeated attempts（多次尝试）",
+      "repeated warnings（反复警告）"
+    ]
+  },
+  "@2428": {
+    "meaning_zh": "从那时起；自那以后",
+    "english": "We met in June and have stayed in touch since.",
+    "chinese": "我们六月认识，自那以后一直保持联系。",
+    "phrases": [
+      "ever since（从那以后一直）",
+      "long since（早已）"
+    ]
+  },
+  "@2438": {
+    "meaning_zh": "分类；整理；解决",
+    "english": "Could you sort these papers by date?",
+    "chinese": "你能把这些文件按日期整理吗？",
+    "phrases": [
+      "sort out（整理；解决）",
+      "sort by date（按日期排序）"
+    ]
+  },
+  "@2442": {
+    "meaning_zh": "辛辣的；加有香料的",
+    "english": "This soup is too spicy for me.",
+    "chinese": "这汤对我来说太辣了。",
+    "phrases": [
+      "spicy food（辛辣食物）",
+      "a spicy sauce（辣酱）"
+    ]
+  },
+  "@2479": {
+    "meaning_zh": "症状；征兆",
+    "english": "A cough can be a symptom of a cold.",
+    "chinese": "咳嗽可能是感冒的一个症状。",
+    "phrases": [
+      "a common symptom（常见症状）",
+      "symptoms of stress（压力的表现）"
+    ]
+  },
+  "@2494": {
+    "meaning_zh": "这么；如此（修饰程度）",
+    "english": "I did not know the station was this far away.",
+    "chinese": "我不知道车站有这么远。",
+    "phrases": [
+      "this much（这么多）",
+      "this far（这么远）"
+    ]
+  },
+  "@2598": {
+    "meaning_zh": "后来；之后",
+    "english": "We had dinner and went for a walk afterwards.",
+    "chinese": "我们吃了晚饭，之后去散了步。",
+    "phrases": [
+      "shortly afterwards（不久之后）",
+      "soon afterwards（随后不久）"
+    ]
+  },
+  "@2651": {
+    "meaning_zh": "与……接壤；给……镶边；接近",
+    "english": "Several countries border the lake.",
+    "chinese": "有几个国家与这座湖相邻。",
+    "phrases": [
+      "border on（与……接壤；近乎）",
+      "be bordered by（以……为边界）"
+    ]
+  },
+  "@2784": {
+    "meaning_zh": "分歧；差距；分界线",
+    "english": "Education can help bridge the digital divide.",
+    "chinese": "教育可以帮助缩小数字鸿沟。",
+    "phrases": [
+      "the digital divide（数字鸿沟）",
+      "a divide between（……之间的分歧）"
+    ]
+  },
+  "@2839": {
+    "meaning_zh": "支持；较喜欢；有利于",
+    "english": "Most people favour the cheaper option.",
+    "chinese": "大多数人更赞成便宜的方案。",
+    "phrases": [
+      "favour a plan（支持计划）",
+      "favour one side（偏袒一方）"
+    ]
+  },
+  "@2842": {
+    "meaning_zh": "饲料；供给；信息流",
+    "english": "The farmer bought feed for the chickens.",
+    "chinese": "农民买了喂鸡的饲料。",
+    "phrases": [
+      "animal feed（动物饲料）",
+      "a news feed（新闻信息流）"
+    ]
+  },
+  "@2908": {
+    "meaning_zh": "理想；理想的典范",
+    "english": "She has never given up her ideals.",
+    "chinese": "她从未放弃自己的理想。",
+    "phrases": [
+      "high ideals（崇高的理想）",
+      "live up to an ideal（达到理想标准）"
+    ]
+  },
+  "@3040": {
+    "meaning_zh": "包装；打包",
+    "english": "They package the fruit before sending it out.",
+    "chinese": "他们在运出水果之前先将其包装好。",
+    "phrases": [
+      "package goods（包装商品）",
+      "be packaged in（用……包装）"
+    ]
+  },
+  "@3055": {
+    "meaning_zh": "想象；设想；描绘",
+    "english": "Can you picture yourself living abroad?",
+    "chinese": "你能想象自己在国外生活吗？",
+    "phrases": [
+      "picture yourself doing sth（想象自己做某事）",
+      "picture the scene（想象那个场景）"
+    ]
+  },
+  "@3064": {
+    "meaning_zh": "放置；安置；确定……的位置",
+    "english": "Position the chair near the window.",
+    "chinese": "把椅子放在窗户附近。",
+    "phrases": [
+      "position sth carefully（小心摆放某物）",
+      "be well positioned（处于有利位置）"
+    ]
+  },
+  "@3065": {
+    "meaning_zh": "优点；积极的方面；阳性结果",
+    "english": "There are several positives in the report.",
+    "chinese": "报告中有几个积极的方面。",
+    "phrases": [
+      "focus on the positives（关注积极方面）",
+      "a false positive（假阳性结果）"
+    ]
+  },
+  "@3082": {
+    "meaning_zh": "农产品；产品",
+    "english": "The market sells fresh local produce.",
+    "chinese": "这个市场出售新鲜的本地农产品。",
+    "phrases": [
+      "fresh produce（新鲜农产品）",
+      "local produce（本地农产品）"
+    ]
+  },
+  "@3083": {
+    "meaning_zh": "专业人士；职业选手",
+    "english": "You should ask a professional to check the wiring.",
+    "chinese": "你应该请专业人士检查线路。",
+    "phrases": [
+      "a trained professional（受过训练的专业人士）",
+      "a health professional（卫生专业人员）"
+    ]
+  },
+  "@3171": {
+    "meaning_zh": "塑造；使成形；影响",
+    "english": "Our experiences shape the way we think.",
+    "chinese": "我们的经历塑造了我们的思维方式。",
+    "phrases": [
+      "shape the future（塑造未来）",
+      "shape an opinion（影响看法）"
+    ]
+  },
+  "@3233": {
+    "meaning_zh": "以……为目标；针对",
+    "english": "The course targets people with little experience.",
+    "chinese": "这门课程面向经验较少的人。",
+    "phrases": [
+      "target an audience（针对某类受众）",
+      "be targeted at（面向；针对）"
+    ]
+  },
+  "@3243": {
+    "meaning_zh": "给……加标题；把……称为",
+    "english": "She titled the article A New Beginning.",
+    "chinese": "她把这篇文章命名为《新的开始》。",
+    "phrases": [
+      "be titled（标题为）",
+      "title a book（为书命名）"
+    ]
+  },
+  "@3284": {
+    "meaning_zh": "远远地；大大地（加强程度）",
+    "english": "The hotel is way too expensive for us.",
+    "chinese": "这家酒店对我们来说实在太贵了。",
+    "phrases": [
+      "way too（实在太）",
+      "way ahead（远远领先）"
+    ]
+  },
+  "@191": {
+    "meaning_zh": "亲爱的；珍视的；昂贵的",
+    "english": "My family is very dear to me.",
+    "chinese": "家人对我来说非常宝贵。",
+    "phrases": [
+      "a dear friend（亲爱的朋友）",
+      "dear to sb（为某人所珍视）"
+    ]
+  },
+  "@217": {
+    "meaning_zh": "在楼下；往楼下",
+    "english": "I left my bag downstairs by the door.",
+    "chinese": "我把包留在楼下的门边了。",
+    "phrases": [
+      "go downstairs（下楼）",
+      "wait downstairs（在楼下等）"
+    ]
+  },
+  "@935": {
+    "meaning_zh": "（疑问或否定句中）一点；稍微",
+    "english": "Do you feel any better today?",
+    "chinese": "你今天感觉好一点了吗？",
+    "phrases": [
+      "any better（好一点）",
+      "any more（再；还）"
+    ]
+  },
+  "@985": {
+    "meaning_zh": "在两者之间；在中间",
+    "english": "They ate three meals with no snacks in between.",
+    "chinese": "他们吃三顿饭，中间不吃零食。",
+    "phrases": [
+      "in between（在中间）",
+      "a break between（中间的休息）"
+    ]
+  },
+  "@1134": {
+    "meaning_zh": "楼下的",
+    "english": "The downstairs bathroom is next to the kitchen.",
+    "chinese": "楼下的浴室紧挨着厨房。",
+    "phrases": [
+      "a downstairs room（楼下的房间）",
+      "the downstairs toilet（楼下的卫生间）"
+    ]
+  },
+  "@1136": {
+    "meaning_zh": "图画；素描；绘画",
+    "english": "She showed me a drawing of her house.",
+    "chinese": "她给我看了一幅她家的画。",
+    "phrases": [
+      "a pencil drawing（铅笔画）",
+      "a drawing of（……的画）"
+    ]
+  },
+  "@1157": {
+    "meaning_zh": "结尾；结局；结束",
+    "english": "The story has a happy ending.",
+    "chinese": "这个故事有一个圆满的结局。",
+    "phrases": [
+      "a happy ending（圆满结局）",
+      "a surprise ending（出人意料的结尾）"
+    ]
+  },
+  "@1191": {
+    "meaning_zh": "务农；耕种；养殖",
+    "english": "His family has farmed this land for years.",
+    "chinese": "他家耕种这片土地已经多年。",
+    "phrases": [
+      "farm the land（耕种土地）",
+      "farm fish（养鱼）"
+    ]
+  },
+  "@1203": {
+    "meaning_zh": "拍摄；把……拍成电影",
+    "english": "They will film the next scene outdoors.",
+    "chinese": "他们将在户外拍摄下一个场景。",
+    "phrases": [
+      "film a scene（拍摄场景）",
+      "be filmed in（在……拍摄）"
+    ]
+  },
+  "@1254": {
+    "meaning_zh": "一半地；部分地",
+    "english": "The bottle was only half full.",
+    "chinese": "瓶子只装满了一半。",
+    "phrases": [
+      "half full（半满的）",
+      "half asleep（半睡半醒）"
+    ]
+  },
+  "@1268": {
+    "meaning_zh": "高高地；在高处",
+    "english": "The bird flew high above the trees.",
+    "chinese": "鸟儿在树梢上方高高飞翔。",
+    "phrases": [
+      "fly high（高飞）",
+      "aim high（志向高远）"
+    ]
+  },
+  "@1402": {
+    "meaning_zh": "国家的；全国的；民族的",
+    "english": "The story appeared in a national newspaper.",
+    "chinese": "这个故事刊登在一家全国性报纸上。",
+    "phrases": [
+      "a national park（国家公园）",
+      "national identity（民族认同）"
+    ]
+  },
+  "@1445": {
+    "meaning_zh": "经过；过去",
+    "english": "A car drove past without stopping.",
+    "chinese": "一辆车没有停下来就开过去了。",
+    "phrases": [
+      "walk past（走过）",
+      "go past（经过）"
+    ]
+  },
+  "@1448": {
+    "meaning_zh": "工资；薪水",
+    "english": "She asked for an increase in pay.",
+    "chinese": "她要求加薪。",
+    "phrases": [
+      "equal pay（同工同酬）",
+      "a pay rise（加薪）"
+    ]
+  },
+  "@1459": {
+    "meaning_zh": "拍照；为……拍照",
+    "english": "He likes to photograph birds in the park.",
+    "chinese": "他喜欢在公园里给鸟拍照。",
+    "phrases": [
+      "photograph wildlife（拍摄野生动物）",
+      "be photographed with（与……合影）"
+    ]
+  },
+  "@1508": {
+    "meaning_zh": "女王；王后；（国际象棋）王后",
+    "english": "The queen visited the city last week.",
+    "chinese": "女王上周访问了这座城市。",
+    "phrases": [
+      "a king and queen（国王和王后）",
+      "the queen's palace（王后的宫殿）"
+    ]
+  },
+  "@1563": {
+    "meaning_zh": "跑步；运作；管理",
+    "english": "Running is an important part of her routine.",
+    "chinese": "跑步是她日常生活的重要部分。",
+    "phrases": [
+      "go running（去跑步）",
+      "the running of a business（企业经营）"
+    ]
+  },
+  "@1644": {
+    "meaning_zh": "主演；使……主演",
+    "english": "She will star in a new film next year.",
+    "chinese": "她明年将主演一部新电影。",
+    "phrases": [
+      "star in（主演）",
+      "a film starring sb（由某人主演的电影）"
+    ]
+  },
+  "@1726": {
+    "meaning_zh": "联合的；团结的",
+    "english": "The team remained united during the crisis.",
+    "chinese": "团队在危机期间依然团结。",
+    "phrases": [
+      "a united team（团结的团队）",
+      "a united effort（共同的努力）"
+    ]
+  },
+  "@1822": {
+    "meaning_zh": "平均为；平均达到",
+    "english": "We average about eight hours of sleep a night.",
+    "chinese": "我们每晚平均睡大约八小时。",
+    "phrases": [
+      "average ten a day（平均每天十个）",
+      "average out at（平均为）"
+    ]
+  },
+  "@1857": {
+    "meaning_zh": "经过；在旁边；靠近",
+    "english": "A bus went by while we were waiting.",
+    "chinese": "我们等待的时候，一辆公交车开了过去。",
+    "phrases": [
+      "pass by（经过）",
+      "go by（经过；流逝）"
+    ]
+  },
+  "@1888": {
+    "meaning_zh": "攀登；上升",
+    "english": "The climb to the top took two hours.",
+    "chinese": "登顶花了两个小时。",
+    "phrases": [
+      "a steep climb（陡峭的攀登）",
+      "a climb in prices（价格上涨）"
+    ]
+  },
+  "@1892": {
+    "meaning_zh": "训练；指导；辅导",
+    "english": "She coaches the school basketball team.",
+    "chinese": "她担任学校篮球队的教练。",
+    "phrases": [
+      "coach a team（训练球队）",
+      "coach sb in（在……方面辅导某人）"
+    ]
+  },
+  "@1898": {
+    "meaning_zh": "评论；发表意见",
+    "english": "He refused to comment on the decision.",
+    "chinese": "他拒绝对这个决定发表评论。",
+    "phrases": [
+      "comment on（评论）",
+      "decline to comment（拒绝置评）"
+    ]
+  },
+  "@1926": {
+    "meaning_zh": "使冷却；凉下来；冷静下来",
+    "english": "Let the soup cool before you eat it.",
+    "chinese": "先让汤凉一凉再喝。",
+    "phrases": [
+      "cool down（冷却；冷静下来）",
+      "cool completely（完全冷却）"
+    ]
+  },
+  "@1945": {
+    "meaning_zh": "每天；每日地",
+    "english": "The plants need to be watered daily.",
+    "chinese": "这些植物需要每天浇水。",
+    "phrases": [
+      "check daily（每天检查）",
+      "exercise daily（每天锻炼）"
+    ]
+  },
+  "@1964": {
+    "meaning_zh": "指导；管理；给……指路；直接地",
+    "english": "The manager directed us to the correct office.",
+    "chinese": "经理指引我们去了正确的办公室。",
+    "phrases": [
+      "direct sb to（指引某人去）",
+      "fly direct（直飞）"
+    ]
+  },
+  "@1975": {
+    "meaning_zh": "双倍地；成双地",
+    "english": "You will have to pay double on holidays.",
+    "chinese": "节假日你将需要付双倍的费用。",
+    "phrases": [
+      "pay double（付双倍费用）",
+      "see double（看见重影）"
+    ]
+  },
+  "@2003": {
+    "meaning_zh": "倒空；清空",
+    "english": "Please empty the bin before you leave.",
+    "chinese": "离开前请把垃圾桶清空。",
+    "phrases": [
+      "empty a bag（倒空包）",
+      "empty out（倒空）"
+    ]
+  },
+  "@2008": {
+    "meaning_zh": "使娱乐；招待；使有兴趣",
+    "english": "The games will entertain the children.",
+    "chinese": "这些游戏会让孩子们玩得开心。",
+    "phrases": [
+      "entertain guests（招待客人）",
+      "entertain an audience（使观众开心）"
+    ]
+  },
+  "@2029": {
+    "meaning_zh": "做实验；尝试",
+    "english": "We like to experiment with new recipes.",
+    "chinese": "我们喜欢尝试新的食谱。",
+    "phrases": [
+      "experiment with（尝试；用……做实验）",
+      "experiment on（对……做实验）"
+    ]
+  },
+  "@2042": {
+    "meaning_zh": "扣紧；系牢；固定",
+    "english": "Please fasten your seat belt before take-off.",
+    "chinese": "起飞前请系好安全带。",
+    "phrases": [
+      "fasten a seat belt（系安全带）",
+      "fasten a button（扣纽扣）"
+    ]
+  },
+  "@2045": {
+    "meaning_zh": "以……为特色；由……主演",
+    "english": "The menu features several local dishes.",
+    "chinese": "菜单上有几道特色当地菜。",
+    "phrases": [
+      "feature in（在……中占重要地位）",
+      "feature a singer（由一位歌手担纲）"
+    ]
+  },
+  "@2153": {
+    "meaning_zh": "用键盘输入；键入",
+    "english": "Please key in your password carefully.",
+    "chinese": "请仔细输入密码。",
+    "phrases": [
+      "key in（键入）",
+      "key data into（把数据输入）"
+    ]
+  },
+  "@2194": {
+    "meaning_zh": "推销；销售；营销",
+    "english": "The company markets its products online.",
+    "chinese": "这家公司在网上销售产品。",
+    "phrases": [
+      "market a product（营销产品）",
+      "market sth to sb（向某人推销某物）"
+    ]
+  },
+  "@2229": {
+    "meaning_zh": "注意；留意；记录",
+    "english": "Please note that the office closes at five.",
+    "chinese": "请注意，办公室五点关门。",
+    "phrases": [
+      "note down（记下）",
+      "please note that（请注意……）"
+    ]
+  },
+  "@2241": {
+    "meaning_zh": "有条理的；有组织的",
+    "english": "She is organized and always arrives on time.",
+    "chinese": "她做事有条理，而且总是准时到达。",
+    "phrases": [
+      "well organized（组织有序的）",
+      "an organized event（有组织的活动）"
+    ]
+  },
+  "@2243": {
+    "meaning_zh": "原件；原作；原版",
+    "english": "This painting is a copy of the original.",
+    "chinese": "这幅画是原作的复制品。",
+    "phrases": [
+      "the original of（……的原件）",
+      "keep the original（保留原件）"
+    ]
+  },
+  "@2271": {
+    "meaning_zh": "计划；规划；筹划",
+    "english": "Careful planning will save us time later.",
+    "chinese": "周密规划会为我们节省后续时间。",
+    "phrases": [
+      "careful planning（周密规划）",
+      "town planning（城市规划）"
+    ]
+  },
+  "@2310": {
+    "meaning_zh": "印刷；印刷术",
+    "english": "Digital printing makes small orders cheaper.",
+    "chinese": "数字印刷降低了小批量订单的成本。",
+    "phrases": [
+      "the printing industry（印刷业）",
+      "printing costs（印刷成本）"
+    ]
+  },
+  "@2317": {
+    "meaning_zh": "给……编程；设置程序",
+    "english": "She learned to program a computer at school.",
+    "chinese": "她在学校学会了给计算机编程。",
+    "phrases": [
+      "program a computer（给计算机编程）",
+      "be programmed to（被编程为……）"
+    ]
+  },
+  "@2364": {
+    "meaning_zh": "重复；重播",
+    "english": "I hope this is not a repeat of last year.",
+    "chinese": "我希望这不是去年情况的重演。",
+    "phrases": [
+      "a repeat of（……的重复）",
+      "a repeat performance（再次发生）"
+    ]
+  },
+  "@2366": {
+    "meaning_zh": "代表；象征；相当于",
+    "english": "These figures represent the total cost.",
+    "chinese": "这些数字代表总成本。",
+    "phrases": [
+      "represent a country（代表国家）",
+      "represent a change（体现变化）"
+    ]
+  },
+  "@2389": {
+    "meaning_zh": "统治；管理；裁定",
+    "english": "The king ruled the country for thirty years.",
+    "chinese": "这位国王统治这个国家三十年。",
+    "phrases": [
+      "rule a country（统治国家）",
+      "rule out（排除）"
+    ]
+  },
+  "@2456": {
+    "meaning_zh": "静止的；平静的",
+    "english": "Keep still while I take your photo.",
+    "chinese": "我给你拍照时请保持不动。",
+    "phrases": [
+      "keep still（保持不动）",
+      "still water（静水）"
+    ]
+  },
+  "@2457": {
+    "meaning_zh": "储存；存放",
+    "english": "We store the spare chairs in the garage.",
+    "chinese": "我们把备用椅子存放在车库里。",
+    "phrases": [
+      "store data（储存数据）",
+      "store food（储存食物）"
+    ]
+  },
+  "@2526": {
+    "meaning_zh": "失业的；没有工作的",
+    "english": "He has been unemployed for three months.",
+    "chinese": "他已经失业三个月了。",
+    "phrases": [
+      "unemployed people（失业者）",
+      "become unemployed（失业）"
+    ]
+  },
+  "@2573": {
+    "meaning_zh": "最糟糕地；最严重地",
+    "english": "The coastal towns were worst affected by the storm.",
+    "chinese": "沿海城镇受这场暴风雨的影响最严重。",
+    "phrases": [
+      "worst affected（受影响最严重）",
+      "worst of all（最糟的是）"
+    ]
+  },
+  "@2589": {
+    "meaning_zh": "获得；习得；购得",
+    "english": "You can acquire new skills through practice.",
+    "chinese": "你可以通过练习掌握新技能。",
+    "phrases": [
+      "acquire knowledge（获得知识）",
+      "acquire a skill（习得技能）"
+    ]
+  },
+  "@2635": {
+    "meaning_zh": "禁止；阻止；挡住",
+    "english": "The rules bar visitors from entering this room.",
+    "chinese": "规定禁止访客进入这个房间。",
+    "phrases": [
+      "bar sb from doing sth（禁止某人做某事）",
+      "bar the way（挡路）"
+    ]
+  },
+  "@2638": {
+    "meaning_zh": "搏斗；斗争；努力克服",
+    "english": "They are battling to save the old theatre.",
+    "chinese": "他们正努力保住那座老剧院。",
+    "phrases": [
+      "battle against（与……抗争）",
+      "battle for（为……奋争）"
+    ]
+  },
+  "@2643": {
+    "meaning_zh": "弯曲的；不直的",
+    "english": "The bicycle wheel is badly bent.",
+    "chinese": "自行车的车轮严重弯曲了。",
+    "phrases": [
+      "a bent wire（弯曲的铁丝）",
+      "bent over（弯着腰的）"
+    ]
+  },
+  "@2646": {
+    "meaning_zh": "给……开账单；宣传为",
+    "english": "The hotel will bill you at the end of your stay.",
+    "chinese": "酒店会在你退房时向你结账。",
+    "phrases": [
+      "bill sb for sth（向某人收取某物的费用）",
+      "be billed as（被宣传为）"
+    ]
+  },
+  "@2673": {
+    "meaning_zh": "主持（会议）；担任主席",
+    "english": "She will chair the meeting tomorrow.",
+    "chinese": "她将主持明天的会议。",
+    "phrases": [
+      "chair a meeting（主持会议）",
+      "chair a committee（担任委员会主席）"
+    ]
+  },
+  "@2675": {
+    "meaning_zh": "质疑；向……挑战",
+    "english": "We should challenge ideas that lack evidence.",
+    "chinese": "我们应该质疑缺乏证据的观点。",
+    "phrases": [
+      "challenge a decision（质疑决定）",
+      "challenge sb to do sth（激励某人做某事）"
+    ]
+  },
+  "@2694": {
+    "meaning_zh": "综合建筑群；复合体",
+    "english": "The new sports complex opens next month.",
+    "chinese": "新的体育中心下个月开放。",
+    "phrases": [
+      "a sports complex（综合体育场馆）",
+      "a shopping complex（综合购物中心）"
+    ]
+  },
+  "@2728": {
+    "meaning_zh": "把……归功于；给……记入账户",
+    "english": "She credits her success to years of practice.",
+    "chinese": "她把成功归功于多年的练习。",
+    "phrases": [
+      "credit sb with sth（认为某人具有某物）",
+      "credit sth to sb（把某事归功于某人）"
+    ]
+  },
+  "@2740": {
+    "meaning_zh": "水流；气流；电流",
+    "english": "The current carried the boat towards the shore.",
+    "chinese": "水流把船推向了岸边。",
+    "phrases": [
+      "a strong current（强流）",
+      "an electric current（电流）"
+    ]
+  },
+  "@2771": {
+    "meaning_zh": "详细说明；列举",
+    "english": "The report details the causes of the delay.",
+    "chinese": "报告详细说明了延误的原因。",
+    "phrases": [
+      "detail the reasons（详细说明理由）",
+      "be detailed in（在……中详细说明）"
+    ]
+  },
+  "@2786": {
+    "meaning_zh": "记录；用文件证明",
+    "english": "We need to document each stage of the project.",
+    "chinese": "我们需要记录项目的每个阶段。",
+    "phrases": [
+      "document a process（记录过程）",
+      "be well documented（有充分记录）"
+    ]
+  },
+  "@2834": {
+    "meaning_zh": "极端；极端情况",
+    "english": "We should avoid either extreme in this debate.",
+    "chinese": "在这场讨论中，我们应避免走向任何一个极端。",
+    "phrases": [
+      "go to extremes（走极端）",
+      "at the other extreme（在另一个极端）"
+    ]
+  },
+  "@2847": {
+    "meaning_zh": "归档；提交（申请等）",
+    "english": "Please file these documents by date.",
+    "chinese": "请把这些文件按日期归档。",
+    "phrases": [
+      "file a complaint（正式投诉）",
+      "file an application（提交申请）"
+    ]
+  },
+  "@2849": {
+    "meaning_zh": "调查结果；发现",
+    "english": "The researchers published their findings online.",
+    "chinese": "研究人员在网上公布了他们的发现。",
+    "phrases": [
+      "research findings（研究结果）",
+      "the main findings（主要发现）"
+    ]
+  },
+  "@2851": {
+    "meaning_zh": "解决办法；困境",
+    "english": "We need a permanent fix for this problem.",
+    "chinese": "我们需要一个彻底解决这个问题的办法。",
+    "phrases": [
+      "a quick fix（权宜之计）",
+      "a permanent fix（永久解决办法）"
+    ]
+  },
+  "@2862": {
+    "meaning_zh": "向前的；前部的",
+    "english": "The boat made slow forward progress.",
+    "chinese": "这艘船缓慢向前行进。",
+    "phrases": [
+      "forward movement（向前移动）",
+      "the forward part（前部）"
+    ]
+  },
+  "@2867": {
+    "meaning_zh": "给……加燃料；加强；刺激",
+    "english": "Rumours can fuel unnecessary fear.",
+    "chinese": "谣言会加剧不必要的恐惧。",
+    "phrases": [
+      "fuel growth（推动增长）",
+      "fuel a debate（使争论加剧）"
+    ]
+  },
+  "@2894": {
+    "meaning_zh": "租用；租赁；雇用",
+    "english": "Car hire is included in the price.",
+    "chinese": "价格中包含租车费用。",
+    "phrases": [
+      "for hire（供出租）",
+      "car hire（租车）"
+    ]
+  },
+  "@2900": {
+    "meaning_zh": "给……提供住房；容纳",
+    "english": "The building houses a small public library.",
+    "chinese": "这栋建筑里设有一家小型公共图书馆。",
+    "phrases": [
+      "house a family（为一家人提供住房）",
+      "be housed in（设在；安置于）"
+    ]
+  },
+  "@2924": {
+    "meaning_zh": "最初的；开始的",
+    "english": "Our initial plan was to leave on Friday.",
+    "chinese": "我们最初的计划是星期五出发。",
+    "phrases": [
+      "an initial reaction（最初的反应）",
+      "the initial stage（初始阶段）"
+    ]
+  },
+  "@2952": {
+    "meaning_zh": "最新消息；最新事物",
+    "english": "Have you heard the latest about the new bridge?",
+    "chinese": "你听说那座新桥的最新消息了吗？",
+    "phrases": [
+      "the latest on（关于……的最新消息）",
+      "at the latest（最迟）"
+    ]
+  },
+  "@2958": {
+    "meaning_zh": "使平坦；使相等；坦诚相告",
+    "english": "The workers levelled the ground before building.",
+    "chinese": "工人在施工前把地面整平。",
+    "phrases": [
+      "level the ground（平整地面）",
+      "level with sb（对某人坦诚相告）"
+    ]
+  },
+  "@2962": {
+    "meaning_zh": "活泼的；生动的；热闹的",
+    "english": "We had a lively discussion after the talk.",
+    "chinese": "演讲结束后，我们进行了热烈讨论。",
+    "phrases": [
+      "a lively discussion（热烈讨论）",
+      "a lively atmosphere（热闹的气氛）"
+    ]
+  },
+  "@2975": {
+    "meaning_zh": "绘制……的地图；规划",
+    "english": "The team will map the area before construction.",
+    "chinese": "团队将在施工前绘制该区域的地图。",
+    "phrases": [
+      "map out（规划）",
+      "map an area（绘制区域地图）"
+    ]
+  },
+  "@2980": {
+    "meaning_zh": "物质的；实际的；重要的",
+    "english": "The fire caused serious material damage.",
+    "chinese": "大火造成了严重的物质损失。",
+    "phrases": [
+      "material needs（物质需求）",
+      "material evidence（重要证据）"
+    ]
+  },
+  "@2995": {
+    "meaning_zh": "做模特展示；模仿；建立模型",
+    "english": "She models clothes for a local shop.",
+    "chinese": "她为当地一家商店做服装模特。",
+    "phrases": [
+      "model clothes（做服装模特）",
+      "model sth on（仿照……设计某物）"
+    ]
+  },
+  "@3004": {
+    "meaning_zh": "使变窄；缩小",
+    "english": "We need to narrow the gap between the two sides.",
+    "chinese": "我们需要缩小双方的差距。",
+    "phrases": [
+      "narrow down（缩小范围）",
+      "narrow the gap（缩小差距）"
+    ]
+  },
+  "@3057": {
+    "meaning_zh": "（体育）场地；音高；推销说辞",
+    "english": "The players walked onto the football pitch.",
+    "chinese": "球员们走上了足球场。",
+    "phrases": [
+      "a football pitch（足球场）",
+      "a sales pitch（推销话术）"
+    ]
+  },
+  "@3061": {
+    "meaning_zh": "尖的；明确针对的",
+    "english": "The pencil has a pointed end.",
+    "chinese": "这支铅笔有一个尖尖的笔头。",
+    "phrases": [
+      "a pointed question（尖锐的问题）",
+      "a pointed tip（尖端）"
+    ]
+  },
+  "@3068": {
+    "meaning_zh": "为……提供动力；驱动",
+    "english": "Solar panels power the lights in the garden.",
+    "chinese": "太阳能电池板为花园里的灯供电。",
+    "phrases": [
+      "be powered by（由……供能）",
+      "power a machine（驱动机器）"
+    ]
+  },
+  "@3074": {
+    "meaning_zh": "给……定价；比较……的价格",
+    "english": "The shop has priced the chairs very reasonably.",
+    "chinese": "这家店给椅子定的价格很合理。",
+    "phrases": [
+      "be priced at（定价为）",
+      "price sth competitively（给某物定有竞争力的价格）"
+    ]
+  },
+  "@3077": {
+    "meaning_zh": "印刷；印刷体；印迹",
+    "english": "Please write your name in clear print.",
+    "chinese": "请用清楚的印刷体写下你的名字。",
+    "phrases": [
+      "in print（已出版；以印刷形式）",
+      "out of print（已绝版）"
+    ]
+  },
+  "@3081": {
+    "meaning_zh": "处理；加工；办理",
+    "english": "The office will process your application this week.",
+    "chinese": "办公室将在本周处理你的申请。",
+    "phrases": [
+      "process data（处理数据）",
+      "process an application（办理申请）"
+    ]
+  },
+  "@3085": {
+    "meaning_zh": "预计；投射；规划",
+    "english": "We project that costs will fall next year.",
+    "chinese": "我们预计明年的成本会下降。",
+    "phrases": [
+      "project an image（投射图像；展示形象）",
+      "be projected to（预计将）"
+    ]
+  },
+  "@3098": {
+    "meaning_zh": "在……范围内变化；排列",
+    "english": "Prices range from ten to fifty pounds.",
+    "chinese": "价格从十英镑到五十英镑不等。",
+    "phrases": [
+      "range from ... to ...（从……到……不等）",
+      "range between（在……之间变化）"
+    ]
+  },
+  "@3102": {
+    "meaning_zh": "评价；评定；划分等级",
+    "english": "Customers rate the service very highly.",
+    "chinese": "顾客对这项服务评价很高。",
+    "phrases": [
+      "rate highly（给予高度评价）",
+      "be rated as（被评为）"
+    ]
+  },
+  "@3104": {
+    "meaning_zh": "伸手可及的距离；影响范围",
+    "english": "Keep the medicine out of the reach of children.",
+    "chinese": "把药放在儿童够不到的地方。",
+    "phrases": [
+      "within reach（够得着）",
+      "out of reach（够不着）"
+    ]
+  },
+  "@3134": {
+    "meaning_zh": "使摆脱；使去掉（get rid of）",
+    "english": "We need to get rid of these old boxes.",
+    "chinese": "我们需要处理掉这些旧箱子。",
+    "phrases": [
+      "get rid of（摆脱；去除）",
+      "rid sth of（使某物去掉……）"
+    ]
+  },
+  "@3142": {
+    "meaning_zh": "品尝；试用；抽样检查",
+    "english": "Visitors can sample local food at the market.",
+    "chinese": "游客可以在市场品尝当地食物。",
+    "phrases": [
+      "sample the food（品尝食物）",
+      "sample a product（试用产品）"
+    ]
+  },
+  "@3148": {
+    "meaning_zh": "安排；预定",
+    "english": "They scheduled the meeting for Monday morning.",
+    "chinese": "他们把会议安排在星期一上午。",
+    "phrases": [
+      "schedule a meeting（安排会议）",
+      "be scheduled to do sth（计划做某事）"
+    ]
+  },
+  "@3151": {
+    "meaning_zh": "筛查；审查；放映",
+    "english": "The cinema will screen the film next week.",
+    "chinese": "电影院将在下周放映这部电影。",
+    "phrases": [
+      "screen a film（放映电影）",
+      "screen for（筛查）"
+    ]
+  },
+  "@3173": {
+    "meaning_zh": "移动；转移；改变",
+    "english": "We need to shift our attention to the main problem.",
+    "chinese": "我们需要把注意力转向主要问题。",
+    "phrases": [
+      "shift attention（转移注意力）",
+      "shift from ... to ...（从……转向……）"
+    ]
+  },
+  "@3194": {
+    "meaning_zh": "快速行进；加速",
+    "english": "The new road will speed up the journey.",
+    "chinese": "这条新路会缩短行程时间。",
+    "phrases": [
+      "speed up（加速）",
+      "speed past（快速经过）"
+    ]
+  },
+  "@3198": {
+    "meaning_zh": "发现；认出；看见",
+    "english": "Can you spot the mistake in this sentence?",
+    "chinese": "你能发现这个句子中的错误吗？",
+    "phrases": [
+      "spot a mistake（发现错误）",
+      "spot the difference（看出差别）"
+    ]
+  },
+  "@3201": {
+    "meaning_zh": "组织；上演；举行",
+    "english": "The school will stage a play next month.",
+    "chinese": "学校下个月将上演一出戏。",
+    "phrases": [
+      "stage a play（上演戏剧）",
+      "stage an event（举办活动）"
+    ]
+  },
+  "@3216": {
+    "meaning_zh": "组织；安排；使形成体系",
+    "english": "You should structure your essay around three points.",
+    "chinese": "你应该围绕三个要点来组织文章。",
+    "phrases": [
+      "structure an essay（组织文章结构）",
+      "be structured around（围绕……组织）"
+    ]
+  },
+  "@3218": {
+    "meaning_zh": "塞进；填满",
+    "english": "Do not stuff too many clothes into the bag.",
+    "chinese": "不要往包里塞太多衣服。",
+    "phrases": [
+      "stuff sth into（把某物塞进）",
+      "be stuffed with（塞满）"
+    ]
+  },
+  "@3246": {
+    "meaning_zh": "追踪；跟踪；记录",
+    "english": "You can track your parcel online.",
+    "chinese": "你可以在网上追踪包裹。",
+    "phrases": [
+      "track progress（跟踪进展）",
+      "track down（追查到）"
+    ]
+  },
+  "@3269": {
+    "meaning_zh": "珍视；重视；估价",
+    "english": "We value your feedback on our service.",
+    "chinese": "我们重视你对我们服务的反馈。",
+    "phrases": [
+      "value an opinion（重视意见）",
+      "value sth at（把某物估价为）"
+    ]
+  },
+  "@3273": {
+    "meaning_zh": "正是的；恰好的（用于强调）",
+    "english": "That is the very book I was looking for.",
+    "chinese": "那正是我一直在找的书。",
+    "phrases": [
+      "the very same（正是同一个）",
+      "the very beginning（最开始）"
+    ]
+  },
+  "@3299": {
+    "meaning_zh": "更糟的事物；更坏的情况",
+    "english": "We must prepare for worse if the rain continues.",
+    "chinese": "如果雨继续下，我们必须为更坏的情况做准备。",
+    "phrases": [
+      "go from bad to worse（每况愈下）",
+      "for better or worse（无论好坏）"
+    ]
+  },
+  "@3300": {
+    "meaning_zh": "最糟的事情；最坏的情况",
+    "english": "The worst is over, and things are improving.",
+    "chinese": "最糟的阶段已经过去，情况正在好转。",
+    "phrases": [
+      "expect the worst（作最坏打算）",
+      "at its worst（在最糟的时候）"
+    ]
+  }
+}
+

@@ -15,6 +15,7 @@
 | [habitsCopy.txt](habitsCopy.txt) | 阅读学习资料副本 |
 | [American_Oxford_3000.pdf](American_Oxford_3000.pdf) | 美式 Oxford 3000 词表 |
 | [oxford-3000-by-cefr-level.pdf](oxford-3000-by-cefr-level.pdf) | 按 CEFR 等级整理的 Oxford 3000 词表 |
+| [Oxford 3000 原序学习包](Oxford3000_学习包/README.md) | 3,306 条中文释义、搭配和双语例句；2 小时 3 分钟真人连续音频及可搜索播放器 |
 
 ## 保存学习进度
 

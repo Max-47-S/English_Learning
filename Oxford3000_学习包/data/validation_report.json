@@ -1,0 +1,37 @@
+{
+  "source_pdf_sha256": "4bf5eee62b858cc970da5d209558435276c05ec3a705662d255329966b06046d",
+  "entries": 3306,
+  "levels": {
+    "A1": 899,
+    "A2": 871,
+    "B1": 809,
+    "B2": 727
+  },
+  "examples_by_source": {
+    "原创学习例句": 617,
+    "Tatoeba/ManyThings": 2689
+  },
+  "human_entries": 3306,
+  "ai_entries": 0,
+  "duration_seconds": 7427.08175,
+  "missing_definitions": 0,
+  "missing_examples": 0,
+  "source_order": "pass",
+  "markdown_entry_count": "pass",
+  "complete_bilingual_examples": "pass",
+  "complete_phrases": "pass",
+  "audio_source_credits": "pass",
+  "audio_timestamps": "pass",
+  "lrc_entries": 3306,
+  "mp3_full_decode": "pass",
+  "broken_local_links": 0,
+  "mp3_bytes": 59417445,
+  "mp3_sha256": "64b33742d5421e8b20c75a88ffcc052fdede7edad7183d12bec23a6c2f93d99e",
+  "browser_http_checks": {
+    "audio_metadata_load": "pass",
+    "word_search": "pass",
+    "seek_to_word_65_become": "pass",
+    "seek_time_seconds": 132,
+    "offline_file_protocol": "not tested: browser URL policy permits only http/https"
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "@58": {
+    "meaning_zh": "银行；银行营业处",
+    "english": "She opened a new bank account.",
+    "chinese": "她开了一个新的银行账户。",
+    "phrases": [
+      "a bank account（银行账户）",
+      "go to the bank（去银行）"
+    ]
+  },
+  "@120": {
+    "meaning_zh": "能够；可以；可能",
+    "english": "You can ask me for help.",
+    "chinese": "你可以找我帮忙。",
+    "phrases": [
+      "can do sth（能做某事）",
+      "can I ...?（我可以……吗？）"
+    ]
+  },
+  "@150": {
+    "meaning_zh": "关闭；合上",
+    "english": "Please close the door quietly.",
+    "chinese": "请轻轻关上门。",
+    "phrases": [
+      "close the door（关门）",
+      "close a shop（关闭商店）"
+    ]
+  },
+  "@211": {
+    "meaning_zh": "做；（助动词）构成疑问、否定和强调",
+    "english": "What do you usually do after work?",
+    "chinese": "你下班后通常做什么？",
+    "phrases": [
+      "do the dishes（洗餐具）",
+      "do one's best（尽力）"
+    ]
+  },
+  "@292": {
+    "meaning_zh": "公寓；一套住房（英式英语）",
+    "english": "I live in a small flat near the station.",
+    "chinese": "我住在车站附近的一套小公寓里。",
+    "phrases": [
+      "rent a flat（租公寓）",
+      "a one-bedroom flat（一居室公寓）"
+    ]
+  },
+  "@303": {
+    "meaning_zh": "表格；形式；形成；组成",
+    "english": "Please fill in this form before the meeting.",
+    "chinese": "请在开会前填好这张表格。",
+    "phrases": [
+      "fill in a form（填表）",
+      "form a team（组建团队）"
+    ]
+  },
+  "@416": {
+    "meaning_zh": "种类；类别",
+    "english": "What kind of music do you like?",
+    "chinese": "你喜欢哪种音乐？",
+    "phrases": [
+      "a kind of（一种）",
+      "all kinds of（各种各样的）"
+    ]
+  },
+  "@422": {
+    "meaning_zh": "最后的；末尾的",
+    "english": "This is the last page of the book.",
+    "chinese": "这是这本书的最后一页。",
+    "phrases": [
+      "the last time（最后一次）",
+      "the last train（末班车）"
+    ]
+  },
+  "@434": {
+    "meaning_zh": "躺；平卧；位于",
+    "english": "The cat likes to lie in the sun.",
+    "chinese": "这只猫喜欢躺在阳光下。",
+    "phrases": [
+      "lie down（躺下）",
+      "lie on the bed（躺在床上）"
+    ]
+  },
+  "@436": {
+    "meaning_zh": "光；光线；明亮的；浅色的",
+    "english": "The light in this room is very bright.",
+    "chinese": "这个房间里的光线很亮。",
+    "phrases": [
+      "turn on the light（开灯）",
+      "a light colour（浅色）"
+    ]
+  },
+  "@437": {
+    "meaning_zh": "像；类似；比如",
+    "english": "This bag looks like mine.",
+    "chinese": "这个包看起来像我的。",
+    "phrases": [
+      "look like（看起来像）",
+      "just like（就像）"
+    ]
+  },
+  "@438": {
+    "meaning_zh": "喜欢；喜爱",
+    "english": "I like reading on the train.",
+    "chinese": "我喜欢在火车上读书。",
+    "phrases": [
+      "like doing sth（喜欢做某事）",
+      "would like to do sth（想做某事）"
+    ]
+  },
+  "@444": {
+    "meaning_zh": "居住；生活；活着",
+    "english": "They live in a small town near the sea.",
+    "chinese": "他们住在海边的一个小镇。",
+    "phrases": [
+      "live in（住在）",
+      "live with（与……同住）"
+    ]
+  },
+  "@446": {
+    "meaning_zh": "长的；长时间地",
+    "english": "How long does it take to get there?",
+    "chinese": "到那里要花多长时间？",
+    "phrases": [
+      "a long time（很长时间）",
+      "how long（多长；多久）"
+    ]
+  },
+  "@462": {
+    "meaning_zh": "比赛；相配；相匹配",
+    "english": "We watched a football match last night.",
+    "chinese": "我们昨晚看了一场足球比赛。",
+    "phrases": [
+      "a football match（足球比赛）",
+      "match the colour（与颜色相配）"
+    ]
+  },
+  "@480": {
+    "meaning_zh": "分钟；片刻",
+    "english": "The bus will arrive in a minute.",
+    "chinese": "公交车一分钟后就到。",
+    "phrases": [
+      "in a minute（一分钟后；马上）",
+      "wait a minute（等一会儿）"
+    ]
+  },
+  "@606": {
+    "meaning_zh": "邮件；邮寄；职位；张贴",
+    "english": "I will post the letter on my way home.",
+    "chinese": "我会在回家路上把这封信寄出去。",
+    "phrases": [
+      "by post（通过邮寄）",
+      "post a letter（寄信）"
+    ]
+  },
+  "@667": {
+    "meaning_zh": "第二的；第二个",
+    "english": "This is my second visit to the city.",
+    "chinese": "这是我第二次来这座城市。",
+    "phrases": [
+      "the second floor（二楼）",
+      "a second chance（第二次机会）"
+    ]
+  },
+  "@668": {
+    "meaning_zh": "秒；片刻",
+    "english": "Wait for a second while I find my keys.",
+    "chinese": "等一下，我找找钥匙。",
+    "phrases": [
+      "a few seconds（几秒钟）",
+      "in a second（马上）"
+    ]
+  },
+  "@974": {
+    "meaning_zh": "熊（动物）",
+    "english": "We saw a bear near the river.",
+    "chinese": "我们在河边看到了一只熊。",
+    "phrases": [
+      "a brown bear（棕熊）",
+      "a polar bear（北极熊）"
+    ]
+  },
+  "@1014": {
+    "meaning_zh": "罐；罐头；听",
+    "english": "He opened a can of soup for lunch.",
+    "chinese": "他午饭时打开了一罐汤。",
+    "phrases": [
+      "a can of soup（一罐汤）",
+      "a drinks can（饮料罐）"
+    ]
+  },
+  "@1046": {
+    "meaning_zh": "近的；接近的；亲密的",
+    "english": "Her house is close to the station.",
+    "chinese": "她家离车站很近。",
+    "phrases": [
+      "close to（靠近）",
+      "a close friend（密友）"
+    ]
+  },
+  "@1214": {
+    "meaning_zh": "平的；平坦的；（轮胎）瘪的",
+    "english": "Put the box on a flat surface.",
+    "chinese": "把盒子放在平坦的表面上。",
+    "phrases": [
+      "a flat surface（平坦的表面）",
+      "a flat tyre（瘪轮胎）"
+    ]
+  },
+  "@1332": {
+    "meaning_zh": "最后；最后的人或事物",
+    "english": "Of all the runners, I arrived last.",
+    "chinese": "在所有跑步的人中，我最后到达。",
+    "phrases": [
+      "come last（得最后一名）",
+      "at last（终于）"
+    ]
+  },
+  "@1333": {
+    "meaning_zh": "持续；维持",
+    "english": "The meeting will last an hour.",
+    "chinese": "会议将持续一小时。",
+    "phrases": [
+      "last for an hour（持续一小时）",
+      "last a long time（持续很久）"
+    ]
+  },
+  "@1339": {
+    "meaning_zh": "带领；引导；通向；导致",
+    "english": "This road will lead us to the station.",
+    "chinese": "这条路会把我们带到车站。",
+    "phrases": [
+      "lead to（通向；导致）",
+      "lead the way（带路）"
+    ]
+  },
+  "@1350": {
+    "meaning_zh": "点燃；照亮",
+    "english": "Use a match to light the fire.",
+    "chinese": "用一根火柴把火点起来。",
+    "phrases": [
+      "light a candle（点蜡烛）",
+      "light up（照亮）"
+    ]
+  },
+  "@1351": {
+    "meaning_zh": "轻的；不重的",
+    "english": "This bag is light enough to carry.",
+    "chinese": "这个包很轻，可以提得动。",
+    "phrases": [
+      "a light bag（轻的包）",
+      "light luggage（轻便行李）"
+    ]
+  },
+  "@1389": {
+    "meaning_zh": "我的（名词性物主代词）",
+    "english": "That blue bag on the chair is mine.",
+    "chinese": "椅子上那个蓝色的包是我的。",
+    "phrases": [
+      "a friend of mine（我的一个朋友）",
+      "mine and yours（我的和你的）"
+    ]
+  },
+  "@1511": {
+    "meaning_zh": "赛跑；竞赛；与……比赛",
+    "english": "She won the race by two seconds.",
+    "chinese": "她以两秒的优势赢得了比赛。",
+    "phrases": [
+      "win a race（赢得比赛）",
+      "race against time（争分夺秒）"
+    ]
+  },
+  "@1531": {
+    "meaning_zh": "拒绝；回绝",
+    "english": "He refused to answer the question.",
+    "chinese": "他拒绝回答这个问题。",
+    "phrases": [
+      "refuse to do sth（拒绝做某事）",
+      "refuse an offer（拒绝提议）"
+    ]
+  },
+  "@1546": {
+    "meaning_zh": "剩余部分；其余的人或事物",
+    "english": "The rest of the class stayed outside.",
+    "chinese": "班上其余的人留在外面。",
+    "phrases": [
+      "the rest of（其余的……）",
+      "the rest of the day（这一天剩余的时间）"
+    ]
+  },
+  "@1547": {
+    "meaning_zh": "休息；歇息",
+    "english": "You need to rest after the journey.",
+    "chinese": "旅行后你需要休息。",
+    "phrases": [
+      "have a rest（休息一下）",
+      "rest for a while（休息一会儿）"
+    ]
+  },
+  "@1550": {
+    "meaning_zh": "戒指；环；圆圈",
+    "english": "She wears a silver ring on her finger.",
+    "chinese": "她的手指上戴着一枚银戒指。",
+    "phrases": [
+      "a wedding ring（婚戒）",
+      "a key ring（钥匙圈）"
+    ]
+  },
+  "@1551": {
+    "meaning_zh": "打电话；响铃",
+    "english": "Please ring me after work.",
+    "chinese": "请下班后给我打电话。",
+    "phrases": [
+      "ring sb（给某人打电话）",
+      "ring the bell（按铃；敲钟）"
+    ]
+  },
+  "@1553": {
+    "meaning_zh": "岩石；石块",
+    "english": "A large rock blocked the path.",
+    "chinese": "一块大石头挡住了小路。",
+    "phrases": [
+      "a piece of rock（一块岩石）",
+      "rock climbing（攀岩）"
+    ]
+  },
+  "@1554": {
+    "meaning_zh": "摇滚乐",
+    "english": "He likes rock music from the eighties.",
+    "chinese": "他喜欢八十年代的摇滚乐。",
+    "phrases": [
+      "a rock band（摇滚乐队）",
+      "a rock concert（摇滚音乐会）"
+    ]
+  },
+  "@1581": {
+    "meaning_zh": "第二；其次",
+    "english": "She finished second in the race.",
+    "chinese": "她在比赛中获得了第二名。",
+    "phrases": [
+      "come second（得第二名）",
+      "second best（第二好的）"
+    ]
+  },
+  "@1586": {
+    "meaning_zh": "意义；感觉；判断力；感官",
+    "english": "Your explanation makes sense to me.",
+    "chinese": "你的解释我能理解。",
+    "phrases": [
+      "make sense（有道理；讲得通）",
+      "a sense of humour（幽默感）"
+    ]
+  },
+  "@1646": {
+    "meaning_zh": "状态；情况；州；国家",
+    "english": "The bridge is in a good state.",
+    "chinese": "这座桥状况良好。",
+    "phrases": [
+      "in a good state（状态良好）",
+      "a member state（成员国）"
+    ]
+  },
+  "@1757": {
+    "meaning_zh": "风；气流",
+    "english": "The wind is strong today.",
+    "chinese": "今天风很大。",
+    "phrases": [
+      "a strong wind（强风）",
+      "in the wind（在风中）"
+    ]
+  },
+  "@1829": {
+    "meaning_zh": "河岸；岸边",
+    "english": "We walked along the river bank.",
+    "chinese": "我们沿着河岸散步。",
+    "phrases": [
+      "a river bank（河岸）",
+      "on the bank（在岸边）"
+    ]
+  },
+  "@1889": {
+    "meaning_zh": "靠近地；接近地",
+    "english": "Stay close so that you can hear me.",
+    "chinese": "靠近一些，这样你就能听见我说话。",
+    "phrases": [
+      "come close（靠近）",
+      "follow close behind（紧跟在后）"
+    ]
+  },
+  "@1921": {
+    "meaning_zh": "内容；所含之物",
+    "english": "The content of the book is easy to understand.",
+    "chinese": "这本书的内容很容易理解。",
+    "phrases": [
+      "the content of（……的内容）",
+      "digital content（数字内容）"
+    ]
+  },
+  "@2148": {
+    "meaning_zh": "问题；议题；（报刊的）期号",
+    "english": "We need to discuss this issue today.",
+    "chinese": "我们今天需要讨论这个问题。",
+    "phrases": [
+      "a key issue（关键问题）",
+      "the latest issue（最新一期）"
+    ]
+  },
+  "@2157": {
+    "meaning_zh": "友善的；体贴的；仁慈的",
+    "english": "It was kind of you to help me.",
+    "chinese": "你帮了我，真是太好了。",
+    "phrases": [
+      "be kind to sb（善待某人）",
+      "a kind person（友善的人）"
+    ]
+  },
+  "@2166": {
+    "meaning_zh": "领先地位；榜样；引导",
+    "english": "Our team took the lead in the second half.",
+    "chinese": "我们队在下半场取得领先。",
+    "phrases": [
+      "take the lead（取得领先）",
+      "follow sb's lead（以某人为榜样）"
+    ]
+  },
+  "@2174": {
+    "meaning_zh": "说谎；谎言",
+    "english": "Please do not lie to me.",
+    "chinese": "请不要对我撒谎。",
+    "phrases": [
+      "tell a lie（说谎）",
+      "lie to sb（对某人撒谎）"
+    ]
+  },
+  "@2175": {
+    "meaning_zh": "喜好；爱好（常用复数 likes）",
+    "english": "The survey asked about people's likes and dislikes.",
+    "chinese": "调查询问了人们的好恶。",
+    "phrases": [
+      "likes and dislikes（好恶）",
+      "personal likes（个人喜好）"
+    ]
+  },
+  "@2180": {
+    "meaning_zh": "现场的；现场直播地；活的",
+    "english": "The concert will be broadcast live tonight.",
+    "chinese": "音乐会将于今晚现场直播。",
+    "phrases": [
+      "live music（现场音乐）",
+      "a live broadcast（现场直播）"
+    ]
+  },
+  "@2204": {
+    "meaning_zh": "矿；矿井",
+    "english": "The mine produces coal for local factories.",
+    "chinese": "这座矿为当地工厂生产煤。",
+    "phrases": [
+      "a coal mine（煤矿）",
+      "work in a mine（在矿井工作）"
+    ]
+  },
+  "@2276": {
+    "meaning_zh": "加；加上",
+    "english": "Two plus three equals five.",
+    "chinese": "二加三等于五。",
+    "phrases": [
+      "two plus three（二加三）",
+      "the price plus tax（价格另加税）"
+    ]
+  },
+  "@2336": {
+    "meaning_zh": "人种；种族",
+    "english": "People of every race should be treated fairly.",
+    "chinese": "每个种族的人都应受到公平对待。",
+    "phrases": [
+      "people of all races（所有种族的人）",
+      "regardless of race（不论种族）"
+    ]
+  },
+  "@2378": {
+    "meaning_zh": "铃声；响声",
+    "english": "I heard the ring of the telephone.",
+    "chinese": "我听到了电话铃声。",
+    "phrases": [
+      "the ring of a bell（铃声）",
+      "give sb a ring（给某人打个电话）"
+    ]
+  },
+  "@2386": {
+    "meaning_zh": "一排；一行",
+    "english": "We sat in the front row of the theatre.",
+    "chinese": "我们坐在剧院的前排。",
+    "phrases": [
+      "in a row（成一排；连续）",
+      "the front row（前排）"
+    ]
+  },
+  "@2406": {
+    "meaning_zh": "放；摆放；设置；确定",
+    "english": "Please set the glass on the table.",
+    "chinese": "请把玻璃杯放在桌上。",
+    "phrases": [
+      "set the table（摆餐具）",
+      "set a date（确定日期）"
+    ]
+  },
+  "@2407": {
+    "meaning_zh": "一套；一组；一副",
+    "english": "She bought a set of cooking tools.",
+    "chinese": "她买了一套烹饪工具。",
+    "phrases": [
+      "a set of（一套；一组）",
+      "a complete set（完整的一套）"
+    ]
+  },
+  "@2451": {
+    "meaning_zh": "陈述；说明；国家的；州的",
+    "english": "Please state your name clearly.",
+    "chinese": "请清楚地说出你的姓名。",
+    "phrases": [
+      "state a reason（说明理由）",
+      "state schools（公立学校）"
+    ]
+  },
+  "@2454": {
+    "meaning_zh": "粘贴；插入；坚持",
+    "english": "Please stick the photo on the first page.",
+    "chinese": "请把照片贴在第一页。",
+    "phrases": [
+      "stick sth on（把某物粘在……上）",
+      "stick to a plan（坚持计划）"
+    ]
+  },
+  "@2455": {
+    "meaning_zh": "棍；棒；枝条",
+    "english": "He picked up a long stick from the ground.",
+    "chinese": "他从地上捡起了一根长棍。",
+    "phrases": [
+      "a walking stick（手杖）",
+      "a wooden stick（木棍）"
+    ]
+  },
+  "@2538": {
+    "meaning_zh": "习惯于；适应（be used to 后接名词或动名词）",
+    "english": "I am used to getting up early.",
+    "chinese": "我习惯早起。",
+    "phrases": [
+      "be used to doing sth（习惯做某事）",
+      "get used to sth（逐渐习惯某事）"
+    ]
+  },
+  "@2539": {
+    "meaning_zh": "用过的；二手的",
+    "english": "She bought a used car last month.",
+    "chinese": "她上个月买了一辆二手车。",
+    "phrases": [
+      "a used car（二手车）",
+      "used books（二手书）"
+    ]
+  },
+  "@2639": {
+    "meaning_zh": "忍受；承受；承担",
+    "english": "I cannot bear the noise any longer.",
+    "chinese": "我再也无法忍受这种噪声了。",
+    "phrases": [
+      "bear the cost（承担费用）",
+      "cannot bear to do sth（无法忍受做某事）"
+    ]
+  },
+  "@2684": {
+    "meaning_zh": "结束；终结",
+    "english": "The meeting came to a close at noon.",
+    "chinese": "会议在中午结束了。",
+    "phrases": [
+      "come to a close（结束）",
+      "bring sth to a close（使某事结束）"
+    ]
+  },
+  "@2943": {
+    "meaning_zh": "发布；颁发；发行",
+    "english": "The bank will issue a new card for you.",
+    "chinese": "银行会给你发一张新卡。",
+    "phrases": [
+      "issue a statement（发表声明）",
+      "issue a ticket（出票）"
+    ]
+  },
+  "@3047": {
+    "meaning_zh": "养老金；退休金",
+    "english": "She receives a small pension every month.",
+    "chinese": "她每月领取一笔数额不大的养老金。",
+    "phrases": [
+      "a state pension（国家养老金）",
+      "a pension scheme（养老金计划）"
+    ]
+  },
+  "@3060": {
+    "meaning_zh": "优势；好处；正的；而且",
+    "english": "The job is well paid, and that is a big plus.",
+    "chinese": "这份工作薪水不错，这是一个很大的优点。",
+    "phrases": [
+      "a big plus（一大优点）",
+      "a plus point（优点）"
+    ]
+  },
+  "@3160": {
+    "meaning_zh": "感觉到；察觉到",
+    "english": "I could sense that something was wrong.",
+    "chinese": "我能感觉到有些不对劲。",
+    "phrases": [
+      "sense danger（察觉危险）",
+      "sense a change（察觉变化）"
+    ]
+  },
+  "@3219": {
+    "meaning_zh": "可能受……影响的；须服从……的",
+    "english": "The plan is subject to change.",
+    "chinese": "这项计划可能会有变动。",
+    "phrases": [
+      "be subject to change（可能变更）",
+      "be subject to approval（须经批准）"
+    ]
+  },
+  "@3234": {
+    "meaning_zh": "撕；扯；裂口",
+    "english": "Be careful not to tear the paper.",
+    "chinese": "小心别把纸撕破。",
+    "phrases": [
+      "tear up（撕碎）",
+      "tear a hole（撕出一个洞）"
+    ]
+  },
+  "@3235": {
+    "meaning_zh": "眼泪；泪珠",
+    "english": "A tear rolled down her face.",
+    "chinese": "一滴眼泪从她脸上滚落。",
+    "phrases": [
+      "in tears（流着泪）",
+      "burst into tears（突然哭起来）"
+    ]
+  },
+  "@3237": {
+    "meaning_zh": "把……称为；把……叫作",
+    "english": "Scientists term this process adaptation.",
+    "chinese": "科学家把这个过程称为适应。",
+    "phrases": [
+      "be termed sth（被称为……）",
+      "term sth a success（把某事称为成功）"
+    ]
+  },
+  "@3282": {
+    "meaning_zh": "音量；体积；总量；卷册",
+    "english": "Could you turn down the volume, please?",
+    "chinese": "请把音量调低一点，好吗？",
+    "phrases": [
+      "turn down the volume（调低音量）",
+      "a large volume of（大量的）"
+    ]
+  },
+  "@3295": {
+    "meaning_zh": "缠绕；卷绕；给……上发条",
+    "english": "Wind the string around the stick.",
+    "chinese": "把绳子绕在棍子上。",
+    "phrases": [
+      "wind up a clock（给钟上发条）",
+      "wind sth around（把某物绕在……上）"
+    ]
+  }
+}
+

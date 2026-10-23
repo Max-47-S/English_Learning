@@ -1,0 +1,14 @@
+{
+  "source_pdf": "oxford-3000-by-cefr-level.pdf",
+  "sha256": "4bf5eee62b858cc970da5d209558435276c05ec3a705662d255329966b06046d",
+  "pages": 12,
+  "entries": 3306,
+  "unique_lookups": 2976,
+  "level_counts": {
+    "A1": 899,
+    "A2": 871,
+    "B1": 809,
+    "B2": 727
+  },
+  "reading_order": "PDF visual coordinates: each page, four columns left-to-right and each column top-to-bottom; retain repeated words at different CEFR levels and parts of speech."
+}

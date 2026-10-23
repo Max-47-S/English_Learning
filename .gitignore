@@ -16,3 +16,6 @@ Thumbs.db
 .env.*
 !.env.example
 !.env.template
+
+# Generated download bundle (the source study package remains in Git)
+/Oxford3000_学习包.zip

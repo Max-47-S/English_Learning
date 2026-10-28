@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-28T06:55:51.465414+00:00",
+  "status": "pass",
+  "entries": 750,
+  "level_counts": {
+    "A1": 200,
+    "A2": 175,
+    "B1": 175,
+    "B2": 125,
+    "C1": 75
+  },
+  "source_sha256": "35da430c8c0353d4a44c6293ca0d05ae00787488562beaed1ff2835c6e37e118",
+  "source_order": "pass",
+  "meanings_zh": 750,
+  "translated_collocations": 1500,
+  "original_bilingual_examples": 750,
+  "usage_notes": 248,
+  "human_entries": 350,
+  "ai_entries": 400,
+  "lrc_entries": 750,
+  "timing": "pass",
+  "mp3_full_decode": "pass",
+  "duration_seconds": 2336.17129,
+  "encoded_duration_seconds": 2336.232,
+  "mp3_bytes": 18690238,
+  "local_links_checked": 3041,
+  "broken_local_links": [],
+  "audio_sha256": "2072b1b748d3351ea766e2216f50aad09dbce6d3ba59774e75f8016180acfa16"
+}

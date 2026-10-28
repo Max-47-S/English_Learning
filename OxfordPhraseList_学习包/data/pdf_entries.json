@@ -1,0 +1,7929 @@
+[
+  {
+    "id": 1,
+    "level": "A1",
+    "level_index": 1,
+    "phrase": "a few",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a few",
+    "pdf_variants": [
+      "a few minutes",
+      "a few times",
+      "a few years"
+    ]
+  },
+  {
+    "id": 2,
+    "level": "A1",
+    "level_index": 2,
+    "phrase": "a good idea",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a good idea",
+    "pdf_variants": [
+      "Good idea!",
+      "It’s a good idea to…",
+      "That’s a good idea!"
+    ]
+  },
+  {
+    "id": 3,
+    "level": "A1",
+    "level_index": 3,
+    "phrase": "agree with sb",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "agree with sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 4,
+    "level": "A1",
+    "level_index": 4,
+    "phrase": "a little",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a little",
+    "pdf_variants": [
+      "a little help",
+      "a little money",
+      "a little sugar"
+    ]
+  },
+  {
+    "id": 5,
+    "level": "A1",
+    "level_index": 5,
+    "phrase": "a lot",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a lot",
+    "pdf_variants": [
+      "a lot to do"
+    ]
+  },
+  {
+    "id": 6,
+    "level": "A1",
+    "level_index": 6,
+    "phrase": "a lot of sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a lot of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 7,
+    "level": "A1",
+    "level_index": 7,
+    "phrase": "all day",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "all day",
+    "pdf_variants": [
+      "all night"
+    ]
+  },
+  {
+    "id": 8,
+    "level": "A1",
+    "level_index": 8,
+    "phrase": "all over the world",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "all over the world",
+    "pdf_variants": []
+  },
+  {
+    "id": 9,
+    "level": "A1",
+    "level_index": 9,
+    "phrase": "anything else",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "anything else",
+    "pdf_variants": [
+      "anyone else"
+    ]
+  },
+  {
+    "id": 10,
+    "level": "A1",
+    "level_index": 10,
+    "phrase": "a period of time",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "a period of time",
+    "pdf_variants": []
+  },
+  {
+    "id": 11,
+    "level": "A1",
+    "level_index": 11,
+    "phrase": "around the world",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "around the world",
+    "pdf_variants": []
+  },
+  {
+    "id": 12,
+    "level": "A1",
+    "level_index": 12,
+    "phrase": "arrive at…",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "arrive at…",
+    "pdf_variants": []
+  },
+  {
+    "id": 13,
+    "level": "A1",
+    "level_index": 13,
+    "phrase": "arrive in…",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "arrive in…",
+    "pdf_variants": []
+  },
+  {
+    "id": 14,
+    "level": "A1",
+    "level_index": 14,
+    "phrase": "ask for sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "ask for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 15,
+    "level": "A1",
+    "level_index": 15,
+    "phrase": "at home",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at home",
+    "pdf_variants": []
+  },
+  {
+    "id": 16,
+    "level": "A1",
+    "level_index": 16,
+    "phrase": "at school",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at school",
+    "pdf_variants": []
+  },
+  {
+    "id": 17,
+    "level": "A1",
+    "level_index": 17,
+    "phrase": "at the beginning of sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the beginning of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 18,
+    "level": "A1",
+    "level_index": 18,
+    "phrase": "at the end",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the end",
+    "pdf_variants": []
+  },
+  {
+    "id": 19,
+    "level": "A1",
+    "level_index": 19,
+    "phrase": "at the end of sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the end of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 20,
+    "level": "A1",
+    "level_index": 20,
+    "phrase": "at the moment",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the moment",
+    "pdf_variants": []
+  },
+  {
+    "id": 21,
+    "level": "A1",
+    "level_index": 21,
+    "phrase": "at the same time",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the same time",
+    "pdf_variants": []
+  },
+  {
+    "id": 22,
+    "level": "A1",
+    "level_index": 22,
+    "phrase": "at the weekend",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at the weekend",
+    "pdf_variants": []
+  },
+  {
+    "id": 23,
+    "level": "A1",
+    "level_index": 23,
+    "phrase": "at university",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at university",
+    "pdf_variants": []
+  },
+  {
+    "id": 24,
+    "level": "A1",
+    "level_index": 24,
+    "phrase": "at work",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "at work",
+    "pdf_variants": []
+  },
+  {
+    "id": 25,
+    "level": "A1",
+    "level_index": 25,
+    "phrase": "away from sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "away from sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 26,
+    "level": "A1",
+    "level_index": 26,
+    "phrase": "bad for sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "bad for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 27,
+    "level": "A1",
+    "level_index": 27,
+    "phrase": "bad news",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "bad news",
+    "pdf_variants": []
+  },
+  {
+    "id": 28,
+    "level": "A1",
+    "level_index": 28,
+    "phrase": "bad thing",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "bad thing",
+    "pdf_variants": [
+      "the bad things about sth"
+    ]
+  },
+  {
+    "id": 29,
+    "level": "A1",
+    "level_index": 29,
+    "phrase": "because of",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "because of",
+    "pdf_variants": []
+  },
+  {
+    "id": 30,
+    "level": "A1",
+    "level_index": 30,
+    "phrase": "begin with sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "begin with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 31,
+    "level": "A1",
+    "level_index": 31,
+    "phrase": "be going to do sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "be going to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 32,
+    "level": "A1",
+    "level_index": 32,
+    "phrase": "best friend",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "best friend",
+    "pdf_variants": []
+  },
+  {
+    "id": 33,
+    "level": "A1",
+    "level_index": 33,
+    "phrase": "black and white",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "black and white",
+    "pdf_variants": []
+  },
+  {
+    "id": 34,
+    "level": "A1",
+    "level_index": 34,
+    "phrase": "car park",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "car park",
+    "pdf_variants": []
+  },
+  {
+    "id": 35,
+    "level": "A1",
+    "level_index": 35,
+    "phrase": "cell phone",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "cell phone",
+    "pdf_variants": []
+  },
+  {
+    "id": 36,
+    "level": "A1",
+    "level_index": 36,
+    "phrase": "city centre",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "city centre",
+    "pdf_variants": [
+      "in the city centre"
+    ]
+  },
+  {
+    "id": 37,
+    "level": "A1",
+    "level_index": 37,
+    "phrase": "come from…",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "come from…",
+    "pdf_variants": []
+  },
+  {
+    "id": 38,
+    "level": "A1",
+    "level_index": 38,
+    "phrase": "come into sth",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "come into sth",
+    "pdf_variants": [
+      "He came into the room."
+    ]
+  },
+  {
+    "id": 39,
+    "level": "A1",
+    "level_index": 39,
+    "phrase": "differences between A and B",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "differences between A and B",
+    "pdf_variants": []
+  },
+  {
+    "id": 40,
+    "level": "A1",
+    "level_index": 40,
+    "phrase": "difficult for sb",
+    "pdf_page": 1,
+    "pdf_column": 1,
+    "pdf_text": "difficult for sb",
+    "pdf_variants": [
+      "it is difficult for sb to do sth"
+    ]
+  },
+  {
+    "id": 41,
+    "level": "A1",
+    "level_index": 41,
+    "phrase": "each other",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "each other",
+    "pdf_variants": []
+  },
+  {
+    "id": 42,
+    "level": "A1",
+    "level_index": 42,
+    "phrase": "end in sth",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "end in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 43,
+    "level": "A1",
+    "level_index": 43,
+    "phrase": "every day",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "every day",
+    "pdf_variants": [
+      "every week",
+      "every year"
+    ]
+  },
+  {
+    "id": 44,
+    "level": "A1",
+    "level_index": 44,
+    "phrase": "excuse me",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "excuse me",
+    "pdf_variants": []
+  },
+  {
+    "id": 45,
+    "level": "A1",
+    "level_index": 45,
+    "phrase": "family member",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "family member",
+    "pdf_variants": []
+  },
+  {
+    "id": 46,
+    "level": "A1",
+    "level_index": 46,
+    "phrase": "find out",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "find out",
+    "pdf_variants": [
+      "find out about sth",
+      "find out more"
+    ]
+  },
+  {
+    "id": 47,
+    "level": "A1",
+    "level_index": 47,
+    "phrase": "for a long time",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for a long time",
+    "pdf_variants": [
+      "a long time"
+    ]
+  },
+  {
+    "id": 48,
+    "level": "A1",
+    "level_index": 48,
+    "phrase": "for a moment",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for a moment",
+    "pdf_variants": []
+  },
+  {
+    "id": 49,
+    "level": "A1",
+    "level_index": 49,
+    "phrase": "for example",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for example",
+    "pdf_variants": []
+  },
+  {
+    "id": 50,
+    "level": "A1",
+    "level_index": 50,
+    "phrase": "for lunch",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for lunch",
+    "pdf_variants": []
+  },
+  {
+    "id": 51,
+    "level": "A1",
+    "level_index": 51,
+    "phrase": "for many years",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for many years",
+    "pdf_variants": []
+  },
+  {
+    "id": 52,
+    "level": "A1",
+    "level_index": 52,
+    "phrase": "for the first time",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "for the first time",
+    "pdf_variants": []
+  },
+  {
+    "id": 53,
+    "level": "A1",
+    "level_index": 53,
+    "phrase": "get home",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get home",
+    "pdf_variants": []
+  },
+  {
+    "id": 54,
+    "level": "A1",
+    "level_index": 54,
+    "phrase": "get married",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get married",
+    "pdf_variants": []
+  },
+  {
+    "id": 55,
+    "level": "A1",
+    "level_index": 55,
+    "phrase": "get off",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get off",
+    "pdf_variants": [
+      "get off the bus",
+      "I’m getting off here."
+    ]
+  },
+  {
+    "id": 56,
+    "level": "A1",
+    "level_index": 56,
+    "phrase": "get on",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get on",
+    "pdf_variants": [
+      "get on the bus",
+      "Are you getting on?"
+    ]
+  },
+  {
+    "id": 57,
+    "level": "A1",
+    "level_index": 57,
+    "phrase": "get ready",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get ready",
+    "pdf_variants": [
+      "get ready for sth",
+      "get ready to do sth"
+    ]
+  },
+  {
+    "id": 58,
+    "level": "A1",
+    "level_index": 58,
+    "phrase": "get there",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get there",
+    "pdf_variants": []
+  },
+  {
+    "id": 59,
+    "level": "A1",
+    "level_index": 59,
+    "phrase": "get to…",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get to…",
+    "pdf_variants": []
+  },
+  {
+    "id": 60,
+    "level": "A1",
+    "level_index": 60,
+    "phrase": "get up",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "get up",
+    "pdf_variants": []
+  },
+  {
+    "id": 61,
+    "level": "A1",
+    "level_index": 61,
+    "phrase": "go back",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go back",
+    "pdf_variants": [
+      "go back to…"
+    ]
+  },
+  {
+    "id": 62,
+    "level": "A1",
+    "level_index": 62,
+    "phrase": "go home",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go home",
+    "pdf_variants": []
+  },
+  {
+    "id": 63,
+    "level": "A1",
+    "level_index": 63,
+    "phrase": "go into sth",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go into sth",
+    "pdf_variants": [
+      "She went into her room."
+    ]
+  },
+  {
+    "id": 64,
+    "level": "A1",
+    "level_index": 64,
+    "phrase": "good at sth",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "good at sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 65,
+    "level": "A1",
+    "level_index": 65,
+    "phrase": "good for sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "good for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 66,
+    "level": "A1",
+    "level_index": 66,
+    "phrase": "Good morning",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "Good morning",
+    "pdf_variants": [
+      "Good afternoon",
+      "Good evening"
+    ]
+  },
+  {
+    "id": 67,
+    "level": "A1",
+    "level_index": 67,
+    "phrase": "good news",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "good news",
+    "pdf_variants": []
+  },
+  {
+    "id": 68,
+    "level": "A1",
+    "level_index": 68,
+    "phrase": "good thing",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "good thing",
+    "pdf_variants": [
+      "the good things about sth"
+    ]
+  },
+  {
+    "id": 69,
+    "level": "A1",
+    "level_index": 69,
+    "phrase": "go out",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go out",
+    "pdf_variants": []
+  },
+  {
+    "id": 70,
+    "level": "A1",
+    "level_index": 70,
+    "phrase": "go to bed",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go to bed",
+    "pdf_variants": []
+  },
+  {
+    "id": 71,
+    "level": "A1",
+    "level_index": 71,
+    "phrase": "go to school",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go to school",
+    "pdf_variants": []
+  },
+  {
+    "id": 72,
+    "level": "A1",
+    "level_index": 72,
+    "phrase": "go to work",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "go to work",
+    "pdf_variants": []
+  },
+  {
+    "id": 73,
+    "level": "A1",
+    "level_index": 73,
+    "phrase": "grow up",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "grow up",
+    "pdf_variants": []
+  },
+  {
+    "id": 74,
+    "level": "A1",
+    "level_index": 74,
+    "phrase": "Guess what…",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "Guess what…",
+    "pdf_variants": []
+  },
+  {
+    "id": 75,
+    "level": "A1",
+    "level_index": 75,
+    "phrase": "half an hour",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "half an hour",
+    "pdf_variants": []
+  },
+  {
+    "id": 76,
+    "level": "A1",
+    "level_index": 76,
+    "phrase": "hard work",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "hard work",
+    "pdf_variants": []
+  },
+  {
+    "id": 77,
+    "level": "A1",
+    "level_index": 77,
+    "phrase": "have fun",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "have fun",
+    "pdf_variants": []
+  },
+  {
+    "id": 78,
+    "level": "A1",
+    "level_index": 78,
+    "phrase": "have got",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "have got",
+    "pdf_variants": []
+  },
+  {
+    "id": 79,
+    "level": "A1",
+    "level_index": 79,
+    "phrase": "have time",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "have time",
+    "pdf_variants": [
+      "have time for sth",
+      "have time to do sth"
+    ]
+  },
+  {
+    "id": 80,
+    "level": "A1",
+    "level_index": 80,
+    "phrase": "he or she",
+    "pdf_page": 1,
+    "pdf_column": 2,
+    "pdf_text": "he or she",
+    "pdf_variants": []
+  },
+  {
+    "id": 81,
+    "level": "A1",
+    "level_index": 81,
+    "phrase": "high school",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "high school",
+    "pdf_variants": []
+  },
+  {
+    "id": 82,
+    "level": "A1",
+    "level_index": 82,
+    "phrase": "his or her",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "his or her",
+    "pdf_variants": []
+  },
+  {
+    "id": 83,
+    "level": "A1",
+    "level_index": 83,
+    "phrase": "How about…?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How about…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 84,
+    "level": "A1",
+    "level_index": 84,
+    "phrase": "How are you?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How are you?",
+    "pdf_variants": []
+  },
+  {
+    "id": 85,
+    "level": "A1",
+    "level_index": 85,
+    "phrase": "How long…?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How long…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 86,
+    "level": "A1",
+    "level_index": 86,
+    "phrase": "How many…?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How many…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 87,
+    "level": "A1",
+    "level_index": 87,
+    "phrase": "How much…?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How much…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 88,
+    "level": "A1",
+    "level_index": 88,
+    "phrase": "How often…?",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "How often…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 89,
+    "level": "A1",
+    "level_index": 89,
+    "phrase": "important for sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "important for sb/sth",
+    "pdf_variants": [
+      "It is important for sb/sth to do sth"
+    ]
+  },
+  {
+    "id": 90,
+    "level": "A1",
+    "level_index": 90,
+    "phrase": "I’m sorry",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "I’m sorry",
+    "pdf_variants": []
+  },
+  {
+    "id": 91,
+    "level": "A1",
+    "level_index": 91,
+    "phrase": "in April",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in April",
+    "pdf_variants": [
+      "in July, etc."
+    ]
+  },
+  {
+    "id": 92,
+    "level": "A1",
+    "level_index": 92,
+    "phrase": "in bed",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in bed",
+    "pdf_variants": []
+  },
+  {
+    "id": 93,
+    "level": "A1",
+    "level_index": 93,
+    "phrase": "in class",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in class",
+    "pdf_variants": []
+  },
+  {
+    "id": 94,
+    "level": "A1",
+    "level_index": 94,
+    "phrase": "in fact",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in fact",
+    "pdf_variants": []
+  },
+  {
+    "id": 95,
+    "level": "A1",
+    "level_index": 95,
+    "phrase": "in front of",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in front of",
+    "pdf_variants": []
+  },
+  {
+    "id": 96,
+    "level": "A1",
+    "level_index": 96,
+    "phrase": "in my opinion",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in my opinion",
+    "pdf_variants": []
+  },
+  {
+    "id": 97,
+    "level": "A1",
+    "level_index": 97,
+    "phrase": "in school",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in school",
+    "pdf_variants": []
+  },
+  {
+    "id": 98,
+    "level": "A1",
+    "level_index": 98,
+    "phrase": "in space",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in space",
+    "pdf_variants": []
+  },
+  {
+    "id": 99,
+    "level": "A1",
+    "level_index": 99,
+    "phrase": "in summer",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in summer",
+    "pdf_variants": [
+      "in winter"
+    ]
+  },
+  {
+    "id": 100,
+    "level": "A1",
+    "level_index": 100,
+    "phrase": "in the centre",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the centre",
+    "pdf_variants": [
+      "in the centre of sth"
+    ]
+  },
+  {
+    "id": 101,
+    "level": "A1",
+    "level_index": 101,
+    "phrase": "in the country",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the country",
+    "pdf_variants": [
+      "I live in the country.",
+      "the best… in the country"
+    ]
+  },
+  {
+    "id": 102,
+    "level": "A1",
+    "level_index": 102,
+    "phrase": "in the future",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the future",
+    "pdf_variants": []
+  },
+  {
+    "id": 103,
+    "level": "A1",
+    "level_index": 103,
+    "phrase": "in the morning",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the morning",
+    "pdf_variants": [
+      "in the afternoon",
+      "in the evening"
+    ]
+  },
+  {
+    "id": 104,
+    "level": "A1",
+    "level_index": 104,
+    "phrase": "in the north",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the north",
+    "pdf_variants": [
+      "in the south",
+      "in the east",
+      "in the west"
+    ]
+  },
+  {
+    "id": 105,
+    "level": "A1",
+    "level_index": 105,
+    "phrase": "in the past",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the past",
+    "pdf_variants": []
+  },
+  {
+    "id": 106,
+    "level": "A1",
+    "level_index": 106,
+    "phrase": "in the street",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the street",
+    "pdf_variants": []
+  },
+  {
+    "id": 107,
+    "level": "A1",
+    "level_index": 107,
+    "phrase": "in the summer",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in the summer",
+    "pdf_variants": [
+      "in the winter"
+    ]
+  },
+  {
+    "id": 108,
+    "level": "A1",
+    "level_index": 108,
+    "phrase": "in town",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "in town",
+    "pdf_variants": []
+  },
+  {
+    "id": 109,
+    "level": "A1",
+    "level_index": 109,
+    "phrase": "it is important to do sth",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "it is important to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 110,
+    "level": "A1",
+    "level_index": 110,
+    "phrase": "It takes…",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "It takes…",
+    "pdf_variants": [
+      "It takes an hour to get there."
+    ]
+  },
+  {
+    "id": 111,
+    "level": "A1",
+    "level_index": 111,
+    "phrase": "kind of sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "kind of sb/sth",
+    "pdf_variants": [
+      "What kind of music do you like?"
+    ]
+  },
+  {
+    "id": 112,
+    "level": "A1",
+    "level_index": 112,
+    "phrase": "know how",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "know how",
+    "pdf_variants": [
+      "know how to do sth"
+    ]
+  },
+  {
+    "id": 113,
+    "level": "A1",
+    "level_index": 113,
+    "phrase": "last time",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "last time",
+    "pdf_variants": [
+      "the last time"
+    ]
+  },
+  {
+    "id": 114,
+    "level": "A1",
+    "level_index": 114,
+    "phrase": "last year",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "last year",
+    "pdf_variants": [
+      "last month",
+      "last summer",
+      "last week",
+      "last weekend"
+    ]
+  },
+  {
+    "id": 115,
+    "level": "A1",
+    "level_index": 115,
+    "phrase": "learn how to do sth",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "learn how to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 116,
+    "level": "A1",
+    "level_index": 116,
+    "phrase": "listen to sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "listen to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 117,
+    "level": "A1",
+    "level_index": 117,
+    "phrase": "live with sb",
+    "pdf_page": 1,
+    "pdf_column": 3,
+    "pdf_text": "live with sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 118,
+    "level": "A1",
+    "level_index": 118,
+    "phrase": "living room",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "living room",
+    "pdf_variants": []
+  },
+  {
+    "id": 119,
+    "level": "A1",
+    "level_index": 119,
+    "phrase": "look at sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "look at sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 120,
+    "level": "A1",
+    "level_index": 120,
+    "phrase": "look for sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "look for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 121,
+    "level": "A1",
+    "level_index": 121,
+    "phrase": "look like sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "look like sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 122,
+    "level": "A1",
+    "level_index": 122,
+    "phrase": "lots of…",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "lots of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 123,
+    "level": "A1",
+    "level_index": 123,
+    "phrase": "millions of…",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "millions of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 124,
+    "level": "A1",
+    "level_index": 124,
+    "phrase": "mobile phone",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "mobile phone",
+    "pdf_variants": []
+  },
+  {
+    "id": 125,
+    "level": "A1",
+    "level_index": 125,
+    "phrase": "more than…",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "more than…",
+    "pdf_variants": []
+  },
+  {
+    "id": 126,
+    "level": "A1",
+    "level_index": 126,
+    "phrase": "next time",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "next time",
+    "pdf_variants": []
+  },
+  {
+    "id": 127,
+    "level": "A1",
+    "level_index": 127,
+    "phrase": "next year",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "next year",
+    "pdf_variants": [
+      "next month",
+      "next week"
+    ]
+  },
+  {
+    "id": 128,
+    "level": "A1",
+    "level_index": 128,
+    "phrase": "No problem",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "No problem",
+    "pdf_variants": []
+  },
+  {
+    "id": 129,
+    "level": "A1",
+    "level_index": 129,
+    "phrase": "of course",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "of course",
+    "pdf_variants": []
+  },
+  {
+    "id": 130,
+    "level": "A1",
+    "level_index": 130,
+    "phrase": "Oh no!",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "Oh no!",
+    "pdf_variants": []
+  },
+  {
+    "id": 131,
+    "level": "A1",
+    "level_index": 131,
+    "phrase": "Oh yes",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "Oh yes",
+    "pdf_variants": []
+  },
+  {
+    "id": 132,
+    "level": "A1",
+    "level_index": 132,
+    "phrase": "old friend",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "old friend",
+    "pdf_variants": []
+  },
+  {
+    "id": 133,
+    "level": "A1",
+    "level_index": 133,
+    "phrase": "once a…",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "once a…",
+    "pdf_variants": [
+      "once a month",
+      "once a week",
+      "once a year"
+    ]
+  },
+  {
+    "id": 134,
+    "level": "A1",
+    "level_index": 134,
+    "phrase": "one day",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "one day",
+    "pdf_variants": []
+  },
+  {
+    "id": 135,
+    "level": "A1",
+    "level_index": 135,
+    "phrase": "on holiday",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on holiday",
+    "pdf_variants": []
+  },
+  {
+    "id": 136,
+    "level": "A1",
+    "level_index": 136,
+    "phrase": "on Monday",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on Monday",
+    "pdf_variants": [
+      "on Tuesday, etc."
+    ]
+  },
+  {
+    "id": 137,
+    "level": "A1",
+    "level_index": 137,
+    "phrase": "on television",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on television",
+    "pdf_variants": [
+      "on the television"
+    ]
+  },
+  {
+    "id": 138,
+    "level": "A1",
+    "level_index": 138,
+    "phrase": "on the beach",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on the beach",
+    "pdf_variants": []
+  },
+  {
+    "id": 139,
+    "level": "A1",
+    "level_index": 139,
+    "phrase": "on the floor",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on the floor",
+    "pdf_variants": []
+  },
+  {
+    "id": 140,
+    "level": "A1",
+    "level_index": 140,
+    "phrase": "on the internet",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on the internet",
+    "pdf_variants": []
+  },
+  {
+    "id": 141,
+    "level": "A1",
+    "level_index": 141,
+    "phrase": "on the left",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on the left",
+    "pdf_variants": [
+      "on the right"
+    ]
+  },
+  {
+    "id": 142,
+    "level": "A1",
+    "level_index": 142,
+    "phrase": "on the phone",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on the phone",
+    "pdf_variants": [
+      "be on the phone",
+      "talk on the phone"
+    ]
+  },
+  {
+    "id": 143,
+    "level": "A1",
+    "level_index": 143,
+    "phrase": "on TV",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "on TV",
+    "pdf_variants": []
+  },
+  {
+    "id": 144,
+    "level": "A1",
+    "level_index": 144,
+    "phrase": "out of sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "out of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 145,
+    "level": "A1",
+    "level_index": 145,
+    "phrase": "over there",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "over there",
+    "pdf_variants": []
+  },
+  {
+    "id": 146,
+    "level": "A1",
+    "level_index": 146,
+    "phrase": "pay for sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "pay for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 147,
+    "level": "A1",
+    "level_index": 147,
+    "phrase": "phone call",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "phone call",
+    "pdf_variants": []
+  },
+  {
+    "id": 148,
+    "level": "A1",
+    "level_index": 148,
+    "phrase": "phone number",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "phone number",
+    "pdf_variants": []
+  },
+  {
+    "id": 149,
+    "level": "A1",
+    "level_index": 149,
+    "phrase": "plan for sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "plan for sth",
+    "pdf_variants": [
+      "make plans for sth",
+      "What are you r plans for next year?"
+    ]
+  },
+  {
+    "id": 150,
+    "level": "A1",
+    "level_index": 150,
+    "phrase": "play with sb/sth",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "play with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 151,
+    "level": "A1",
+    "level_index": 151,
+    "phrase": "post office",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "post office",
+    "pdf_variants": []
+  },
+  {
+    "id": 152,
+    "level": "A1",
+    "level_index": 152,
+    "phrase": "pretty good",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "pretty good",
+    "pdf_variants": []
+  },
+  {
+    "id": 153,
+    "level": "A1",
+    "level_index": 153,
+    "phrase": "really enjoy",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "really enjoy",
+    "pdf_variants": [
+      "I really enjoyed it."
+    ]
+  },
+  {
+    "id": 154,
+    "level": "A1",
+    "level_index": 154,
+    "phrase": "really good",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "really good",
+    "pdf_variants": []
+  },
+  {
+    "id": 155,
+    "level": "A1",
+    "level_index": 155,
+    "phrase": "really like",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "really like",
+    "pdf_variants": [
+      "I’d really like to…"
+    ]
+  },
+  {
+    "id": 156,
+    "level": "A1",
+    "level_index": 156,
+    "phrase": "right now",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "right now",
+    "pdf_variants": []
+  },
+  {
+    "id": 157,
+    "level": "A1",
+    "level_index": 157,
+    "phrase": "See you",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "See you",
+    "pdf_variants": [
+      "See you around",
+      "See you later",
+      "See you soon"
+    ]
+  },
+  {
+    "id": 158,
+    "level": "A1",
+    "level_index": 158,
+    "phrase": "sit down",
+    "pdf_page": 1,
+    "pdf_column": 4,
+    "pdf_text": "sit down",
+    "pdf_variants": []
+  },
+  {
+    "id": 159,
+    "level": "A1",
+    "level_index": 159,
+    "phrase": "someone else",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "someone else",
+    "pdf_variants": [
+      "something else"
+    ]
+  },
+  {
+    "id": 160,
+    "level": "A1",
+    "level_index": 160,
+    "phrase": "speak to sb",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "speak to sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 161,
+    "level": "A1",
+    "level_index": 161,
+    "phrase": "spend time",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "spend time",
+    "pdf_variants": [
+      "spend time doing sth",
+      "spend time with sb"
+    ]
+  },
+  {
+    "id": 162,
+    "level": "A1",
+    "level_index": 162,
+    "phrase": "stand up",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "stand up",
+    "pdf_variants": []
+  },
+  {
+    "id": 163,
+    "level": "A1",
+    "level_index": 163,
+    "phrase": "stay in",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "stay in",
+    "pdf_variants": [
+      "stay in a hotel",
+      "stay in bed",
+      "I’m staying in tonight."
+    ]
+  },
+  {
+    "id": 164,
+    "level": "A1",
+    "level_index": 164,
+    "phrase": "such as",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "such as",
+    "pdf_variants": []
+  },
+  {
+    "id": 165,
+    "level": "A1",
+    "level_index": 165,
+    "phrase": "swimming pool",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "swimming pool",
+    "pdf_variants": []
+  },
+  {
+    "id": 166,
+    "level": "A1",
+    "level_index": 166,
+    "phrase": "talk about sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "talk about sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 167,
+    "level": "A1",
+    "level_index": 167,
+    "phrase": "thank you",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "thank you",
+    "pdf_variants": [
+      "thank you very much"
+    ]
+  },
+  {
+    "id": 168,
+    "level": "A1",
+    "level_index": 168,
+    "phrase": "that day",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "that day",
+    "pdf_variants": []
+  },
+  {
+    "id": 169,
+    "level": "A1",
+    "level_index": 169,
+    "phrase": "the 20th century",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "the 20th century",
+    "pdf_variants": [
+      "the 21st century",
+      "the 19th century"
+    ]
+  },
+  {
+    "id": 170,
+    "level": "A1",
+    "level_index": 170,
+    "phrase": "the next day",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "the next day",
+    "pdf_variants": []
+  },
+  {
+    "id": 171,
+    "level": "A1",
+    "level_index": 171,
+    "phrase": "there is",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "there is",
+    "pdf_variants": [
+      "there are",
+      "there was",
+      "there were"
+    ]
+  },
+  {
+    "id": 172,
+    "level": "A1",
+    "level_index": 172,
+    "phrase": "think about sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "think about sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 173,
+    "level": "A1",
+    "level_index": 173,
+    "phrase": "think of sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "think of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 174,
+    "level": "A1",
+    "level_index": 174,
+    "phrase": "This is…",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "This is…",
+    "pdf_variants": [
+      "This is my dad."
+    ]
+  },
+  {
+    "id": 175,
+    "level": "A1",
+    "level_index": 175,
+    "phrase": "this kind of…",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "this kind of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 176,
+    "level": "A1",
+    "level_index": 176,
+    "phrase": "this morning",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "this morning",
+    "pdf_variants": [
+      "this afternoon",
+      "this evening"
+    ]
+  },
+  {
+    "id": 177,
+    "level": "A1",
+    "level_index": 177,
+    "phrase": "this time",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "this time",
+    "pdf_variants": []
+  },
+  {
+    "id": 178,
+    "level": "A1",
+    "level_index": 178,
+    "phrase": "this year",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "this year",
+    "pdf_variants": [
+      "this summer",
+      "this weekend"
+    ]
+  },
+  {
+    "id": 179,
+    "level": "A1",
+    "level_index": 179,
+    "phrase": "thousands of…",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "thousands of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 180,
+    "level": "A1",
+    "level_index": 180,
+    "phrase": "too long",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "too long",
+    "pdf_variants": [
+      "too far",
+      "too hard"
+    ]
+  },
+  {
+    "id": 181,
+    "level": "A1",
+    "level_index": 181,
+    "phrase": "too much",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "too much",
+    "pdf_variants": [
+      "too many"
+    ]
+  },
+  {
+    "id": 182,
+    "level": "A1",
+    "level_index": 182,
+    "phrase": "town centre",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "town centre",
+    "pdf_variants": [
+      "in the town centre"
+    ]
+  },
+  {
+    "id": 183,
+    "level": "A1",
+    "level_index": 183,
+    "phrase": "TV show",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "TV show",
+    "pdf_variants": []
+  },
+  {
+    "id": 184,
+    "level": "A1",
+    "level_index": 184,
+    "phrase": "wait for sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "wait for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 185,
+    "level": "A1",
+    "level_index": 185,
+    "phrase": "wake up",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "wake up",
+    "pdf_variants": []
+  },
+  {
+    "id": 186,
+    "level": "A1",
+    "level_index": 186,
+    "phrase": "welcome to sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "welcome to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 187,
+    "level": "A1",
+    "level_index": 187,
+    "phrase": "What about…?",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "What about…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 188,
+    "level": "A1",
+    "level_index": 188,
+    "phrase": "work as sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "work as sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 189,
+    "level": "A1",
+    "level_index": 189,
+    "phrase": "work for sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "work for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 190,
+    "level": "A1",
+    "level_index": 190,
+    "phrase": "work hard",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "work hard",
+    "pdf_variants": []
+  },
+  {
+    "id": 191,
+    "level": "A1",
+    "level_index": 191,
+    "phrase": "work together",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "work together",
+    "pdf_variants": [
+      "work together for sth",
+      "work together to do sth"
+    ]
+  },
+  {
+    "id": 192,
+    "level": "A1",
+    "level_index": 192,
+    "phrase": "work with sb",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "work with sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 193,
+    "level": "A1",
+    "level_index": 193,
+    "phrase": "would like",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "would like",
+    "pdf_variants": [
+      "I would like…",
+      "I would like to…"
+    ]
+  },
+  {
+    "id": 194,
+    "level": "A1",
+    "level_index": 194,
+    "phrase": "Would you like…?",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "Would you like…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 195,
+    "level": "A1",
+    "level_index": 195,
+    "phrase": "X hours a day",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "X hours a day",
+    "pdf_variants": []
+  },
+  {
+    "id": 196,
+    "level": "A1",
+    "level_index": 196,
+    "phrase": "X times a…",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "X times a…",
+    "pdf_variants": [
+      "X times a day",
+      "X times a week"
+    ]
+  },
+  {
+    "id": 197,
+    "level": "A1",
+    "level_index": 197,
+    "phrase": "X years ago",
+    "pdf_page": 2,
+    "pdf_column": 1,
+    "pdf_text": "X years ago",
+    "pdf_variants": [
+      "X days ago",
+      "X months ago",
+      "X weeks ago"
+    ]
+  },
+  {
+    "id": 198,
+    "level": "A1",
+    "level_index": 198,
+    "phrase": "X years later",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "X years later",
+    "pdf_variants": [
+      "X days later",
+      "X minutes later"
+    ]
+  },
+  {
+    "id": 199,
+    "level": "A1",
+    "level_index": 199,
+    "phrase": "X years old",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "X years old",
+    "pdf_variants": []
+  },
+  {
+    "id": 200,
+    "level": "A1",
+    "level_index": 200,
+    "phrase": "You’re welcome",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "You’re welcome",
+    "pdf_variants": []
+  },
+  {
+    "id": 201,
+    "level": "A2",
+    "level_index": 1,
+    "phrase": "a bit",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "a bit",
+    "pdf_variants": []
+  },
+  {
+    "id": 202,
+    "level": "A2",
+    "level_index": 2,
+    "phrase": "able to do sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "able to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 203,
+    "level": "A2",
+    "level_index": 3,
+    "phrase": "a couple of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "a couple of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 204,
+    "level": "A2",
+    "level_index": 4,
+    "phrase": "add to sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "add to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 205,
+    "level": "A2",
+    "level_index": 5,
+    "phrase": "again and again",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "again and again",
+    "pdf_variants": []
+  },
+  {
+    "id": 206,
+    "level": "A2",
+    "level_index": 6,
+    "phrase": "all about…",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "all about…",
+    "pdf_variants": [
+      "Tell me all about it."
+    ]
+  },
+  {
+    "id": 207,
+    "level": "A2",
+    "level_index": 7,
+    "phrase": "all kinds of…",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "all kinds of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 208,
+    "level": "A2",
+    "level_index": 8,
+    "phrase": "all over…",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "all over…",
+    "pdf_variants": [
+      "all over the world"
+    ]
+  },
+  {
+    "id": 209,
+    "level": "A2",
+    "level_index": 9,
+    "phrase": "all sorts of…",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "all sorts of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 210,
+    "level": "A2",
+    "level_index": 10,
+    "phrase": "all the time",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "all the time",
+    "pdf_variants": []
+  },
+  {
+    "id": 211,
+    "level": "A2",
+    "level_index": 11,
+    "phrase": "a long time ago",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "a long time ago",
+    "pdf_variants": []
+  },
+  {
+    "id": 212,
+    "level": "A2",
+    "level_index": 12,
+    "phrase": "a long way",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "a long way",
+    "pdf_variants": []
+  },
+  {
+    "id": 213,
+    "level": "A2",
+    "level_index": 13,
+    "phrase": "a number of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "a number of sth",
+    "pdf_variants": [
+      "a large number of sth"
+    ]
+  },
+  {
+    "id": 214,
+    "level": "A2",
+    "level_index": 14,
+    "phrase": "apply for sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "apply for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 215,
+    "level": "A2",
+    "level_index": 15,
+    "phrase": "art gallery",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "art gallery",
+    "pdf_variants": []
+  },
+  {
+    "id": 216,
+    "level": "A2",
+    "level_index": 16,
+    "phrase": "as a result",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "as a result",
+    "pdf_variants": [
+      "as a result of sth"
+    ]
+  },
+  {
+    "id": 217,
+    "level": "A2",
+    "level_index": 17,
+    "phrase": "as part of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "as part of sth",
+    "pdf_variants": [
+      "as part of a team"
+    ]
+  },
+  {
+    "id": 218,
+    "level": "A2",
+    "level_index": 18,
+    "phrase": "as soon as",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "as soon as",
+    "pdf_variants": []
+  },
+  {
+    "id": 219,
+    "level": "A2",
+    "level_index": 19,
+    "phrase": "as well",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "as well",
+    "pdf_variants": [
+      "as well as sb/sth"
+    ]
+  },
+  {
+    "id": 220,
+    "level": "A2",
+    "level_index": 20,
+    "phrase": "at first",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at first",
+    "pdf_variants": []
+  },
+  {
+    "id": 221,
+    "level": "A2",
+    "level_index": 21,
+    "phrase": "at least",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at least",
+    "pdf_variants": []
+  },
+  {
+    "id": 222,
+    "level": "A2",
+    "level_index": 22,
+    "phrase": "at the age of…",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at the age of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 223,
+    "level": "A2",
+    "level_index": 23,
+    "phrase": "at the start of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at the start of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 224,
+    "level": "A2",
+    "level_index": 24,
+    "phrase": "at the time",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at the time",
+    "pdf_variants": [
+      "at that time"
+    ]
+  },
+  {
+    "id": 225,
+    "level": "A2",
+    "level_index": 25,
+    "phrase": "at the time of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at the time of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 226,
+    "level": "A2",
+    "level_index": 26,
+    "phrase": "at the top",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "at the top",
+    "pdf_variants": [
+      "at the top of sth"
+    ]
+  },
+  {
+    "id": 227,
+    "level": "A2",
+    "level_index": 27,
+    "phrase": "based on sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "based on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 228,
+    "level": "A2",
+    "level_index": 28,
+    "phrase": "be allowed to do sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "be allowed to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 229,
+    "level": "A2",
+    "level_index": 29,
+    "phrase": "believe in sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "believe in sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 230,
+    "level": "A2",
+    "level_index": 30,
+    "phrase": "belong to sb",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "belong to sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 231,
+    "level": "A2",
+    "level_index": 31,
+    "phrase": "belong to sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "belong to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 232,
+    "level": "A2",
+    "level_index": 32,
+    "phrase": "be made of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "be made of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 233,
+    "level": "A2",
+    "level_index": 33,
+    "phrase": "by the end of sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "by the end of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 234,
+    "level": "A2",
+    "level_index": 34,
+    "phrase": "care about sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "care about sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 235,
+    "level": "A2",
+    "level_index": 35,
+    "phrase": "carry on",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "carry on",
+    "pdf_variants": [
+      "carry on with sth"
+    ]
+  },
+  {
+    "id": 236,
+    "level": "A2",
+    "level_index": 36,
+    "phrase": "carry sth out",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "carry sth out",
+    "pdf_variants": []
+  },
+  {
+    "id": 237,
+    "level": "A2",
+    "level_index": 37,
+    "phrase": "check in",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "check in",
+    "pdf_variants": [
+      "check in at…",
+      "check sth in"
+    ]
+  },
+  {
+    "id": 238,
+    "level": "A2",
+    "level_index": 38,
+    "phrase": "check out",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "check out",
+    "pdf_variants": [
+      "check out of sth"
+    ]
+  },
+  {
+    "id": 239,
+    "level": "A2",
+    "level_index": 39,
+    "phrase": "climate change",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "climate change",
+    "pdf_variants": []
+  },
+  {
+    "id": 240,
+    "level": "A2",
+    "level_index": 40,
+    "phrase": "close to sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "close to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 241,
+    "level": "A2",
+    "level_index": 41,
+    "phrase": "come back",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "come back",
+    "pdf_variants": []
+  },
+  {
+    "id": 242,
+    "level": "A2",
+    "level_index": 42,
+    "phrase": "Come on!",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "Come on!",
+    "pdf_variants": []
+  },
+  {
+    "id": 243,
+    "level": "A2",
+    "level_index": 43,
+    "phrase": "connected to sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "connected to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 244,
+    "level": "A2",
+    "level_index": 44,
+    "phrase": "connected with sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "connected with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 245,
+    "level": "A2",
+    "level_index": 45,
+    "phrase": "credit card",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "credit card",
+    "pdf_variants": []
+  },
+  {
+    "id": 246,
+    "level": "A2",
+    "level_index": 46,
+    "phrase": "deal with sb",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "deal with sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 247,
+    "level": "A2",
+    "level_index": 47,
+    "phrase": "deal with sth",
+    "pdf_page": 2,
+    "pdf_column": 2,
+    "pdf_text": "deal with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 248,
+    "level": "A2",
+    "level_index": 48,
+    "phrase": "depend on sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "depend on sb/sth",
+    "pdf_variants": [
+      "depend on sb/sth for sth"
+    ]
+  },
+  {
+    "id": 249,
+    "level": "A2",
+    "level_index": 49,
+    "phrase": "depend on sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "depend on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 250,
+    "level": "A2",
+    "level_index": 50,
+    "phrase": "do well",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "do well",
+    "pdf_variants": []
+  },
+  {
+    "id": 251,
+    "level": "A2",
+    "level_index": 51,
+    "phrase": "each one",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "each one",
+    "pdf_variants": []
+  },
+  {
+    "id": 252,
+    "level": "A2",
+    "level_index": 52,
+    "phrase": "end with sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "end with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 253,
+    "level": "A2",
+    "level_index": 53,
+    "phrase": "even more…",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "even more…",
+    "pdf_variants": [
+      "even more difficult",
+      "even more exciting"
+    ]
+  },
+  {
+    "id": 254,
+    "level": "A2",
+    "level_index": 54,
+    "phrase": "everyone else",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "everyone else",
+    "pdf_variants": []
+  },
+  {
+    "id": 255,
+    "level": "A2",
+    "level_index": 55,
+    "phrase": "except for",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "except for",
+    "pdf_variants": []
+  },
+  {
+    "id": 256,
+    "level": "A2",
+    "level_index": 56,
+    "phrase": "fall in love",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "fall in love",
+    "pdf_variants": [
+      "fall in love with sb"
+    ]
+  },
+  {
+    "id": 257,
+    "level": "A2",
+    "level_index": 57,
+    "phrase": "fall off",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "fall off",
+    "pdf_variants": [
+      "fall off sth"
+    ]
+  },
+  {
+    "id": 258,
+    "level": "A2",
+    "level_index": 58,
+    "phrase": "far away",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "far away",
+    "pdf_variants": []
+  },
+  {
+    "id": 259,
+    "level": "A2",
+    "level_index": 59,
+    "phrase": "feel good",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "feel good",
+    "pdf_variants": []
+  },
+  {
+    "id": 260,
+    "level": "A2",
+    "level_index": 60,
+    "phrase": "feel like sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "feel like sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 261,
+    "level": "A2",
+    "level_index": 61,
+    "phrase": "fill sth in",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "fill sth in",
+    "pdf_variants": []
+  },
+  {
+    "id": 262,
+    "level": "A2",
+    "level_index": 62,
+    "phrase": "find it difficult to do sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "find it difficult to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 263,
+    "level": "A2",
+    "level_index": 63,
+    "phrase": "first of all",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "first of all",
+    "pdf_variants": []
+  },
+  {
+    "id": 264,
+    "level": "A2",
+    "level_index": 64,
+    "phrase": "focus on sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "focus on sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 265,
+    "level": "A2",
+    "level_index": 65,
+    "phrase": "followed by sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "followed by sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 266,
+    "level": "A2",
+    "level_index": 66,
+    "phrase": "for the rest of sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "for the rest of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 267,
+    "level": "A2",
+    "level_index": 67,
+    "phrase": "for this reason",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "for this reason",
+    "pdf_variants": []
+  },
+  {
+    "id": 268,
+    "level": "A2",
+    "level_index": 68,
+    "phrase": "get back",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "get back",
+    "pdf_variants": []
+  },
+  {
+    "id": 269,
+    "level": "A2",
+    "level_index": 69,
+    "phrase": "get better",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "get better",
+    "pdf_variants": []
+  },
+  {
+    "id": 270,
+    "level": "A2",
+    "level_index": 70,
+    "phrase": "get lost",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "get lost",
+    "pdf_variants": []
+  },
+  {
+    "id": 271,
+    "level": "A2",
+    "level_index": 71,
+    "phrase": "get out",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "get out",
+    "pdf_variants": [
+      "get out of sth"
+    ]
+  },
+  {
+    "id": 272,
+    "level": "A2",
+    "level_index": 72,
+    "phrase": "give up",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "give up",
+    "pdf_variants": []
+  },
+  {
+    "id": 273,
+    "level": "A2",
+    "level_index": 73,
+    "phrase": "give sth up",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "give sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 274,
+    "level": "A2",
+    "level_index": 74,
+    "phrase": "go and…",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go and…",
+    "pdf_variants": [
+      "go and get help"
+    ]
+  },
+  {
+    "id": 275,
+    "level": "A2",
+    "level_index": 75,
+    "phrase": "go away",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go away",
+    "pdf_variants": []
+  },
+  {
+    "id": 276,
+    "level": "A2",
+    "level_index": 76,
+    "phrase": "go down",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go down",
+    "pdf_variants": [
+      "Prices are going down."
+    ]
+  },
+  {
+    "id": 277,
+    "level": "A2",
+    "level_index": 77,
+    "phrase": "go down sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go down sth",
+    "pdf_variants": [
+      "Go down the road."
+    ]
+  },
+  {
+    "id": 278,
+    "level": "A2",
+    "level_index": 78,
+    "phrase": "go for sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go for sth",
+    "pdf_variants": [
+      "go for a walk"
+    ]
+  },
+  {
+    "id": 279,
+    "level": "A2",
+    "level_index": 79,
+    "phrase": "go up",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "go up",
+    "pdf_variants": [
+      "Prices are going up."
+    ]
+  },
+  {
+    "id": 280,
+    "level": "A2",
+    "level_index": 80,
+    "phrase": "good luck",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "good luck",
+    "pdf_variants": []
+  },
+  {
+    "id": 281,
+    "level": "A2",
+    "level_index": 81,
+    "phrase": "happen to sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "happen to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 282,
+    "level": "A2",
+    "level_index": 82,
+    "phrase": "happy with sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "happy with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 283,
+    "level": "A2",
+    "level_index": 83,
+    "phrase": "have a look",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "have a look",
+    "pdf_variants": [
+      "have a look at sth"
+    ]
+  },
+  {
+    "id": 284,
+    "level": "A2",
+    "level_index": 84,
+    "phrase": "have got to",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "have got to",
+    "pdf_variants": []
+  },
+  {
+    "id": 285,
+    "level": "A2",
+    "level_index": 85,
+    "phrase": "Have you ever…?",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "Have you ever…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 286,
+    "level": "A2",
+    "level_index": 86,
+    "phrase": "health problems",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "health problems",
+    "pdf_variants": []
+  },
+  {
+    "id": 287,
+    "level": "A2",
+    "level_index": 87,
+    "phrase": "hear about sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "hear about sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 288,
+    "level": "A2",
+    "level_index": 88,
+    "phrase": "I don’t care",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "I don’t care",
+    "pdf_variants": []
+  },
+  {
+    "id": 289,
+    "level": "A2",
+    "level_index": 89,
+    "phrase": "if necessary",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "if necessary",
+    "pdf_variants": []
+  },
+  {
+    "id": 290,
+    "level": "A2",
+    "level_index": 90,
+    "phrase": "if you want to",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "if you want to",
+    "pdf_variants": []
+  },
+  {
+    "id": 291,
+    "level": "A2",
+    "level_index": 91,
+    "phrase": "I guess",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "I guess",
+    "pdf_variants": []
+  },
+  {
+    "id": 292,
+    "level": "A2",
+    "level_index": 92,
+    "phrase": "I’m afraid…",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "I’m afraid…",
+    "pdf_variants": []
+  },
+  {
+    "id": 293,
+    "level": "A2",
+    "level_index": 93,
+    "phrase": "I mean",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "I mean",
+    "pdf_variants": []
+  },
+  {
+    "id": 294,
+    "level": "A2",
+    "level_index": 94,
+    "phrase": "in business",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in business",
+    "pdf_variants": []
+  },
+  {
+    "id": 295,
+    "level": "A2",
+    "level_index": 95,
+    "phrase": "in danger",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in danger",
+    "pdf_variants": []
+  },
+  {
+    "id": 296,
+    "level": "A2",
+    "level_index": 96,
+    "phrase": "in history",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in history",
+    "pdf_variants": [
+      "the first time in history"
+    ]
+  },
+  {
+    "id": 297,
+    "level": "A2",
+    "level_index": 97,
+    "phrase": "in hospital",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in hospital",
+    "pdf_variants": []
+  },
+  {
+    "id": 298,
+    "level": "A2",
+    "level_index": 98,
+    "phrase": "in love",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in love",
+    "pdf_variants": [
+      "in love with sb"
+    ]
+  },
+  {
+    "id": 299,
+    "level": "A2",
+    "level_index": 99,
+    "phrase": "in prison",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in prison",
+    "pdf_variants": []
+  },
+  {
+    "id": 300,
+    "level": "A2",
+    "level_index": 100,
+    "phrase": "in some cases",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "in some cases",
+    "pdf_variants": []
+  },
+  {
+    "id": 301,
+    "level": "A2",
+    "level_index": 101,
+    "phrase": "instead of",
+    "pdf_page": 2,
+    "pdf_column": 3,
+    "pdf_text": "instead of",
+    "pdf_variants": []
+  },
+  {
+    "id": 302,
+    "level": "A2",
+    "level_index": 102,
+    "phrase": "in the air",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "in the air",
+    "pdf_variants": []
+  },
+  {
+    "id": 303,
+    "level": "A2",
+    "level_index": 103,
+    "phrase": "in the end",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "in the end",
+    "pdf_variants": []
+  },
+  {
+    "id": 304,
+    "level": "A2",
+    "level_index": 104,
+    "phrase": "in the middle",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "in the middle",
+    "pdf_variants": [
+      "in the middle of sth"
+    ]
+  },
+  {
+    "id": 305,
+    "level": "A2",
+    "level_index": 105,
+    "phrase": "in the same way",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "in the same way",
+    "pdf_variants": []
+  },
+  {
+    "id": 306,
+    "level": "A2",
+    "level_index": 106,
+    "phrase": "in this way",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "in this way",
+    "pdf_variants": []
+  },
+  {
+    "id": 307,
+    "level": "A2",
+    "level_index": 107,
+    "phrase": "it depends",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "it depends",
+    "pdf_variants": [
+      "it all depends"
+    ]
+  },
+  {
+    "id": 308,
+    "level": "A2",
+    "level_index": 108,
+    "phrase": "I think so",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "I think so",
+    "pdf_variants": [
+      "I don’t think so"
+    ]
+  },
+  {
+    "id": 309,
+    "level": "A2",
+    "level_index": 109,
+    "phrase": "lead to sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "lead to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 310,
+    "level": "A2",
+    "level_index": 110,
+    "phrase": "less than…",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "less than…",
+    "pdf_variants": []
+  },
+  {
+    "id": 311,
+    "level": "A2",
+    "level_index": 111,
+    "phrase": "Let me…",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "Let me…",
+    "pdf_variants": [
+      "Let me help you."
+    ]
+  },
+  {
+    "id": 312,
+    "level": "A2",
+    "level_index": 112,
+    "phrase": "let me know",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "let me know",
+    "pdf_variants": []
+  },
+  {
+    "id": 313,
+    "level": "A2",
+    "level_index": 113,
+    "phrase": "look after sb/sth/yourself",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "look after sb/sth/yourself",
+    "pdf_variants": []
+  },
+  {
+    "id": 314,
+    "level": "A2",
+    "level_index": 114,
+    "phrase": "look back at sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "look back at sth",
+    "pdf_variants": [
+      "Look back at your notes."
+    ]
+  },
+  {
+    "id": 315,
+    "level": "A2",
+    "level_index": 115,
+    "phrase": "look sth up",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "look sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 316,
+    "level": "A2",
+    "level_index": 116,
+    "phrase": "make a mistake",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "make a mistake",
+    "pdf_variants": []
+  },
+  {
+    "id": 317,
+    "level": "A2",
+    "level_index": 117,
+    "phrase": "make money",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "make money",
+    "pdf_variants": []
+  },
+  {
+    "id": 318,
+    "level": "A2",
+    "level_index": 118,
+    "phrase": "make sense",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "make sense",
+    "pdf_variants": []
+  },
+  {
+    "id": 319,
+    "level": "A2",
+    "level_index": 119,
+    "phrase": "make sure",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "make sure",
+    "pdf_variants": [
+      "make sure of sth",
+      "make sure that…"
+    ]
+  },
+  {
+    "id": 320,
+    "level": "A2",
+    "level_index": 120,
+    "phrase": "much better",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "much better",
+    "pdf_variants": []
+  },
+  {
+    "id": 321,
+    "level": "A2",
+    "level_index": 121,
+    "phrase": "not at all",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "not at all",
+    "pdf_variants": [
+      "I didn’t enjoy it at all."
+    ]
+  },
+  {
+    "id": 322,
+    "level": "A2",
+    "level_index": 122,
+    "phrase": "no way",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "no way",
+    "pdf_variants": [
+      "No way!",
+      "There is no way (that)…"
+    ]
+  },
+  {
+    "id": 323,
+    "level": "A2",
+    "level_index": 123,
+    "phrase": "Oh dear",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "Oh dear",
+    "pdf_variants": []
+  },
+  {
+    "id": 324,
+    "level": "A2",
+    "level_index": 124,
+    "phrase": "Oh well",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "Oh well",
+    "pdf_variants": []
+  },
+  {
+    "id": 325,
+    "level": "A2",
+    "level_index": 125,
+    "phrase": "on earth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on earth",
+    "pdf_variants": []
+  },
+  {
+    "id": 326,
+    "level": "A2",
+    "level_index": 126,
+    "phrase": "on the ground",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on the ground",
+    "pdf_variants": []
+  },
+  {
+    "id": 327,
+    "level": "A2",
+    "level_index": 127,
+    "phrase": "on the other side",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on the other side",
+    "pdf_variants": [
+      "on the other side of sth"
+    ]
+  },
+  {
+    "id": 328,
+    "level": "A2",
+    "level_index": 128,
+    "phrase": "on the wall",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on the wall",
+    "pdf_variants": []
+  },
+  {
+    "id": 329,
+    "level": "A2",
+    "level_index": 129,
+    "phrase": "on time",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on time",
+    "pdf_variants": []
+  },
+  {
+    "id": 330,
+    "level": "A2",
+    "level_index": 130,
+    "phrase": "on top of sth/sb",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "on top of sth/sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 331,
+    "level": "A2",
+    "level_index": 131,
+    "phrase": "one or two",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "one or two",
+    "pdf_variants": []
+  },
+  {
+    "id": 332,
+    "level": "A2",
+    "level_index": 132,
+    "phrase": "ordinary people",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "ordinary people",
+    "pdf_variants": []
+  },
+  {
+    "id": 333,
+    "level": "A2",
+    "level_index": 133,
+    "phrase": "pay attention",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "pay attention",
+    "pdf_variants": [
+      "pay attention to sb/sth"
+    ]
+  },
+  {
+    "id": 334,
+    "level": "A2",
+    "level_index": 134,
+    "phrase": "per hour",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "per hour",
+    "pdf_variants": [
+      "kilometres per hour",
+      "miles per hour"
+    ]
+  },
+  {
+    "id": 335,
+    "level": "A2",
+    "level_index": 135,
+    "phrase": "pick sb/sth up",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "pick sb/sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 336,
+    "level": "A2",
+    "level_index": 136,
+    "phrase": "police officer",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "police officer",
+    "pdf_variants": []
+  },
+  {
+    "id": 337,
+    "level": "A2",
+    "level_index": 137,
+    "phrase": "police station",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "police station",
+    "pdf_variants": []
+  },
+  {
+    "id": 338,
+    "level": "A2",
+    "level_index": 138,
+    "phrase": "public transport",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "public transport",
+    "pdf_variants": []
+  },
+  {
+    "id": 339,
+    "level": "A2",
+    "level_index": 139,
+    "phrase": "put sth on",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "put sth on",
+    "pdf_variants": []
+  },
+  {
+    "id": 340,
+    "level": "A2",
+    "level_index": 140,
+    "phrase": "quite a lot",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "quite a lot",
+    "pdf_variants": [
+      "quite a lot of sth"
+    ]
+  },
+  {
+    "id": 341,
+    "level": "A2",
+    "level_index": 141,
+    "phrase": "reasons why",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "reasons why",
+    "pdf_variants": []
+  },
+  {
+    "id": 342,
+    "level": "A2",
+    "level_index": 142,
+    "phrase": "refer to sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "refer to sb/sth",
+    "pdf_variants": [
+      "refer to sb/sth as sth"
+    ]
+  },
+  {
+    "id": 343,
+    "level": "A2",
+    "level_index": 143,
+    "phrase": "report on sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "report on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 344,
+    "level": "A2",
+    "level_index": 144,
+    "phrase": "respond to sth/sb",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "respond to sth/sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 345,
+    "level": "A2",
+    "level_index": 145,
+    "phrase": "save money",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "save money",
+    "pdf_variants": []
+  },
+  {
+    "id": 346,
+    "level": "A2",
+    "level_index": 146,
+    "phrase": "science fiction",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "science fiction",
+    "pdf_variants": []
+  },
+  {
+    "id": 347,
+    "level": "A2",
+    "level_index": 147,
+    "phrase": "search for sth/sb",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "search for sth/sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 348,
+    "level": "A2",
+    "level_index": 148,
+    "phrase": "so that…",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "so that…",
+    "pdf_variants": []
+  },
+  {
+    "id": 349,
+    "level": "A2",
+    "level_index": 149,
+    "phrase": "solution to sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "solution to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 350,
+    "level": "A2",
+    "level_index": 150,
+    "phrase": "sort of sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "sort of sth",
+    "pdf_variants": [
+      "What sorts of things do you do?"
+    ]
+  },
+  {
+    "id": 351,
+    "level": "A2",
+    "level_index": 151,
+    "phrase": "sound like sb/sth",
+    "pdf_page": 2,
+    "pdf_column": 4,
+    "pdf_text": "sound like sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 352,
+    "level": "A2",
+    "level_index": 152,
+    "phrase": "start with sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "start with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 353,
+    "level": "A2",
+    "level_index": 153,
+    "phrase": "such a/an…",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "such a/an…",
+    "pdf_variants": [
+      "such a good idea"
+    ]
+  },
+  {
+    "id": 354,
+    "level": "A2",
+    "level_index": 154,
+    "phrase": "take care of sb/sth/yourself",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "take care of sb/sth/yourself",
+    "pdf_variants": []
+  },
+  {
+    "id": 355,
+    "level": "A2",
+    "level_index": 155,
+    "phrase": "take off",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "take off",
+    "pdf_variants": []
+  },
+  {
+    "id": 356,
+    "level": "A2",
+    "level_index": 156,
+    "phrase": "take sth off",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "take sth off",
+    "pdf_variants": []
+  },
+  {
+    "id": 357,
+    "level": "A2",
+    "level_index": 157,
+    "phrase": "take part",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "take part",
+    "pdf_variants": [
+      "take part in sth"
+    ]
+  },
+  {
+    "id": 358,
+    "level": "A2",
+    "level_index": 158,
+    "phrase": "take place",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "take place",
+    "pdf_variants": []
+  },
+  {
+    "id": 359,
+    "level": "A2",
+    "level_index": 159,
+    "phrase": "the best thing",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the best thing",
+    "pdf_variants": [
+      "the best thing to do"
+    ]
+  },
+  {
+    "id": 360,
+    "level": "A2",
+    "level_index": 160,
+    "phrase": "the first thing",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the first thing",
+    "pdf_variants": [
+      "the first thing I did"
+    ]
+  },
+  {
+    "id": 361,
+    "level": "A2",
+    "level_index": 161,
+    "phrase": "the following…",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the following…",
+    "pdf_variants": [
+      "the following day"
+    ]
+  },
+  {
+    "id": 362,
+    "level": "A2",
+    "level_index": 162,
+    "phrase": "the important thing",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the important thing",
+    "pdf_variants": [
+      "the most important thing"
+    ]
+  },
+  {
+    "id": 363,
+    "level": "A2",
+    "level_index": 163,
+    "phrase": "the other side of sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the other side of sth",
+    "pdf_variants": [
+      "the other side of the world"
+    ]
+  },
+  {
+    "id": 364,
+    "level": "A2",
+    "level_index": 164,
+    "phrase": "the rest of sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "the rest of sth",
+    "pdf_variants": [
+      "the rest of the world"
+    ]
+  },
+  {
+    "id": 365,
+    "level": "A2",
+    "level_index": 165,
+    "phrase": "these days",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "these days",
+    "pdf_variants": []
+  },
+  {
+    "id": 366,
+    "level": "A2",
+    "level_index": 166,
+    "phrase": "they say…",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "they say…",
+    "pdf_variants": [
+      "They say you can’t buy happiness."
+    ]
+  },
+  {
+    "id": 367,
+    "level": "A2",
+    "level_index": 167,
+    "phrase": "throw sth away",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "throw sth away",
+    "pdf_variants": []
+  },
+  {
+    "id": 368,
+    "level": "A2",
+    "level_index": 168,
+    "phrase": "turn sth off",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "turn sth off",
+    "pdf_variants": []
+  },
+  {
+    "id": 369,
+    "level": "A2",
+    "level_index": 169,
+    "phrase": "turn sth on",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "turn sth on",
+    "pdf_variants": []
+  },
+  {
+    "id": 370,
+    "level": "A2",
+    "level_index": 170,
+    "phrase": "up and down",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "up and down",
+    "pdf_variants": []
+  },
+  {
+    "id": 371,
+    "level": "A2",
+    "level_index": 171,
+    "phrase": "Why not…?",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "Why not…?",
+    "pdf_variants": []
+  },
+  {
+    "id": 372,
+    "level": "A2",
+    "level_index": 172,
+    "phrase": "work out",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "work out",
+    "pdf_variants": []
+  },
+  {
+    "id": 373,
+    "level": "A2",
+    "level_index": 173,
+    "phrase": "worried about sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "worried about sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 374,
+    "level": "A2",
+    "level_index": 174,
+    "phrase": "would love to do sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "would love to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 375,
+    "level": "A2",
+    "level_index": 175,
+    "phrase": "write sth down",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "write sth down",
+    "pdf_variants": []
+  },
+  {
+    "id": 376,
+    "level": "B1",
+    "level_index": 1,
+    "phrase": "a bit more",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a bit more",
+    "pdf_variants": []
+  },
+  {
+    "id": 377,
+    "level": "B1",
+    "level_index": 2,
+    "phrase": "a bit of sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a bit of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 378,
+    "level": "B1",
+    "level_index": 3,
+    "phrase": "access to sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "access to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 379,
+    "level": "B1",
+    "level_index": 4,
+    "phrase": "after all",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "after all",
+    "pdf_variants": []
+  },
+  {
+    "id": 380,
+    "level": "B1",
+    "level_index": 5,
+    "phrase": "a great deal",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a great deal",
+    "pdf_variants": [
+      "a great deal better",
+      "a great deal of sth"
+    ]
+  },
+  {
+    "id": 381,
+    "level": "B1",
+    "level_index": 6,
+    "phrase": "aim to do sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "aim to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 382,
+    "level": "B1",
+    "level_index": 7,
+    "phrase": "a kind of…",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a kind of…",
+    "pdf_variants": [
+      "I had a kind of feeling this might happen."
+    ]
+  },
+  {
+    "id": 383,
+    "level": "B1",
+    "level_index": 8,
+    "phrase": "a little bit",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a little bit",
+    "pdf_variants": []
+  },
+  {
+    "id": 384,
+    "level": "B1",
+    "level_index": 9,
+    "phrase": "a little more",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a little more",
+    "pdf_variants": []
+  },
+  {
+    "id": 385,
+    "level": "B1",
+    "level_index": 10,
+    "phrase": "along with sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "along with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 386,
+    "level": "B1",
+    "level_index": 11,
+    "phrase": "a lot more",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a lot more",
+    "pdf_variants": []
+  },
+  {
+    "id": 387,
+    "level": "B1",
+    "level_index": 12,
+    "phrase": "alternative to sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "alternative to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 388,
+    "level": "B1",
+    "level_index": 13,
+    "phrase": "and so on",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "and so on",
+    "pdf_variants": []
+  },
+  {
+    "id": 389,
+    "level": "B1",
+    "level_index": 14,
+    "phrase": "apart from",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "apart from",
+    "pdf_variants": []
+  },
+  {
+    "id": 390,
+    "level": "B1",
+    "level_index": 15,
+    "phrase": "a range of sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a range of sth",
+    "pdf_variants": [
+      "a wide range of sth"
+    ]
+  },
+  {
+    "id": 391,
+    "level": "B1",
+    "level_index": 16,
+    "phrase": "as if…",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "as if…",
+    "pdf_variants": [
+      "as if nothing had happened"
+    ]
+  },
+  {
+    "id": 392,
+    "level": "B1",
+    "level_index": 17,
+    "phrase": "as much as",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "as much as",
+    "pdf_variants": []
+  },
+  {
+    "id": 393,
+    "level": "B1",
+    "level_index": 18,
+    "phrase": "as soon as possible",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "as soon as possible",
+    "pdf_variants": []
+  },
+  {
+    "id": 394,
+    "level": "B1",
+    "level_index": 19,
+    "phrase": "at last",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "at last",
+    "pdf_variants": []
+  },
+  {
+    "id": 395,
+    "level": "B1",
+    "level_index": 20,
+    "phrase": "at risk",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "at risk",
+    "pdf_variants": []
+  },
+  {
+    "id": 396,
+    "level": "B1",
+    "level_index": 21,
+    "phrase": "at times",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "at times",
+    "pdf_variants": []
+  },
+  {
+    "id": 397,
+    "level": "B1",
+    "level_index": 22,
+    "phrase": "attached to sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "attached to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 398,
+    "level": "B1",
+    "level_index": 23,
+    "phrase": "a variety of sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "a variety of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 399,
+    "level": "B1",
+    "level_index": 24,
+    "phrase": "be about to do sth",
+    "pdf_page": 3,
+    "pdf_column": 1,
+    "pdf_text": "be about to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 400,
+    "level": "B1",
+    "level_index": 25,
+    "phrase": "be going on",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "be going on",
+    "pdf_variants": [
+      "What’s going on?"
+    ]
+  },
+  {
+    "id": 401,
+    "level": "B1",
+    "level_index": 26,
+    "phrase": "be known as sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "be known as sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 402,
+    "level": "B1",
+    "level_index": 27,
+    "phrase": "benefit from sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "benefit from sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 403,
+    "level": "B1",
+    "level_index": 28,
+    "phrase": "be supposed to do sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "be supposed to do sth",
+    "pdf_variants": [
+      "be supposed to be sth"
+    ]
+  },
+  {
+    "id": 404,
+    "level": "B1",
+    "level_index": 29,
+    "phrase": "break up",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "break up",
+    "pdf_variants": [
+      "break up with sb"
+    ]
+  },
+  {
+    "id": 405,
+    "level": "B1",
+    "level_index": 30,
+    "phrase": "by the time (that)…",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "by the time (that)…",
+    "pdf_variants": []
+  },
+  {
+    "id": 406,
+    "level": "B1",
+    "level_index": 31,
+    "phrase": "can’t afford sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "can’t afford sth",
+    "pdf_variants": [
+      "can’t afford to do sth"
+    ]
+  },
+  {
+    "id": 407,
+    "level": "B1",
+    "level_index": 32,
+    "phrase": "care for sb",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "care for sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 408,
+    "level": "B1",
+    "level_index": 33,
+    "phrase": "caused by sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "caused by sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 409,
+    "level": "B1",
+    "level_index": 34,
+    "phrase": "check sb/sth out",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "check sb/sth out",
+    "pdf_variants": []
+  },
+  {
+    "id": 410,
+    "level": "B1",
+    "level_index": 35,
+    "phrase": "choose to do sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "choose to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 411,
+    "level": "B1",
+    "level_index": 36,
+    "phrase": "clean up",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "clean up",
+    "pdf_variants": [
+      "clean sth up"
+    ]
+  },
+  {
+    "id": 412,
+    "level": "B1",
+    "level_index": 37,
+    "phrase": "click on sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "click on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 413,
+    "level": "B1",
+    "level_index": 38,
+    "phrase": "come up with sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "come up with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 414,
+    "level": "B1",
+    "level_index": 39,
+    "phrase": "compared with sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "compared with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 415,
+    "level": "B1",
+    "level_index": 40,
+    "phrase": "concentrate on sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "concentrate on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 416,
+    "level": "B1",
+    "level_index": 41,
+    "phrase": "consist of sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "consist of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 417,
+    "level": "B1",
+    "level_index": 42,
+    "phrase": "decide on sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "decide on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 418,
+    "level": "B1",
+    "level_index": 43,
+    "phrase": "depending on",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "depending on",
+    "pdf_variants": []
+  },
+  {
+    "id": 419,
+    "level": "B1",
+    "level_index": 44,
+    "phrase": "developing countries",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "developing countries",
+    "pdf_variants": []
+  },
+  {
+    "id": 420,
+    "level": "B1",
+    "level_index": 45,
+    "phrase": "due to sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "due to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 421,
+    "level": "B1",
+    "level_index": 46,
+    "phrase": "economic growth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "economic growth",
+    "pdf_variants": []
+  },
+  {
+    "id": 422,
+    "level": "B1",
+    "level_index": 47,
+    "phrase": "end up",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "end up",
+    "pdf_variants": []
+  },
+  {
+    "id": 423,
+    "level": "B1",
+    "level_index": 48,
+    "phrase": "even if",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "even if",
+    "pdf_variants": []
+  },
+  {
+    "id": 424,
+    "level": "B1",
+    "level_index": 49,
+    "phrase": "even though",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "even though",
+    "pdf_variants": []
+  },
+  {
+    "id": 425,
+    "level": "B1",
+    "level_index": 50,
+    "phrase": "exactly the same",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "exactly the same",
+    "pdf_variants": []
+  },
+  {
+    "id": 426,
+    "level": "B1",
+    "level_index": 51,
+    "phrase": "experience in sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "experience in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 427,
+    "level": "B1",
+    "level_index": 52,
+    "phrase": "fail to do sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "fail to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 428,
+    "level": "B1",
+    "level_index": 53,
+    "phrase": "fall asleep",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "fall asleep",
+    "pdf_variants": []
+  },
+  {
+    "id": 429,
+    "level": "B1",
+    "level_index": 54,
+    "phrase": "far more",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "far more",
+    "pdf_variants": [
+      "far more important",
+      "far more opportunities"
+    ]
+  },
+  {
+    "id": 430,
+    "level": "B1",
+    "level_index": 55,
+    "phrase": "far too",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "far too",
+    "pdf_variants": [
+      "far too much homework"
+    ]
+  },
+  {
+    "id": 431,
+    "level": "B1",
+    "level_index": 56,
+    "phrase": "fed up",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "fed up",
+    "pdf_variants": []
+  },
+  {
+    "id": 432,
+    "level": "B1",
+    "level_index": 57,
+    "phrase": "for a while",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for a while",
+    "pdf_variants": []
+  },
+  {
+    "id": 433,
+    "level": "B1",
+    "level_index": 58,
+    "phrase": "for free",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for free",
+    "pdf_variants": []
+  },
+  {
+    "id": 434,
+    "level": "B1",
+    "level_index": 59,
+    "phrase": "for instance",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for instance",
+    "pdf_variants": []
+  },
+  {
+    "id": 435,
+    "level": "B1",
+    "level_index": 60,
+    "phrase": "for life",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for life",
+    "pdf_variants": [
+      "a job for life"
+    ]
+  },
+  {
+    "id": 436,
+    "level": "B1",
+    "level_index": 61,
+    "phrase": "for long",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for long",
+    "pdf_variants": []
+  },
+  {
+    "id": 437,
+    "level": "B1",
+    "level_index": 62,
+    "phrase": "for some time",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "for some time",
+    "pdf_variants": []
+  },
+  {
+    "id": 438,
+    "level": "B1",
+    "level_index": 63,
+    "phrase": "get on with sb",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "get on with sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 439,
+    "level": "B1",
+    "level_index": 64,
+    "phrase": "get to know sb",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "get to know sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 440,
+    "level": "B1",
+    "level_index": 65,
+    "phrase": "get used to sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "get used to sth",
+    "pdf_variants": [
+      "get used to doing sth"
+    ]
+  },
+  {
+    "id": 441,
+    "level": "B1",
+    "level_index": 66,
+    "phrase": "global warming",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "global warming",
+    "pdf_variants": []
+  },
+  {
+    "id": 442,
+    "level": "B1",
+    "level_index": 67,
+    "phrase": "go ahead",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "go ahead",
+    "pdf_variants": [
+      "go ahead with sth"
+    ]
+  },
+  {
+    "id": 443,
+    "level": "B1",
+    "level_index": 68,
+    "phrase": "go wrong",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "go wrong",
+    "pdf_variants": []
+  },
+  {
+    "id": 444,
+    "level": "B1",
+    "level_index": 69,
+    "phrase": "growth in sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "growth in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 445,
+    "level": "B1",
+    "level_index": 70,
+    "phrase": "have no idea",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "have no idea",
+    "pdf_variants": []
+  },
+  {
+    "id": 446,
+    "level": "B1",
+    "level_index": 71,
+    "phrase": "have sth in common",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "have sth in common",
+    "pdf_variants": [
+      "have sth in common with sb",
+      "have sth in common with sth"
+    ]
+  },
+  {
+    "id": 447,
+    "level": "B1",
+    "level_index": 72,
+    "phrase": "hear of sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "hear of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 448,
+    "level": "B1",
+    "level_index": 73,
+    "phrase": "heart disease",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "heart disease",
+    "pdf_variants": []
+  },
+  {
+    "id": 449,
+    "level": "B1",
+    "level_index": 74,
+    "phrase": "high street",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "high street",
+    "pdf_variants": []
+  },
+  {
+    "id": 450,
+    "level": "B1",
+    "level_index": 75,
+    "phrase": "higher education",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "higher education",
+    "pdf_variants": []
+  },
+  {
+    "id": 451,
+    "level": "B1",
+    "level_index": 76,
+    "phrase": "if I were you",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "if I were you",
+    "pdf_variants": []
+  },
+  {
+    "id": 452,
+    "level": "B1",
+    "level_index": 77,
+    "phrase": "in addition",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "in addition",
+    "pdf_variants": [
+      "in addition to sb/sth"
+    ]
+  },
+  {
+    "id": 453,
+    "level": "B1",
+    "level_index": 78,
+    "phrase": "in a way that...",
+    "pdf_page": 3,
+    "pdf_column": 2,
+    "pdf_text": "in a way that...",
+    "pdf_variants": []
+  },
+  {
+    "id": 454,
+    "level": "B1",
+    "level_index": 79,
+    "phrase": "in case…",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in case…",
+    "pdf_variants": [
+      "just in case…"
+    ]
+  },
+  {
+    "id": 455,
+    "level": "B1",
+    "level_index": 80,
+    "phrase": "in charge of sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in charge of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 456,
+    "level": "B1",
+    "level_index": 81,
+    "phrase": "in contrast",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in contrast",
+    "pdf_variants": [
+      "in contrast to sb/sth"
+    ]
+  },
+  {
+    "id": 457,
+    "level": "B1",
+    "level_index": 82,
+    "phrase": "in favour of sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in favour of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 458,
+    "level": "B1",
+    "level_index": 83,
+    "phrase": "in general",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in general",
+    "pdf_variants": []
+  },
+  {
+    "id": 459,
+    "level": "B1",
+    "level_index": 84,
+    "phrase": "in order of sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in order of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 460,
+    "level": "B1",
+    "level_index": 85,
+    "phrase": "in order to do sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in order to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 461,
+    "level": "B1",
+    "level_index": 86,
+    "phrase": "in other words",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in other words",
+    "pdf_variants": []
+  },
+  {
+    "id": 462,
+    "level": "B1",
+    "level_index": 87,
+    "phrase": "in particular",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in particular",
+    "pdf_variants": []
+  },
+  {
+    "id": 463,
+    "level": "B1",
+    "level_index": 88,
+    "phrase": "in public",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in public",
+    "pdf_variants": []
+  },
+  {
+    "id": 464,
+    "level": "B1",
+    "level_index": 89,
+    "phrase": "in recent years",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in recent years",
+    "pdf_variants": []
+  },
+  {
+    "id": 465,
+    "level": "B1",
+    "level_index": 90,
+    "phrase": "in response to sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in response to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 466,
+    "level": "B1",
+    "level_index": 91,
+    "phrase": "in terms of sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in terms of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 467,
+    "level": "B1",
+    "level_index": 92,
+    "phrase": "in the case of sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in the case of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 468,
+    "level": "B1",
+    "level_index": 93,
+    "phrase": "in the form of sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in the form of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 469,
+    "level": "B1",
+    "level_index": 94,
+    "phrase": "in the way (that)…",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in the way (that)…",
+    "pdf_variants": []
+  },
+  {
+    "id": 470,
+    "level": "B1",
+    "level_index": 95,
+    "phrase": "in this case",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in this case",
+    "pdf_variants": []
+  },
+  {
+    "id": 471,
+    "level": "B1",
+    "level_index": 96,
+    "phrase": "in time",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in time",
+    "pdf_variants": [
+      "in time for sth",
+      "in time to do sth"
+    ]
+  },
+  {
+    "id": 472,
+    "level": "B1",
+    "level_index": 97,
+    "phrase": "in touch",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "in touch",
+    "pdf_variants": [
+      "be in touch",
+      "get in touch",
+      "keep in touch",
+      "in touch with sb"
+    ]
+  },
+  {
+    "id": 473,
+    "level": "B1",
+    "level_index": 98,
+    "phrase": "I wonder if…",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "I wonder if…",
+    "pdf_variants": []
+  },
+  {
+    "id": 474,
+    "level": "B1",
+    "level_index": 99,
+    "phrase": "leave sb/sth out",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "leave sb/sth out",
+    "pdf_variants": []
+  },
+  {
+    "id": 475,
+    "level": "B1",
+    "level_index": 100,
+    "phrase": "likely to do sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "likely to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 476,
+    "level": "B1",
+    "level_index": 101,
+    "phrase": "look forward to sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "look forward to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 477,
+    "level": "B1",
+    "level_index": 102,
+    "phrase": "look out",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "look out",
+    "pdf_variants": []
+  },
+  {
+    "id": 478,
+    "level": "B1",
+    "level_index": 103,
+    "phrase": "make a difference",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "make a difference",
+    "pdf_variants": []
+  },
+  {
+    "id": 479,
+    "level": "B1",
+    "level_index": 104,
+    "phrase": "make sth up",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "make sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 480,
+    "level": "B1",
+    "level_index": 105,
+    "phrase": "manage to do sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "manage to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 481,
+    "level": "B1",
+    "level_index": 106,
+    "phrase": "mean to do sth",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "mean to do sth",
+    "pdf_variants": [
+      "I didn’t mean to."
+    ]
+  },
+  {
+    "id": 482,
+    "level": "B1",
+    "level_index": 107,
+    "phrase": "more and more",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "more and more",
+    "pdf_variants": []
+  },
+  {
+    "id": 483,
+    "level": "B1",
+    "level_index": 108,
+    "phrase": "move on",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "move on",
+    "pdf_variants": [
+      "move on to sth"
+    ]
+  },
+  {
+    "id": 484,
+    "level": "B1",
+    "level_index": 109,
+    "phrase": "no longer",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "no longer",
+    "pdf_variants": [
+      "not any longer"
+    ]
+  },
+  {
+    "id": 485,
+    "level": "B1",
+    "level_index": 110,
+    "phrase": "no more than…",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "no more than…",
+    "pdf_variants": []
+  },
+  {
+    "id": 486,
+    "level": "B1",
+    "level_index": 111,
+    "phrase": "not even",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "not even",
+    "pdf_variants": [
+      "I didn’t even see it."
+    ]
+  },
+  {
+    "id": 487,
+    "level": "B1",
+    "level_index": 112,
+    "phrase": "not necessarily",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "not necessarily",
+    "pdf_variants": []
+  },
+  {
+    "id": 488,
+    "level": "B1",
+    "level_index": 113,
+    "phrase": "not only",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "not only",
+    "pdf_variants": [
+      "not only… but also…"
+    ]
+  },
+  {
+    "id": 489,
+    "level": "B1",
+    "level_index": 114,
+    "phrase": "on a regular basis",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "on a regular basis",
+    "pdf_variants": []
+  },
+  {
+    "id": 490,
+    "level": "B1",
+    "level_index": 115,
+    "phrase": "on my own",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "on my own",
+    "pdf_variants": [
+      "on their own",
+      "on your own"
+    ]
+  },
+  {
+    "id": 491,
+    "level": "B1",
+    "level_index": 116,
+    "phrase": "on the other hand",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "on the other hand",
+    "pdf_variants": []
+  },
+  {
+    "id": 492,
+    "level": "B1",
+    "level_index": 117,
+    "phrase": "on the street",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "on the street",
+    "pdf_variants": [
+      "on the streets"
+    ]
+  },
+  {
+    "id": 493,
+    "level": "B1",
+    "level_index": 118,
+    "phrase": "on the way",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "on the way",
+    "pdf_variants": []
+  },
+  {
+    "id": 494,
+    "level": "B1",
+    "level_index": 119,
+    "phrase": "or something",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "or something",
+    "pdf_variants": [
+      "or somebody",
+      "or somewhere"
+    ]
+  },
+  {
+    "id": 495,
+    "level": "B1",
+    "level_index": 120,
+    "phrase": "or two",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "or two",
+    "pdf_variants": [
+      "a day or two",
+      "a moment or two",
+      "a pound or two"
+    ]
+  },
+  {
+    "id": 496,
+    "level": "B1",
+    "level_index": 121,
+    "phrase": "ought to",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "ought to",
+    "pdf_variants": []
+  },
+  {
+    "id": 497,
+    "level": "B1",
+    "level_index": 122,
+    "phrase": "out there",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "out there",
+    "pdf_variants": []
+  },
+  {
+    "id": 498,
+    "level": "B1",
+    "level_index": 123,
+    "phrase": "over the years",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "over the years",
+    "pdf_variants": []
+  },
+  {
+    "id": 499,
+    "level": "B1",
+    "level_index": 124,
+    "phrase": "over time",
+    "pdf_page": 3,
+    "pdf_column": 3,
+    "pdf_text": "over time",
+    "pdf_variants": []
+  },
+  {
+    "id": 500,
+    "level": "B1",
+    "level_index": 125,
+    "phrase": "participate in sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "participate in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 501,
+    "level": "B1",
+    "level_index": 126,
+    "phrase": "point of view",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "point of view",
+    "pdf_variants": []
+  },
+  {
+    "id": 502,
+    "level": "B1",
+    "level_index": 127,
+    "phrase": "point out",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "point out",
+    "pdf_variants": [
+      "point sth out",
+      "point out that…"
+    ]
+  },
+  {
+    "id": 503,
+    "level": "B1",
+    "level_index": 128,
+    "phrase": "prepared to do sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "prepared to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 504,
+    "level": "B1",
+    "level_index": 129,
+    "phrase": "primary school",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "primary school",
+    "pdf_variants": []
+  },
+  {
+    "id": 505,
+    "level": "B1",
+    "level_index": 130,
+    "phrase": "prime minister",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "prime minister",
+    "pdf_variants": []
+  },
+  {
+    "id": 506,
+    "level": "B1",
+    "level_index": 131,
+    "phrase": "put sth up",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "put sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 507,
+    "level": "B1",
+    "level_index": 132,
+    "phrase": "quite a…",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "quite a…",
+    "pdf_variants": [
+      "quite a good player",
+      "quite a long time"
+    ]
+  },
+  {
+    "id": 508,
+    "level": "B1",
+    "level_index": 133,
+    "phrase": "raise money",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "raise money",
+    "pdf_variants": [
+      "raise money for sth"
+    ]
+  },
+  {
+    "id": 509,
+    "level": "B1",
+    "level_index": 134,
+    "phrase": "rather than",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "rather than",
+    "pdf_variants": []
+  },
+  {
+    "id": 510,
+    "level": "B1",
+    "level_index": 135,
+    "phrase": "reaction to sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "reaction to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 511,
+    "level": "B1",
+    "level_index": 136,
+    "phrase": "relate to sth/sb",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "relate to sth/sb",
+    "pdf_variants": [
+      "relating to sth/sb"
+    ]
+  },
+  {
+    "id": 512,
+    "level": "B1",
+    "level_index": 137,
+    "phrase": "related to sth/sb",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "related to sth/sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 513,
+    "level": "B1",
+    "level_index": 138,
+    "phrase": "respect for sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "respect for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 514,
+    "level": "B1",
+    "level_index": 139,
+    "phrase": "result in sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "result in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 515,
+    "level": "B1",
+    "level_index": 140,
+    "phrase": "rise in sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "rise in sth",
+    "pdf_variants": [
+      "a rise in the number of visitors"
+    ]
+  },
+  {
+    "id": 516,
+    "level": "B1",
+    "level_index": 141,
+    "phrase": "run out",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "run out",
+    "pdf_variants": []
+  },
+  {
+    "id": 517,
+    "level": "B1",
+    "level_index": 142,
+    "phrase": "run out of sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "run out of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 518,
+    "level": "B1",
+    "level_index": 143,
+    "phrase": "search engine",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "search engine",
+    "pdf_variants": []
+  },
+  {
+    "id": 519,
+    "level": "B1",
+    "level_index": 144,
+    "phrase": "secondary school",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "secondary school",
+    "pdf_variants": []
+  },
+  {
+    "id": 520,
+    "level": "B1",
+    "level_index": 145,
+    "phrase": "set sth up",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "set sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 521,
+    "level": "B1",
+    "level_index": 146,
+    "phrase": "slow down",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "slow down",
+    "pdf_variants": []
+  },
+  {
+    "id": 522,
+    "level": "B1",
+    "level_index": 147,
+    "phrase": "so far",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "so far",
+    "pdf_variants": []
+  },
+  {
+    "id": 523,
+    "level": "B1",
+    "level_index": 148,
+    "phrase": "some kind of…",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "some kind of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 524,
+    "level": "B1",
+    "level_index": 149,
+    "phrase": "succeed in doing sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "succeed in doing sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 525,
+    "level": "B1",
+    "level_index": 150,
+    "phrase": "suffer from sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "suffer from sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 526,
+    "level": "B1",
+    "level_index": 151,
+    "phrase": "sure to do sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "sure to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 527,
+    "level": "B1",
+    "level_index": 152,
+    "phrase": "take sb/sth on",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "take sb/sth on",
+    "pdf_variants": []
+  },
+  {
+    "id": 528,
+    "level": "B1",
+    "level_index": 153,
+    "phrase": "take up sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "take up sth",
+    "pdf_variants": [
+      "take up too much room"
+    ]
+  },
+  {
+    "id": 529,
+    "level": "B1",
+    "level_index": 154,
+    "phrase": "take sth up",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "take sth up",
+    "pdf_variants": [
+      "take up golf"
+    ]
+  },
+  {
+    "id": 530,
+    "level": "B1",
+    "level_index": 155,
+    "phrase": "tell the truth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "tell the truth",
+    "pdf_variants": []
+  },
+  {
+    "id": 531,
+    "level": "B1",
+    "level_index": 156,
+    "phrase": "tend to do sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "tend to do sth",
+    "pdf_variants": [
+      "tend to be sth"
+    ]
+  },
+  {
+    "id": 532,
+    "level": "B1",
+    "level_index": 157,
+    "phrase": "thanks to sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "thanks to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 533,
+    "level": "B1",
+    "level_index": 158,
+    "phrase": "that’s it",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "that’s it",
+    "pdf_variants": []
+  },
+  {
+    "id": 534,
+    "level": "B1",
+    "level_index": 159,
+    "phrase": "the case",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "the case",
+    "pdf_variants": [
+      "be the case that…"
+    ]
+  },
+  {
+    "id": 535,
+    "level": "B1",
+    "level_index": 160,
+    "phrase": "the fact that…",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "the fact that…",
+    "pdf_variants": []
+  },
+  {
+    "id": 536,
+    "level": "B1",
+    "level_index": 161,
+    "phrase": "those who…",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "those who…",
+    "pdf_variants": [
+      "There are those who say…"
+    ]
+  },
+  {
+    "id": 537,
+    "level": "B1",
+    "level_index": 162,
+    "phrase": "to do with sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "to do with sb/sth",
+    "pdf_variants": [
+      "be to do with sb/sth",
+      "have to do with sb/sth"
+    ]
+  },
+  {
+    "id": 538,
+    "level": "B1",
+    "level_index": 163,
+    "phrase": "together with",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "together with",
+    "pdf_variants": []
+  },
+  {
+    "id": 539,
+    "level": "B1",
+    "level_index": 164,
+    "phrase": "too bad",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "too bad",
+    "pdf_variants": []
+  },
+  {
+    "id": 540,
+    "level": "B1",
+    "level_index": 165,
+    "phrase": "try and…",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "try and…",
+    "pdf_variants": []
+  },
+  {
+    "id": 541,
+    "level": "B1",
+    "level_index": 166,
+    "phrase": "turn out",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "turn out",
+    "pdf_variants": [
+      "turn out to be sth"
+    ]
+  },
+  {
+    "id": 542,
+    "level": "B1",
+    "level_index": 167,
+    "phrase": "turn sth up",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "turn sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 543,
+    "level": "B1",
+    "level_index": 168,
+    "phrase": "unable to do sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "unable to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 544,
+    "level": "B1",
+    "level_index": 169,
+    "phrase": "up to sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "up to sth",
+    "pdf_variants": [
+      "up to 60 miles per hour"
+    ]
+  },
+  {
+    "id": 545,
+    "level": "B1",
+    "level_index": 170,
+    "phrase": "way of life",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "way of life",
+    "pdf_variants": []
+  },
+  {
+    "id": 546,
+    "level": "B1",
+    "level_index": 171,
+    "phrase": "well known",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "well known",
+    "pdf_variants": []
+  },
+  {
+    "id": 547,
+    "level": "B1",
+    "level_index": 172,
+    "phrase": "work on sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "work on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 548,
+    "level": "B1",
+    "level_index": 173,
+    "phrase": "work sth out",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "work sth out",
+    "pdf_variants": []
+  },
+  {
+    "id": 549,
+    "level": "B1",
+    "level_index": 174,
+    "phrase": "wrong with sb/sth",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "wrong with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 550,
+    "level": "B1",
+    "level_index": 175,
+    "phrase": "you see",
+    "pdf_page": 3,
+    "pdf_column": 4,
+    "pdf_text": "you see",
+    "pdf_variants": []
+  },
+  {
+    "id": 551,
+    "level": "B2",
+    "level_index": 1,
+    "phrase": "a bit of a…",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "a bit of a…",
+    "pdf_variants": []
+  },
+  {
+    "id": 552,
+    "level": "B2",
+    "level_index": 2,
+    "phrase": "account for sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "account for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 553,
+    "level": "B2",
+    "level_index": 3,
+    "phrase": "accused of sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "accused of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 554,
+    "level": "B2",
+    "level_index": 4,
+    "phrase": "act as sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "act as sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 555,
+    "level": "B2",
+    "level_index": 5,
+    "phrase": "aimed at sb",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "aimed at sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 556,
+    "level": "B2",
+    "level_index": 6,
+    "phrase": "aimed at doing sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "aimed at doing sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 557,
+    "level": "B2",
+    "level_index": 7,
+    "phrase": "all the way",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "all the way",
+    "pdf_variants": []
+  },
+  {
+    "id": 558,
+    "level": "B2",
+    "level_index": 8,
+    "phrase": "a means of sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "a means of sth",
+    "pdf_variants": [
+      "a means of communication",
+      "a means of transport"
+    ]
+  },
+  {
+    "id": 559,
+    "level": "B2",
+    "level_index": 9,
+    "phrase": "appeal to sb",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "appeal to sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 560,
+    "level": "B2",
+    "level_index": 10,
+    "phrase": "apply to sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "apply to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 561,
+    "level": "B2",
+    "level_index": 11,
+    "phrase": "as a whole",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as a whole",
+    "pdf_variants": []
+  },
+  {
+    "id": 562,
+    "level": "B2",
+    "level_index": 12,
+    "phrase": "as far as I am concerned",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as far as I am concerned",
+    "pdf_variants": []
+  },
+  {
+    "id": 563,
+    "level": "B2",
+    "level_index": 13,
+    "phrase": "as follows…",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as follows…",
+    "pdf_variants": []
+  },
+  {
+    "id": 564,
+    "level": "B2",
+    "level_index": 14,
+    "phrase": "as for sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as for sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 565,
+    "level": "B2",
+    "level_index": 15,
+    "phrase": "as long as…",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as long as…",
+    "pdf_variants": []
+  },
+  {
+    "id": 566,
+    "level": "B2",
+    "level_index": 16,
+    "phrase": "associated with sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "associated with sth",
+    "pdf_variants": [
+      "associated with doing sth"
+    ]
+  },
+  {
+    "id": 567,
+    "level": "B2",
+    "level_index": 17,
+    "phrase": "as though…",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "as though…",
+    "pdf_variants": []
+  },
+  {
+    "id": 568,
+    "level": "B2",
+    "level_index": 18,
+    "phrase": "at once",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at once",
+    "pdf_variants": []
+  },
+  {
+    "id": 569,
+    "level": "B2",
+    "level_index": 19,
+    "phrase": "at present",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at present",
+    "pdf_variants": []
+  },
+  {
+    "id": 570,
+    "level": "B2",
+    "level_index": 20,
+    "phrase": "at some point",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at some point",
+    "pdf_variants": []
+  },
+  {
+    "id": 571,
+    "level": "B2",
+    "level_index": 21,
+    "phrase": "at the end of the day",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at the end of the day",
+    "pdf_variants": []
+  },
+  {
+    "id": 572,
+    "level": "B2",
+    "level_index": 22,
+    "phrase": "at this point",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at this point",
+    "pdf_variants": []
+  },
+  {
+    "id": 573,
+    "level": "B2",
+    "level_index": 23,
+    "phrase": "at this stage",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "at this stage",
+    "pdf_variants": []
+  },
+  {
+    "id": 574,
+    "level": "B2",
+    "level_index": 24,
+    "phrase": "awareness of sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "awareness of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 575,
+    "level": "B2",
+    "level_index": 25,
+    "phrase": "back sb/sth up",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "back sb/sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 576,
+    "level": "B2",
+    "level_index": 26,
+    "phrase": "be charged with sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be charged with sth",
+    "pdf_variants": [
+      "be charged with doing sth"
+    ]
+  },
+  {
+    "id": 577,
+    "level": "B2",
+    "level_index": 27,
+    "phrase": "be derived from sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be derived from sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 578,
+    "level": "B2",
+    "level_index": 28,
+    "phrase": "be expected to do sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be expected to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 579,
+    "level": "B2",
+    "level_index": 29,
+    "phrase": "be known to do sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be known to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 580,
+    "level": "B2",
+    "level_index": 30,
+    "phrase": "be made up of sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be made up of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 581,
+    "level": "B2",
+    "level_index": 31,
+    "phrase": "be surrounded by sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be surrounded by sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 582,
+    "level": "B2",
+    "level_index": 32,
+    "phrase": "be to blame",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "be to blame",
+    "pdf_variants": [
+      "be to blame for sth"
+    ]
+  },
+  {
+    "id": 583,
+    "level": "B2",
+    "level_index": 33,
+    "phrase": "both sides",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "both sides",
+    "pdf_variants": [
+      "both sides of the argument",
+      "on both sides"
+    ]
+  },
+  {
+    "id": 584,
+    "level": "B2",
+    "level_index": 34,
+    "phrase": "bound to do sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "bound to do sth",
+    "pdf_variants": [
+      "bound to be sth"
+    ]
+  },
+  {
+    "id": 585,
+    "level": "B2",
+    "level_index": 35,
+    "phrase": "bring sb up",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "bring sb up",
+    "pdf_variants": []
+  },
+  {
+    "id": 586,
+    "level": "B2",
+    "level_index": 36,
+    "phrase": "by now",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "by now",
+    "pdf_variants": []
+  },
+  {
+    "id": 587,
+    "level": "B2",
+    "level_index": 37,
+    "phrase": "call for sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "call for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 588,
+    "level": "B2",
+    "level_index": 38,
+    "phrase": "case study",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "case study",
+    "pdf_variants": []
+  },
+  {
+    "id": 589,
+    "level": "B2",
+    "level_index": 39,
+    "phrase": "come across sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "come across sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 590,
+    "level": "B2",
+    "level_index": 40,
+    "phrase": "come true",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "come true",
+    "pdf_variants": [
+      "a dream come true"
+    ]
+  },
+  {
+    "id": 591,
+    "level": "B2",
+    "level_index": 41,
+    "phrase": "concerned about sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "concerned about sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 592,
+    "level": "B2",
+    "level_index": 42,
+    "phrase": "concerned with sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "concerned with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 593,
+    "level": "B2",
+    "level_index": 43,
+    "phrase": "confidence in sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "confidence in sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 594,
+    "level": "B2",
+    "level_index": 44,
+    "phrase": "contribute to sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "contribute to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 595,
+    "level": "B2",
+    "level_index": 45,
+    "phrase": "control over sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "control over sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 596,
+    "level": "B2",
+    "level_index": 46,
+    "phrase": "cope with sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "cope with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 597,
+    "level": "B2",
+    "level_index": 47,
+    "phrase": "decline in sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "decline in sth",
+    "pdf_variants": [
+      "a decline in student numbers"
+    ]
+  },
+  {
+    "id": 598,
+    "level": "B2",
+    "level_index": 48,
+    "phrase": "dependent on sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "dependent on sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 599,
+    "level": "B2",
+    "level_index": 49,
+    "phrase": "despite the fact that…",
+    "pdf_page": 4,
+    "pdf_column": 1,
+    "pdf_text": "despite the fact that…",
+    "pdf_variants": []
+  },
+  {
+    "id": 600,
+    "level": "B2",
+    "level_index": 50,
+    "phrase": "draw attention to sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "draw attention to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 601,
+    "level": "B2",
+    "level_index": 51,
+    "phrase": "engage in sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "engage in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 602,
+    "level": "B2",
+    "level_index": 52,
+    "phrase": "engaged in sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "engaged in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 603,
+    "level": "B2",
+    "level_index": 53,
+    "phrase": "ever since(…)",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "ever since(…)",
+    "pdf_variants": []
+  },
+  {
+    "id": 604,
+    "level": "B2",
+    "level_index": 54,
+    "phrase": "exposure to sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "exposure to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 605,
+    "level": "B2",
+    "level_index": 55,
+    "phrase": "far from sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "far from sth",
+    "pdf_variants": [
+      "far from doing sth"
+    ]
+  },
+  {
+    "id": 606,
+    "level": "B2",
+    "level_index": 56,
+    "phrase": "figure sb/sth out",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "figure sb/sth out",
+    "pdf_variants": []
+  },
+  {
+    "id": 607,
+    "level": "B2",
+    "level_index": 57,
+    "phrase": "find yourself doing sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "find yourself doing sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 608,
+    "level": "B2",
+    "level_index": 58,
+    "phrase": "get in",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "get in",
+    "pdf_variants": [
+      "get into sth",
+      "The train got in late."
+    ]
+  },
+  {
+    "id": 609,
+    "level": "B2",
+    "level_index": 59,
+    "phrase": "get over sth/sb",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "get over sth/sb",
+    "pdf_variants": [
+      "You’ll get over it."
+    ]
+  },
+  {
+    "id": 610,
+    "level": "B2",
+    "level_index": 60,
+    "phrase": "get rid of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "get rid of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 611,
+    "level": "B2",
+    "level_index": 61,
+    "phrase": "go off",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "go off",
+    "pdf_variants": [
+      "She went off to get a drink.",
+      "A bomb went off.",
+      "The alarm went off.",
+      "The lights went off."
+    ]
+  },
+  {
+    "id": 612,
+    "level": "B2",
+    "level_index": 62,
+    "phrase": "go on to do sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "go on to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 613,
+    "level": "B2",
+    "level_index": 63,
+    "phrase": "go through sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "go through sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 614,
+    "level": "B2",
+    "level_index": 64,
+    "phrase": "had better",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "had better",
+    "pdf_variants": []
+  },
+  {
+    "id": 615,
+    "level": "B2",
+    "level_index": 65,
+    "phrase": "hang on",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "hang on",
+    "pdf_variants": []
+  },
+  {
+    "id": 616,
+    "level": "B2",
+    "level_index": 66,
+    "phrase": "human being",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "human being",
+    "pdf_variants": []
+  },
+  {
+    "id": 617,
+    "level": "B2",
+    "level_index": 67,
+    "phrase": "human rights",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "human rights",
+    "pdf_variants": []
+  },
+  {
+    "id": 618,
+    "level": "B2",
+    "level_index": 68,
+    "phrase": "if only…",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "if only…",
+    "pdf_variants": []
+  },
+  {
+    "id": 619,
+    "level": "B2",
+    "level_index": 69,
+    "phrase": "I have to say…",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "I have to say…",
+    "pdf_variants": []
+  },
+  {
+    "id": 620,
+    "level": "B2",
+    "level_index": 70,
+    "phrase": "in action",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in action",
+    "pdf_variants": []
+  },
+  {
+    "id": 621,
+    "level": "B2",
+    "level_index": 71,
+    "phrase": "in advance",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in advance",
+    "pdf_variants": []
+  },
+  {
+    "id": 622,
+    "level": "B2",
+    "level_index": 72,
+    "phrase": "in an attempt to do sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in an attempt to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 623,
+    "level": "B2",
+    "level_index": 73,
+    "phrase": "in part",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in part",
+    "pdf_variants": []
+  },
+  {
+    "id": 624,
+    "level": "B2",
+    "level_index": 74,
+    "phrase": "in place",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in place",
+    "pdf_variants": []
+  },
+  {
+    "id": 625,
+    "level": "B2",
+    "level_index": 75,
+    "phrase": "in relation to sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in relation to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 626,
+    "level": "B2",
+    "level_index": 76,
+    "phrase": "in spite of sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in spite of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 627,
+    "level": "B2",
+    "level_index": 77,
+    "phrase": "in the first place",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in the first place",
+    "pdf_variants": []
+  },
+  {
+    "id": 628,
+    "level": "B2",
+    "level_index": 78,
+    "phrase": "in the near future",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in the near future",
+    "pdf_variants": []
+  },
+  {
+    "id": 629,
+    "level": "B2",
+    "level_index": 79,
+    "phrase": "in turn",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "in turn",
+    "pdf_variants": []
+  },
+  {
+    "id": 630,
+    "level": "B2",
+    "level_index": 80,
+    "phrase": "investment in sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "investment in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 631,
+    "level": "B2",
+    "level_index": 81,
+    "phrase": "I would say...",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "I would say...",
+    "pdf_variants": []
+  },
+  {
+    "id": 632,
+    "level": "B2",
+    "level_index": 82,
+    "phrase": "loads of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "loads of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 633,
+    "level": "B2",
+    "level_index": 83,
+    "phrase": "mental health",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "mental health",
+    "pdf_variants": []
+  },
+  {
+    "id": 634,
+    "level": "B2",
+    "level_index": 84,
+    "phrase": "more or less",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "more or less",
+    "pdf_variants": []
+  },
+  {
+    "id": 635,
+    "level": "B2",
+    "level_index": 85,
+    "phrase": "no doubt",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "no doubt",
+    "pdf_variants": []
+  },
+  {
+    "id": 636,
+    "level": "B2",
+    "level_index": 86,
+    "phrase": "no matter…",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "no matter…",
+    "pdf_variants": [
+      "no matter how…",
+      "no matter what…"
+    ]
+  },
+  {
+    "id": 637,
+    "level": "B2",
+    "level_index": 87,
+    "phrase": "nothing but",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "nothing but",
+    "pdf_variants": []
+  },
+  {
+    "id": 638,
+    "level": "B2",
+    "level_index": 88,
+    "phrase": "on board",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "on board",
+    "pdf_variants": []
+  },
+  {
+    "id": 639,
+    "level": "B2",
+    "level_index": 89,
+    "phrase": "once again",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "once again",
+    "pdf_variants": []
+  },
+  {
+    "id": 640,
+    "level": "B2",
+    "level_index": 90,
+    "phrase": "one another",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "one another",
+    "pdf_variants": []
+  },
+  {
+    "id": 641,
+    "level": "B2",
+    "level_index": 91,
+    "phrase": "on the basis of sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "on the basis of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 642,
+    "level": "B2",
+    "level_index": 92,
+    "phrase": "on the one hand",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "on the one hand",
+    "pdf_variants": []
+  },
+  {
+    "id": 643,
+    "level": "B2",
+    "level_index": 93,
+    "phrase": "opposed to sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "opposed to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 644,
+    "level": "B2",
+    "level_index": 94,
+    "phrase": "or so",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "or so",
+    "pdf_variants": []
+  },
+  {
+    "id": 645,
+    "level": "B2",
+    "level_index": 95,
+    "phrase": "other than",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "other than",
+    "pdf_variants": []
+  },
+  {
+    "id": 646,
+    "level": "B2",
+    "level_index": 96,
+    "phrase": "potential for sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "potential for sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 647,
+    "level": "B2",
+    "level_index": 97,
+    "phrase": "pretty much",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "pretty much",
+    "pdf_variants": []
+  },
+  {
+    "id": 648,
+    "level": "B2",
+    "level_index": 98,
+    "phrase": "prior to",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "prior to",
+    "pdf_variants": []
+  },
+  {
+    "id": 649,
+    "level": "B2",
+    "level_index": 99,
+    "phrase": "prove to be sth",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "prove to be sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 650,
+    "level": "B2",
+    "level_index": 100,
+    "phrase": "put sth forward",
+    "pdf_page": 4,
+    "pdf_column": 2,
+    "pdf_text": "put sth forward",
+    "pdf_variants": []
+  },
+  {
+    "id": 651,
+    "level": "B2",
+    "level_index": 101,
+    "phrase": "put sth together",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "put sth together",
+    "pdf_variants": []
+  },
+  {
+    "id": 652,
+    "level": "B2",
+    "level_index": 102,
+    "phrase": "quality of life",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "quality of life",
+    "pdf_variants": []
+  },
+  {
+    "id": 653,
+    "level": "B2",
+    "level_index": 103,
+    "phrase": "ranging from",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "ranging from",
+    "pdf_variants": [
+      "prices ranging from €25 to €60"
+    ]
+  },
+  {
+    "id": 654,
+    "level": "B2",
+    "level_index": 104,
+    "phrase": "regarded as sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "regarded as sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 655,
+    "level": "B2",
+    "level_index": 105,
+    "phrase": "relevant to sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "relevant to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 656,
+    "level": "B2",
+    "level_index": 106,
+    "phrase": "rely on sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "rely on sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 657,
+    "level": "B2",
+    "level_index": 107,
+    "phrase": "role model",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "role model",
+    "pdf_variants": []
+  },
+  {
+    "id": 658,
+    "level": "B2",
+    "level_index": 108,
+    "phrase": "set out",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "set out",
+    "pdf_variants": []
+  },
+  {
+    "id": 659,
+    "level": "B2",
+    "level_index": 109,
+    "phrase": "short of sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "short of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 660,
+    "level": "B2",
+    "level_index": 110,
+    "phrase": "so as to do sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "so as to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 661,
+    "level": "B2",
+    "level_index": 111,
+    "phrase": "something like…",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "something like…",
+    "pdf_variants": []
+  },
+  {
+    "id": 662,
+    "level": "B2",
+    "level_index": 112,
+    "phrase": "sort sb/sth/yourself out",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "sort sb/sth/yourself out",
+    "pdf_variants": []
+  },
+  {
+    "id": 663,
+    "level": "B2",
+    "level_index": 113,
+    "phrase": "stick to sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "stick to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 664,
+    "level": "B2",
+    "level_index": 114,
+    "phrase": "subject to sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "subject to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 665,
+    "level": "B2",
+    "level_index": 115,
+    "phrase": "sum up",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "sum up",
+    "pdf_variants": [
+      "sum sth up"
+    ]
+  },
+  {
+    "id": 666,
+    "level": "B2",
+    "level_index": 116,
+    "phrase": "take advantage of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "take advantage of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 667,
+    "level": "B2",
+    "level_index": 117,
+    "phrase": "take sth into account",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "take sth into account",
+    "pdf_variants": []
+  },
+  {
+    "id": 668,
+    "level": "B2",
+    "level_index": 118,
+    "phrase": "take over",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "take over",
+    "pdf_variants": [
+      "take over from sb"
+    ]
+  },
+  {
+    "id": 669,
+    "level": "B2",
+    "level_index": 119,
+    "phrase": "that is",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "that is",
+    "pdf_variants": []
+  },
+  {
+    "id": 670,
+    "level": "B2",
+    "level_index": 120,
+    "phrase": "the vast majority of sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "the vast majority of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 671,
+    "level": "B2",
+    "level_index": 121,
+    "phrase": "turn into sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "turn into sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 672,
+    "level": "B2",
+    "level_index": 122,
+    "phrase": "up to sb",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "up to sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 673,
+    "level": "B2",
+    "level_index": 123,
+    "phrase": "when it comes to sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "when it comes to sth",
+    "pdf_variants": [
+      "when it comes to doing sth"
+    ]
+  },
+  {
+    "id": 674,
+    "level": "B2",
+    "level_index": 124,
+    "phrase": "whether or not…",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "whether or not…",
+    "pdf_variants": []
+  },
+  {
+    "id": 675,
+    "level": "B2",
+    "level_index": 125,
+    "phrase": "would rather…",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "would rather…",
+    "pdf_variants": []
+  },
+  {
+    "id": 676,
+    "level": "C1",
+    "level_index": 1,
+    "phrase": "above all",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "above all",
+    "pdf_variants": []
+  },
+  {
+    "id": 677,
+    "level": "C1",
+    "level_index": 2,
+    "phrase": "all but",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "all but",
+    "pdf_variants": []
+  },
+  {
+    "id": 678,
+    "level": "C1",
+    "level_index": 3,
+    "phrase": "all the more",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "all the more",
+    "pdf_variants": []
+  },
+  {
+    "id": 679,
+    "level": "C1",
+    "level_index": 4,
+    "phrase": "as far as sb/sth is concerned",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "as far as sb/sth is concerned",
+    "pdf_variants": []
+  },
+  {
+    "id": 680,
+    "level": "C1",
+    "level_index": 5,
+    "phrase": "as of…",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "as of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 681,
+    "level": "C1",
+    "level_index": 6,
+    "phrase": "as opposed to",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "as opposed to",
+    "pdf_variants": []
+  },
+  {
+    "id": 682,
+    "level": "C1",
+    "level_index": 7,
+    "phrase": "as such",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "as such",
+    "pdf_variants": []
+  },
+  {
+    "id": 683,
+    "level": "C1",
+    "level_index": 8,
+    "phrase": "as to sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "as to sth",
+    "pdf_variants": [
+      "as to how…",
+      "as to whether…"
+    ]
+  },
+  {
+    "id": 684,
+    "level": "C1",
+    "level_index": 9,
+    "phrase": "at the expense of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "at the expense of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 685,
+    "level": "C1",
+    "level_index": 10,
+    "phrase": "at the hands of sb",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "at the hands of sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 686,
+    "level": "C1",
+    "level_index": 11,
+    "phrase": "back and forth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "back and forth",
+    "pdf_variants": []
+  },
+  {
+    "id": 687,
+    "level": "C1",
+    "level_index": 12,
+    "phrase": "bear sb/sth in mind",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "bear sb/sth in mind",
+    "pdf_variants": [
+      "bear in mind that…",
+      "keep sb/sth in mind",
+      "keep in mind that…"
+    ]
+  },
+  {
+    "id": 688,
+    "level": "C1",
+    "level_index": 13,
+    "phrase": "be attributed to sb",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be attributed to sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 689,
+    "level": "C1",
+    "level_index": 14,
+    "phrase": "be entitled to sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be entitled to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 690,
+    "level": "C1",
+    "level_index": 15,
+    "phrase": "be found to do sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be found to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 691,
+    "level": "C1",
+    "level_index": 16,
+    "phrase": "be meant to do sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be meant to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 692,
+    "level": "C1",
+    "level_index": 17,
+    "phrase": "be reported to be sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be reported to be sth",
+    "pdf_variants": [
+      "be reported to have sth"
+    ]
+  },
+  {
+    "id": 693,
+    "level": "C1",
+    "level_index": 18,
+    "phrase": "be said to be sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "be said to be sth",
+    "pdf_variants": [
+      "be said to have sth"
+    ]
+  },
+  {
+    "id": 694,
+    "level": "C1",
+    "level_index": 19,
+    "phrase": "bring sth about",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "bring sth about",
+    "pdf_variants": []
+  },
+  {
+    "id": 695,
+    "level": "C1",
+    "level_index": 20,
+    "phrase": "bring sth up",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "bring sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 696,
+    "level": "C1",
+    "level_index": 21,
+    "phrase": "by means of sth",
+    "pdf_page": 4,
+    "pdf_column": 3,
+    "pdf_text": "by means of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 697,
+    "level": "C1",
+    "level_index": 22,
+    "phrase": "by no means",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "by no means",
+    "pdf_variants": []
+  },
+  {
+    "id": 698,
+    "level": "C1",
+    "level_index": 23,
+    "phrase": "call on sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "call on sb",
+    "pdf_variants": [
+      "call on sb to do sth"
+    ]
+  },
+  {
+    "id": 699,
+    "level": "C1",
+    "level_index": 24,
+    "phrase": "consistent with sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "consistent with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 700,
+    "level": "C1",
+    "level_index": 25,
+    "phrase": "dedicated to sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "dedicated to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 701,
+    "level": "C1",
+    "level_index": 26,
+    "phrase": "deprive sb/sth of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "deprive sb/sth of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 702,
+    "level": "C1",
+    "level_index": 27,
+    "phrase": "dispose of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "dispose of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 703,
+    "level": "C1",
+    "level_index": 28,
+    "phrase": "follow sth up",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "follow sth up",
+    "pdf_variants": []
+  },
+  {
+    "id": 704,
+    "level": "C1",
+    "level_index": 29,
+    "phrase": "for that matter",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "for that matter",
+    "pdf_variants": []
+  },
+  {
+    "id": 705,
+    "level": "C1",
+    "level_index": 30,
+    "phrase": "for the benefit of sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "for the benefit of sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 706,
+    "level": "C1",
+    "level_index": 31,
+    "phrase": "for the sake of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "for the sake of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 707,
+    "level": "C1",
+    "level_index": 32,
+    "phrase": "get away with sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "get away with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 708,
+    "level": "C1",
+    "level_index": 33,
+    "phrase": "given that…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "given that…",
+    "pdf_variants": []
+  },
+  {
+    "id": 709,
+    "level": "C1",
+    "level_index": 34,
+    "phrase": "have sb/sth in mind",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "have sb/sth in mind",
+    "pdf_variants": [
+      "have sb/sth in mind for sth"
+    ]
+  },
+  {
+    "id": 710,
+    "level": "C1",
+    "level_index": 35,
+    "phrase": "have nothing to do with sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "have nothing to do with sb/sth",
+    "pdf_variants": [
+      "be nothing to do with sb/sth"
+    ]
+  },
+  {
+    "id": 711,
+    "level": "C1",
+    "level_index": 36,
+    "phrase": "in accordance with sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in accordance with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 712,
+    "level": "C1",
+    "level_index": 37,
+    "phrase": "in any case",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in any case",
+    "pdf_variants": []
+  },
+  {
+    "id": 713,
+    "level": "C1",
+    "level_index": 38,
+    "phrase": "in a position to do sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in a position to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 714,
+    "level": "C1",
+    "level_index": 39,
+    "phrase": "in conjunction with sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in conjunction with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 715,
+    "level": "C1",
+    "level_index": 40,
+    "phrase": "in connection with sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in connection with sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 716,
+    "level": "C1",
+    "level_index": 41,
+    "phrase": "in effect",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in effect",
+    "pdf_variants": []
+  },
+  {
+    "id": 717,
+    "level": "C1",
+    "level_index": 42,
+    "phrase": "in full",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in full",
+    "pdf_variants": []
+  },
+  {
+    "id": 718,
+    "level": "C1",
+    "level_index": 43,
+    "phrase": "in line with sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in line with sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 719,
+    "level": "C1",
+    "level_index": 44,
+    "phrase": "in practice",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in practice",
+    "pdf_variants": []
+  },
+  {
+    "id": 720,
+    "level": "C1",
+    "level_index": 45,
+    "phrase": "in respect of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in respect of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 721,
+    "level": "C1",
+    "level_index": 46,
+    "phrase": "in such a way (that)…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in such a way (that)…",
+    "pdf_variants": []
+  },
+  {
+    "id": 722,
+    "level": "C1",
+    "level_index": 47,
+    "phrase": "in the absence of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the absence of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 723,
+    "level": "C1",
+    "level_index": 48,
+    "phrase": "in the course of…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the course of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 724,
+    "level": "C1",
+    "level_index": 49,
+    "phrase": "in the event of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the event of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 725,
+    "level": "C1",
+    "level_index": 50,
+    "phrase": "in the face of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the face of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 726,
+    "level": "C1",
+    "level_index": 51,
+    "phrase": "in the hands of sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the hands of sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 727,
+    "level": "C1",
+    "level_index": 52,
+    "phrase": "in the light of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the light of sth",
+    "pdf_variants": [
+      "in light of sth"
+    ]
+  },
+  {
+    "id": 728,
+    "level": "C1",
+    "level_index": 53,
+    "phrase": "in the meantime",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the meantime",
+    "pdf_variants": []
+  },
+  {
+    "id": 729,
+    "level": "C1",
+    "level_index": 54,
+    "phrase": "in the midst of sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the midst of sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 730,
+    "level": "C1",
+    "level_index": 55,
+    "phrase": "in the presence of sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the presence of sb",
+    "pdf_variants": [
+      "in the presence of sth"
+    ]
+  },
+  {
+    "id": 731,
+    "level": "C1",
+    "level_index": 56,
+    "phrase": "in the wake of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "in the wake of sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 732,
+    "level": "C1",
+    "level_index": 57,
+    "phrase": "involvement in sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "involvement in sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 733,
+    "level": "C1",
+    "level_index": 58,
+    "phrase": "let alone",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "let alone",
+    "pdf_variants": []
+  },
+  {
+    "id": 734,
+    "level": "C1",
+    "level_index": 59,
+    "phrase": "little more than…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "little more than…",
+    "pdf_variants": []
+  },
+  {
+    "id": 735,
+    "level": "C1",
+    "level_index": 60,
+    "phrase": "live on sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "live on sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 736,
+    "level": "C1",
+    "level_index": 61,
+    "phrase": "may well",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "may well",
+    "pdf_variants": []
+  },
+  {
+    "id": 737,
+    "level": "C1",
+    "level_index": 62,
+    "phrase": "nothing like",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "nothing like",
+    "pdf_variants": []
+  },
+  {
+    "id": 738,
+    "level": "C1",
+    "level_index": 63,
+    "phrase": "not to mention",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "not to mention",
+    "pdf_variants": []
+  },
+  {
+    "id": 739,
+    "level": "C1",
+    "level_index": 64,
+    "phrase": "on behalf of sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "on behalf of sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 740,
+    "level": "C1",
+    "level_index": 65,
+    "phrase": "on the part of sb",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "on the part of sb",
+    "pdf_variants": []
+  },
+  {
+    "id": 741,
+    "level": "C1",
+    "level_index": 66,
+    "phrase": "over the course of…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "over the course of…",
+    "pdf_variants": []
+  },
+  {
+    "id": 742,
+    "level": "C1",
+    "level_index": 67,
+    "phrase": "put it",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "put it",
+    "pdf_variants": [
+      "How shall I put it?"
+    ]
+  },
+  {
+    "id": 743,
+    "level": "C1",
+    "level_index": 68,
+    "phrase": "seek to do sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "seek to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 744,
+    "level": "C1",
+    "level_index": 69,
+    "phrase": "set to do sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "set to do sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 745,
+    "level": "C1",
+    "level_index": 70,
+    "phrase": "the extent to which…",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "the extent to which…",
+    "pdf_variants": []
+  },
+  {
+    "id": 746,
+    "level": "C1",
+    "level_index": 71,
+    "phrase": "to date",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "to date",
+    "pdf_variants": [
+      "his best work to date"
+    ]
+  },
+  {
+    "id": 747,
+    "level": "C1",
+    "level_index": 72,
+    "phrase": "up against sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "up against sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 748,
+    "level": "C1",
+    "level_index": 73,
+    "phrase": "with regard to sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "with regard to sb/sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 749,
+    "level": "C1",
+    "level_index": 74,
+    "phrase": "with respect to sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "with respect to sth",
+    "pdf_variants": []
+  },
+  {
+    "id": 750,
+    "level": "C1",
+    "level_index": 75,
+    "phrase": "with the exception of sb/sth",
+    "pdf_page": 4,
+    "pdf_column": 4,
+    "pdf_text": "with the exception of sb/sth",
+    "pdf_variants": []
+  }
+]

@@ -1,0 +1,902 @@
+{
+  "701": {
+    "meaning_zh": "剥夺……的……；使丧失",
+    "collocations": [
+      {
+        "english": "deprive someone of sleep",
+        "chinese": "使某人缺觉"
+      },
+      {
+        "english": "deprive someone of an opportunity",
+        "chinese": "剥夺某人的机会"
+      }
+    ],
+    "example": {
+      "english": "The noise deprived us of a good night's sleep.",
+      "chinese": "噪声使我们没能好好睡一觉。",
+      "source": "原创学习例句"
+    }
+  },
+  "702": {
+    "meaning_zh": "处理掉；丢弃；解决掉",
+    "collocations": [
+      {
+        "english": "dispose of old equipment",
+        "chinese": "处理旧设备"
+      },
+      {
+        "english": "dispose of waste safely",
+        "chinese": "安全处理废物"
+      }
+    ],
+    "example": {
+      "english": "The notice explains how to dispose of old batteries.",
+      "chinese": "通知说明了如何处理旧电池。",
+      "source": "原创学习例句"
+    }
+  },
+  "703": {
+    "meaning_zh": "进一步了解；接着采取行动",
+    "collocations": [
+      {
+        "english": "follow up a suggestion",
+        "chinese": "进一步探究一个建议"
+      },
+      {
+        "english": "follow up an email with a call",
+        "chinese": "发邮件后再打电话跟进"
+      }
+    ],
+    "example": {
+      "english": "I'll follow up your suggestion at the next meeting.",
+      "chinese": "我会在下次会议上进一步讨论你的建议。",
+      "source": "原创学习例句"
+    }
+  },
+  "704": {
+    "meaning_zh": "就此而言；在这方面同样如此",
+    "collocations": [
+      {
+        "english": "or anyone else for that matter",
+        "chinese": "或者其他任何人也是如此"
+      },
+      {
+        "english": "or at any time, for that matter",
+        "chinese": "或者在任何时候也是如此"
+      }
+    ],
+    "example": {
+      "english": "I wouldn't say that to a colleague, or to anyone else for that matter.",
+      "chinese": "我不会对同事说那种话，对其他任何人也不会。",
+      "source": "原创学习例句"
+    }
+  },
+  "705": {
+    "meaning_zh": "为了某人的利益；为帮助某人",
+    "collocations": [
+      {
+        "english": "for the benefit of new students",
+        "chinese": "为了帮助新生"
+      },
+      {
+        "english": "for the benefit of everyone",
+        "chinese": "为了每个人的利益"
+      }
+    ],
+    "example": {
+      "english": "I'll explain it again for the benefit of those who arrived late.",
+      "chinese": "为了让迟到的人也能听懂，我再解释一遍。",
+      "source": "原创学习例句"
+    }
+  },
+  "706": {
+    "meaning_zh": "为了……的缘故；为……着想",
+    "collocations": [
+      {
+        "english": "for the sake of clarity",
+        "chinese": "为了清楚起见"
+      },
+      {
+        "english": "for the sake of the children",
+        "chinese": "为了孩子们着想"
+      }
+    ],
+    "example": {
+      "english": "Let's keep the instructions short for the sake of clarity.",
+      "chinese": "为清楚起见，我们把说明写简短些吧。",
+      "source": "原创学习例句"
+    }
+  },
+  "707": {
+    "meaning_zh": "做了某事却未受惩罚；侥幸逃脱",
+    "collocations": [
+      {
+        "english": "get away with cheating",
+        "chinese": "作弊却未受处罚"
+      },
+      {
+        "english": "get away with a warning",
+        "chinese": "只受到警告就算了事"
+      }
+    ],
+    "example": {
+      "english": "He thought he could get away with copying the homework.",
+      "chinese": "他以为抄作业也能蒙混过关。",
+      "source": "原创学习例句"
+    }
+  },
+  "708": {
+    "meaning_zh": "考虑到；鉴于",
+    "collocations": [
+      {
+        "english": "given that time is short",
+        "chinese": "考虑到时间有限"
+      },
+      {
+        "english": "given that we are beginners",
+        "chinese": "鉴于我们是初学者"
+      }
+    ],
+    "example": {
+      "english": "Given that we're short of time, let's focus on one example.",
+      "chinese": "考虑到时间有限，我们集中看一个例子吧。",
+      "source": "原创学习例句"
+    }
+  },
+  "709": {
+    "meaning_zh": "心中想着；考虑某个人选或方案",
+    "collocations": [
+      {
+        "english": "have someone in mind for the job",
+        "chinese": "心里已有这个职位的人选"
+      },
+      {
+        "english": "have a date in mind",
+        "chinese": "心里已想好一个日期"
+      }
+    ],
+    "example": {
+      "english": "Do you have a particular place in mind for the meeting?",
+      "chinese": "你心里有想好的具体会面地点吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "710": {
+    "meaning_zh": "与……毫无关系",
+    "collocations": [
+      {
+        "english": "have nothing to do with the problem",
+        "chinese": "与这个问题毫无关系"
+      },
+      {
+        "english": "have nothing to do with me",
+        "chinese": "与我毫无关系"
+      }
+    ],
+    "example": {
+      "english": "This question has nothing to do with the previous topic.",
+      "chinese": "这个问题与上一个话题毫无关系。",
+      "source": "原创学习例句"
+    }
+  },
+  "711": {
+    "meaning_zh": "依照；按照",
+    "collocations": [
+      {
+        "english": "in accordance with the instructions",
+        "chinese": "按照说明"
+      },
+      {
+        "english": "in accordance with the agreement",
+        "chinese": "按照协议"
+      }
+    ],
+    "example": {
+      "english": "Please organise the files in accordance with the instructions.",
+      "chinese": "请按照说明整理文件。",
+      "source": "原创学习例句"
+    }
+  },
+  "712": {
+    "meaning_zh": "无论如何；不管怎样",
+    "collocations": [
+      {
+        "english": "in any case, it's too late",
+        "chinese": "无论如何，都太晚了"
+      },
+      {
+        "english": "in any case, thank you",
+        "chinese": "不管怎样，谢谢你"
+      }
+    ],
+    "example": {
+      "english": "I may be late, but in any case, please start without me.",
+      "chinese": "我可能会迟到，但无论如何，你们都先开始，不用等我。",
+      "source": "原创学习例句"
+    }
+  },
+  "713": {
+    "meaning_zh": "能够；处于可以做某事的境地",
+    "collocations": [
+      {
+        "english": "be in a position to help",
+        "chinese": "有能力提供帮助"
+      },
+      {
+        "english": "be in a position to decide",
+        "chinese": "处于可以作决定的地位"
+      }
+    ],
+    "example": {
+      "english": "We're not yet in a position to give you an answer.",
+      "chinese": "我们目前还无法给你答复。",
+      "source": "原创学习例句"
+    }
+  },
+  "714": {
+    "meaning_zh": "与……一起；结合",
+    "collocations": [
+      {
+        "english": "in conjunction with the team",
+        "chinese": "与团队一起"
+      },
+      {
+        "english": "in conjunction with other tools",
+        "chinese": "结合其他工具一起使用"
+      }
+    ],
+    "example": {
+      "english": "Use the audio in conjunction with the written examples.",
+      "chinese": "把音频和书面例句结合起来使用。",
+      "source": "原创学习例句"
+    }
+  },
+  "715": {
+    "meaning_zh": "关于；与……相关",
+    "collocations": [
+      {
+        "english": "in connection with your request",
+        "chinese": "关于你的请求"
+      },
+      {
+        "english": "in connection with the project",
+        "chinese": "与这个项目有关"
+      }
+    ],
+    "example": {
+      "english": "I'm writing in connection with your request for more information.",
+      "chinese": "我写信是为了回应你了解更多信息的请求。",
+      "source": "原创学习例句"
+    }
+  },
+  "716": {
+    "meaning_zh": "实际上；实质上；正在生效",
+    "collocations": [
+      {
+        "english": "in effect, a new start",
+        "chinese": "实际上是一次新的开始"
+      },
+      {
+        "english": "remain in effect",
+        "chinese": "继续有效"
+      }
+    ],
+    "example": {
+      "english": "By changing all the details, we were in effect starting again.",
+      "chinese": "我们改动了所有细节，实际上等于重新开始。",
+      "source": "原创学习例句"
+    }
+  },
+  "717": {
+    "meaning_zh": "全部；全额；完整地",
+    "collocations": [
+      {
+        "english": "pay in full",
+        "chinese": "全额支付"
+      },
+      {
+        "english": "read the report in full",
+        "chinese": "阅读完整报告"
+      }
+    ],
+    "example": {
+      "english": "Please read the instructions in full before you begin.",
+      "chinese": "开始之前，请完整阅读说明。",
+      "source": "原创学习例句"
+    }
+  },
+  "718": {
+    "meaning_zh": "与……一致；符合",
+    "collocations": [
+      {
+        "english": "in line with our goals",
+        "chinese": "与我们的目标一致"
+      },
+      {
+        "english": "in line with expectations",
+        "chinese": "符合预期"
+      }
+    ],
+    "example": {
+      "english": "The changes are in line with the feedback we received.",
+      "chinese": "这些改动与我们收到的反馈一致。",
+      "source": "原创学习例句"
+    }
+  },
+  "719": {
+    "meaning_zh": "在实践中；实际上",
+    "collocations": [
+      {
+        "english": "work in practice",
+        "chinese": "在实践中可行"
+      },
+      {
+        "english": "in theory and in practice",
+        "chinese": "在理论和实践中"
+      }
+    ],
+    "example": {
+      "english": "The idea sounds simple, but how does it work in practice?",
+      "chinese": "这个想法听起来简单，但实际操作起来怎么样？",
+      "source": "原创学习例句"
+    }
+  },
+  "720": {
+    "meaning_zh": "关于；就……而言（正式）",
+    "collocations": [
+      {
+        "english": "in respect of this matter",
+        "chinese": "关于此事"
+      },
+      {
+        "english": "in respect of the services provided",
+        "chinese": "就所提供的服务而言"
+      }
+    ],
+    "example": {
+      "english": "Please provide further details in respect of your application.",
+      "chinese": "请提供关于你申请的进一步详情。",
+      "source": "原创学习例句"
+    }
+  },
+  "721": {
+    "meaning_zh": "以这样的方式，以至于……",
+    "collocations": [
+      {
+        "english": "in such a way that everyone can see",
+        "chinese": "以让每个人都看得见的方式"
+      },
+      {
+        "english": "in such a way as to avoid confusion",
+        "chinese": "以避免混淆的方式"
+      }
+    ],
+    "example": {
+      "english": "Arrange the chairs in such a way that everyone can see the screen.",
+      "chinese": "把椅子摆成让每个人都能看见屏幕的样子。",
+      "source": "原创学习例句"
+    }
+  },
+  "722": {
+    "meaning_zh": "在……缺席时；缺乏……时",
+    "collocations": [
+      {
+        "english": "in the absence of evidence",
+        "chinese": "缺乏证据时"
+      },
+      {
+        "english": "in the absence of the manager",
+        "chinese": "经理不在时"
+      }
+    ],
+    "example": {
+      "english": "In the absence of clear instructions, we waited.",
+      "chinese": "因为没有明确指示，我们选择等待。",
+      "source": "原创学习例句"
+    }
+  },
+  "723": {
+    "meaning_zh": "在……过程中；在……期间",
+    "collocations": [
+      {
+        "english": "in the course of the day",
+        "chinese": "在一天当中"
+      },
+      {
+        "english": "in the course of a discussion",
+        "chinese": "在讨论过程中"
+      }
+    ],
+    "example": {
+      "english": "Several useful ideas came up in the course of the discussion.",
+      "chinese": "讨论过程中出现了几个有用的想法。",
+      "source": "原创学习例句"
+    }
+  },
+  "724": {
+    "meaning_zh": "如果发生……；万一",
+    "collocations": [
+      {
+        "english": "in the event of a delay",
+        "chinese": "如果出现延误"
+      },
+      {
+        "english": "in the event of cancellation",
+        "chinese": "如果取消"
+      }
+    ],
+    "example": {
+      "english": "In the event of a delay, we'll send you a message.",
+      "chinese": "如果出现延误，我们会发消息通知你。",
+      "source": "原创学习例句"
+    }
+  },
+  "725": {
+    "meaning_zh": "面对；在……面前",
+    "collocations": [
+      {
+        "english": "in the face of difficulties",
+        "chinese": "面对困难"
+      },
+      {
+        "english": "in the face of criticism",
+        "chinese": "面对批评"
+      }
+    ],
+    "example": {
+      "english": "The team remained calm in the face of unexpected difficulties.",
+      "chinese": "面对意料之外的困难，团队保持了冷静。",
+      "source": "原创学习例句"
+    }
+  },
+  "726": {
+    "meaning_zh": "掌握在某人手中；由某人负责",
+    "collocations": [
+      {
+        "english": "in the hands of an expert",
+        "chinese": "由专家处理"
+      },
+      {
+        "english": "leave it in your hands",
+        "chinese": "交给你负责"
+      }
+    ],
+    "example": {
+      "english": "The final decision is in the hands of the committee.",
+      "chinese": "最终决定权掌握在委员会手中。",
+      "source": "原创学习例句"
+    }
+  },
+  "727": {
+    "meaning_zh": "考虑到；鉴于",
+    "collocations": [
+      {
+        "english": "in the light of new information",
+        "chinese": "根据新信息"
+      },
+      {
+        "english": "in the light of recent events",
+        "chinese": "鉴于最近发生的事情"
+      }
+    ],
+    "example": {
+      "english": "We changed the plan in the light of your comments.",
+      "chinese": "我们根据你的意见调整了计划。",
+      "source": "原创学习例句"
+    }
+  },
+  "728": {
+    "meaning_zh": "在此期间；与此同时",
+    "collocations": [
+      {
+        "english": "in the meantime, keep practising",
+        "chinese": "在此期间继续练习"
+      },
+      {
+        "english": "in the meantime, I'll check",
+        "chinese": "与此同时我去核对"
+      }
+    ],
+    "example": {
+      "english": "The new room will be ready next week; in the meantime, we'll use this one.",
+      "chinese": "新房间下周能准备好，在此期间我们先用这一间。",
+      "source": "原创学习例句"
+    }
+  },
+  "729": {
+    "meaning_zh": "在……中间；正当……时",
+    "collocations": [
+      {
+        "english": "in the midst of a discussion",
+        "chinese": "正处于讨论中"
+      },
+      {
+        "english": "in the midst of change",
+        "chinese": "正处在变化之中"
+      }
+    ],
+    "example": {
+      "english": "The phone rang in the midst of our discussion.",
+      "chinese": "我们正在讨论时，电话响了。",
+      "source": "原创学习例句"
+    }
+  },
+  "730": {
+    "meaning_zh": "在某人面前；有某人在场",
+    "collocations": [
+      {
+        "english": "in the presence of a teacher",
+        "chinese": "有老师在场时"
+      },
+      {
+        "english": "in the presence of guests",
+        "chinese": "当着客人的面"
+      }
+    ],
+    "example": {
+      "english": "He felt nervous speaking in the presence of his new manager.",
+      "chinese": "当着新经理的面讲话，他感到紧张。",
+      "source": "原创学习例句"
+    }
+  },
+  "731": {
+    "meaning_zh": "在……之后；随……而来",
+    "collocations": [
+      {
+        "english": "in the wake of a storm",
+        "chinese": "暴风雨过后"
+      },
+      {
+        "english": "in the wake of the announcement",
+        "chinese": "在公告发布之后"
+      }
+    ],
+    "example": {
+      "english": "Several questions arose in the wake of the announcement.",
+      "chinese": "公告发布之后出现了几个疑问。",
+      "source": "原创学习例句"
+    }
+  },
+  "732": {
+    "meaning_zh": "参与；介入",
+    "collocations": [
+      {
+        "english": "involvement in a project",
+        "chinese": "参与一个项目"
+      },
+      {
+        "english": "active involvement in the community",
+        "chinese": "积极参与社区事务"
+      }
+    ],
+    "example": {
+      "english": "Her involvement in the project began last year.",
+      "chinese": "她从去年开始参与这个项目。",
+      "source": "原创学习例句"
+    }
+  },
+  "733": {
+    "meaning_zh": "更不用说；更别提",
+    "collocations": [
+      {
+        "english": "let alone finish it",
+        "chinese": "更不用说完成它"
+      },
+      {
+        "english": "let alone a whole week",
+        "chinese": "更别提整整一周"
+      }
+    ],
+    "example": {
+      "english": "I don't have time for a short walk, let alone a whole afternoon out.",
+      "chinese": "我连短暂散步的时间都没有，更别提花整个下午出去。",
+      "source": "原创学习例句"
+    }
+  },
+  "734": {
+    "meaning_zh": "仅仅；不过比……多一点",
+    "collocations": [
+      {
+        "english": "little more than a guess",
+        "chinese": "不过是个猜测"
+      },
+      {
+        "english": "little more than an hour",
+        "chinese": "仅一个多小时"
+      }
+    ],
+    "example": {
+      "english": "At that stage, the plan was little more than an idea.",
+      "chinese": "在那个阶段，这个计划还仅仅是个想法。",
+      "source": "原创学习例句"
+    }
+  },
+  "735": {
+    "meaning_zh": "靠……生活；以……为食",
+    "collocations": [
+      {
+        "english": "live on a small income",
+        "chinese": "靠微薄收入生活"
+      },
+      {
+        "english": "live on rice and vegetables",
+        "chinese": "以米饭和蔬菜为主食"
+      }
+    ],
+    "example": {
+      "english": "She managed to live on a small income while studying.",
+      "chinese": "求学期间，她设法靠微薄的收入生活。",
+      "source": "原创学习例句"
+    }
+  },
+  "736": {
+    "meaning_zh": "很可能；完全有可能",
+    "collocations": [
+      {
+        "english": "may well be true",
+        "chinese": "很可能是真的"
+      },
+      {
+        "english": "may well need more time",
+        "chinese": "很可能需要更多时间"
+      }
+    ],
+    "example": {
+      "english": "You may well find the second version easier to use.",
+      "chinese": "你很可能会觉得第二个版本更好用。",
+      "source": "原创学习例句"
+    }
+  },
+  "737": {
+    "meaning_zh": "一点也不像；远远不及",
+    "collocations": [
+      {
+        "english": "look nothing like the picture",
+        "chinese": "看起来与图片完全不同"
+      },
+      {
+        "english": "nothing like as easy",
+        "chinese": "远没有那么容易"
+      }
+    ],
+    "example": {
+      "english": "The finished room looks nothing like it did before.",
+      "chinese": "装修后的房间看起来与以前完全不同。",
+      "source": "原创学习例句"
+    }
+  },
+  "738": {
+    "meaning_zh": "更不用说；还不包括",
+    "collocations": [
+      {
+        "english": "not to mention the cost",
+        "chinese": "更不用说费用了"
+      },
+      {
+        "english": "not to mention the extra work",
+        "chinese": "还不包括额外的工作"
+      }
+    ],
+    "example": {
+      "english": "Moving would take weeks, not to mention the cost.",
+      "chinese": "搬家要花好几周，更不用说费用了。",
+      "source": "原创学习例句"
+    }
+  },
+  "739": {
+    "meaning_zh": "代表某人",
+    "collocations": [
+      {
+        "english": "on behalf of the team",
+        "chinese": "代表团队"
+      },
+      {
+        "english": "on behalf of a friend",
+        "chinese": "代表一位朋友"
+      }
+    ],
+    "example": {
+      "english": "I'd like to thank you on behalf of the whole team.",
+      "chinese": "我想代表整个团队向你表示感谢。",
+      "source": "原创学习例句"
+    }
+  },
+  "740": {
+    "meaning_zh": "由某人表现出来的；就某人的行为而言",
+    "collocations": [
+      {
+        "english": "an effort on the part of everyone",
+        "chinese": "每个人作出的努力"
+      },
+      {
+        "english": "a mistake on my part",
+        "chinese": "我的一个失误"
+      }
+    ],
+    "example": {
+      "english": "The success required a real effort on the part of everyone.",
+      "chinese": "这次成功需要每个人切实付出努力。",
+      "source": "原创学习例句"
+    }
+  },
+  "741": {
+    "meaning_zh": "在……期间；在……过程中",
+    "collocations": [
+      {
+        "english": "over the course of a year",
+        "chinese": "在一年当中"
+      },
+      {
+        "english": "over the course of the meeting",
+        "chinese": "在会议过程中"
+      }
+    ],
+    "example": {
+      "english": "My confidence grew over the course of the year.",
+      "chinese": "这一年里，我的信心逐渐增强。",
+      "source": "原创学习例句"
+    }
+  },
+  "742": {
+    "meaning_zh": "表达；措辞；说",
+    "collocations": [
+      {
+        "english": "to put it simply",
+        "chinese": "简单地说"
+      },
+      {
+        "english": "to put it another way",
+        "chinese": "换一种说法"
+      }
+    ],
+    "example": {
+      "english": "To put it simply, we need more time.",
+      "chinese": "简单地说，我们需要更多时间。",
+      "source": "原创学习例句"
+    }
+  },
+  "743": {
+    "meaning_zh": "试图；设法（较正式）",
+    "collocations": [
+      {
+        "english": "seek to improve",
+        "chinese": "力求改善"
+      },
+      {
+        "english": "seek to understand",
+        "chinese": "试图理解"
+      }
+    ],
+    "example": {
+      "english": "The study seeks to understand how people learn new words.",
+      "chinese": "这项研究试图了解人们如何学习新词。",
+      "source": "原创学习例句"
+    }
+  },
+  "744": {
+    "meaning_zh": "准备好做；即将做",
+    "collocations": [
+      {
+        "english": "be set to begin",
+        "chinese": "即将开始"
+      },
+      {
+        "english": "be set to increase",
+        "chinese": "预计将增加"
+      }
+    ],
+    "example": {
+      "english": "The new service is set to begin next month.",
+      "chinese": "这项新服务定于下个月开始。",
+      "source": "原创学习例句"
+    }
+  },
+  "745": {
+    "meaning_zh": "……的程度",
+    "collocations": [
+      {
+        "english": "the extent to which it helps",
+        "chinese": "它发挥帮助作用的程度"
+      },
+      {
+        "english": "the extent to which things have changed",
+        "chinese": "事情发生变化的程度"
+      }
+    ],
+    "example": {
+      "english": "We need to understand the extent to which the changes affect users.",
+      "chinese": "我们需要了解这些变化对用户产生多大影响。",
+      "source": "原创学习例句"
+    }
+  },
+  "746": {
+    "meaning_zh": "迄今；到目前为止",
+    "collocations": [
+      {
+        "english": "the best result to date",
+        "chinese": "迄今最好的结果"
+      },
+      {
+        "english": "progress to date",
+        "chinese": "迄今的进展"
+      }
+    ],
+    "example": {
+      "english": "This is our most successful event to date.",
+      "chinese": "这是我们迄今最成功的一次活动。",
+      "source": "原创学习例句"
+    }
+  },
+  "747": {
+    "meaning_zh": "面临困难；与……对抗",
+    "collocations": [
+      {
+        "english": "be up against a deadline",
+        "chinese": "面临紧迫的截止期限"
+      },
+      {
+        "english": "be up against a strong team",
+        "chinese": "面对强大的队伍"
+      }
+    ],
+    "example": {
+      "english": "We're up against a tight deadline this week.",
+      "chinese": "我们这周面临一个紧迫的截止期限。",
+      "source": "原创学习例句"
+    }
+  },
+  "748": {
+    "meaning_zh": "关于；至于",
+    "collocations": [
+      {
+        "english": "with regard to your question",
+        "chinese": "关于你的问题"
+      },
+      {
+        "english": "with regard to the schedule",
+        "chinese": "关于时间安排"
+      }
+    ],
+    "example": {
+      "english": "With regard to your question, I'll send the details tomorrow.",
+      "chinese": "关于你的问题，我明天会把详细信息发给你。",
+      "source": "原创学习例句"
+    }
+  },
+  "749": {
+    "meaning_zh": "关于；就……而言",
+    "collocations": [
+      {
+        "english": "with respect to this issue",
+        "chinese": "关于这个问题"
+      },
+      {
+        "english": "with respect to timing",
+        "chinese": "就时间安排而言"
+      }
+    ],
+    "example": {
+      "english": "We need more information with respect to the total cost.",
+      "chinese": "关于总费用，我们还需要更多信息。",
+      "source": "原创学习例句"
+    }
+  },
+  "750": {
+    "meaning_zh": "除……以外",
+    "collocations": [
+      {
+        "english": "with the exception of one person",
+        "chinese": "除一人以外"
+      },
+      {
+        "english": "with the exception of Sundays",
+        "chinese": "除星期日以外"
+      }
+    ],
+    "example": {
+      "english": "The library opens every day with the exception of Sundays.",
+      "chinese": "这家图书馆除了星期日以外每天都开放。",
+      "source": "原创学习例句"
+    }
+  }
+}

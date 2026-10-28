@@ -1,0 +1,1802 @@
+{
+  "301": {
+    "meaning_zh": "代替；而不是（后接名词或动名词）",
+    "collocations": [
+      {
+        "english": "instead of coffee",
+        "chinese": "代替咖啡"
+      },
+      {
+        "english": "instead of driving",
+        "chinese": "不驾车而改用其他方式"
+      }
+    ],
+    "example": {
+      "english": "We walked instead of taking the bus.",
+      "chinese": "我们没有坐公交车，而是步行去了。",
+      "source": "原创学习例句"
+    }
+  },
+  "302": {
+    "meaning_zh": "在空中；悬在空气中",
+    "collocations": [
+      {
+        "english": "birds in the air",
+        "chinese": "空中的鸟"
+      },
+      {
+        "english": "a smell in the air",
+        "chinese": "空气中的气味"
+      }
+    ],
+    "example": {
+      "english": "There was a smell of bread in the air.",
+      "chinese": "空气中弥漫着面包的香味。",
+      "source": "原创学习例句"
+    }
+  },
+  "303": {
+    "meaning_zh": "最后；终于",
+    "collocations": [
+      {
+        "english": "in the end, we agreed",
+        "chinese": "最后我们达成了一致"
+      },
+      {
+        "english": "work out in the end",
+        "chinese": "最终顺利解决"
+      }
+    ],
+    "example": {
+      "english": "In the end, we decided to stay at home.",
+      "chinese": "最后，我们决定待在家里。",
+      "source": "原创学习例句"
+    }
+  },
+  "304": {
+    "meaning_zh": "在中间；在中部",
+    "collocations": [
+      {
+        "english": "in the middle of the room",
+        "chinese": "在房间中间"
+      },
+      {
+        "english": "sit in the middle",
+        "chinese": "坐在中间"
+      }
+    ],
+    "example": {
+      "english": "Please put the table in the middle.",
+      "chinese": "请把桌子放在中间。",
+      "source": "原创学习例句"
+    }
+  },
+  "305": {
+    "meaning_zh": "以同样的方式",
+    "collocations": [
+      {
+        "english": "work in the same way",
+        "chinese": "以同样的方式运作"
+      },
+      {
+        "english": "react in the same way",
+        "chinese": "作出同样的反应"
+      }
+    ],
+    "example": {
+      "english": "These two machines work in the same way.",
+      "chinese": "这两台机器的工作方式相同。",
+      "source": "原创学习例句"
+    }
+  },
+  "306": {
+    "meaning_zh": "用这种方式；这样",
+    "collocations": [
+      {
+        "english": "solve a problem in this way",
+        "chinese": "用这种方式解决问题"
+      },
+      {
+        "english": "in this way, we save time",
+        "chinese": "这样我们节省时间"
+      }
+    ],
+    "example": {
+      "english": "In this way, you can practise a little every day.",
+      "chinese": "这样，你就能每天练习一点。",
+      "source": "原创学习例句"
+    }
+  },
+  "307": {
+    "meaning_zh": "那得看情况；这取决于……",
+    "collocations": [
+      {
+        "english": "it depends on the weather",
+        "chinese": "这取决于天气"
+      },
+      {
+        "english": "it all depends",
+        "chinese": "一切要看情况"
+      }
+    ],
+    "example": {
+      "english": "It depends on how much time we have.",
+      "chinese": "这取决于我们有多少时间。",
+      "source": "原创学习例句"
+    }
+  },
+  "308": {
+    "meaning_zh": "我想是的；我认为如此",
+    "collocations": [
+      {
+        "english": "I think so too",
+        "chinese": "我也这样认为"
+      },
+      {
+        "english": "I don't think so",
+        "chinese": "我不这样认为"
+      }
+    ],
+    "example": {
+      "english": "Is the shop open today? I think so.",
+      "chinese": "这家店今天开门吗？我想是的。",
+      "source": "原创学习例句"
+    }
+  },
+  "309": {
+    "meaning_zh": "导致；通向；引起",
+    "collocations": [
+      {
+        "english": "lead to a problem",
+        "chinese": "导致问题"
+      },
+      {
+        "english": "lead to success",
+        "chinese": "通向成功"
+      }
+    ],
+    "example": {
+      "english": "Small changes can lead to better results.",
+      "chinese": "小小的改变也能带来更好的结果。",
+      "source": "原创学习例句"
+    }
+  },
+  "310": {
+    "meaning_zh": "少于；不到",
+    "collocations": [
+      {
+        "english": "less than an hour",
+        "chinese": "不到一小时"
+      },
+      {
+        "english": "less than half",
+        "chinese": "不到一半"
+      }
+    ],
+    "example": {
+      "english": "The walk takes less than twenty minutes.",
+      "chinese": "步行不到二十分钟就能到。",
+      "source": "原创学习例句"
+    }
+  },
+  "311": {
+    "meaning_zh": "让我……（提供帮助、请求许可等）",
+    "collocations": [
+      {
+        "english": "Let me help you",
+        "chinese": "让我帮你"
+      },
+      {
+        "english": "Let me explain",
+        "chinese": "让我解释一下"
+      }
+    ],
+    "example": {
+      "english": "Let me show you how to use the machine.",
+      "chinese": "让我教你如何使用这台机器。",
+      "source": "原创学习例句"
+    }
+  },
+  "312": {
+    "meaning_zh": "告诉我；让我知道",
+    "collocations": [
+      {
+        "english": "let me know the time",
+        "chinese": "告诉我时间"
+      },
+      {
+        "english": "let me know if you need help",
+        "chinese": "需要帮助就告诉我"
+      }
+    ],
+    "example": {
+      "english": "Please let me know when you arrive.",
+      "chinese": "你到达时请告诉我。",
+      "source": "原创学习例句"
+    }
+  },
+  "313": {
+    "meaning_zh": "照顾；照料",
+    "collocations": [
+      {
+        "english": "look after a child",
+        "chinese": "照顾孩子"
+      },
+      {
+        "english": "look after yourself",
+        "chinese": "照顾好自己"
+      }
+    ],
+    "example": {
+      "english": "Could you look after my cat this weekend?",
+      "chinese": "这个周末你能帮我照顾猫吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "314": {
+    "meaning_zh": "回头看；回顾；查看之前的内容",
+    "collocations": [
+      {
+        "english": "look back at your notes",
+        "chinese": "回看笔记"
+      },
+      {
+        "english": "look back at the past",
+        "chinese": "回顾过去"
+      }
+    ],
+    "example": {
+      "english": "Look back at your notes before you answer.",
+      "chinese": "回答之前回看一下你的笔记。",
+      "source": "原创学习例句"
+    }
+  },
+  "315": {
+    "meaning_zh": "查阅；查找（词义、资料等）",
+    "collocations": [
+      {
+        "english": "look up a word",
+        "chinese": "查一个词"
+      },
+      {
+        "english": "look it up online",
+        "chinese": "上网查一下它"
+      }
+    ],
+    "example": {
+      "english": "You can look up the word in a dictionary.",
+      "chinese": "你可以在词典里查这个词。",
+      "source": "原创学习例句"
+    }
+  },
+  "316": {
+    "meaning_zh": "犯错误；弄错",
+    "collocations": [
+      {
+        "english": "make a small mistake",
+        "chinese": "犯一个小错误"
+      },
+      {
+        "english": "make the same mistake",
+        "chinese": "犯同样的错误"
+      }
+    ],
+    "example": {
+      "english": "Everyone makes a mistake from time to time.",
+      "chinese": "每个人都会偶尔犯错。",
+      "source": "原创学习例句"
+    }
+  },
+  "317": {
+    "meaning_zh": "挣钱；赚钱",
+    "collocations": [
+      {
+        "english": "make money from a hobby",
+        "chinese": "通过爱好赚钱"
+      },
+      {
+        "english": "make enough money",
+        "chinese": "赚到足够的钱"
+      }
+    ],
+    "example": {
+      "english": "She makes money by selling handmade bags.",
+      "chinese": "她靠卖手工包赚钱。",
+      "source": "原创学习例句"
+    }
+  },
+  "318": {
+    "meaning_zh": "有道理；讲得通；能被理解",
+    "collocations": [
+      {
+        "english": "make sense to someone",
+        "chinese": "对某人来说讲得通"
+      },
+      {
+        "english": "make perfect sense",
+        "chinese": "完全说得通"
+      }
+    ],
+    "example": {
+      "english": "Your explanation makes sense to me now.",
+      "chinese": "现在我能理解你的解释了。",
+      "source": "原创学习例句"
+    }
+  },
+  "319": {
+    "meaning_zh": "确保；弄清楚",
+    "collocations": [
+      {
+        "english": "make sure that",
+        "chinese": "确保……"
+      },
+      {
+        "english": "make sure of the time",
+        "chinese": "确认时间"
+      }
+    ],
+    "example": {
+      "english": "Please make sure the door is locked.",
+      "chinese": "请确保门锁好了。",
+      "source": "原创学习例句"
+    }
+  },
+  "320": {
+    "meaning_zh": "好得多；改善很多",
+    "collocations": [
+      {
+        "english": "feel much better",
+        "chinese": "感觉好多了"
+      },
+      {
+        "english": "a much better idea",
+        "chinese": "好得多的主意"
+      }
+    ],
+    "example": {
+      "english": "I feel much better after a short rest.",
+      "chinese": "短暂休息后，我感觉好多了。",
+      "source": "原创学习例句"
+    }
+  },
+  "321": {
+    "meaning_zh": "一点也不；根本不；不客气",
+    "collocations": [
+      {
+        "english": "not at all difficult",
+        "chinese": "一点也不难"
+      },
+      {
+        "english": "not at all worried",
+        "chinese": "一点也不担心"
+      }
+    ],
+    "example": {
+      "english": "The journey was not at all difficult.",
+      "chinese": "这趟旅程一点也不艰难。",
+      "source": "原创学习例句"
+    }
+  },
+  "322": {
+    "meaning_zh": "绝不；没门；不可能；无从",
+    "collocations": [
+      {
+        "english": "No way!",
+        "chinese": "绝不！"
+      },
+      {
+        "english": "there is no way to know",
+        "chinese": "无从得知"
+      }
+    ],
+    "example": {
+      "english": "There is no way to finish this in five minutes.",
+      "chinese": "这件事不可能在五分钟内完成。",
+      "source": "原创学习例句"
+    }
+  },
+  "323": {
+    "meaning_zh": "哎呀；天哪（担忧或失望）",
+    "collocations": [
+      {
+        "english": "Oh dear, I forgot",
+        "chinese": "哎呀，我忘了"
+      },
+      {
+        "english": "Oh dear, what happened?",
+        "chinese": "天哪，怎么了？"
+      }
+    ],
+    "example": {
+      "english": "Oh dear! I have missed the last bus.",
+      "chinese": "哎呀！我错过末班车了。",
+      "source": "原创学习例句"
+    }
+  },
+  "324": {
+    "meaning_zh": "唉；算了；那也没办法",
+    "collocations": [
+      {
+        "english": "Oh well, never mind",
+        "chinese": "唉，没关系"
+      },
+      {
+        "english": "Oh well, we tried",
+        "chinese": "唉，我们已经试过了"
+      }
+    ],
+    "example": {
+      "english": "Oh well, we can try again tomorrow.",
+      "chinese": "唉，我们明天可以再试。",
+      "source": "原创学习例句"
+    }
+  },
+  "325": {
+    "meaning_zh": "在地球上；在世界上；（强调）究竟",
+    "collocations": [
+      {
+        "english": "life on earth",
+        "chinese": "地球上的生命"
+      },
+      {
+        "english": "What on earth happened?",
+        "chinese": "究竟发生了什么？"
+      }
+    ],
+    "example": {
+      "english": "There are many different kinds of animals on earth.",
+      "chinese": "地球上有许多不同种类的动物。",
+      "source": "原创学习例句"
+    }
+  },
+  "326": {
+    "meaning_zh": "在地面上",
+    "collocations": [
+      {
+        "english": "sit on the ground",
+        "chinese": "坐在地上"
+      },
+      {
+        "english": "lie on the ground",
+        "chinese": "躺在地上"
+      }
+    ],
+    "example": {
+      "english": "The children sat on the ground to eat.",
+      "chinese": "孩子们坐在地上吃东西。",
+      "source": "原创学习例句"
+    }
+  },
+  "327": {
+    "meaning_zh": "在另一边；在对面",
+    "collocations": [
+      {
+        "english": "on the other side of the road",
+        "chinese": "在马路对面"
+      },
+      {
+        "english": "wait on the other side",
+        "chinese": "在另一边等待"
+      }
+    ],
+    "example": {
+      "english": "The entrance is on the other side of the building.",
+      "chinese": "入口在这栋建筑的另一侧。",
+      "source": "原创学习例句"
+    }
+  },
+  "328": {
+    "meaning_zh": "在墙上",
+    "collocations": [
+      {
+        "english": "a picture on the wall",
+        "chinese": "墙上的一幅画"
+      },
+      {
+        "english": "hang something on the wall",
+        "chinese": "把某物挂在墙上"
+      }
+    ],
+    "example": {
+      "english": "There is a large map on the wall.",
+      "chinese": "墙上有一张大地图。",
+      "source": "原创学习例句"
+    }
+  },
+  "329": {
+    "meaning_zh": "准时；按时",
+    "collocations": [
+      {
+        "english": "arrive on time",
+        "chinese": "准时到达"
+      },
+      {
+        "english": "finish on time",
+        "chinese": "按时完成"
+      }
+    ],
+    "example": {
+      "english": "The train arrived on time this morning.",
+      "chinese": "今天早上火车准时到达。",
+      "source": "原创学习例句"
+    }
+  },
+  "330": {
+    "meaning_zh": "在……顶上；在……上面",
+    "collocations": [
+      {
+        "english": "on top of the box",
+        "chinese": "在盒子顶上"
+      },
+      {
+        "english": "put something on top of it",
+        "chinese": "把某物放在它上面"
+      }
+    ],
+    "example": {
+      "english": "Do not put heavy bags on top of the cake.",
+      "chinese": "不要把重包放在蛋糕上面。",
+      "source": "原创学习例句"
+    }
+  },
+  "331": {
+    "meaning_zh": "一两个；少数几个",
+    "collocations": [
+      {
+        "english": "one or two questions",
+        "chinese": "一两个问题"
+      },
+      {
+        "english": "one or two days",
+        "chinese": "一两天"
+      }
+    ],
+    "example": {
+      "english": "I have one or two questions about the plan.",
+      "chinese": "关于这个计划，我有一两个问题。",
+      "source": "原创学习例句"
+    }
+  },
+  "332": {
+    "meaning_zh": "普通人；平常人",
+    "collocations": [
+      {
+        "english": "the lives of ordinary people",
+        "chinese": "普通人的生活"
+      },
+      {
+        "english": "help ordinary people",
+        "chinese": "帮助普通人"
+      }
+    ],
+    "example": {
+      "english": "The book tells stories about ordinary people.",
+      "chinese": "这本书讲述普通人的故事。",
+      "source": "原创学习例句"
+    }
+  },
+  "333": {
+    "meaning_zh": "注意；留意；集中注意力",
+    "collocations": [
+      {
+        "english": "pay attention to the teacher",
+        "chinese": "注意听老师讲"
+      },
+      {
+        "english": "pay close attention",
+        "chinese": "密切留意"
+      }
+    ],
+    "example": {
+      "english": "Please pay attention to the next example.",
+      "chinese": "请留意下一个例子。",
+      "source": "原创学习例句"
+    }
+  },
+  "334": {
+    "meaning_zh": "每小时",
+    "collocations": [
+      {
+        "english": "ten pounds per hour",
+        "chinese": "每小时十英镑"
+      },
+      {
+        "english": "kilometres per hour",
+        "chinese": "千米每小时"
+      }
+    ],
+    "example": {
+      "english": "The job pays twelve pounds per hour.",
+      "chinese": "这份工作每小时支付十二英镑。",
+      "source": "原创学习例句"
+    }
+  },
+  "335": {
+    "meaning_zh": "接人；拿起；拾起",
+    "collocations": [
+      {
+        "english": "pick up a friend",
+        "chinese": "接朋友"
+      },
+      {
+        "english": "pick it up",
+        "chinese": "把它拿起来"
+      }
+    ],
+    "example": {
+      "english": "I will pick you up outside the station.",
+      "chinese": "我会在车站外接你。",
+      "source": "原创学习例句"
+    }
+  },
+  "336": {
+    "meaning_zh": "警察；警员",
+    "collocations": [
+      {
+        "english": "a local police officer",
+        "chinese": "当地警员"
+      },
+      {
+        "english": "speak to a police officer",
+        "chinese": "与警员交谈"
+      }
+    ],
+    "example": {
+      "english": "A police officer helped us find the address.",
+      "chinese": "一位警员帮我们找到了地址。",
+      "source": "原创学习例句"
+    }
+  },
+  "337": {
+    "meaning_zh": "警察局；派出所",
+    "collocations": [
+      {
+        "english": "the nearest police station",
+        "chinese": "最近的警察局"
+      },
+      {
+        "english": "go to the police station",
+        "chinese": "去警察局"
+      }
+    ],
+    "example": {
+      "english": "The police station is opposite the library.",
+      "chinese": "警察局在图书馆对面。",
+      "source": "原创学习例句"
+    }
+  },
+  "338": {
+    "meaning_zh": "公共交通（英式常见）",
+    "collocations": [
+      {
+        "english": "use public transport",
+        "chinese": "使用公共交通"
+      },
+      {
+        "english": "improve public transport",
+        "chinese": "改善公共交通"
+      }
+    ],
+    "example": {
+      "english": "Public transport is a convenient way to get there.",
+      "chinese": "乘公共交通去那里很方便。",
+      "source": "原创学习例句"
+    }
+  },
+  "339": {
+    "meaning_zh": "穿上；戴上；把……放上去",
+    "collocations": [
+      {
+        "english": "put on a coat",
+        "chinese": "穿上外套"
+      },
+      {
+        "english": "put it on",
+        "chinese": "把它穿上"
+      }
+    ],
+    "example": {
+      "english": "Put on your coat before you go outside.",
+      "chinese": "出去之前穿上外套。",
+      "source": "原创学习例句"
+    }
+  },
+  "340": {
+    "meaning_zh": "相当多；不少",
+    "collocations": [
+      {
+        "english": "quite a lot of work",
+        "chinese": "相当多的工作"
+      },
+      {
+        "english": "learn quite a lot",
+        "chinese": "学到不少"
+      }
+    ],
+    "example": {
+      "english": "We learned quite a lot during the visit.",
+      "chinese": "我们在参观中学到了不少。",
+      "source": "原创学习例句"
+    }
+  },
+  "341": {
+    "meaning_zh": "……的原因（why 引出解释）",
+    "collocations": [
+      {
+        "english": "the reasons why people leave",
+        "chinese": "人们离开的原因"
+      },
+      {
+        "english": "reasons why it works",
+        "chinese": "它起作用的原因"
+      }
+    ],
+    "example": {
+      "english": "We discussed the reasons why people change jobs.",
+      "chinese": "我们讨论了人们换工作的原因。",
+      "source": "原创学习例句"
+    }
+  },
+  "342": {
+    "meaning_zh": "提到；指的是；参考",
+    "collocations": [
+      {
+        "english": "refer to a book",
+        "chinese": "查阅一本书"
+      },
+      {
+        "english": "refer to the same person",
+        "chinese": "指同一个人"
+      }
+    ],
+    "example": {
+      "english": "The word refers to a type of animal.",
+      "chinese": "这个词指的是一种动物。",
+      "source": "原创学习例句"
+    }
+  },
+  "343": {
+    "meaning_zh": "报道；报告有关……的情况",
+    "collocations": [
+      {
+        "english": "report on the results",
+        "chinese": "报告结果"
+      },
+      {
+        "english": "report on an event",
+        "chinese": "报道一个事件"
+      }
+    ],
+    "example": {
+      "english": "She will report on the meeting tomorrow.",
+      "chinese": "她将在明天报告会议情况。",
+      "source": "原创学习例句"
+    }
+  },
+  "344": {
+    "meaning_zh": "回应；对……作出反应",
+    "collocations": [
+      {
+        "english": "respond to a question",
+        "chinese": "回答问题"
+      },
+      {
+        "english": "respond to an email",
+        "chinese": "回复电子邮件"
+      }
+    ],
+    "example": {
+      "english": "Please respond to the invitation by Friday.",
+      "chinese": "请在星期五之前回复邀请。",
+      "source": "原创学习例句"
+    }
+  },
+  "345": {
+    "meaning_zh": "省钱；存钱",
+    "collocations": [
+      {
+        "english": "save money for a trip",
+        "chinese": "为旅行存钱"
+      },
+      {
+        "english": "save money on food",
+        "chinese": "节省伙食开销"
+      }
+    ],
+    "example": {
+      "english": "Cooking at home can help you save money.",
+      "chinese": "在家做饭可以帮你省钱。",
+      "source": "原创学习例句"
+    }
+  },
+  "346": {
+    "meaning_zh": "科幻；科幻作品",
+    "collocations": [
+      {
+        "english": "a science fiction film",
+        "chinese": "科幻电影"
+      },
+      {
+        "english": "science fiction stories",
+        "chinese": "科幻故事"
+      }
+    ],
+    "example": {
+      "english": "I enjoy reading science fiction before bed.",
+      "chinese": "我喜欢睡前读科幻小说。",
+      "source": "原创学习例句"
+    }
+  },
+  "347": {
+    "meaning_zh": "寻找；搜索",
+    "collocations": [
+      {
+        "english": "search for a job",
+        "chinese": "找工作"
+      },
+      {
+        "english": "search for information",
+        "chinese": "搜索信息"
+      }
+    ],
+    "example": {
+      "english": "We searched for the missing keys for an hour.",
+      "chinese": "我们花了一小时寻找丢失的钥匙。",
+      "source": "原创学习例句"
+    }
+  },
+  "348": {
+    "meaning_zh": "为了；以便；结果是",
+    "collocations": [
+      {
+        "english": "so that everyone can hear",
+        "chinese": "以便每个人都能听见"
+      },
+      {
+        "english": "so that you have time",
+        "chinese": "这样你就有时间"
+      }
+    ],
+    "example": {
+      "english": "Speak clearly so that everyone can hear you.",
+      "chinese": "说清楚一些，让每个人都能听见。",
+      "source": "原创学习例句"
+    }
+  },
+  "349": {
+    "meaning_zh": "……的解决办法；……的答案",
+    "collocations": [
+      {
+        "english": "a solution to the problem",
+        "chinese": "问题的解决办法"
+      },
+      {
+        "english": "find a solution to it",
+        "chinese": "找到解决它的办法"
+      }
+    ],
+    "example": {
+      "english": "We need a simple solution to this problem.",
+      "chinese": "我们需要一个简单的办法来解决这个问题。",
+      "source": "原创学习例句"
+    }
+  },
+  "350": {
+    "meaning_zh": "……种类；……类型",
+    "collocations": [
+      {
+        "english": "what sort of music",
+        "chinese": "哪种音乐"
+      },
+      {
+        "english": "this sort of problem",
+        "chinese": "这类问题"
+      }
+    ],
+    "example": {
+      "english": "What sort of books do you usually read?",
+      "chinese": "你通常读哪类书？",
+      "source": "原创学习例句"
+    }
+  },
+  "351": {
+    "meaning_zh": "听起来像；听起来是……",
+    "collocations": [
+      {
+        "english": "sound like a good idea",
+        "chinese": "听起来是个好主意"
+      },
+      {
+        "english": "sound like your brother",
+        "chinese": "听起来像你兄弟"
+      }
+    ],
+    "example": {
+      "english": "That sounds like a good plan.",
+      "chinese": "那听起来是个好计划。",
+      "source": "原创学习例句"
+    }
+  },
+  "352": {
+    "meaning_zh": "以……开始；从……着手",
+    "collocations": [
+      {
+        "english": "start with the basics",
+        "chinese": "从基础开始"
+      },
+      {
+        "english": "start with a question",
+        "chinese": "以问题开始"
+      }
+    ],
+    "example": {
+      "english": "Let us start with the easiest question.",
+      "chinese": "让我们先从最简单的问题开始。",
+      "source": "原创学习例句"
+    }
+  },
+  "353": {
+    "meaning_zh": "如此……的；这么……的",
+    "collocations": [
+      {
+        "english": "such a good idea",
+        "chinese": "这么好的主意"
+      },
+      {
+        "english": "such an interesting book",
+        "chinese": "如此有趣的一本书"
+      }
+    ],
+    "example": {
+      "english": "It was such a lovely day that we ate outside.",
+      "chinese": "那天天气真好，所以我们在外面吃饭。",
+      "source": "原创学习例句"
+    }
+  },
+  "354": {
+    "meaning_zh": "照顾；照料；保管好",
+    "collocations": [
+      {
+        "english": "take care of yourself",
+        "chinese": "照顾好自己"
+      },
+      {
+        "english": "take care of the children",
+        "chinese": "照看孩子"
+      }
+    ],
+    "example": {
+      "english": "Can you take care of the plants while I am away?",
+      "chinese": "我不在时，你能照看这些植物吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "355": {
+    "meaning_zh": "起飞；离地",
+    "collocations": [
+      {
+        "english": "the plane takes off",
+        "chinese": "飞机起飞"
+      },
+      {
+        "english": "take off on time",
+        "chinese": "准时起飞"
+      }
+    ],
+    "example": {
+      "english": "Our plane will take off in twenty minutes.",
+      "chinese": "我们的飞机将在二十分钟后起飞。",
+      "source": "原创学习例句"
+    }
+  },
+  "356": {
+    "meaning_zh": "脱下；摘下；取下",
+    "collocations": [
+      {
+        "english": "take off your shoes",
+        "chinese": "脱鞋"
+      },
+      {
+        "english": "take it off",
+        "chinese": "把它脱下"
+      }
+    ],
+    "example": {
+      "english": "Please take off your shoes before coming in.",
+      "chinese": "进来之前请脱鞋。",
+      "source": "原创学习例句"
+    }
+  },
+  "357": {
+    "meaning_zh": "参加；参与",
+    "collocations": [
+      {
+        "english": "take part in a game",
+        "chinese": "参加游戏"
+      },
+      {
+        "english": "take an active part",
+        "chinese": "积极参与"
+      }
+    ],
+    "example": {
+      "english": "Would you like to take part in the discussion?",
+      "chinese": "你想参加讨论吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "358": {
+    "meaning_zh": "发生；举行",
+    "collocations": [
+      {
+        "english": "take place in June",
+        "chinese": "在六月举行"
+      },
+      {
+        "english": "take place at school",
+        "chinese": "在学校举行"
+      }
+    ],
+    "example": {
+      "english": "The meeting will take place on Friday.",
+      "chinese": "会议将在星期五举行。",
+      "source": "原创学习例句"
+    }
+  },
+  "359": {
+    "meaning_zh": "最好的事情；最好的办法",
+    "collocations": [
+      {
+        "english": "the best thing to do",
+        "chinese": "最好的做法"
+      },
+      {
+        "english": "the best thing about it",
+        "chinese": "它最好的方面"
+      }
+    ],
+    "example": {
+      "english": "The best thing about the job is the people.",
+      "chinese": "这份工作最好的地方是共事的人。",
+      "source": "原创学习例句"
+    }
+  },
+  "360": {
+    "meaning_zh": "第一件事；最先考虑的事",
+    "collocations": [
+      {
+        "english": "the first thing to do",
+        "chinese": "首先要做的事"
+      },
+      {
+        "english": "first thing in the morning",
+        "chinese": "早上第一件事"
+      }
+    ],
+    "example": {
+      "english": "The first thing we need is a clear plan.",
+      "chinese": "我们首先需要的是一个清晰的计划。",
+      "source": "原创学习例句"
+    }
+  },
+  "361": {
+    "meaning_zh": "下列的；接下来的",
+    "collocations": [
+      {
+        "english": "the following questions",
+        "chinese": "下列问题"
+      },
+      {
+        "english": "the following day",
+        "chinese": "第二天"
+      }
+    ],
+    "example": {
+      "english": "Please answer the following questions.",
+      "chinese": "请回答下列问题。",
+      "source": "原创学习例句"
+    }
+  },
+  "362": {
+    "meaning_zh": "重要的事；关键之处",
+    "collocations": [
+      {
+        "english": "the important thing is",
+        "chinese": "重要的是"
+      },
+      {
+        "english": "the most important thing",
+        "chinese": "最重要的事情"
+      }
+    ],
+    "example": {
+      "english": "The important thing is to keep practising.",
+      "chinese": "重要的是坚持练习。",
+      "source": "原创学习例句"
+    }
+  },
+  "363": {
+    "meaning_zh": "……的另一侧；……的对面",
+    "collocations": [
+      {
+        "english": "the other side of the road",
+        "chinese": "马路对面"
+      },
+      {
+        "english": "the other side of the room",
+        "chinese": "房间的另一边"
+      }
+    ],
+    "example": {
+      "english": "She was waiting on the other side of the road.",
+      "chinese": "她在马路对面等着。",
+      "source": "原创学习例句"
+    }
+  },
+  "364": {
+    "meaning_zh": "……的其余部分；其余的人或事物",
+    "collocations": [
+      {
+        "english": "the rest of the class",
+        "chinese": "班上其余的人"
+      },
+      {
+        "english": "the rest of the day",
+        "chinese": "这一天剩余的时间"
+      }
+    ],
+    "example": {
+      "english": "We spent the rest of the day at home.",
+      "chinese": "这一天余下的时间我们都待在家里。",
+      "source": "原创学习例句"
+    }
+  },
+  "365": {
+    "meaning_zh": "如今；现在；近来",
+    "collocations": [
+      {
+        "english": "life these days",
+        "chinese": "如今的生活"
+      },
+      {
+        "english": "busy these days",
+        "chinese": "最近很忙"
+      }
+    ],
+    "example": {
+      "english": "I do most of my reading online these days.",
+      "chinese": "如今我大部分阅读都在网上进行。",
+      "source": "原创学习例句"
+    }
+  },
+  "366": {
+    "meaning_zh": "据说；人们说……",
+    "collocations": [
+      {
+        "english": "they say that",
+        "chinese": "据说……"
+      },
+      {
+        "english": "as they say",
+        "chinese": "正如人们常说的"
+      }
+    ],
+    "example": {
+      "english": "They say the new restaurant is very good.",
+      "chinese": "据说那家新餐厅很不错。",
+      "source": "原创学习例句"
+    }
+  },
+  "367": {
+    "meaning_zh": "扔掉；丢弃",
+    "collocations": [
+      {
+        "english": "throw away old papers",
+        "chinese": "扔掉旧报纸"
+      },
+      {
+        "english": "throw it away",
+        "chinese": "把它扔掉"
+      }
+    ],
+    "example": {
+      "english": "Do not throw away the box yet.",
+      "chinese": "先别把盒子扔掉。",
+      "source": "原创学习例句"
+    }
+  },
+  "368": {
+    "meaning_zh": "关掉；关闭（电器等）",
+    "collocations": [
+      {
+        "english": "turn off the light",
+        "chinese": "关灯"
+      },
+      {
+        "english": "turn it off",
+        "chinese": "把它关掉"
+      }
+    ],
+    "example": {
+      "english": "Please turn off the light when you leave.",
+      "chinese": "离开时请关灯。",
+      "source": "原创学习例句"
+    }
+  },
+  "369": {
+    "meaning_zh": "打开；接通（电器等）",
+    "collocations": [
+      {
+        "english": "turn on the radio",
+        "chinese": "打开收音机"
+      },
+      {
+        "english": "turn it on",
+        "chinese": "把它打开"
+      }
+    ],
+    "example": {
+      "english": "Could you turn on the radio, please?",
+      "chinese": "请打开收音机，好吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "370": {
+    "meaning_zh": "上上下下；来来回回",
+    "collocations": [
+      {
+        "english": "walk up and down",
+        "chinese": "来回走动"
+      },
+      {
+        "english": "move up and down",
+        "chinese": "上下移动"
+      }
+    ],
+    "example": {
+      "english": "She walked up and down while waiting.",
+      "chinese": "她等候时来回走动。",
+      "source": "原创学习例句"
+    }
+  },
+  "371": {
+    "meaning_zh": "为什么不……呢？（提建议）",
+    "collocations": [
+      {
+        "english": "Why not try again?",
+        "chinese": "为什么不再试一次呢？"
+      },
+      {
+        "english": "Why not come with us?",
+        "chinese": "为什么不和我们一起来呢？"
+      }
+    ],
+    "example": {
+      "english": "Why not take a short break now?",
+      "chinese": "为什么现在不短暂休息一下呢？",
+      "source": "原创学习例句"
+    }
+  },
+  "372": {
+    "meaning_zh": "锻炼；健身",
+    "collocations": [
+      {
+        "english": "work out at the gym",
+        "chinese": "在健身房锻炼"
+      },
+      {
+        "english": "work out twice a week",
+        "chinese": "每周锻炼两次"
+      }
+    ],
+    "example": {
+      "english": "I work out at the gym twice a week.",
+      "chinese": "我每周在健身房锻炼两次。",
+      "source": "原创学习例句"
+    }
+  },
+  "373": {
+    "meaning_zh": "担心；为……忧虑",
+    "collocations": [
+      {
+        "english": "worried about the exam",
+        "chinese": "担心考试"
+      },
+      {
+        "english": "worried about a friend",
+        "chinese": "担心一位朋友"
+      }
+    ],
+    "example": {
+      "english": "She is worried about her driving test.",
+      "chinese": "她在担心驾驶考试。",
+      "source": "原创学习例句"
+    }
+  },
+  "374": {
+    "meaning_zh": "非常想做某事；很乐意做某事",
+    "collocations": [
+      {
+        "english": "would love to visit",
+        "chinese": "非常想去参观"
+      },
+      {
+        "english": "would love to join you",
+        "chinese": "很乐意加入你们"
+      }
+    ],
+    "example": {
+      "english": "I would love to visit that museum.",
+      "chinese": "我非常想去参观那家博物馆。",
+      "source": "原创学习例句"
+    }
+  },
+  "375": {
+    "meaning_zh": "写下；记下",
+    "collocations": [
+      {
+        "english": "write down a number",
+        "chinese": "记下号码"
+      },
+      {
+        "english": "write it down",
+        "chinese": "把它写下来"
+      }
+    ],
+    "example": {
+      "english": "Please write down the date in your notebook.",
+      "chinese": "请把日期记在笔记本上。",
+      "source": "原创学习例句"
+    }
+  },
+  "376": {
+    "meaning_zh": "再多一点；稍微更多",
+    "collocations": [
+      {
+        "english": "a bit more time",
+        "chinese": "再多一点时间"
+      },
+      {
+        "english": "a bit more slowly",
+        "chinese": "再慢一点"
+      }
+    ],
+    "example": {
+      "english": "Could you give me a bit more time?",
+      "chinese": "你能再给我一点时间吗？",
+      "source": "原创学习例句"
+    }
+  },
+  "377": {
+    "meaning_zh": "一点；少量某物",
+    "collocations": [
+      {
+        "english": "a bit of luck",
+        "chinese": "一点运气"
+      },
+      {
+        "english": "a bit of advice",
+        "chinese": "一点建议"
+      }
+    ],
+    "example": {
+      "english": "I need a bit of advice about the course.",
+      "chinese": "关于这门课，我需要一点建议。",
+      "source": "原创学习例句"
+    }
+  },
+  "378": {
+    "meaning_zh": "使用……的机会或权利；进入……的通道",
+    "collocations": [
+      {
+        "english": "access to information",
+        "chinese": "获取信息的途径"
+      },
+      {
+        "english": "access to the internet",
+        "chinese": "上网条件"
+      }
+    ],
+    "example": {
+      "english": "All students have access to the library.",
+      "chinese": "所有学生都可以使用图书馆。",
+      "source": "原创学习例句"
+    }
+  },
+  "379": {
+    "meaning_zh": "毕竟；终究；居然（与原先想法不同）",
+    "collocations": [
+      {
+        "english": "after all, it is early",
+        "chinese": "毕竟现在还早"
+      },
+      {
+        "english": "not so difficult after all",
+        "chinese": "结果并没有那么难"
+      }
+    ],
+    "example": {
+      "english": "You should ask her; after all, she lives nearby.",
+      "chinese": "你应该问问她，毕竟她就住在附近。",
+      "source": "原创学习例句"
+    }
+  },
+  "380": {
+    "meaning_zh": "大量；很多；非常",
+    "collocations": [
+      {
+        "english": "a great deal of time",
+        "chinese": "大量时间"
+      },
+      {
+        "english": "a great deal better",
+        "chinese": "好得多"
+      }
+    ],
+    "example": {
+      "english": "We learned a great deal from the visit.",
+      "chinese": "我们从这次参观中学到了很多。",
+      "source": "原创学习例句"
+    }
+  },
+  "381": {
+    "meaning_zh": "旨在；力求做某事",
+    "collocations": [
+      {
+        "english": "aim to improve",
+        "chinese": "力求改善"
+      },
+      {
+        "english": "aim to finish on time",
+        "chinese": "力争按时完成"
+      }
+    ],
+    "example": {
+      "english": "We aim to finish the work by Friday.",
+      "chinese": "我们争取在星期五前完成工作。",
+      "source": "原创学习例句"
+    }
+  },
+  "382": {
+    "meaning_zh": "一种；某种类型",
+    "collocations": [
+      {
+        "english": "a kind of bird",
+        "chinese": "一种鸟"
+      },
+      {
+        "english": "a kind of music",
+        "chinese": "一种音乐"
+      }
+    ],
+    "example": {
+      "english": "This instrument makes a kind of soft ringing sound.",
+      "chinese": "这种乐器发出一种柔和的铃声。",
+      "source": "原创学习例句"
+    }
+  },
+  "383": {
+    "meaning_zh": "一点点；稍微",
+    "collocations": [
+      {
+        "english": "a little bit tired",
+        "chinese": "有一点累"
+      },
+      {
+        "english": "a little bit of help",
+        "chinese": "一点点帮助"
+      }
+    ],
+    "example": {
+      "english": "I feel a little bit nervous before exams.",
+      "chinese": "考试前我会感到有一点紧张。",
+      "source": "原创学习例句"
+    }
+  },
+  "384": {
+    "meaning_zh": "再多一点；稍微多些",
+    "collocations": [
+      {
+        "english": "a little more time",
+        "chinese": "再多一点时间"
+      },
+      {
+        "english": "a little more carefully",
+        "chinese": "再仔细一点"
+      }
+    ],
+    "example": {
+      "english": "Please speak a little more slowly.",
+      "chinese": "请说得再慢一点。",
+      "source": "原创学习例句"
+    }
+  },
+  "385": {
+    "meaning_zh": "连同；与……一起",
+    "collocations": [
+      {
+        "english": "along with your friends",
+        "chinese": "与你的朋友一起"
+      },
+      {
+        "english": "along with the report",
+        "chinese": "连同报告"
+      }
+    ],
+    "example": {
+      "english": "Please send the photos along with your report.",
+      "chinese": "请把照片连同报告一起发来。",
+      "source": "原创学习例句"
+    }
+  },
+  "386": {
+    "meaning_zh": "多得多；更多",
+    "collocations": [
+      {
+        "english": "a lot more work",
+        "chinese": "多得多的工作"
+      },
+      {
+        "english": "a lot more interesting",
+        "chinese": "有趣得多"
+      }
+    ],
+    "example": {
+      "english": "We still have a lot more work to do.",
+      "chinese": "我们还有多得多的工作要做。",
+      "source": "原创学习例句"
+    }
+  },
+  "387": {
+    "meaning_zh": "……的替代选择；替代方案",
+    "collocations": [
+      {
+        "english": "an alternative to driving",
+        "chinese": "驾车之外的选择"
+      },
+      {
+        "english": "an alternative to this plan",
+        "chinese": "此计划的替代方案"
+      }
+    ],
+    "example": {
+      "english": "Cycling is an alternative to driving for short trips.",
+      "chinese": "短途出行可以选择骑车而不开车。",
+      "source": "原创学习例句"
+    }
+  },
+  "388": {
+    "meaning_zh": "等等；诸如此类",
+    "collocations": [
+      {
+        "english": "books, pens, and so on",
+        "chinese": "书、笔等等"
+      },
+      {
+        "english": "and so on and so forth",
+        "chinese": "诸如此类等等"
+      }
+    ],
+    "example": {
+      "english": "We need paper, pens, notebooks, and so on.",
+      "chinese": "我们需要纸、笔、笔记本等等。",
+      "source": "原创学习例句"
+    }
+  },
+  "389": {
+    "meaning_zh": "除了……之外；除……之外还",
+    "collocations": [
+      {
+        "english": "apart from one mistake",
+        "chinese": "除了一处错误之外"
+      },
+      {
+        "english": "apart from English",
+        "chinese": "除了英语之外"
+      }
+    ],
+    "example": {
+      "english": "Apart from the rain, the trip was enjoyable.",
+      "chinese": "除了下雨，这次旅行很愉快。",
+      "source": "原创学习例句"
+    }
+  },
+  "390": {
+    "meaning_zh": "一系列；一组多种……",
+    "collocations": [
+      {
+        "english": "a range of colours",
+        "chinese": "多种颜色"
+      },
+      {
+        "english": "a wide range of services",
+        "chinese": "种类繁多的服务"
+      }
+    ],
+    "example": {
+      "english": "The shop offers a wide range of books.",
+      "chinese": "这家店提供多种书籍。",
+      "source": "原创学习例句"
+    }
+  },
+  "391": {
+    "meaning_zh": "好像；仿佛",
+    "collocations": [
+      {
+        "english": "as if nothing happened",
+        "chinese": "好像什么也没发生"
+      },
+      {
+        "english": "look as if you are tired",
+        "chinese": "看起来好像累了"
+      }
+    ],
+    "example": {
+      "english": "He smiled as if he knew the answer.",
+      "chinese": "他笑了笑，好像知道答案。",
+      "source": "原创学习例句"
+    }
+  },
+  "392": {
+    "meaning_zh": "和……一样多；多达",
+    "collocations": [
+      {
+        "english": "as much as possible",
+        "chinese": "尽可能多"
+      },
+      {
+        "english": "as much as I expected",
+        "chinese": "和我预期的一样多"
+      }
+    ],
+    "example": {
+      "english": "The repair cost as much as a new phone.",
+      "chinese": "维修费用和一部新手机一样高。",
+      "source": "原创学习例句"
+    }
+  },
+  "393": {
+    "meaning_zh": "尽快",
+    "collocations": [
+      {
+        "english": "as soon as possible",
+        "chinese": "尽快"
+      },
+      {
+        "english": "reply as soon as possible",
+        "chinese": "尽快回复"
+      }
+    ],
+    "example": {
+      "english": "Please send me the details as soon as possible.",
+      "chinese": "请尽快把详细信息发给我。",
+      "source": "原创学习例句"
+    }
+  },
+  "394": {
+    "meaning_zh": "终于；总算",
+    "collocations": [
+      {
+        "english": "at last, we arrived",
+        "chinese": "我们终于到了"
+      },
+      {
+        "english": "finish at last",
+        "chinese": "终于完成"
+      }
+    ],
+    "example": {
+      "english": "At last, we found a place to park.",
+      "chinese": "我们终于找到了停车的地方。",
+      "source": "原创学习例句"
+    }
+  },
+  "395": {
+    "meaning_zh": "处于风险中；有……危险",
+    "collocations": [
+      {
+        "english": "at risk of falling",
+        "chinese": "有掉落的危险"
+      },
+      {
+        "english": "put something at risk",
+        "chinese": "使某物面临风险"
+      }
+    ],
+    "example": {
+      "english": "The old documents are at risk of damage.",
+      "chinese": "这些旧文件有受损的风险。",
+      "source": "原创学习例句"
+    }
+  },
+  "396": {
+    "meaning_zh": "有时；偶尔",
+    "collocations": [
+      {
+        "english": "difficult at times",
+        "chinese": "有时很难"
+      },
+      {
+        "english": "at times like these",
+        "chinese": "在这种时候"
+      }
+    ],
+    "example": {
+      "english": "The course is difficult at times, but I enjoy it.",
+      "chinese": "这门课有时很难，但我很喜欢。",
+      "source": "原创学习例句"
+    }
+  },
+  "397": {
+    "meaning_zh": "附在……上；依恋……",
+    "collocations": [
+      {
+        "english": "attached to the wall",
+        "chinese": "固定在墙上"
+      },
+      {
+        "english": "attached to an old toy",
+        "chinese": "舍不得一个旧玩具"
+      }
+    ],
+    "example": {
+      "english": "The instructions are attached to the box.",
+      "chinese": "说明书附在盒子上。",
+      "source": "原创学习例句"
+    }
+  },
+  "398": {
+    "meaning_zh": "各种各样的；多种",
+    "collocations": [
+      {
+        "english": "a variety of food",
+        "chinese": "多种食物"
+      },
+      {
+        "english": "a wide variety of activities",
+        "chinese": "各种各样的活动"
+      }
+    ],
+    "example": {
+      "english": "The centre offers a variety of activities.",
+      "chinese": "这个中心提供多种活动。",
+      "source": "原创学习例句"
+    }
+  },
+  "399": {
+    "meaning_zh": "马上就要做某事",
+    "collocations": [
+      {
+        "english": "be about to leave",
+        "chinese": "马上要离开"
+      },
+      {
+        "english": "be about to start",
+        "chinese": "即将开始"
+      }
+    ],
+    "example": {
+      "english": "We were about to leave when the phone rang.",
+      "chinese": "我们正要离开时，电话响了。",
+      "source": "原创学习例句"
+    }
+  },
+  "400": {
+    "meaning_zh": "正在发生；正在进行",
+    "collocations": [
+      {
+        "english": "what is going on",
+        "chinese": "正在发生什么"
+      },
+      {
+        "english": "something is going on",
+        "chinese": "有事正在发生"
+      }
+    ],
+    "example": {
+      "english": "Do you know what is going on outside?",
+      "chinese": "你知道外面正在发生什么吗？",
+      "source": "原创学习例句"
+    }
+  }
+}

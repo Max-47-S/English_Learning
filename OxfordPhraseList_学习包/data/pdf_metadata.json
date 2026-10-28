@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-phrase-list/Oxford%20Phrase%20List.pdf",
+  "source_sha256": "35da430c8c0353d4a44c6293ca0d05ae00787488562beaed1ff2835c6e37e118",
+  "pages": 4,
+  "entries": 750,
+  "levels": {
+    "A1": 200,
+    "A2": 175,
+    "B1": 175,
+    "B2": 125,
+    "C1": 75
+  },
+  "reading_order": "page; left-to-right columns; top-to-bottom within each column; regular-font main entries; indented light-font text retained as source variants"
+}

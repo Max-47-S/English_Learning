@@ -33,6 +33,7 @@ TEMPLATE=r'''<!doctype html>
 const $=id=>document.getElementById(id),words=JSON.parse($('vocabulary').textContent),sources=JSON.parse($('audioSources').textContent);
 const audio=$('audio'),card=$('card'),list=$('list'),KEY='oxford-phrase-list-pdf-v1-position',SIZE=60;
 let current=0,page=0,filtered=words.map((_,i)=>i),lastSaved=-1,pendingSeek=null,interacted=false;
+const speechEnds=words.map(w=>w.audio.spoken_end);
 const esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const human=w=>w.audio.kind==='human_recording';
 function renderCard(){const w=words[current],a=w.audio,s=sources[a.source_id],isHuman=human(w);card.innerHTML=`<div class="card-meta"><span class="tag">${w.level}</span><span class="tag ${isHuman?'':'ai'}">${isHuman?'真人录音':'AI 配音'}</span><span class="notice">PDF 第 ${w.pdf_page} 页 · 第 ${w.pdf_column} 栏</span></div><h2 class="phrase">${esc(w.phrase)}</h2><p class="meaning">${esc(w.meaning_zh)}</p><p class="label">常用搭配 / 用法示范</p><div class="collocations">${w.collocations.map(c=>`<div class="collocation"><span>${esc(c.english)}</span><span class="translation">${esc(c.chinese)}</span></div>`).join('')}</div><p class="label">放进句子里</p><div class="example"><p>${esc(w.example.english)}</p><p>${esc(w.example.chinese)}</p></div>${w.usage_note?`<p class="note">${esc(w.usage_note)}</p>`:''}<div class="audio-line"><span class="notice">音频示范</span><br><b>${esc(a.audio_text)}</b> <span class="tag ${isHuman?'':'ai'}">${a.timecode} · ${isHuman?'真人':'AI'}</span></div><details class="source-details"><summary>原表附列与音频来源</summary>${w.pdf_variants.length?`<p>原表附列：${w.pdf_variants.map(esc).join('；')}</p>`:''}<p>${isHuman?'原站署名：'+esc(s.artist):'AI 语音：'+esc(s.voice)+'；语速 '+esc(s.rate)}</p>${a.notes.map(n=>'<p>'+esc(n)+'</p>').join('')}<p><a href="来源与许可.md#source-${a.source_id}">查看该录音的来源与许可</a> · 原创双语学习例句</p></details>`;
@@ -40,20 +41,86 @@ $('currentTitle').textContent=w.phrase;$('position').textContent=`${w.id} / ${wo
 document.querySelectorAll('.entry').forEach(el=>el.classList.toggle('current',Number(el.dataset.index)===current));}
 function renderList(){const start=page*SIZE,ids=filtered.slice(start,start+SIZE);list.innerHTML=ids.length?ids.map(i=>{const w=words[i];return `<button class="entry ${i===current?'current':''}" data-index="${i}"><span class="entry-id">${String(w.id).padStart(3,'0')}</span><span class="entry-body"><strong>${esc(w.phrase)}</strong><span class="zh">${esc(w.meaning_zh)}</span></span><span class="entry-tags"><span class="tag">${w.level}</span><span class="tag ${human(w)?'':'ai'}">${human(w)?'真人':'AI'}</span></span></button>`}).join(''):'<p class="notice">没有匹配的条目，试试更短的关键词。</p>';$('count').textContent=`${filtered.length} 条 · 第 ${filtered.length?page+1:0} / ${Math.ceil(filtered.length/SIZE)} 页`;$('prevPage').disabled=page===0;$('nextPage').disabled=start+SIZE>=filtered.length;}
 function filter(){const q=$('search').value.trim().toLowerCase(),level=$('level').value;filtered=words.map((_,i)=>i).filter(i=>{const w=words[i];return(!level||w.level===level)&&(!q||String(w.id)===q||[w.phrase,w.meaning_zh,...w.collocations.flatMap(c=>[c.english,c.chinese])].some(x=>x.toLowerCase().includes(q)))});page=0;renderList();}
-function play(){audio.play().catch(()=>{$('status').textContent='已定位，请点击音频的播放按钮。'})}
-function jump(i,autoplay=true){interacted=true;current=Math.max(0,Math.min(words.length-1,i));const t=words[current].audio.start+.001;if(audio.readyState>0){audio.currentTime=t}else{pendingSeek=t}renderCard();try{history.replaceState(null,'','#phrase-'+words[current].id)}catch{}if(autoplay)play();}
+let singleIndex=null,stopTimer=null,scriptedPlay=false,scriptedSeek=null,nativeSeek=false,singleFinished=false;
+function clearStopTimer(){if(stopTimer!==null){clearTimeout(stopTimer);stopTimer=null}}
+function setPlaybackMode(index){clearStopTimer();singleIndex=index;singleFinished=false}
+function singleEndTime(){
+  const a=words[singleIndex].audio;
+  const spoken=Number.isFinite(speechEnds[singleIndex])?speechEnds[singleIndex]:a.end;
+  return Math.min(spoken+.03,a.end-.02);
+}
+function seekAudio(time){
+  const t=Math.max(0,Math.min(Number.isFinite(time)?time:0,words[words.length-1].audio.end-.001));
+  if(audio.readyState===0){pendingSeek=t;return}
+  scriptedSeek=t;audio.currentTime=t;
+}
+function showPlayingStatus(){
+  $('status').textContent=singleIndex===null?'连续播放中 · 每条后有跟读停顿。':'单条播放中 · 本条读完后自动暂停。';
+}
+function finishSingle(){
+  clearStopTimer();singleFinished=true;
+  const end=singleEndTime();audio.pause();seekAudio(end);
+  current=singleIndex;renderCard();savePosition();
+  $('status').textContent='本条已播完。点击音频栏播放按钮或拖动进度条，恢复连续播放。';
+}
+function checkSingleBoundary(){
+  if(singleIndex===null||audio.paused||audio.seeking||audio.readyState===0)return;
+  if(audio.currentTime>=singleEndTime()-.005)finishSingle();
+}
+function armSingleStop(){
+  clearStopTimer();
+  if(singleIndex===null||audio.paused||audio.seeking||audio.readyState===0)return;
+  const remaining=(singleEndTime()-audio.currentTime)/audio.playbackRate;
+  if(remaining<=.005){checkSingleBoundary();return}
+  stopTimer=setTimeout(()=>{stopTimer=null;checkSingleBoundary();armSingleStop()},Math.max(10,Math.min(100,remaining*1000)));
+}
+function playAudio(){
+  interacted=true;
+  if(!audio.paused){showPlayingStatus();armSingleStop();return}
+  scriptedPlay=true;
+  audio.play().catch(error=>{
+    scriptedPlay=false;
+    if(error.name!=='AbortError')$('status').textContent='已定位，请点击音频栏的播放按钮。';
+  });
+}
+audio.addEventListener('play',()=>{
+  interacted=true;
+  if(!scriptedPlay)setPlaybackMode(null);
+  scriptedPlay=false;showPlayingStatus();armSingleStop();
+});
+audio.addEventListener('playing',()=>{showPlayingStatus();armSingleStop()});
+audio.addEventListener('pause',()=>{
+  clearStopTimer();scriptedPlay=false;
+  if(audio.error)return;
+  savePosition();
+  $('status').textContent=singleFinished?'本条已播完。点击音频栏播放按钮或拖动进度条，恢复连续播放。':'已暂停；点击音频栏播放按钮可继续连续播放。';
+});
+// App seeks are marked; a native timeline seek switches back to continuous playback.
+audio.addEventListener('seeking',()=>{
+  clearStopTimer();
+  const own=scriptedSeek!==null&&Math.abs(audio.currentTime-scriptedSeek)<.05;
+  if(!own){interacted=true;scriptedSeek=null;nativeSeek=true;setPlaybackMode(null)}
+});
+audio.addEventListener('seeked',()=>{
+  const own=scriptedSeek!==null&&Math.abs(audio.currentTime-scriptedSeek)<.05;
+  scriptedSeek=null;
+  if(!own&&nativeSeek){nativeSeek=false;setPlaybackMode(null);playAudio()}
+  else{nativeSeek=false;armSingleStop()}
+});
+audio.addEventListener('ratechange',armSingleStop);
+audio.addEventListener('waiting',clearStopTimer);
+audio.addEventListener('ended',clearStopTimer);
+function jump(i,autoplay=true,single=singleIndex!==null){interacted=true;current=Math.max(0,Math.min(words.length-1,i));setPlaybackMode(single?current:null);seekAudio(words[current].audio.start+.001);renderCard();try{history.replaceState(null,'','#phrase-'+words[current].id)}catch{}if(autoplay)playAudio();}
 function indexAt(t){let lo=0,hi=words.length-1;while(lo<hi){const m=Math.ceil((lo+hi)/2);if(words[m].audio.start<=t)lo=m;else hi=m-1}return lo;}
 function saved(){try{const x=Number(localStorage.getItem(KEY)||0);return Number.isFinite(x)?Math.max(0,Math.min(x,words[words.length-1].audio.end-.1)):0}catch{return 0}}
 function savePosition(){if(!interacted)return;try{localStorage.setItem(KEY,String(audio.currentTime))}catch{}}
-audio.addEventListener('loadedmetadata',()=>{if(pendingSeek!==null){audio.currentTime=pendingSeek;pendingSeek=null}$('status').textContent='完整音频已就绪。点击播放，或从目录中选一条开始。'});
-audio.addEventListener('play',()=>{interacted=true;$('status').textContent='连续播放中 · 每条后留 1.8 秒跟读。'});
-audio.addEventListener('pause',()=>{savePosition();$('status').textContent='已暂停；播放位置已保存在当前浏览器。'});
-audio.addEventListener('timeupdate',()=>{const i=indexAt(audio.currentTime);if(i!==current){current=i;renderCard()}const n=Math.floor(audio.currentTime/2);if(n!==lastSaved){savePosition();lastSaved=n}});
+audio.addEventListener('loadedmetadata',()=>{if(pendingSeek!==null){const t=pendingSeek;pendingSeek=null;seekAudio(t)}$('status').textContent='完整音频已就绪。上一条、下一条和重听会在本条读完后暂停。'});
+audio.addEventListener('timeupdate',()=>{checkSingleBoundary();const i=singleIndex===null?indexAt(audio.currentTime):singleIndex;if(i!==current){current=i;renderCard()}const n=Math.floor(audio.currentTime/2);if(n!==lastSaved){savePosition();lastSaved=n}});
 audio.addEventListener('error',()=>{$('status').textContent='音频未能载入。请保留本页和 audio 文件夹的位置；也可按使用说明通过本地网页服务打开。'});
 audio.addEventListener('ended',()=>{$('status').textContent='已听完全部 750 条。可以选择任意条目重新开始。'});
 list.addEventListener('click',e=>{const item=e.target.closest('.entry');if(item)jump(Number(item.dataset.index))});
-$('prevPhrase').onclick=()=>jump(current-1);$('nextPhrase').onclick=()=>jump(current+1);$('replay').onclick=()=>jump(current);
-$('speed').onchange=()=>{audio.playbackRate=Number($('speed').value)};$('resume').onclick=()=>{const t=saved();jump(indexAt(t),false);if(audio.readyState>0)audio.currentTime=t;else pendingSeek=t;play()};
+$('prevPhrase').onclick=()=>jump(current-1,true,true);$('nextPhrase').onclick=()=>jump(current+1,true,true);$('replay').onclick=()=>jump(current,true,true);
+$('speed').onchange=()=>{audio.playbackRate=Number($('speed').value)};$('resume').onclick=()=>{const t=saved();jump(indexAt(t),false,false);seekAudio(t);playAudio()};
 $('search').oninput=filter;$('level').onchange=filter;$('prevPage').onclick=()=>{page--;renderList()};$('nextPage').onclick=()=>{page++;renderList()};
 function fromHash(){const m=location.hash.match(/^#phrase-([0-9]+)$/);if(m)jump(Number(m[1])-1,false)}
 renderCard();renderList();fromHash();window.addEventListener('hashchange',fromHash);window.addEventListener('pagehide',savePosition);

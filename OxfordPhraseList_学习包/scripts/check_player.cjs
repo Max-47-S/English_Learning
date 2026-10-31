@@ -3,7 +3,7 @@ const fs=require('fs'),path=require('path'),crypto=require('crypto'),{pathToFile
 const fallback='C:/Users/Max/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright';
 let chromium;try{({chromium}=require('playwright'))}catch{({chromium}=require(fallback))}
 const root=path.resolve(__dirname,'..'),rows=JSON.parse(fs.readFileSync(path.join(root,'data/vocabulary.json'),'utf8'));
-const base='http://127.0.0.1:8767/',url=base+encodeURIComponent('连续听读.html');
+const base=process.env.PLAYER_BASE_URL||'http://127.0.0.1:8767/',url=base+encodeURIComponent('连续听读.html');
 const result={checked_at:new Date().toISOString(),html_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'连续听读.html'))).digest('hex'),checks:{},page_errors:[]};
 const check=(ok,name)=>{if(!ok)throw Error(name);result.checks[name]='pass'};
 async function main(){

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-28T06:55:34.039Z",
-  "html_sha256": "92a7a5aef25086f4c2be4c67c43d79efa919d175e57ecda7c931d42c783d415e",
+  "checked_at": "2026-10-31T07:23:38.096Z",
+  "html_sha256": "130f37638f5c3b6499dc1776db3641679cd7a2157335feccb869311fc8606793",
   "checks": {
     "initial_entry": "pass",
     "audio_metadata": "pass",
@@ -25,7 +25,7 @@
     "no_page_errors": "pass"
   },
   "page_errors": [],
-  "browser": "156.0.8078.48",
+  "browser": "156.0.8078.76",
   "status": "pass",
   "limitations": "手机尺寸与触控行为在桌面 Chromium 中模拟；未在用户的真实手机或 Safari 中验证。"
 }

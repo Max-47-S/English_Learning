@@ -1,0 +1,209 @@
+{
+  "checked_at": "2026-10-31T07:25:46.886Z",
+  "browser": "156.0.8078.76",
+  "html_sha256": "560347a381795d207f0d39d9fe5de408a09766c886e00f8b706ccc711d219cd9",
+  "checks": {
+    "loaded_6": {
+      "status": "pass"
+    },
+    "prevWord_initially_paused": {
+      "status": "pass"
+    },
+    "paused_prevWord_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 9.87004,
+        "spoken_end": 9.84004,
+        "next_start": 11.04004
+      }
+    },
+    "paused_prevWord_selection": {
+      "status": "pass"
+    },
+    "paused_prevWord_stays_paused": {
+      "status": "pass"
+    },
+    "nextWord_initially_paused": {
+      "status": "pass"
+    },
+    "paused_nextWord_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 14.97004,
+        "spoken_end": 14.94004,
+        "next_start": 16.14004
+      }
+    },
+    "paused_nextWord_selection": {
+      "status": "pass"
+    },
+    "paused_nextWord_stays_paused": {
+      "status": "pass"
+    },
+    "replay_initially_paused": {
+      "status": "pass"
+    },
+    "paused_replay_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 12.570039,
+        "spoken_end": 12.54004,
+        "next_start": 13.74004
+      }
+    },
+    "paused_replay_selection": {
+      "status": "pass"
+    },
+    "paused_replay_stays_paused": {
+      "status": "pass"
+    },
+    "playing_prevWord_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 9.87004,
+        "spoken_end": 9.84004,
+        "next_start": 11.04004
+      }
+    },
+    "playing_prevWord_selection": {
+      "status": "pass"
+    },
+    "playing_prevWord_stays_paused": {
+      "status": "pass"
+    },
+    "playing_nextWord_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 14.97004,
+        "spoken_end": 14.94004,
+        "next_start": 16.14004
+      }
+    },
+    "playing_nextWord_selection": {
+      "status": "pass"
+    },
+    "playing_nextWord_stays_paused": {
+      "status": "pass"
+    },
+    "playing_replay_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 12.570039,
+        "spoken_end": 12.54004,
+        "next_start": 13.74004
+      }
+    },
+    "playing_replay_selection": {
+      "status": "pass"
+    },
+    "playing_replay_stays_paused": {
+      "status": "pass"
+    },
+    "rate_change_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 12.570039,
+        "spoken_end": 12.54004,
+        "next_start": 13.74004
+      }
+    },
+    "rate_change_selection": {
+      "status": "pass"
+    },
+    "rate_change_stays_paused": {
+      "status": "pass"
+    },
+    "native_play_restores_continuous": {
+      "status": "pass"
+    },
+    "before_native_seek_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 12.570039,
+        "spoken_end": 12.54004,
+        "next_start": 13.74004
+      }
+    },
+    "before_native_seek_selection": {
+      "status": "pass"
+    },
+    "before_native_seek_stays_paused": {
+      "status": "pass"
+    },
+    "native_timeline_restores_continuous": {
+      "status": "pass"
+    },
+    "rapid_navigation_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 14.97004,
+        "spoken_end": 14.94004,
+        "next_start": 16.14004
+      }
+    },
+    "rapid_navigation_selection": {
+      "status": "pass"
+    },
+    "rapid_navigation_stays_paused": {
+      "status": "pass"
+    },
+    "resume_is_continuous": {
+      "status": "pass"
+    },
+    "loaded_1": {
+      "status": "pass"
+    },
+    "first_entry_previous_disabled": {
+      "status": "pass"
+    },
+    "loaded_3306": {
+      "status": "pass"
+    },
+    "last_entry_next_disabled": {
+      "status": "pass"
+    },
+    "last_entry_replay_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 7425.911749,
+        "spoken_end": 7425.88175,
+        "next_start": 7427.08175
+      }
+    },
+    "last_entry_replay_selection": {
+      "status": "pass"
+    },
+    "last_entry_replay_stays_paused": {
+      "status": "pass"
+    },
+    "metadata_initially_pending": {
+      "status": "pass"
+    },
+    "navigation_before_metadata_voice_finished": {
+      "status": "pass",
+      "details": {
+        "time": 14.97004,
+        "spoken_end": 14.94004,
+        "next_start": 16.14004
+      }
+    },
+    "navigation_before_metadata_selection": {
+      "status": "pass"
+    },
+    "navigation_before_metadata_stays_paused": {
+      "status": "pass"
+    },
+    "mobile_single_entry": {
+      "status": "pass"
+    },
+    "mobile_no_horizontal_overflow": {
+      "status": "pass"
+    },
+    "no_page_errors": {
+      "status": "pass"
+    }
+  },
+  "page_errors": [],
+  "status": "pass",
+  "limitations": "Real local MP3 tested in desktop Chrome; mobile uses viewport/touch emulation. Safari and physical phones were not exercised."
+}

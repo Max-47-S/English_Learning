@@ -26,3 +26,6 @@ _cache/
 __pycache__/
 *.part
 /_exports/
+
+# Local-only grammar textbook
+/02_语法笔记/逻辑英语语法/逻辑英语语法_钟平_喻凯迪.pdf

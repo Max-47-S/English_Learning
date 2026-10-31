@@ -20,3 +20,9 @@ Thumbs.db
 # Generated download bundle (the source study package remains in Git)
 /Oxford3000_学习包.zip
 /OxfordPhraseList_学习包.zip
+
+# Build caches and export bundles
+_cache/
+__pycache__/
+*.part
+/_exports/

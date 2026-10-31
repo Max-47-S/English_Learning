@@ -1,0 +1,6158 @@
+{
+  "schemaVersion": 1,
+  "title": "日常对话母体：120个可迁移话轮",
+  "createdDate": "2026-10-29",
+  "design": {
+    "scenes": 30,
+    "coreTurns": 120,
+    "transferExamples": 240,
+    "language": "以通用日常英语为主，拼写以英式为主",
+    "sourceUsage": "原句、译文和迁移例句为本学习包新编；Oxford条目用于词头和短语对照。"
+  },
+  "sourceFiles": {
+    "words": "../../../01_词汇与短语/Oxford3000_学习包/data/vocabulary.json",
+    "phrases": "../../../01_词汇与短语/OxfordPhraseList_学习包/data/vocabulary.json"
+  },
+  "grammar": {
+    "BE": {
+      "label": "be 动词与状态问答",
+      "note": "状态、身份、地点用 be；疑问句把 am/is/are/was/were 放到主语前。"
+    },
+    "PRES": {
+      "label": "一般现在时与 do/does",
+      "note": "习惯用一般现在时；do/does 后面回到动词原形。"
+    },
+    "PAST": {
+      "label": "一般过去时与 did",
+      "note": "过去的动作在肯定句用过去式；did/didn't 后用原形。"
+    },
+    "PROG": {
+      "label": "现在进行时",
+      "note": "am/is/are + V-ing，描述当前或现阶段正在做的事。"
+    },
+    "SUBJQ": {
+      "label": "主语疑问句",
+      "note": "What happened? / Who called? 中疑问词本身作主语，通常不另加 did。"
+    },
+    "WH": {
+      "label": "特殊疑问句",
+      "note": "先选疑问词，再判断用 be、do/does/did 还是其他助动词。"
+    },
+    "THERE": {
+      "label": "there be 与存在",
+      "note": "有某物用 there is/are；与最近接或核心名词的数协调。"
+    },
+    "QUANT": {
+      "label": "数量、可数与不可数",
+      "note": "how many/a few 接可数复数；how much/a little 常接不可数。"
+    },
+    "COMP": {
+      "label": "比较与同等程度",
+      "note": "比较级 + than；as + 形容词原级 + as。"
+    },
+    "DEGREE": {
+      "label": "too/enough 与不定式",
+      "note": "too + 形容词 + to V；形容词 + enough + to V。"
+    },
+    "INF": {
+      "label": "不定式与想做某事",
+      "note": "want/need/would like/plan 等按各自结构接 to + 动词原形。"
+    },
+    "MODAL": {
+      "label": "情态动词后的原形",
+      "note": "can/could/should/must/might 等之后不用第三人称 -s 或过去式。"
+    },
+    "POLITE": {
+      "label": "委婉请求与 would you mind",
+      "note": "Could you + V?；Would you mind + V-ing?；注意是否在请求别人行动或征求自己行动许可。"
+    },
+    "IMP": {
+      "label": "祈使句与提醒",
+      "note": "动词原形开头；否定用 Don't + 动词原形。"
+    },
+    "FUT": {
+      "label": "将来计划、安排与临时决定",
+      "note": "be going to 常表达计划；will 可作临时决定；现在进行时也可表达已安排的未来活动。"
+    },
+    "TIME": {
+      "label": "时间从句",
+      "note": "谈未来时，when/as soon as 等从句通常用现在时，主句可用 will。"
+    },
+    "PASTPROG": {
+      "label": "过去进行时与过去事件",
+      "note": "was/were + V-ing 提供背景，过去式交代插入或完成的事件。"
+    },
+    "PERF": {
+      "label": "现在完成时：经历与结果",
+      "note": "have/has + 过去分词；ever、already、yet 常帮助定位语气。"
+    },
+    "DURATION": {
+      "label": "for/since 与持续时间",
+      "note": "for 接一段时长；since 接起点；how long 询问持续多久。"
+    },
+    "PERFPROG": {
+      "label": "现在完成进行时",
+      "note": "have/has been + V-ing，强调延续的活动或过程。"
+    },
+    "USED": {
+      "label": "used to / be used to / get used to",
+      "note": "used to + V 是过去习惯；be/get used to + 名词或 V-ing 是习惯于/逐渐习惯。"
+    },
+    "ING": {
+      "label": "动名词与介词后的 V-ing",
+      "note": "enjoy/avoid/mind 等后常接 V-ing；介词后接动词时用 V-ing。"
+    },
+    "COND1": {
+      "label": "真实条件与 unless/as long as",
+      "note": "if/unless/as long as 引导未来条件时通常用现在时，主句表达后果。"
+    },
+    "COND2": {
+      "label": "假设与委婉建议",
+      "note": "if + 过去形式，主句 would + V；If I were you 是常见建议框架。"
+    },
+    "COND3": {
+      "label": "对过去的反事实假设",
+      "note": "if + had + 过去分词，主句 would/could have + 过去分词。"
+    },
+    "PASTPERF": {
+      "label": "过去完成时",
+      "note": "had + 过去分词，把一件事放在另一过去时点之前。"
+    },
+    "PASSIVE": {
+      "label": "被动表达",
+      "note": "be + 过去分词；现在进行被动是 am/is/are being + 过去分词。"
+    },
+    "MODPASS": {
+      "label": "情态动词与被动",
+      "note": "情态动词 + be + 过去分词。"
+    },
+    "FUTPERF": {
+      "label": "将来完成表达",
+      "note": "will have + 过去分词，表示到未来某个时点已经完成。"
+    },
+    "REPORTED": {
+      "label": "转述与过去视角中的将来",
+      "note": "said/told 后接内容；在过去视角中，will 常相应变为 would。"
+    },
+    "INDIRECT": {
+      "label": "间接问句",
+      "note": "Do you know/Could you tell me + 疑问词 + 陈述语序。"
+    },
+    "REL": {
+      "label": "定语从句与关系词",
+      "note": "who/that/which/whose 等修饰名词；作宾语的关系词在限定性从句里常可省略。"
+    },
+    "NOUNCL": {
+      "label": "内容从句与 what 引导的名词性结构",
+      "note": "that/what 等后的内容可作宾语或主语；what 可表示‘所……的事’。"
+    },
+    "REASON": {
+      "label": "because 与 because of",
+      "note": "because 后接完整句子；because of 后接名词短语或相应名词性结构。"
+    },
+    "CONTRAST": {
+      "label": "让步与对比",
+      "note": "although/even though 后接从句；despite/in spite of 后接名词或 V-ing。"
+    },
+    "PURPOSE": {
+      "label": "目的表达",
+      "note": "to/in order to + V；so that + 主语 + can/could 等表达目的。"
+    },
+    "COORD": {
+      "label": "并列选择与 both/either/neither",
+      "note": "连接成分的语法形式保持平行；either…or… 表二选一。"
+    },
+    "TAG": {
+      "label": "附加问句",
+      "note": "依据主句的助动词和肯否来构造尾部问句；语气随情境和语调变化。"
+    },
+    "DEDUCE": {
+      "label": "推测与确定程度",
+      "note": "might 表可能；must/can't 可据线索表达较强的肯定/否定推断。"
+    },
+    "ADVICE": {
+      "label": "建议、义务与必要性",
+      "note": "should/had better/have to 的语气和形式不同，按实际关系选用。"
+    },
+    "DOUBLE": {
+      "label": "双宾语与给谁什么",
+      "note": "send/give/show 等常用‘动词 + 人 + 东西’，也可按动词习惯用介词改写。"
+    },
+    "OBJCOMP": {
+      "label": "宾语补充说明与 it 形式宾语",
+      "note": "keep/make + 宾语 + 形容词补充说明对象；find it + 形容词 + to V 用 it 先占宾语位置。"
+    },
+    "PREFER": {
+      "label": "偏好与 would rather",
+      "note": "prefer A to B；would rather + V；than 前后保持平行。"
+    },
+    "PRON": {
+      "label": "人称、所属与互相",
+      "note": "my/your/their、myself 等随人物变动；each other 表互相。"
+    },
+    "EXCL": {
+      "label": "感叹与评价",
+      "note": "What + a/an + 形容词 + 单数可数名词；也可用普通陈述句表达评价。"
+    },
+    "FREQ": {
+      "label": "频率与程度副词",
+      "note": "often/usually 等位置随 be 与实义动词结构调整；how often 询问频率。"
+    },
+    "POSSESS": {
+      "label": "所属与 whose",
+      "note": "whose 问归属，也可引导表示所属关系的定语从句。"
+    },
+    "PREP": {
+      "label": "介词与时间、地点、路径",
+      "note": "in/on/at、from/to 等配合所指时间、地点与路径使用。"
+    },
+    "SUGGEST": {
+      "label": "提议与商量",
+      "note": "How about + 名词/V-ing；Why not + V；Let's + V。"
+    },
+    "REPAIR": {
+      "label": "澄清、改口与确认",
+      "note": "重复、改说和确认都可用简短、礼貌的句式完成。"
+    },
+    "WISH": {
+      "label": "wish 与非现实愿望",
+      "note": "wish + 过去形式可表达与现在现实有距离的愿望；祝愿某人时可用 wish + 人 + 名词短语。"
+    },
+    "SVC": {
+      "label": "主系表与感受、外观",
+      "note": "look/sound/seem/feel 等表示状态或感受时可接形容词；不要把它们的疑问句一律照 be 的词序构造。"
+    }
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "title": "通勤出了什么事",
+      "goal": "问发生了什么，解释原因，再追问怎么解决。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "What happened on your way to work this morning?",
+          "chinese": "你今天早上上班路上发生什么事了？",
+          "frame": "What happened 【时间／地点】?",
+          "tip": "what 本身作 happened 的主语，不加 did；若问‘你做了什么’，才是 What did you do?。",
+          "grammar": [
+            "SUBJQ",
+            "PAST",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 493,
+              "surface": "on your way"
+            },
+            {
+              "id": 176,
+              "surface": "this morning"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "happen",
+              "surface": "happened"
+            },
+            {
+              "lemma": "way",
+              "surface": "way"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What happened during the meeting?",
+              "chinese": "开会期间发生什么事了？"
+            },
+            {
+              "english": "What happened to your phone?",
+              "chinese": "你的手机怎么了？"
+            }
+          ],
+          "id": "M001",
+          "speaker": "A"
+        },
+        {
+          "english": "There was a traffic jam because of an accident near the station.",
+          "chinese": "车站附近出了事故，所以堵车了。",
+          "frame": "There was 【一件事】 because of 【名词短语】.",
+          "tip": "because of 后面接名词短语；换成完整原因句，用 because。",
+          "grammar": [
+            "THERE",
+            "PAST",
+            "REASON"
+          ],
+          "phraseUses": [
+            {
+              "id": 29,
+              "surface": "because of"
+            },
+            {
+              "id": 171,
+              "surface": "There was"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "traffic",
+              "surface": "traffic"
+            },
+            {
+              "lemma": "accident",
+              "surface": "accident"
+            },
+            {
+              "lemma": "station",
+              "surface": "station"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "There was a delay because of the rain.",
+              "chinese": "因为下雨，出现了延误。"
+            },
+            {
+              "english": "There was a problem because of a mistake in the address.",
+              "chinese": "地址出了错，所以遇到了问题。"
+            }
+          ],
+          "id": "M002",
+          "speaker": "B"
+        },
+        {
+          "english": "How did you get to work in the end?",
+          "chinese": "那你最后怎么到单位的？",
+          "frame": "How did 【人】 【动词原形】 in the end?",
+          "tip": "did 已标记过去，get 保持原形；不要说 did you got。",
+          "grammar": [
+            "WH",
+            "PAST"
+          ],
+          "phraseUses": [
+            {
+              "id": 59,
+              "surface": "get to work"
+            },
+            {
+              "id": 303,
+              "surface": "in the end"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "get",
+              "surface": "get"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            },
+            {
+              "lemma": "end",
+              "surface": "end"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How did you fix the computer in the end?",
+              "chinese": "你最后怎么修好电脑的？"
+            },
+            {
+              "english": "How did they choose the hotel in the end?",
+              "chinese": "他们最后怎么选定那家酒店的？"
+            }
+          ],
+          "id": "M003",
+          "speaker": "A"
+        },
+        {
+          "english": "I had to get off the bus and walk the rest of the way.",
+          "chinese": "我只好下车，剩下的路走过去。",
+          "frame": "【人】 had to 【动作原形】 and 【动作原形】.",
+          "tip": "had to 表过去不得不；get off 与 walk 都用原形，共享前面的 had to。",
+          "grammar": [
+            "PAST",
+            "ADVICE",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 55,
+              "surface": "get off"
+            },
+            {
+              "id": 364,
+              "surface": "the rest of the way"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "bus",
+              "surface": "bus"
+            },
+            {
+              "lemma": "walk",
+              "surface": "walk"
+            },
+            {
+              "lemma": "way",
+              "surface": "way"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I had to change my plan and call the hotel.",
+              "chinese": "我只好改计划，再给酒店打电话。"
+            },
+            {
+              "english": "We had to wait outside and try again later.",
+              "chinese": "我们只好在外面等，过会儿再试。"
+            }
+          ],
+          "id": "M004",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "聊早晨习惯",
+      "goal": "问时间和频率，练 do/does 与动词变化。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "What time do you usually get up in the morning?",
+          "chinese": "你早上通常几点起床？",
+          "frame": "What time do/does 【人】 usually 【动词原形】?",
+          "tip": "询问习惯用一般现在时；把 you 换成 she 时，do 要变 does，get 仍用原形。",
+          "grammar": [
+            "PRES",
+            "WH",
+            "FREQ"
+          ],
+          "phraseUses": [
+            {
+              "id": 60,
+              "surface": "get up"
+            },
+            {
+              "id": 103,
+              "surface": "in the morning"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "time",
+              "surface": "time"
+            },
+            {
+              "lemma": "usually",
+              "surface": "usually"
+            },
+            {
+              "lemma": "morning",
+              "surface": "morning"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What time does your brother usually leave home?",
+              "chinese": "你哥哥通常几点出门？"
+            },
+            {
+              "english": "What time do you usually finish work?",
+              "chinese": "你通常几点下班？"
+            }
+          ],
+          "id": "M005",
+          "speaker": "A"
+        },
+        {
+          "english": "I get up at seven, but my sister gets up half an hour earlier.",
+          "chinese": "我七点起床，不过我妹妹早半小时起。",
+          "frame": "I 【动词原形】, but 【第三人称单数】 【动词加-s】.",
+          "tip": "I get 与 my sister gets 对照着记；earlier 表示更早。",
+          "grammar": [
+            "PRES",
+            "COMP",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 60,
+              "surface": "gets up"
+            },
+            {
+              "id": 75,
+              "surface": "half an hour"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "sister",
+              "surface": "sister"
+            },
+            {
+              "lemma": "half",
+              "surface": "half"
+            },
+            {
+              "lemma": "hour",
+              "surface": "hour"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I drink tea, but my father drinks coffee.",
+              "chinese": "我喝茶，不过我爸爸喝咖啡。"
+            },
+            {
+              "english": "I walk to work, but my friend takes the bus.",
+              "chinese": "我走路上班，不过我朋友坐公交。"
+            }
+          ],
+          "id": "M006",
+          "speaker": "B"
+        },
+        {
+          "english": "How often do you go to work by bus?",
+          "chinese": "你多久坐一次公交上班？",
+          "frame": "How often do/does 【人】 【动词原形】?",
+          "tip": "how often 问频率；回答可用 every day、twice a week 等。",
+          "grammar": [
+            "PRES",
+            "WH",
+            "FREQ"
+          ],
+          "phraseUses": [
+            {
+              "id": 88,
+              "surface": "How often"
+            },
+            {
+              "id": 72,
+              "surface": "go to work"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "often",
+              "surface": "often"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            },
+            {
+              "lemma": "bus",
+              "surface": "bus"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How often do you cook at home?",
+              "chinese": "你多久在家做一次饭？"
+            },
+            {
+              "english": "How often does she call her parents?",
+              "chinese": "她多久给父母打一次电话？"
+            }
+          ],
+          "id": "M007",
+          "speaker": "A"
+        },
+        {
+          "english": "Only twice a week because I work from home on the other days.",
+          "chinese": "一周只有两次，因为其他几天我在家办公。",
+          "frame": "【频率】 because 【完整原因句】.",
+          "tip": "这是接着上一个问题的省略式回答；独立说时可补上 I go to work by bus。",
+          "grammar": [
+            "PRES",
+            "FREQ",
+            "REASON"
+          ],
+          "phraseUses": [
+            {
+              "id": 196,
+              "surface": "twice a week"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "week",
+              "surface": "week"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            },
+            {
+              "lemma": "home",
+              "surface": "home"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Once a month because I don't have much free time.",
+              "chinese": "一个月一次，因为我空闲时间不多。"
+            },
+            {
+              "english": "Almost every day because it's close to home.",
+              "chinese": "几乎每天，因为离家近。"
+            }
+          ],
+          "id": "M008",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "正在忙什么与提供帮助",
+      "goal": "分清当前活动、习惯，以及礼貌请求。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "What are you working on at the moment?",
+          "chinese": "你现在正忙什么呢？",
+          "frame": "What am/is/are 【人】 【动词-ing】?",
+          "tip": "当前或现阶段正在做的事用 be + V-ing；不是 What do you working on?。",
+          "grammar": [
+            "PROG",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 547,
+              "surface": "working on"
+            },
+            {
+              "id": 20,
+              "surface": "at the moment"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "work",
+              "surface": "working"
+            },
+            {
+              "lemma": "moment",
+              "surface": "moment"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What is she looking for?",
+              "chinese": "她正在找什么？"
+            },
+            {
+              "english": "What are they talking about?",
+              "chinese": "他们正在聊什么？"
+            }
+          ],
+          "id": "M009",
+          "speaker": "A"
+        },
+        {
+          "english": "I'm trying to find out why this page won't open.",
+          "chinese": "我正试着弄清楚这个页面为什么打不开。",
+          "frame": "I'm trying to find out why 【主语＋谓语】.",
+          "tip": "try 后接 to V；why 后面保留陈述语序；won't open 在这里表示怎么也打不开。",
+          "grammar": [
+            "PROG",
+            "INF",
+            "INDIRECT"
+          ],
+          "phraseUses": [
+            {
+              "id": 46,
+              "surface": "find out"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "try",
+              "surface": "trying"
+            },
+            {
+              "lemma": "page",
+              "surface": "page"
+            },
+            {
+              "lemma": "open",
+              "surface": "open"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'm trying to find out why the bus is late.",
+              "chinese": "我正试着弄清楚公交为什么晚点。"
+            },
+            {
+              "english": "I'm trying to find out where the noise is coming from.",
+              "chinese": "我正试着弄清楚噪声是从哪里来的。"
+            }
+          ],
+          "id": "M010",
+          "speaker": "B"
+        },
+        {
+          "english": "Do you need a hand, or would you rather work on your own?",
+          "chinese": "你需要帮忙，还是更想自己做？",
+          "frame": "Do you need 【帮助】, or would you rather 【动词原形】?",
+          "tip": "would rather 后接动词原形；on your own 表自己一个人，代词随对象变化。",
+          "grammar": [
+            "PRES",
+            "PREFER",
+            "COORD",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 675,
+              "surface": "would you rather"
+            },
+            {
+              "id": 490,
+              "surface": "on your own"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "need",
+              "surface": "need"
+            },
+            {
+              "lemma": "hand",
+              "surface": "hand"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Do you need a map, or would you rather ask someone?",
+              "chinese": "你需要地图，还是更想找个人问问？"
+            },
+            {
+              "english": "Do you need some advice, or would you rather think about it first?",
+              "chinese": "你需要些建议，还是更想先自己想想？"
+            }
+          ],
+          "id": "M011",
+          "speaker": "A"
+        },
+        {
+          "english": "Could you have a look at this link while I restart the computer?",
+          "chinese": "我重启电脑时，你能帮我看看这个链接吗？",
+          "frame": "Could you 【动词原形】 while I 【动作】?",
+          "tip": "Could you 在这里是礼貌请求；while 后面是同时进行的另一件事。",
+          "grammar": [
+            "POLITE",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 283,
+              "surface": "have a look"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "look",
+              "surface": "look"
+            },
+            {
+              "lemma": "link",
+              "surface": "link"
+            },
+            {
+              "lemma": "computer",
+              "surface": "computer"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Could you watch my bag while I buy a ticket?",
+              "chinese": "我买票的时候，你能帮我看一下包吗？"
+            },
+            {
+              "english": "Could you check the address while I call the driver?",
+              "chinese": "我给司机打电话时，你能核对一下地址吗？"
+            }
+          ],
+          "id": "M012",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "找一个可以聊天的地方",
+      "goal": "练 there be、位置表达与选择。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Is there a quiet place where we can talk for a moment?",
+          "chinese": "有没有一个安静的地方，我们可以聊一会儿？",
+          "frame": "Is there a 【事物】 where 【主语＋谓语】?",
+          "tip": "there is 的问句把 is 提到 there 前；where 后说明这个地方能做什么。",
+          "grammar": [
+            "THERE",
+            "REL",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 171,
+              "surface": "Is there"
+            },
+            {
+              "id": 48,
+              "surface": "for a moment"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "quiet",
+              "surface": "quiet"
+            },
+            {
+              "lemma": "place",
+              "surface": "place"
+            },
+            {
+              "lemma": "talk",
+              "surface": "talk"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Is there a shop where I can buy a charger?",
+              "chinese": "有没有能买充电器的商店？"
+            },
+            {
+              "english": "Is there a room where we can practise?",
+              "chinese": "有没有一个我们可以练习的房间？"
+            }
+          ],
+          "id": "M013",
+          "speaker": "A"
+        },
+        {
+          "english": "There are a few empty seats in front of the window.",
+          "chinese": "窗户前面有几个空座位。",
+          "frame": "There are a few 【可数复数】 【位置】.",
+          "tip": "a few 接复数，前面用 there are；empty seats 是形容词加名词。",
+          "grammar": [
+            "THERE",
+            "QUANT",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 1,
+              "surface": "a few"
+            },
+            {
+              "id": 95,
+              "surface": "in front of"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "empty",
+              "surface": "empty"
+            },
+            {
+              "lemma": "seat",
+              "surface": "seats"
+            },
+            {
+              "lemma": "window",
+              "surface": "window"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "There are a few useful books on that shelf.",
+              "chinese": "那个架子上有几本有用的书。"
+            },
+            {
+              "english": "There are a few small shops near the station.",
+              "chinese": "车站附近有几家小店。"
+            }
+          ],
+          "id": "M014",
+          "speaker": "B"
+        },
+        {
+          "english": "Which one would you like, the seat on the left or the one by the door?",
+          "chinese": "你想坐哪个，左边的座位，还是门边那个？",
+          "frame": "Which one would you like, 【选项A】 or 【选项B】?",
+          "tip": "one 代替前面同类的单数名词；两个选项指的都是座位。",
+          "grammar": [
+            "WH",
+            "INF",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 193,
+              "surface": "would you like"
+            },
+            {
+              "id": 141,
+              "surface": "on the left"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "seat",
+              "surface": "seat"
+            },
+            {
+              "lemma": "left",
+              "surface": "left"
+            },
+            {
+              "lemma": "door",
+              "surface": "door"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Which one would you like, the large cup or the small one?",
+              "chinese": "你想要哪个，大杯还是小杯？"
+            },
+            {
+              "english": "Which one would you like, the morning class or the evening one?",
+              "chinese": "你想上哪个，上午的课还是晚上的课？"
+            }
+          ],
+          "id": "M015",
+          "speaker": "A"
+        },
+        {
+          "english": "The one on the left looks good because it's away from the door.",
+          "chinese": "左边那个看着不错，因为离门口远一些。",
+          "frame": "【选择】 looks 【形容词】 because 【原因句】.",
+          "tip": "looks 在这里表示看起来，后接 good 这样的形容词；because 后说明原因。",
+          "grammar": [
+            "REASON",
+            "PREP",
+            "SVC"
+          ],
+          "phraseUses": [
+            {
+              "id": 141,
+              "surface": "on the left"
+            },
+            {
+              "id": 25,
+              "surface": "away from the door"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "left",
+              "surface": "left"
+            },
+            {
+              "lemma": "look",
+              "surface": "looks"
+            },
+            {
+              "lemma": "door",
+              "surface": "door"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "The blue one looks better because it's easier to read.",
+              "chinese": "蓝色的那个看起来更好，因为更容易阅读。"
+            },
+            {
+              "english": "The smaller room looks good because it's close to the kitchen.",
+              "chinese": "较小的房间看着不错，因为离厨房近。"
+            }
+          ],
+          "id": "M016",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "买菜前查数量",
+      "goal": "分清 how much/how many、a little/a few。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "How much milk have we got left?",
+          "chinese": "我们还剩多少牛奶？",
+          "frame": "How much 【不可数名词】 have/has 【人】 got left?",
+          "tip": "have got 在这里表示拥有；疑问形式是 have we got；milk 按不可数来问。",
+          "grammar": [
+            "QUANT",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 87,
+              "surface": "How much"
+            },
+            {
+              "id": 78,
+              "surface": "have we got"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "milk",
+              "surface": "milk"
+            },
+            {
+              "lemma": "have",
+              "surface": "have"
+            },
+            {
+              "lemma": "left",
+              "surface": "left"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How much time have we got left?",
+              "chinese": "我们还剩多少时间？"
+            },
+            {
+              "english": "How much money has she got left?",
+              "chinese": "她还剩多少钱？"
+            }
+          ],
+          "id": "M017",
+          "speaker": "A"
+        },
+        {
+          "english": "Only a little, and we've run out of bread.",
+          "chinese": "只剩一点，而且我们的面包也吃完了。",
+          "frame": "【数量短答】, and we've run out of 【东西】.",
+          "tip": "a little 接上文省略了 milk；have run out of 表示用完后的当前结果。 数量短答要与上一问对应：milk 用 a little，pens 等可数复数用 a few。",
+          "grammar": [
+            "QUANT",
+            "PERF",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 4,
+              "surface": "a little"
+            },
+            {
+              "id": 517,
+              "surface": "run out of bread"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "little",
+              "surface": "little"
+            },
+            {
+              "lemma": "run",
+              "surface": "run"
+            },
+            {
+              "lemma": "bread",
+              "surface": "bread"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Only a few, and we've run out of paper.",
+              "chinese": "只剩几支了，而且纸也用完了。"
+            },
+            {
+              "english": "Only a little, and we've run out of coffee.",
+              "chinese": "只剩一点了，而且咖啡也喝完了。"
+            }
+          ],
+          "id": "M018",
+          "speaker": "B"
+        },
+        {
+          "english": "How many eggs should I add to the shopping list?",
+          "chinese": "购物清单上我该加几个鸡蛋？",
+          "frame": "How many 【可数复数】 should 【人】 【动词原形】?",
+          "tip": "how many 后接 eggs 这样的复数；should 后 add 用原形。",
+          "grammar": [
+            "QUANT",
+            "WH",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 86,
+              "surface": "How many"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "egg",
+              "surface": "eggs"
+            },
+            {
+              "lemma": "shopping",
+              "surface": "shopping"
+            },
+            {
+              "lemma": "list",
+              "surface": "list"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How many chairs should we put in the room?",
+              "chinese": "我们该在房间里放几把椅子？"
+            },
+            {
+              "english": "How many examples should I include?",
+              "chinese": "我该放几个例子？"
+            }
+          ],
+          "id": "M019",
+          "speaker": "A"
+        },
+        {
+          "english": "A few should be enough, but let's get some fruit as well.",
+          "chinese": "几个应该够了，不过我们再买些水果吧。",
+          "frame": "【数量】 should be enough, but let's 【动词原形】.",
+          "tip": "a few 代指几个鸡蛋；let's 后接原形；fruit 在这里作不可数集合概念。",
+          "grammar": [
+            "QUANT",
+            "MODAL",
+            "SUGGEST",
+            "DEGREE"
+          ],
+          "phraseUses": [
+            {
+              "id": 1,
+              "surface": "A few"
+            },
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "enough",
+              "surface": "enough"
+            },
+            {
+              "lemma": "fruit",
+              "surface": "fruit"
+            },
+            {
+              "lemma": "get",
+              "surface": "get"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Ten minutes should be enough, but let's start now.",
+              "chinese": "十分钟应该够，不过我们现在就开始吧。"
+            },
+            {
+              "english": "Two bags should be enough, but let's bring an extra one.",
+              "chinese": "两个包应该够，不过我们多带一个吧。"
+            }
+          ],
+          "id": "M020",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "点餐与表达偏好",
+      "goal": "礼貌说想吃什么，练 to V、V-ing 与 would rather。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "What would you like for lunch?",
+          "chinese": "午饭你想吃什么？",
+          "frame": "What would 【人】 like 【用途／时间】?",
+          "tip": "would like 表礼貌地想要；若接动作，用 would like to + V。",
+          "grammar": [
+            "WH",
+            "INF"
+          ],
+          "phraseUses": [
+            {
+              "id": 193,
+              "surface": "would you like"
+            },
+            {
+              "id": 50,
+              "surface": "for lunch"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "like",
+              "surface": "like"
+            },
+            {
+              "lemma": "lunch",
+              "surface": "lunch"
+            },
+            {
+              "lemma": "what",
+              "surface": "what"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What would you like to drink?",
+              "chinese": "你想喝什么？"
+            },
+            {
+              "english": "What would she like for her birthday?",
+              "chinese": "她生日想要什么？"
+            }
+          ],
+          "id": "M021",
+          "speaker": "A"
+        },
+        {
+          "english": "I'd like some soup rather than a large meal.",
+          "chinese": "我想喝点汤，不想吃一大顿。",
+          "frame": "I'd like 【名词短语A】 rather than 【名词短语B】.",
+          "tip": "rather than 连接这里的两种选择；some soup 中 soup 按不可数来用。",
+          "grammar": [
+            "INF",
+            "PREFER",
+            "QUANT"
+          ],
+          "phraseUses": [
+            {
+              "id": 193,
+              "surface": "'d like"
+            },
+            {
+              "id": 509,
+              "surface": "rather than"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "soup",
+              "surface": "soup"
+            },
+            {
+              "lemma": "large",
+              "surface": "large"
+            },
+            {
+              "lemma": "meal",
+              "surface": "meal"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'd like a quiet room rather than a large one.",
+              "chinese": "我想要安静的房间，而不是大房间。"
+            },
+            {
+              "english": "I'd like more time rather than more money.",
+              "chinese": "我想要更多时间，而不是更多钱。"
+            }
+          ],
+          "id": "M022",
+          "speaker": "B"
+        },
+        {
+          "english": "Do you feel like sharing a salad as well?",
+          "chinese": "你还想一起分一份沙拉吗？",
+          "frame": "Do/Does 【人】 feel like 【名词／V-ing】?",
+          "tip": "feel like 后若接动作，用 V-ing；sharing 表示一起分着吃。",
+          "grammar": [
+            "PRES",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 260,
+              "surface": "feel like"
+            },
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "feel",
+              "surface": "feel"
+            },
+            {
+              "lemma": "share",
+              "surface": "sharing"
+            },
+            {
+              "lemma": "salad",
+              "surface": "salad"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Do you feel like taking a short walk?",
+              "chinese": "你想散一小会儿步吗？"
+            },
+            {
+              "english": "Does she feel like watching a film tonight?",
+              "chinese": "她今晚想看电影吗？"
+            }
+          ],
+          "id": "M023",
+          "speaker": "A"
+        },
+        {
+          "english": "That sounds good, but I'd rather not have too much dressing.",
+          "chinese": "听着不错，不过我不想放太多沙拉酱。",
+          "frame": "That sounds 【形容词】, but I'd rather not 【动词原形】.",
+          "tip": "would rather not + V 表更愿意不做某事；too much 接这里不可数的 dressing。",
+          "grammar": [
+            "PREFER",
+            "QUANT",
+            "SVC"
+          ],
+          "phraseUses": [
+            {
+              "id": 675,
+              "surface": "'d rather not"
+            },
+            {
+              "id": 181,
+              "surface": "too much"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "sound",
+              "surface": "sounds"
+            },
+            {
+              "lemma": "good",
+              "surface": "good"
+            },
+            {
+              "lemma": "much",
+              "surface": "much"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "That sounds fun, but I'd rather not stay out late.",
+              "chinese": "听着有意思，不过我不想在外面待太晚。"
+            },
+            {
+              "english": "That sounds useful, but I'd rather not spend too much money.",
+              "chinese": "听着有用，不过我不想花太多钱。"
+            }
+          ],
+          "id": "M024",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "邀请与改约",
+      "goal": "接受、婉拒，再提出另一个时间。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Would you like to go for a walk after work?",
+          "chinese": "下班后你想去散步吗？",
+          "frame": "Would you like to 【动词原形】 【时间】?",
+          "tip": "to 后用原形；这是邀请，而不是询问长期爱好。",
+          "grammar": [
+            "INF",
+            "POLITE"
+          ],
+          "phraseUses": [
+            {
+              "id": 194,
+              "surface": "Would you like"
+            },
+            {
+              "id": 278,
+              "surface": "go for a walk"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "walk",
+              "surface": "walk"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            },
+            {
+              "lemma": "after",
+              "surface": "after"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Would you like to have dinner with us?",
+              "chinese": "你想和我们一起吃晚饭吗？"
+            },
+            {
+              "english": "Would you like to try the new café on Saturday?",
+              "chinese": "周六想去试试那家新咖啡馆吗？"
+            }
+          ],
+          "id": "M025",
+          "speaker": "A"
+        },
+        {
+          "english": "I'd love to, but I have to look after my little brother.",
+          "chinese": "我很想去，不过我得照看弟弟。",
+          "frame": "I'd love to, but I have to 【动词原形】.",
+          "tip": "love to 后省略了上一句的动作；保留 to 是自然的省略答复。",
+          "grammar": [
+            "INF",
+            "ADVICE"
+          ],
+          "phraseUses": [
+            {
+              "id": 374,
+              "surface": "'d love to"
+            },
+            {
+              "id": 313,
+              "surface": "look after my little brother"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "love",
+              "surface": "love"
+            },
+            {
+              "lemma": "little",
+              "surface": "little"
+            },
+            {
+              "lemma": "brother",
+              "surface": "brother"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'd love to, but I have to finish this report.",
+              "chinese": "我很想去，不过我得先写完这份报告。"
+            },
+            {
+              "english": "I'd love to, but I have to get up early tomorrow.",
+              "chinese": "我很想去，不过我明天得早起。"
+            }
+          ],
+          "id": "M026",
+          "speaker": "B"
+        },
+        {
+          "english": "How about meeting at the weekend instead?",
+          "chinese": "那改到周末见面怎么样？",
+          "frame": "How about 【名词／V-ing】 【时间】?",
+          "tip": "about 是介词，接动作时用 meeting，不用 meet。",
+          "grammar": [
+            "SUGGEST",
+            "ING",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 83,
+              "surface": "How about"
+            },
+            {
+              "id": 22,
+              "surface": "at the weekend"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "meet",
+              "surface": "meeting"
+            },
+            {
+              "lemma": "weekend",
+              "surface": "weekend"
+            },
+            {
+              "lemma": "instead",
+              "surface": "instead"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How about taking the train instead?",
+              "chinese": "改坐火车怎么样？"
+            },
+            {
+              "english": "How about a short break before we continue?",
+              "chinese": "继续之前休息一会儿怎么样？"
+            }
+          ],
+          "id": "M027",
+          "speaker": "A"
+        },
+        {
+          "english": "That sounds like a good idea, and I'm looking forward to seeing you on Saturday.",
+          "chinese": "听起来是个好主意，我很期待周六见到你。",
+          "frame": "That sounds like 【名词短语】, and I'm looking forward to 【名词／V-ing】.",
+          "tip": "sound like 后接名词短语；look forward to 中的 to 是介词，接 seeing，不是 see。",
+          "grammar": [
+            "SUGGEST",
+            "PROG",
+            "ING",
+            "SVC"
+          ],
+          "phraseUses": [
+            {
+              "id": 351,
+              "surface": "sounds like"
+            },
+            {
+              "id": 2,
+              "surface": "a good idea"
+            },
+            {
+              "id": 476,
+              "surface": "looking forward to seeing you"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "idea",
+              "surface": "idea"
+            },
+            {
+              "lemma": "see",
+              "surface": "seeing"
+            },
+            {
+              "lemma": "Saturday",
+              "surface": "Saturday"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "That sounds like a useful course, and I'm looking forward to joining it.",
+              "chinese": "听起来是门有用的课，我很期待参加。"
+            },
+            {
+              "english": "That sounds like a lovely plan, and I'm looking forward to spending time with you.",
+              "chinese": "听起来安排得很好，我很期待和你一起相处。"
+            }
+          ],
+          "id": "M028",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "接下来的计划与报平安",
+      "goal": "区分计划、已安排的活动与临时承诺。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "What are you going to do after you get home?",
+          "chinese": "你回家后打算做什么？",
+          "frame": "What are you going to 【动词原形】 after 【主语＋现在时】?",
+          "tip": "主句 be going to 表计划；after 后谈未来时通常仍用现在时。",
+          "grammar": [
+            "FUT",
+            "TIME",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 31,
+              "surface": "are you going to do"
+            },
+            {
+              "id": 53,
+              "surface": "get home"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "do",
+              "surface": "do"
+            },
+            {
+              "lemma": "get",
+              "surface": "get"
+            },
+            {
+              "lemma": "home",
+              "surface": "home"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What are you going to cook after your guests arrive?",
+              "chinese": "客人到后你打算做什么菜？"
+            },
+            {
+              "english": "What are you going to study after you finish this book?",
+              "chinese": "读完这本书后你打算学什么？"
+            }
+          ],
+          "id": "M029",
+          "speaker": "A"
+        },
+        {
+          "english": "I'm meeting a friend at six, so I need to get ready soon.",
+          "chinese": "我六点约了朋友，所以得赶快准备一下。",
+          "frame": "I'm 【动词-ing】 【未来时间】, so I need to 【动词原形】.",
+          "tip": "现在进行时配明确的未来时间，可表达已经安排好的活动。",
+          "grammar": [
+            "FUT",
+            "INF",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 57,
+              "surface": "get ready"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "meet",
+              "surface": "meeting"
+            },
+            {
+              "lemma": "friend",
+              "surface": "friend"
+            },
+            {
+              "lemma": "ready",
+              "surface": "ready"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'm taking the train at eight, so I need to leave soon.",
+              "chinese": "我八点坐火车，所以得快点出门。"
+            },
+            {
+              "english": "I'm having an interview tomorrow, so I need to prepare tonight.",
+              "chinese": "我明天有面试，所以今晚得准备。"
+            }
+          ],
+          "id": "M030",
+          "speaker": "B"
+        },
+        {
+          "english": "Will you let me know as soon as you get there?",
+          "chinese": "你一到那儿就告诉我，好吗？",
+          "frame": "Will you let me know as soon as 【主语＋现在时】?",
+          "tip": "as soon as 表一……就……；这里用 get，而不是 will get。",
+          "grammar": [
+            "FUT",
+            "TIME",
+            "IMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 312,
+              "surface": "let me know"
+            },
+            {
+              "id": 218,
+              "surface": "as soon as"
+            },
+            {
+              "id": 58,
+              "surface": "get there"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "know",
+              "surface": "know"
+            },
+            {
+              "lemma": "get",
+              "surface": "get"
+            },
+            {
+              "lemma": "there",
+              "surface": "there"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Will you let me know as soon as the meeting ends?",
+              "chinese": "会议一结束你就告诉我，好吗？"
+            },
+            {
+              "english": "Will you let me know as soon as your plan changes?",
+              "chinese": "计划一有变化你就告诉我，好吗？"
+            }
+          ],
+          "id": "M031",
+          "speaker": "A"
+        },
+        {
+          "english": "Of course, and I'll call you when I'm on my way back.",
+          "chinese": "当然，我回来的路上会给你打电话。",
+          "frame": "I'll 【动词原形】 when 【主语＋现在时】.",
+          "tip": "I'll 在这里作回应中的承诺；when 从句用 I'm，不用 I'll be。",
+          "grammar": [
+            "FUT",
+            "TIME"
+          ],
+          "phraseUses": [
+            {
+              "id": 129,
+              "surface": "Of course"
+            },
+            {
+              "id": 493,
+              "surface": "on my way back"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "call",
+              "surface": "call"
+            },
+            {
+              "lemma": "way",
+              "surface": "way"
+            },
+            {
+              "lemma": "back",
+              "surface": "back"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'll send you a message when I arrive.",
+              "chinese": "我到了会给你发消息。"
+            },
+            {
+              "english": "I'll explain the problem when we have a few minutes.",
+              "chinese": "我们有几分钟空闲时，我会解释这个问题。"
+            }
+          ],
+          "id": "M032",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "问路与乘车",
+      "goal": "先礼貌问位置，再确认路线。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Excuse me, could you tell me where the nearest bus stop is?",
+          "chinese": "打扰一下，能告诉我最近的公交站在哪儿吗？",
+          "frame": "Could you tell me where 【主语】 is/are?",
+          "tip": "嵌入式问句保留陈述语序：where the stop is，不用 where is the stop。",
+          "grammar": [
+            "INDIRECT",
+            "POLITE",
+            "WH",
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 44,
+              "surface": "Excuse me"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "near",
+              "surface": "nearest"
+            },
+            {
+              "lemma": "bus",
+              "surface": "bus"
+            },
+            {
+              "lemma": "stop",
+              "surface": "stop"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Could you tell me where the nearest cash machine is?",
+              "chinese": "能告诉我最近的取款机在哪儿吗？"
+            },
+            {
+              "english": "Could you tell me when the next class starts?",
+              "chinese": "能告诉我下一节课几点开始吗？"
+            }
+          ],
+          "id": "M033",
+          "speaker": "A"
+        },
+        {
+          "english": "Go straight ahead and get on the bus outside the station.",
+          "chinese": "一直往前走，在车站外面上公交车。",
+          "frame": "【动词原形】 and 【动词原形】 【位置】.",
+          "tip": "指路常用祈使句；公交车、火车等常用 get on，上小汽车常用 get in。",
+          "grammar": [
+            "IMP",
+            "COORD",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 56,
+              "surface": "get on"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "straight",
+              "surface": "straight"
+            },
+            {
+              "lemma": "bus",
+              "surface": "bus"
+            },
+            {
+              "lemma": "station",
+              "surface": "station"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Go upstairs and wait outside the office.",
+              "chinese": "上楼，在办公室外面等。"
+            },
+            {
+              "english": "Turn left and look for the blue sign.",
+              "chinese": "左转，找蓝色的标志。"
+            }
+          ],
+          "id": "M034",
+          "speaker": "B"
+        },
+        {
+          "english": "Where should I get off if I want to reach the city centre?",
+          "chinese": "想去市中心的话，我应该在哪儿下车？",
+          "frame": "Where should I 【动词原形】 if 【条件句】?",
+          "tip": "should 后 get 用原形；if 后的条件用 want to + V。",
+          "grammar": [
+            "WH",
+            "MODAL",
+            "COND1"
+          ],
+          "phraseUses": [
+            {
+              "id": 55,
+              "surface": "get off"
+            },
+            {
+              "id": 36,
+              "surface": "city centre"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "reach",
+              "surface": "reach"
+            },
+            {
+              "lemma": "city",
+              "surface": "city"
+            },
+            {
+              "lemma": "centre",
+              "surface": "centre"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Where should I wait if I arrive early?",
+              "chinese": "如果早到了，我应该在哪儿等？"
+            },
+            {
+              "english": "Where should we meet if it rains?",
+              "chinese": "如果下雨，我们应该在哪儿见？"
+            }
+          ],
+          "id": "M035",
+          "speaker": "A"
+        },
+        {
+          "english": "Get off at the next stop, and the main square will be on your left.",
+          "chinese": "下一站下车，主广场就在你左边。",
+          "frame": "【祈使句】, and 【主语】 will 【动词原形】.",
+          "tip": "前半句指示动作，后半句说明随后会看到的结果或位置。",
+          "grammar": [
+            "IMP",
+            "FUT",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 55,
+              "surface": "Get off"
+            },
+            {
+              "id": 141,
+              "surface": "on your left"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "next",
+              "surface": "next"
+            },
+            {
+              "lemma": "main",
+              "surface": "main"
+            },
+            {
+              "lemma": "square",
+              "surface": "square"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Open the file, and you'll see the instructions.",
+              "chinese": "打开文件，你就会看到说明。"
+            },
+            {
+              "english": "Follow this road, and the hotel will be on your right.",
+              "chinese": "沿着这条路走，酒店就在右边。"
+            }
+          ],
+          "id": "M036",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "请求帮忙与回应",
+      "goal": "练 could、would you mind，以及物与人的位置。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Could you send me the address and write the time down as well?",
+          "chinese": "能把地址发给我，也把时间记下来吗？",
+          "frame": "Could you send 【人】 【东西】 and 【动作原形】?",
+          "tip": "send me the address 是给谁什么；and 后 write 与 send 并列。",
+          "grammar": [
+            "POLITE",
+            "DOUBLE",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 375,
+              "surface": "write the time down"
+            },
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "send",
+              "surface": "send"
+            },
+            {
+              "lemma": "address",
+              "surface": "address"
+            },
+            {
+              "lemma": "time",
+              "surface": "time"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Could you show me the photo and explain the problem?",
+              "chinese": "能把照片给我看看，再解释一下问题吗？"
+            },
+            {
+              "english": "Could you give her the key and tell her the room number?",
+              "chinese": "能把钥匙给她，再告诉她房间号吗？"
+            }
+          ],
+          "id": "M037",
+          "speaker": "A"
+        },
+        {
+          "english": "No problem, but would you mind turning the music off first?",
+          "chinese": "没问题，不过你介意先把音乐关掉吗？",
+          "frame": "Would you mind 【动词-ing】?",
+          "tip": "这里请求对方行动；mind 后用 V-ing。若请求自己做某事，常用 Would you mind if I…?。",
+          "grammar": [
+            "POLITE",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 128,
+              "surface": "No problem"
+            },
+            {
+              "id": 368,
+              "surface": "turning the music off"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "mind",
+              "surface": "mind"
+            },
+            {
+              "lemma": "music",
+              "surface": "music"
+            },
+            {
+              "lemma": "first",
+              "surface": "first"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Would you mind closing the window?",
+              "chinese": "你介意把窗户关上吗？"
+            },
+            {
+              "english": "Would you mind speaking a little more slowly?",
+              "chinese": "你介意说得稍慢一点吗？"
+            }
+          ],
+          "id": "M038",
+          "speaker": "B"
+        },
+        {
+          "english": "Not at all, and I'll turn it off right now.",
+          "chinese": "不介意，我现在就关掉。",
+          "frame": "Not at all, and I'll 【动词原形】.",
+          "tip": "回应 mind 时 Not at all 表不介意、愿意配合；代词 it 放在 turn 与 off 中间。",
+          "grammar": [
+            "REPAIR",
+            "FUT",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 321,
+              "surface": "Not at all"
+            },
+            {
+              "id": 368,
+              "surface": "turn it off"
+            },
+            {
+              "id": 156,
+              "surface": "right now"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "turn",
+              "surface": "turn"
+            },
+            {
+              "lemma": "right",
+              "surface": "right"
+            },
+            {
+              "lemma": "now",
+              "surface": "now"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Not at all, and I'll move my bag.",
+              "chinese": "不介意，我会把包挪开。"
+            },
+            {
+              "english": "Not at all, and I'll write it down for you.",
+              "chinese": "不介意，我会给你写下来。"
+            }
+          ],
+          "id": "M039",
+          "speaker": "A"
+        },
+        {
+          "english": "Thank you, and I'll send it to you as soon as it's ready.",
+          "chinese": "谢谢，准备好后我就发给你。",
+          "frame": "I'll send 【东西】 to 【人】 as soon as 【主语＋现在时】.",
+          "tip": "与 send you the address 对照；这里用 send it to you，指代要让对方明白。",
+          "grammar": [
+            "DOUBLE",
+            "FUT",
+            "TIME"
+          ],
+          "phraseUses": [
+            {
+              "id": 167,
+              "surface": "Thank you"
+            },
+            {
+              "id": 218,
+              "surface": "as soon as"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "send",
+              "surface": "send"
+            },
+            {
+              "lemma": "ready",
+              "surface": "ready"
+            },
+            {
+              "lemma": "soon",
+              "surface": "soon"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'll send the receipt to you as soon as I find it.",
+              "chinese": "我一找到收据就发给你。"
+            },
+            {
+              "english": "I'll show the results to you as soon as they're available.",
+              "chinese": "结果一出来我就给你看。"
+            }
+          ],
+          "id": "M040",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "购物时比较与取舍",
+      "goal": "问价格，比较程度，表达预算限制。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "How much does this jacket cost compared with the blue one?",
+          "chinese": "和蓝色那件相比，这件夹克多少钱？",
+          "frame": "How much does 【单数事物】 cost compared with 【比较对象】?",
+          "tip": "does 后 cost 用原形；one 代替前面的同类单数名词。",
+          "grammar": [
+            "WH",
+            "PRES",
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 87,
+              "surface": "How much"
+            },
+            {
+              "id": 414,
+              "surface": "compared with"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "jacket",
+              "surface": "jacket"
+            },
+            {
+              "lemma": "cost",
+              "surface": "cost"
+            },
+            {
+              "lemma": "blue",
+              "surface": "blue"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How much does this course cost compared with the evening one?",
+              "chinese": "和晚间课程比，这门课多少钱？"
+            },
+            {
+              "english": "How much does the train ticket cost compared with the bus ticket?",
+              "chinese": "和公交票比，火车票多少钱？"
+            }
+          ],
+          "id": "M041",
+          "speaker": "A"
+        },
+        {
+          "english": "It's a bit cheaper, but it's not as warm as the blue one.",
+          "chinese": "它便宜一点，不过没蓝色那件暖和。",
+          "frame": "It's 【比较级】, but it's not as 【形容词原级】 as 【对象】.",
+          "tip": "a bit 可修饰比较级；as…as 中间用 warm，不用 warmer。",
+          "grammar": [
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 201,
+              "surface": "a bit"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "cheap",
+              "surface": "cheaper"
+            },
+            {
+              "lemma": "warm",
+              "surface": "warm"
+            },
+            {
+              "lemma": "blue",
+              "surface": "blue"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "It's faster, but it's not as comfortable as the train.",
+              "chinese": "它更快，不过没火车舒服。"
+            },
+            {
+              "english": "It's smaller, but it's not as expensive as the other room.",
+              "chinese": "它更小，不过没另一个房间贵。"
+            }
+          ],
+          "id": "M042",
+          "speaker": "B"
+        },
+        {
+          "english": "Is the blue one large enough to wear over a sweater at work?",
+          "chinese": "蓝色那件够大吗，上班时能套在毛衣外面吗？",
+          "frame": "Is 【事物】 【形容词】 enough to 【动词原形】?",
+          "tip": "形容词放在 enough 前；to wear 说明达到什么用途。",
+          "grammar": [
+            "BE",
+            "DEGREE",
+            "INF"
+          ],
+          "phraseUses": [
+            {
+              "id": 24,
+              "surface": "at work"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "large",
+              "surface": "large"
+            },
+            {
+              "lemma": "wear",
+              "surface": "wear"
+            },
+            {
+              "lemma": "sweater",
+              "surface": "sweater"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Is this bag big enough to hold my laptop?",
+              "chinese": "这个包够大，装得下我的笔记本电脑吗？"
+            },
+            {
+              "english": "Is the room quiet enough to record a lesson?",
+              "chinese": "这个房间够安静，能录课吗？"
+            }
+          ],
+          "id": "M043",
+          "speaker": "A"
+        },
+        {
+          "english": "It should be, but I can't afford to pay for both.",
+          "chinese": "应该够，不过两件我都买的话负担不起。",
+          "frame": "It should be, but I can't afford to 【动词原形】.",
+          "tip": "should be 后省略了前面已说的状态；afford 可接 to V。",
+          "grammar": [
+            "MODAL",
+            "INF",
+            "QUANT"
+          ],
+          "phraseUses": [
+            {
+              "id": 406,
+              "surface": "can't afford"
+            },
+            {
+              "id": 146,
+              "surface": "pay for both"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "pay",
+              "surface": "pay"
+            },
+            {
+              "lemma": "both",
+              "surface": "both"
+            },
+            {
+              "lemma": "afford",
+              "surface": "afford"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "It should be, but I can't afford to wait another week.",
+              "chinese": "应该可以，不过我等不起另一个星期。"
+            },
+            {
+              "english": "It should be, but I can't afford to lose this file.",
+              "chinese": "应该可以，不过这个文件我可丢不起。"
+            }
+          ],
+          "id": "M044",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "酒店办理入住",
+      "goal": "练拥有、许可与未来时间从句。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "I'd like to check in, but I can't find my booking number.",
+          "chinese": "我想办理入住，可是找不到预订号了。",
+          "frame": "I'd like to 【动作】, but I can't 【动词原形】.",
+          "tip": "would like to 表礼貌意愿；can't 后动词用原形。",
+          "grammar": [
+            "INF",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 193,
+              "surface": "'d like"
+            },
+            {
+              "id": 237,
+              "surface": "check in"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "like",
+              "surface": "like"
+            },
+            {
+              "lemma": "find",
+              "surface": "find"
+            },
+            {
+              "lemma": "check",
+              "surface": "check"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'd like to pay, but I can't find my wallet.",
+              "chinese": "我想付款，可是找不到钱包了。"
+            },
+            {
+              "english": "I'd like to join, but I can't open the form.",
+              "chinese": "我想参加，可是打不开表格。"
+            }
+          ],
+          "id": "M045",
+          "speaker": "A"
+        },
+        {
+          "english": "Have you got a copy of the email on your phone?",
+          "chinese": "你手机上有那封邮件的副本吗？",
+          "frame": "Have/Has 【人】 got 【东西】?",
+          "tip": "这里 have got 表拥有；这不是在问‘有没有获得过’的经历。",
+          "grammar": [
+            "WH",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 78,
+              "surface": "Have you got"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "copy",
+              "surface": "copy"
+            },
+            {
+              "lemma": "email",
+              "surface": "email"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phone"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Have you got a pen I can borrow?",
+              "chinese": "你有没有笔可以借我用一下？"
+            },
+            {
+              "english": "Has she got enough information to decide?",
+              "chinese": "她有没有足够的信息作决定？"
+            }
+          ],
+          "id": "M046",
+          "speaker": "B"
+        },
+        {
+          "english": "Yes, and am I allowed to leave my bag here before the room is ready?",
+          "chinese": "有，另外房间准备好之前，我能把包放在这里吗？",
+          "frame": "Am/Is/Are 【人】 allowed to 【动词原形】?",
+          "tip": "be allowed to 用来问许可；before 从句表示房间准备好之前。",
+          "grammar": [
+            "PASSIVE",
+            "MODAL",
+            "TIME"
+          ],
+          "phraseUses": [
+            {
+              "id": 228,
+              "surface": "am I allowed to leave"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "leave",
+              "surface": "leave"
+            },
+            {
+              "lemma": "bag",
+              "surface": "bag"
+            },
+            {
+              "lemma": "room",
+              "surface": "room"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Am I allowed to take photos in this room?",
+              "chinese": "我可以在这个房间拍照吗？"
+            },
+            {
+              "english": "Are we allowed to bring our own food?",
+              "chinese": "我们可以自带食物吗？"
+            }
+          ],
+          "id": "M047",
+          "speaker": "A"
+        },
+        {
+          "english": "Of course, and we'll take care of it until you come back.",
+          "chinese": "当然，我们会保管好，等你回来。",
+          "frame": "We'll 【动作】 until 【主语＋现在时】.",
+          "tip": "it 指前面的 bag；谈未来时，until 后这里用 come，不用 will come。",
+          "grammar": [
+            "FUT",
+            "TIME",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 129,
+              "surface": "Of course"
+            },
+            {
+              "id": 354,
+              "surface": "take care of it"
+            },
+            {
+              "id": 241,
+              "surface": "come back"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "care",
+              "surface": "care"
+            },
+            {
+              "lemma": "come",
+              "surface": "come"
+            },
+            {
+              "lemma": "back",
+              "surface": "back"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "We'll keep the room for you until you arrive.",
+              "chinese": "我们会把房间留给你，等你到。"
+            },
+            {
+              "english": "I'll look after your plants until you return.",
+              "chinese": "你回来之前，我会照看你的植物。"
+            }
+          ],
+          "id": "M048",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "聊一次过去的旅行",
+      "goal": "问过去的经历，继续追问最喜欢的部分。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "Where did you go on holiday last year?",
+          "chinese": "你去年去哪里度假了？",
+          "frame": "Where did 【人】 【动词原形】 【过去时间】?",
+          "tip": "did 后用 go，不用 went；last year 是已结束的过去时间。",
+          "grammar": [
+            "PAST",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 135,
+              "surface": "on holiday"
+            },
+            {
+              "id": 114,
+              "surface": "last year"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "go",
+              "surface": "go"
+            },
+            {
+              "lemma": "holiday",
+              "surface": "holiday"
+            },
+            {
+              "lemma": "year",
+              "surface": "year"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Where did you study before you moved here?",
+              "chinese": "搬来这里之前，你在哪儿读书？"
+            },
+            {
+              "english": "Where did they stay during the trip?",
+              "chinese": "旅行期间他们住在哪儿？"
+            }
+          ],
+          "id": "M049",
+          "speaker": "A"
+        },
+        {
+          "english": "I went to a small town where my old friend grew up.",
+          "chinese": "我去了一个小镇，我的老朋友就是在那里长大的。",
+          "frame": "I went to 【地点】 where 【完整句子】.",
+          "tip": "where 从句修饰地点；went、grew 分别是 go、grow 的过去式。",
+          "grammar": [
+            "PAST",
+            "REL"
+          ],
+          "phraseUses": [
+            {
+              "id": 132,
+              "surface": "old friend"
+            },
+            {
+              "id": 73,
+              "surface": "grew up"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "town",
+              "surface": "town"
+            },
+            {
+              "lemma": "friend",
+              "surface": "friend"
+            },
+            {
+              "lemma": "grow",
+              "surface": "grew"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I visited the school where my mother used to teach.",
+              "chinese": "我参观了妈妈过去教书的学校。"
+            },
+            {
+              "english": "We found a café where we could sit outside.",
+              "chinese": "我们找到一家能坐在室外的咖啡馆。"
+            }
+          ],
+          "id": "M050",
+          "speaker": "B"
+        },
+        {
+          "english": "What was the best thing about the trip?",
+          "chinese": "这趟旅行最棒的是什么？",
+          "frame": "What was/is the best thing about 【主题】?",
+          "tip": "用 be 问评价，不用 did；the best 是最高级。",
+          "grammar": [
+            "WH",
+            "BE",
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 359,
+              "surface": "the best thing"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "best",
+              "surface": "best"
+            },
+            {
+              "lemma": "thing",
+              "surface": "thing"
+            },
+            {
+              "lemma": "trip",
+              "surface": "trip"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What was the best thing about your new job?",
+              "chinese": "你的新工作最棒的地方是什么？"
+            },
+            {
+              "english": "What is the best thing about living here?",
+              "chinese": "住在这里最棒的是什么？"
+            }
+          ],
+          "id": "M051",
+          "speaker": "A"
+        },
+        {
+          "english": "Getting to know the local way of life was the best part.",
+          "chinese": "最棒的是了解当地人的生活方式。",
+          "frame": "【V-ing 短语】 was/is the best part.",
+          "tip": "Getting to know 整个动名词短语作主语；不要只把开头 getting 当谓语。",
+          "grammar": [
+            "ING",
+            "BE"
+          ],
+          "phraseUses": [
+            {
+              "id": 439,
+              "surface": "Getting to know"
+            },
+            {
+              "id": 545,
+              "surface": "way of life"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "local",
+              "surface": "local"
+            },
+            {
+              "lemma": "life",
+              "surface": "life"
+            },
+            {
+              "lemma": "part",
+              "surface": "part"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Learning to cook with my family was the best part.",
+              "chinese": "最棒的是和家人一起学做饭。"
+            },
+            {
+              "english": "Meeting people from different countries was the best part.",
+              "chinese": "最棒的是认识来自不同国家的人。"
+            }
+          ],
+          "id": "M052",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "还原一件过去发生的事",
+      "goal": "把当时的背景与后来发生的动作分开。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "What were you doing last time I called you?",
+          "chinese": "上次我给你打电话的时候，你在做什么？",
+          "frame": "What was/were 【人】 【V-ing】 when/last time 【过去事件】?",
+          "tip": "were doing 提供当时正在进行的背景；called 是插入的过去事件。",
+          "grammar": [
+            "PASTPROG",
+            "WH",
+            "PAST"
+          ],
+          "phraseUses": [
+            {
+              "id": 113,
+              "surface": "last time"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "do",
+              "surface": "doing"
+            },
+            {
+              "lemma": "time",
+              "surface": "time"
+            },
+            {
+              "lemma": "call",
+              "surface": "called"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What were you reading when I came in?",
+              "chinese": "我进来时你在读什么？"
+            },
+            {
+              "english": "What was she working on when the power went off?",
+              "chinese": "停电时她正在忙什么？"
+            }
+          ],
+          "id": "M053",
+          "speaker": "A"
+        },
+        {
+          "english": "My neighbours were playing loud music while I was working at home.",
+          "chinese": "我在家工作时，邻居正放着很响的音乐。",
+          "frame": "【人】 was/were 【V-ing】 while 【人】 was/were 【V-ing】.",
+          "tip": "while 连接当时同时进行的两个活动；前后 be 随主语变化。",
+          "grammar": [
+            "PASTPROG",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 15,
+              "surface": "at home"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "neighbour",
+              "surface": "neighbours"
+            },
+            {
+              "lemma": "music",
+              "surface": "music"
+            },
+            {
+              "lemma": "work",
+              "surface": "working"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "The children were playing while I was making dinner.",
+              "chinese": "我做晚饭时，孩子们在玩。"
+            },
+            {
+              "english": "She was taking notes while we were discussing the plan.",
+              "chinese": "我们讨论计划时，她在记笔记。"
+            }
+          ],
+          "id": "M054",
+          "speaker": "B"
+        },
+        {
+          "english": "Did you ask them to turn the music off for a moment?",
+          "chinese": "你有没有请他们把音乐暂时关一下？",
+          "frame": "Did 【人】 ask 【人】 to 【动词原形】?",
+          "tip": "did 后 ask 用原形；ask sb to do 表请某人做某事。",
+          "grammar": [
+            "PAST",
+            "INF"
+          ],
+          "phraseUses": [
+            {
+              "id": 368,
+              "surface": "turn the music off"
+            },
+            {
+              "id": 48,
+              "surface": "for a moment"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "ask",
+              "surface": "ask"
+            },
+            {
+              "lemma": "music",
+              "surface": "music"
+            },
+            {
+              "lemma": "moment",
+              "surface": "moment"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Did you ask him to send you a copy?",
+              "chinese": "你有没有请他发份副本给你？"
+            },
+            {
+              "english": "Did she ask you to help with the bags?",
+              "chinese": "她有没有请你帮忙拿包？"
+            }
+          ],
+          "id": "M055",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, and they turned it off as soon as they realised I was on the phone.",
+          "chinese": "有，他们一知道我在打电话，就把音乐关了。",
+          "frame": "【人】 【过去式】 as soon as 【过去事件】.",
+          "tip": "这里回忆过去，所以 realised 也用过去式；it 放在 turned 与 off 之间。",
+          "grammar": [
+            "PAST",
+            "TIME",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 368,
+              "surface": "turned it off"
+            },
+            {
+              "id": 218,
+              "surface": "as soon as"
+            },
+            {
+              "id": 142,
+              "surface": "on the phone"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "turn",
+              "surface": "turned"
+            },
+            {
+              "lemma": "realise",
+              "surface": "realised"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phone"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "She called me as soon as she saw the message.",
+              "chinese": "她一看到消息就给我打了电话。"
+            },
+            {
+              "english": "We left as soon as the rain stopped.",
+              "chinese": "雨一停我们就走了。"
+            }
+          ],
+          "id": "M056",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "经历、完成与还没做完",
+      "goal": "区分 ever、already、yet、just 的语境。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "Have you ever taken part in an online class?",
+          "chinese": "你参加过线上课程吗？",
+          "frame": "Have/Has 【人】 ever 【过去分词】?",
+          "tip": "问到目前为止的人生经历；take 的过去分词是 taken。",
+          "grammar": [
+            "PERF",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 285,
+              "surface": "Have you ever"
+            },
+            {
+              "id": 357,
+              "surface": "taken part"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "take",
+              "surface": "taken"
+            },
+            {
+              "lemma": "online",
+              "surface": "online"
+            },
+            {
+              "lemma": "class",
+              "surface": "class"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Have you ever travelled on your own?",
+              "chinese": "你独自旅行过吗？"
+            },
+            {
+              "english": "Has she ever worked in a hotel?",
+              "chinese": "她在酒店工作过吗？"
+            }
+          ],
+          "id": "M057",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, and I've already learned a lot from a short course.",
+          "chinese": "参加过，我已经从一门短课里学到不少东西。",
+          "frame": "I've already 【过去分词】 【内容】.",
+          "tip": "already 突出到现在已经发生；这里不附 last year 这样的已结束时间。",
+          "grammar": [
+            "PERF"
+          ],
+          "phraseUses": [
+            {
+              "id": 5,
+              "surface": "a lot"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "learn",
+              "surface": "learned"
+            },
+            {
+              "lemma": "short",
+              "surface": "short"
+            },
+            {
+              "lemma": "course",
+              "surface": "course"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I've already sent the address to your phone.",
+              "chinese": "我已经把地址发到你手机上了。"
+            },
+            {
+              "english": "We've already discussed the main problem.",
+              "chinese": "我们已经讨论过主要问题了。"
+            }
+          ],
+          "id": "M058",
+          "speaker": "B"
+        },
+        {
+          "english": "Have you finished all the exercises yet, or are you still working on them?",
+          "chinese": "练习都做完了吗，还是还在做？",
+          "frame": "Have you 【过去分词】 yet, or are you still 【V-ing】?",
+          "tip": "前半问当前完成结果，后半问当前过程；them 指复数 exercises。",
+          "grammar": [
+            "PERF",
+            "PROG",
+            "COORD",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 547,
+              "surface": "working on"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "finish",
+              "surface": "finished"
+            },
+            {
+              "lemma": "exercise",
+              "surface": "exercises"
+            },
+            {
+              "lemma": "still",
+              "surface": "still"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Have you packed your bag yet, or are you still choosing clothes?",
+              "chinese": "包收拾好了吗，还是还在选衣服？"
+            },
+            {
+              "english": "Have they made a decision yet, or are they still thinking about it?",
+              "chinese": "他们作出决定了吗，还是还在考虑？"
+            }
+          ],
+          "id": "M059",
+          "speaker": "A"
+        },
+        {
+          "english": "Not yet, but I've just worked out how to do the last one.",
+          "chinese": "还没有，不过我刚弄懂最后一题怎么做。",
+          "frame": "Not yet, but I've just 【过去分词】 【内容】.",
+          "tip": "just 表刚刚；how to do 是‘怎样做’，作 worked out 的内容。",
+          "grammar": [
+            "PERF",
+            "INF",
+            "REPAIR"
+          ],
+          "phraseUses": [
+            {
+              "id": 548,
+              "surface": "worked out"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "work",
+              "surface": "worked"
+            },
+            {
+              "lemma": "last",
+              "surface": "last"
+            },
+            {
+              "lemma": "do",
+              "surface": "do"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Not yet, but I've just found the information I need.",
+              "chinese": "还没有，不过我刚找到需要的信息。"
+            },
+            {
+              "english": "Not yet, but I've just learned how to use the app.",
+              "chinese": "还没有，不过我刚学会用这个应用。"
+            }
+          ],
+          "id": "M060",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "学习持续了多久",
+      "goal": "用 for/since 说时长，比较过程与结果。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "How long have you been learning English on your own?",
+          "chinese": "你自己学英语学了多久了？",
+          "frame": "How long have/has 【人】 been 【V-ing】?",
+          "tip": "have been learning 强调持续的学习过程；不能省掉 been。",
+          "grammar": [
+            "PERFPROG",
+            "DURATION",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 85,
+              "surface": "How long"
+            },
+            {
+              "id": 490,
+              "surface": "on your own"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "long",
+              "surface": "long"
+            },
+            {
+              "lemma": "learn",
+              "surface": "learning"
+            },
+            {
+              "lemma": "own",
+              "surface": "own"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "How long have you been waiting here?",
+              "chinese": "你在这里等多久了？"
+            },
+            {
+              "english": "How long has she been working on this project?",
+              "chinese": "她做这个项目做多久了？"
+            }
+          ],
+          "id": "M061",
+          "speaker": "A"
+        },
+        {
+          "english": "I've been studying for half an hour every day since the start of the month.",
+          "chinese": "从这个月初起，我每天学半小时。",
+          "frame": "I've been 【V-ing】 for 【每次时长】 every day since 【起点】.",
+          "tip": "这里 for half an hour 是每天的时长，since 引出这个习惯开始的时间点。",
+          "grammar": [
+            "PERFPROG",
+            "DURATION",
+            "FREQ"
+          ],
+          "phraseUses": [
+            {
+              "id": 75,
+              "surface": "half an hour"
+            },
+            {
+              "id": 43,
+              "surface": "every day"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "study",
+              "surface": "studying"
+            },
+            {
+              "lemma": "hour",
+              "surface": "hour"
+            },
+            {
+              "lemma": "month",
+              "surface": "month"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I've been walking for twenty minutes every morning since last week.",
+              "chinese": "从上周起，我每天早上走二十分钟。"
+            },
+            {
+              "english": "I've been reading for an hour every evening since I joined the class.",
+              "chinese": "参加这门课以来，我每天晚上读一小时。"
+            }
+          ],
+          "id": "M062",
+          "speaker": "B"
+        },
+        {
+          "english": "Have you noticed any changes in the way you speak?",
+          "chinese": "你有没有发现自己的说话方式有些变化？",
+          "frame": "Have you noticed any changes in the way 【主语＋谓语】?",
+          "tip": "完成时询问到现在观察到的变化；the way you speak 指你的说话方式，整个 in 短语说明变化出现在哪方面。",
+          "grammar": [
+            "PERF",
+            "REL"
+          ],
+          "phraseUses": [],
+          "keywords": [
+            {
+              "lemma": "notice",
+              "surface": "noticed"
+            },
+            {
+              "lemma": "change",
+              "surface": "changes"
+            },
+            {
+              "lemma": "speak",
+              "surface": "speak"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Have you noticed any changes in the way you sleep?",
+              "chinese": "你有没有发现自己的睡眠方式有些变化？"
+            },
+            {
+              "english": "Have you noticed any changes in the way the team works?",
+              "chinese": "你有没有发现团队工作方式有些变化？"
+            }
+          ],
+          "id": "M063",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, and I've become more confident because I practise a little every day.",
+          "chinese": "有，我更有信心了，因为每天都练一点。",
+          "frame": "I've become 【形容词／比较级】 because 【日常原因】.",
+          "tip": "become 的过去分词仍是 become；完成时说变化，because 后用现在时说日常习惯。",
+          "grammar": [
+            "PERF",
+            "REASON"
+          ],
+          "phraseUses": [
+            {
+              "id": 4,
+              "surface": "a little"
+            },
+            {
+              "id": 43,
+              "surface": "every day"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "become",
+              "surface": "become"
+            },
+            {
+              "lemma": "confident",
+              "surface": "confident"
+            },
+            {
+              "lemma": "practise",
+              "surface": "practise"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I've become more organised because I plan my week.",
+              "chinese": "我更有条理了，因为我会安排一周的事情。"
+            },
+            {
+              "english": "I've become less nervous because I know what to expect.",
+              "chinese": "我没那么紧张了，因为我知道接下来会怎样。"
+            }
+          ],
+          "id": "M064",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "过去习惯与现在习惯",
+      "goal": "分清 used to、be used to 和 get used to。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "Did you use to stay up late when you were at university?",
+          "chinese": "你上大学时以前经常熬夜吗？",
+          "frame": "Did 【人】 use to 【动词原形】?",
+          "tip": "常规书写中，did 后用 use to；肯定句才是 used to + V。",
+          "grammar": [
+            "USED",
+            "PAST"
+          ],
+          "phraseUses": [
+            {
+              "id": 23,
+              "surface": "at university"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "stay",
+              "surface": "stay"
+            },
+            {
+              "lemma": "late",
+              "surface": "late"
+            },
+            {
+              "lemma": "university",
+              "surface": "university"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Did you use to play football after school?",
+              "chinese": "你以前放学后经常踢足球吗？"
+            },
+            {
+              "english": "Did she use to live near the sea?",
+              "chinese": "她以前住在海边吗？"
+            }
+          ],
+          "id": "M065",
+          "speaker": "A"
+        },
+        {
+          "english": "I used to, but I'm used to getting up early these days.",
+          "chinese": "以前会，不过这些天我习惯早起了。",
+          "frame": "I used to 【V】, but I'm used to 【V-ing】 now.",
+          "tip": "前一个 used to 是过去的习惯；后一个 be used to 中的 to 是介词，后接 V-ing。",
+          "grammar": [
+            "USED",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 60,
+              "surface": "getting up"
+            },
+            {
+              "id": 365,
+              "surface": "these days"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "get",
+              "surface": "getting"
+            },
+            {
+              "lemma": "early",
+              "surface": "early"
+            },
+            {
+              "lemma": "day",
+              "surface": "days"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I used to drive, but I'm used to taking the train now.",
+              "chinese": "以前我开车，不过现在习惯坐火车了。"
+            },
+            {
+              "english": "I used to eat out, but I'm used to cooking at home now.",
+              "chinese": "以前我在外面吃，不过现在习惯在家做饭了。"
+            }
+          ],
+          "id": "M066",
+          "speaker": "B"
+        },
+        {
+          "english": "Was it difficult to get used to the new routine?",
+          "chinese": "习惯新的作息难吗？",
+          "frame": "Was/Is it 【形容词】 to get used to 【名词／V-ing】?",
+          "tip": "get used to 强调逐渐适应；it 先占据主语位置，具体内容是后面的不定式。",
+          "grammar": [
+            "USED",
+            "BE",
+            "INF"
+          ],
+          "phraseUses": [
+            {
+              "id": 440,
+              "surface": "get used to the new routine"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "difficult",
+              "surface": "difficult"
+            },
+            {
+              "lemma": "new",
+              "surface": "new"
+            },
+            {
+              "lemma": "routine",
+              "surface": "routine"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Was it difficult to get used to working at night?",
+              "chinese": "习惯夜间工作难吗？"
+            },
+            {
+              "english": "Is it easy to get used to the weather here?",
+              "chinese": "习惯这里的天气容易吗？"
+            }
+          ],
+          "id": "M067",
+          "speaker": "A"
+        },
+        {
+          "english": "At first it was, but I got better at going to bed on time.",
+          "chinese": "起初挺难，不过后来我更能按时上床了。",
+          "frame": "At first it was, but I got better at 【V-ing】.",
+          "tip": "at 后接动作时用 V-ing；it was 省略了前面问题里的 difficult。",
+          "grammar": [
+            "PAST",
+            "ING",
+            "USED"
+          ],
+          "phraseUses": [
+            {
+              "id": 220,
+              "surface": "At first"
+            },
+            {
+              "id": 269,
+              "surface": "got better"
+            },
+            {
+              "id": 70,
+              "surface": "going to bed"
+            },
+            {
+              "id": 329,
+              "surface": "on time"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "bed",
+              "surface": "bed"
+            },
+            {
+              "lemma": "time",
+              "surface": "time"
+            },
+            {
+              "lemma": "first",
+              "surface": "first"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "At first it was, but I got better at asking for help.",
+              "chinese": "起初挺难，不过后来我更会开口求助了。"
+            },
+            {
+              "english": "At first it was, but I got better at planning my day.",
+              "chinese": "起初挺难，不过后来我更会安排一天的事情了。"
+            }
+          ],
+          "id": "M068",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "谈困难与给建议",
+      "goal": "表达做某事很难，提出可操作的办法。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "I find it difficult to concentrate on long conversations.",
+          "chinese": "我觉得集中注意力听长对话挺难。",
+          "frame": "I find it 【形容词】 to 【动词原形】.",
+          "tip": "it 作形式宾语，具体觉得困难的事放在 to 后；concentrate on 后接关注对象。",
+          "grammar": [
+            "OBJCOMP",
+            "INF"
+          ],
+          "phraseUses": [
+            {
+              "id": 262,
+              "surface": "find it difficult to"
+            },
+            {
+              "id": 415,
+              "surface": "concentrate on long conversations"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "find",
+              "surface": "find"
+            },
+            {
+              "lemma": "difficult",
+              "surface": "difficult"
+            },
+            {
+              "lemma": "conversation",
+              "surface": "conversations"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I find it hard to remember people's names.",
+              "chinese": "我觉得记人名很难。"
+            },
+            {
+              "english": "I find it useful to read the instructions first.",
+              "chinese": "我觉得先读说明很有用。"
+            }
+          ],
+          "id": "M069",
+          "speaker": "A"
+        },
+        {
+          "english": "Why not start with a short conversation and focus on one pattern at a time?",
+          "chinese": "为什么不先从一段短对话开始，一次专注一个句式呢？",
+          "frame": "Why not 【动词原形】 and 【动词原形】?",
+          "tip": "Why not 后不加 to；start 与 focus 都是并列的原形。",
+          "grammar": [
+            "SUGGEST",
+            "IMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 371,
+              "surface": "Why not"
+            },
+            {
+              "id": 352,
+              "surface": "start with a short conversation"
+            },
+            {
+              "id": 264,
+              "surface": "focus on one pattern"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "start",
+              "surface": "start"
+            },
+            {
+              "lemma": "short",
+              "surface": "short"
+            },
+            {
+              "lemma": "pattern",
+              "surface": "pattern"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Why not take a short break and try again?",
+              "chinese": "为什么不稍微休息一下，再试一次呢？"
+            },
+            {
+              "english": "Why not write the main points down and check them later?",
+              "chinese": "为什么不先记下要点，过后再核对呢？"
+            }
+          ],
+          "id": "M070",
+          "speaker": "B"
+        },
+        {
+          "english": "Will I be able to deal with faster speech if I practise like that?",
+          "chinese": "如果这样练，我能应付更快的语速吗？",
+          "frame": "Will 【人】 be able to 【动词原形】 if 【条件】?",
+          "tip": "will 后用 be；be able to 后再接动词原形，不是 will can。",
+          "grammar": [
+            "MODAL",
+            "COND1",
+            "FUT"
+          ],
+          "phraseUses": [
+            {
+              "id": 202,
+              "surface": "be able to deal"
+            },
+            {
+              "id": 247,
+              "surface": "deal with faster speech"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "fast",
+              "surface": "faster"
+            },
+            {
+              "lemma": "speech",
+              "surface": "speech"
+            },
+            {
+              "lemma": "practise",
+              "surface": "practise"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Will I be able to finish in time if I start now?",
+              "chinese": "如果现在开始，我能及时完成吗？"
+            },
+            {
+              "english": "Will we be able to save more if we cook at home?",
+              "chinese": "如果在家做饭，我们能多存些钱吗？"
+            }
+          ],
+          "id": "M071",
+          "speaker": "A"
+        },
+        {
+          "english": "You should improve over time, but you ought to practise speaking as well.",
+          "chinese": "你应该会逐渐进步，不过也该练练开口说。",
+          "frame": "【人】 should 【V】, but 【人】 ought to 【V】 as well.",
+          "tip": "should 后直接接原形；ought 后有 to。前半是预期，后半给建议。",
+          "grammar": [
+            "ADVICE",
+            "MODAL",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 499,
+              "surface": "over time"
+            },
+            {
+              "id": 496,
+              "surface": "ought to"
+            },
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "improve",
+              "surface": "improve"
+            },
+            {
+              "lemma": "practise",
+              "surface": "practise"
+            },
+            {
+              "lemma": "speak",
+              "surface": "speaking"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "It should get easier, but you ought to ask questions as well.",
+              "chinese": "它应该会变容易，不过你也该主动提问。"
+            },
+            {
+              "english": "You should feel more prepared, but you ought to check the details as well.",
+              "chinese": "你应该会更有准备，不过也该核对细节。"
+            }
+          ],
+          "id": "M072",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "下雨时的备用方案",
+      "goal": "练 if、unless、as long as 和 in case 的区别。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "What will we do if it rains on Monday?",
+          "chinese": "如果周一下雨，我们怎么办？",
+          "frame": "What will 【人】 do if 【主语＋现在时】?",
+          "tip": "主句问将来安排，if 条件从句这里用 rains，不用 will rain。",
+          "grammar": [
+            "COND1",
+            "FUT",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 136,
+              "surface": "on Monday"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "rain",
+              "surface": "rains"
+            },
+            {
+              "lemma": "Monday",
+              "surface": "Monday"
+            },
+            {
+              "lemma": "do",
+              "surface": "do"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What will we do if the train is late?",
+              "chinese": "如果火车晚点，我们怎么办？"
+            },
+            {
+              "english": "What will she do if the shop is closed?",
+              "chinese": "如果店关门了，她怎么办？"
+            }
+          ],
+          "id": "M073",
+          "speaker": "A"
+        },
+        {
+          "english": "We'll stay in unless the weather gets better.",
+          "chinese": "除非天气好转，不然我们就待在室内。",
+          "frame": "【主语】 will 【V】 unless 【主语＋现在时】.",
+          "tip": "unless 在这里接近 if…not；注意它已经包含否定条件。",
+          "grammar": [
+            "COND1",
+            "FUT"
+          ],
+          "phraseUses": [
+            {
+              "id": 163,
+              "surface": "stay in"
+            },
+            {
+              "id": 269,
+              "surface": "gets better"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "stay",
+              "surface": "stay"
+            },
+            {
+              "lemma": "weather",
+              "surface": "weather"
+            },
+            {
+              "lemma": "good",
+              "surface": "better"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "We'll take the bus unless someone can drive us.",
+              "chinese": "除非有人能开车送我们，不然我们就坐公交。"
+            },
+            {
+              "english": "I'll keep the old phone unless I find a better one.",
+              "chinese": "除非找到更好的，不然我就继续用旧手机。"
+            }
+          ],
+          "id": "M074",
+          "speaker": "B"
+        },
+        {
+          "english": "Can we go out as long as we're back before dark?",
+          "chinese": "只要天黑前回来，我们能出去吗？",
+          "frame": "Can 【人】 【V】 as long as 【条件】?",
+          "tip": "as long as 在这里是只要，并不是在问时间有多长。",
+          "grammar": [
+            "COND1",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 69,
+              "surface": "go out"
+            },
+            {
+              "id": 565,
+              "surface": "as long as"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "go",
+              "surface": "go"
+            },
+            {
+              "lemma": "back",
+              "surface": "back"
+            },
+            {
+              "lemma": "dark",
+              "surface": "dark"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Can I borrow the book as long as I return it tomorrow?",
+              "chinese": "只要明天归还，我能借这本书吗？"
+            },
+            {
+              "english": "Can we use the room as long as we keep it clean?",
+              "chinese": "只要保持干净，我们能用这个房间吗？"
+            }
+          ],
+          "id": "M075",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, but take a jacket in case it gets cold.",
+          "chinese": "能，不过带件外套，以防变冷。",
+          "frame": "【祈使句】 in case 【可能出现的情况】.",
+          "tip": "这里先带外套以防降温；in case 不等同于等到降温才行动的 if。",
+          "grammar": [
+            "IMP",
+            "COND1"
+          ],
+          "phraseUses": [
+            {
+              "id": 454,
+              "surface": "in case"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "take",
+              "surface": "take"
+            },
+            {
+              "lemma": "jacket",
+              "surface": "jacket"
+            },
+            {
+              "lemma": "cold",
+              "surface": "cold"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Save a copy in case the file gets lost.",
+              "chinese": "保存一个副本，以防文件丢失。"
+            },
+            {
+              "english": "Write the address down in case your phone runs out of power.",
+              "chinese": "把地址写下来，以防手机没电。"
+            }
+          ],
+          "id": "M076",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "假设有更多自己的时间",
+      "goal": "练不现实的愿望、假设与委婉建议。",
+      "priority": "扩展",
+      "lines": [
+        {
+          "english": "I wish I had more time for myself, but I keep taking on more work.",
+          "chinese": "我真希望多些自己的时间，可我总是接更多工作。",
+          "frame": "I wish 【主语＋过去形式】, but I keep 【V-ing】.",
+          "tip": "wish 后用 had 表现在与现实有距离的愿望；这里不是在叙述曾经拥有。",
+          "grammar": [
+            "WISH",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 79,
+              "surface": "had more time"
+            },
+            {
+              "id": 527,
+              "surface": "taking on more work"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "time",
+              "surface": "time"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            },
+            {
+              "lemma": "keep",
+              "surface": "keep"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I wish I lived closer, but I can't move right now.",
+              "chinese": "我真希望住得近一点，可我现在没法搬。"
+            },
+            {
+              "english": "I wish I knew the answer, but I need to check first.",
+              "chinese": "我真希望知道答案，可我需要先查一下。"
+            }
+          ],
+          "id": "M077",
+          "speaker": "A"
+        },
+        {
+          "english": "If I were you, I'd take up a hobby rather than add more work.",
+          "chinese": "如果我是你，我会培养个爱好，而不是再增加工作。",
+          "frame": "If I were you, I'd 【V】 rather than 【V】.",
+          "tip": "I'd 在这里是 I would；假设建议用 were，rather than 前后的动作保持平行。",
+          "grammar": [
+            "COND2",
+            "PREFER"
+          ],
+          "phraseUses": [
+            {
+              "id": 451,
+              "surface": "If I were you"
+            },
+            {
+              "id": 529,
+              "surface": "take up a hobby"
+            },
+            {
+              "id": 509,
+              "surface": "rather than"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "hobby",
+              "surface": "hobby"
+            },
+            {
+              "lemma": "add",
+              "surface": "add"
+            },
+            {
+              "lemma": "work",
+              "surface": "work"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "If I were you, I'd ask for help rather than do everything alone.",
+              "chinese": "如果我是你，我会求助，而不是全都一个人做。"
+            },
+            {
+              "english": "If I were you, I'd check the facts rather than guess.",
+              "chinese": "如果我是你，我会核对事实，而不是猜。"
+            }
+          ],
+          "id": "M078",
+          "speaker": "B"
+        },
+        {
+          "english": "Would it make a difference if I turned my phone off for an hour?",
+          "chinese": "如果我把手机关一小时，会有帮助吗？",
+          "frame": "Would it 【V】 if 【主语＋过去形式】?",
+          "tip": "这里 turned 配合假设，不是在直接断言已经关过手机。",
+          "grammar": [
+            "COND2",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 478,
+              "surface": "make a difference"
+            },
+            {
+              "id": 368,
+              "surface": "turned my phone off"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "difference",
+              "surface": "difference"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phone"
+            },
+            {
+              "lemma": "hour",
+              "surface": "hour"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Would it help if we started a little earlier?",
+              "chinese": "如果早一点开始，会有帮助吗？"
+            },
+            {
+              "english": "Would it be easier if I showed you an example?",
+              "chinese": "如果我给你看个例子，会更容易吗？"
+            }
+          ],
+          "id": "M079",
+          "speaker": "A"
+        },
+        {
+          "english": "It might, and you could use that time to do something you really enjoy.",
+          "chinese": "可能有用，你也可以用那段时间做些自己真正喜欢的事。",
+          "frame": "It might, and you could use 【资源】 to 【动作】.",
+          "tip": "It might 省略前面的问题内容；something 后的 you really enjoy 是省略了宾语关系词的定语从句。",
+          "grammar": [
+            "MODAL",
+            "PURPOSE",
+            "REL"
+          ],
+          "phraseUses": [
+            {
+              "id": 153,
+              "surface": "really enjoy"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "time",
+              "surface": "time"
+            },
+            {
+              "lemma": "something",
+              "surface": "something"
+            },
+            {
+              "lemma": "enjoy",
+              "surface": "enjoy"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "It might, and you could use the break to clear your head.",
+              "chinese": "可能有用，你也可以用这次休息理清思路。"
+            },
+            {
+              "english": "It might, and we could use the space to store our bags.",
+              "chinese": "可能有用，我们也可以利用那个空间放包。"
+            }
+          ],
+          "id": "M080",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "照片丢失后的复盘",
+      "goal": "解释更早发生的事，再谈过去的假设。",
+      "priority": "扩展",
+      "lines": [
+        {
+          "english": "Why didn't you back up the photos before you changed phones?",
+          "chinese": "换手机之前，你为什么没备份照片？",
+          "frame": "Why didn't 【人】 【动词原形】 before 【过去事件】?",
+          "tip": "didn't 后用 back，不用 backed；这类问法可能有追问或责备语气，要注意关系。",
+          "grammar": [
+            "PAST",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 575,
+              "surface": "back up the photos"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "photo",
+              "surface": "photos"
+            },
+            {
+              "lemma": "change",
+              "surface": "changed"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phones"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Why didn't you save the file before you closed the app?",
+              "chinese": "关闭应用前，你为什么没保存文件？"
+            },
+            {
+              "english": "Why didn't she check the address before she left?",
+              "chinese": "出发前，她为什么没核对地址？"
+            }
+          ],
+          "id": "M081",
+          "speaker": "A"
+        },
+        {
+          "english": "I thought I had saved them, but in fact I'd left the only copy on the old phone.",
+          "chinese": "我以为保存好了，可其实唯一的副本还在旧手机上。",
+          "frame": "I thought I had 【过去分词】, but in fact I'd 【过去分词】.",
+          "tip": "had saved 表比当时更早的动作；I'd left 中 'd = had，因为后接 left 这个过去分词。",
+          "grammar": [
+            "PASTPERF",
+            "REPORTED",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 94,
+              "surface": "in fact"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "save",
+              "surface": "saved"
+            },
+            {
+              "lemma": "copy",
+              "surface": "copy"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phone"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I thought I had booked a room, but in fact I'd booked a table.",
+              "chinese": "我以为订了房间，可其实订的是餐桌。"
+            },
+            {
+              "english": "I thought I had sent the message, but in fact I'd only saved it.",
+              "chinese": "我以为消息发出去了，可其实只是保存了。"
+            }
+          ],
+          "id": "M082",
+          "speaker": "B"
+        },
+        {
+          "english": "If we had backed them up, we wouldn't have lost them.",
+          "chinese": "如果当时我们备份过，就不会丢了。",
+          "frame": "If 【人】 had 【过去分词】, 【人】 would/wouldn't have 【过去分词】.",
+          "tip": "对已发生的过去作反事实假设；这里说过去并未备份。用 we 复盘共同经历，可以少一点指责感。",
+          "grammar": [
+            "COND3",
+            "PASTPERF"
+          ],
+          "phraseUses": [
+            {
+              "id": 575,
+              "surface": "backed them up"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "back",
+              "surface": "backed"
+            },
+            {
+              "lemma": "lose",
+              "surface": "lost"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "If we had left earlier, we wouldn't have missed the train.",
+              "chinese": "如果早点走，我们就不会误车了。"
+            },
+            {
+              "english": "If I had checked the size, I wouldn't have bought the wrong one.",
+              "chinese": "如果检查过尺寸，我就不会买错了。"
+            }
+          ],
+          "id": "M083",
+          "speaker": "A"
+        },
+        {
+          "english": "I know, and I'll make sure I save a copy in the future.",
+          "chinese": "我知道，以后我会确保留一份副本。",
+          "frame": "I'll make sure 【主语＋谓语】 【将来时间】.",
+          "tip": "make sure 后接要确保的完整内容；这里 save 描述要执行的做法。",
+          "grammar": [
+            "FUT",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 319,
+              "surface": "make sure"
+            },
+            {
+              "id": 102,
+              "surface": "in the future"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "save",
+              "surface": "save"
+            },
+            {
+              "lemma": "copy",
+              "surface": "copy"
+            },
+            {
+              "lemma": "future",
+              "surface": "future"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'll make sure I bring the right documents next time.",
+              "chinese": "下次我会确保带对材料。"
+            },
+            {
+              "english": "We'll make sure everyone knows the meeting time.",
+              "chinese": "我们会确保每个人都知道开会时间。"
+            }
+          ],
+          "id": "M084",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "报告进度与工作分工",
+      "goal": "练被动表达、负责什么和将来完成。",
+      "priority": "扩展",
+      "lines": [
+        {
+          "english": "Is the report being checked at the moment?",
+          "chinese": "报告现在正在核对吗？",
+          "frame": "Is/Are 【事物】 being 【过去分词】?",
+          "tip": "现在进行被动：is being checked；关注报告正在接受什么处理。",
+          "grammar": [
+            "PASSIVE",
+            "PROG",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 20,
+              "surface": "at the moment"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "report",
+              "surface": "report"
+            },
+            {
+              "lemma": "check",
+              "surface": "checked"
+            },
+            {
+              "lemma": "moment",
+              "surface": "moment"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Is the room being cleaned right now?",
+              "chinese": "房间现在正在打扫吗？"
+            },
+            {
+              "english": "Are the tickets being sent out today?",
+              "chinese": "票今天正在发出吗？"
+            }
+          ],
+          "id": "M085",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, and it must be sent to everyone by the end of the day.",
+          "chinese": "是的，而且必须在今天结束前发给所有人。",
+          "frame": "【事物】 must/can/should be 【过去分词】 【截止时间】.",
+          "tip": "must 后先接 be，再接 sent；不能用 must sent。",
+          "grammar": [
+            "MODPASS",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 233,
+              "surface": "by the end of the day"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "send",
+              "surface": "sent"
+            },
+            {
+              "lemma": "everyone",
+              "surface": "everyone"
+            },
+            {
+              "lemma": "day",
+              "surface": "day"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "The form must be signed before Friday.",
+              "chinese": "表格必须在周五前签好。"
+            },
+            {
+              "english": "The problem can be solved without replacing the whole system.",
+              "chinese": "这个问题不必更换整个系统就能解决。"
+            }
+          ],
+          "id": "M086",
+          "speaker": "B"
+        },
+        {
+          "english": "Who is in charge of putting all the information together?",
+          "chinese": "谁负责把所有信息整理到一起？",
+          "frame": "Who is in charge of 【名词／V-ing】?",
+          "tip": "of 是介词，后接 putting；put…together 表整理、组合。",
+          "grammar": [
+            "WH",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 455,
+              "surface": "in charge of"
+            },
+            {
+              "id": 651,
+              "surface": "putting all the information together"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "information",
+              "surface": "information"
+            },
+            {
+              "lemma": "put",
+              "surface": "putting"
+            },
+            {
+              "lemma": "together",
+              "surface": "together"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Who is in charge of organising the trip?",
+              "chinese": "谁负责组织这次旅行？"
+            },
+            {
+              "english": "Who is in charge of checking the final list?",
+              "chinese": "谁负责核对最终名单？"
+            }
+          ],
+          "id": "M087",
+          "speaker": "A"
+        },
+        {
+          "english": "I am, and by the time you come back, I'll have finished the final part.",
+          "chinese": "我负责；等你回来时，我就已经完成最后一部分了。",
+          "frame": "By the time 【主语＋现在时】, 【人】 will have 【过去分词】.",
+          "tip": "主句 will have finished 表到未来那时已经完成；时间从句仍用 come。",
+          "grammar": [
+            "FUTPERF",
+            "TIME"
+          ],
+          "phraseUses": [
+            {
+              "id": 405,
+              "surface": "by the time"
+            },
+            {
+              "id": 241,
+              "surface": "come back"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "finish",
+              "surface": "finished"
+            },
+            {
+              "lemma": "final",
+              "surface": "final"
+            },
+            {
+              "lemma": "part",
+              "surface": "part"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "By the time you arrive, I'll have cooked dinner.",
+              "chinese": "等你到的时候，我就已经做好晚饭了。"
+            },
+            {
+              "english": "By the time the shop opens, we'll have checked all the prices.",
+              "chinese": "等店开门时，我们就已经核对好所有价格了。"
+            }
+          ],
+          "id": "M088",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "转述别人说的话",
+      "goal": "把听到的计划说清楚，再追问准备事项。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "What did the manager say about the plan for next week?",
+          "chinese": "经理说下周的计划是什么？",
+          "frame": "What did 【人】 say about 【主题】?",
+          "tip": "did 后 say 用原形；say 强调说的内容，tell 常需要接告诉谁。",
+          "grammar": [
+            "PAST",
+            "WH"
+          ],
+          "phraseUses": [
+            {
+              "id": 149,
+              "surface": "plan for next week"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "manager",
+              "surface": "manager"
+            },
+            {
+              "lemma": "say",
+              "surface": "say"
+            },
+            {
+              "lemma": "plan",
+              "surface": "plan"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What did the teacher say about the homework?",
+              "chinese": "老师怎么说作业的事？"
+            },
+            {
+              "english": "What did your friend say about the new place?",
+              "chinese": "你朋友怎么评价新地方？"
+            }
+          ],
+          "id": "M089",
+          "speaker": "A"
+        },
+        {
+          "english": "She said that we'd start with the easier part and work together.",
+          "chinese": "她说我们会从较容易的部分开始，一起做。",
+          "frame": "【人】 said that 【人】 would 【动词原形】.",
+          "tip": "we'd 在这里是 we would，因为后面是 start；从过去视角转述接下来的计划。",
+          "grammar": [
+            "REPORTED",
+            "MODAL",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 352,
+              "surface": "start with the easier part"
+            },
+            {
+              "id": 191,
+              "surface": "work together"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "start",
+              "surface": "start"
+            },
+            {
+              "lemma": "easy",
+              "surface": "easier"
+            },
+            {
+              "lemma": "together",
+              "surface": "together"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "He said that he'd call after dinner.",
+              "chinese": "他说晚饭后会打电话。"
+            },
+            {
+              "english": "They said that they'd send us the details.",
+              "chinese": "他们说会把细节发给我们。"
+            }
+          ],
+          "id": "M090",
+          "speaker": "B"
+        },
+        {
+          "english": "Did she tell you whether we need to prepare anything else?",
+          "chinese": "她有没有告诉你，我们是否还需要准备别的东西？",
+          "frame": "Did 【人】 tell 【人】 whether 【主语＋谓语】?",
+          "tip": "tell 后先接人；whether 引出要确认的内容，从句不再做 need we 这种倒装。",
+          "grammar": [
+            "PAST",
+            "INDIRECT",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 9,
+              "surface": "anything else"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "tell",
+              "surface": "tell"
+            },
+            {
+              "lemma": "need",
+              "surface": "need"
+            },
+            {
+              "lemma": "prepare",
+              "surface": "prepare"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Did he tell you whether the shop is open?",
+              "chinese": "他有没有告诉你店是否开着？"
+            },
+            {
+              "english": "Did they tell her whether she needs a ticket?",
+              "chinese": "他们有没有告诉她是否需要票？"
+            }
+          ],
+          "id": "M091",
+          "speaker": "A"
+        },
+        {
+          "english": "She asked us to make sure we knew how to use the new system.",
+          "chinese": "她让我们确保知道怎么使用新系统。",
+          "frame": "【人】 asked 【人】 to make sure 【完整内容】.",
+          "tip": "ask sb to V 表要求或请某人做；know how to V 表知道怎么做。knew 呼应这里的过去转述。",
+          "grammar": [
+            "REPORTED",
+            "INF",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 319,
+              "surface": "make sure"
+            },
+            {
+              "id": 112,
+              "surface": "knew how"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "ask",
+              "surface": "asked"
+            },
+            {
+              "lemma": "know",
+              "surface": "knew"
+            },
+            {
+              "lemma": "system",
+              "surface": "system"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "He asked me to make sure everyone had the address.",
+              "chinese": "他让我确保每个人都有地址。"
+            },
+            {
+              "english": "She asked us to make sure we could open the file.",
+              "chinese": "她让我们确保能打开文件。"
+            }
+          ],
+          "id": "M092",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "这是谁的东西",
+      "goal": "练 whose、who 和省略宾语关系词的定语从句。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "Whose bag is this, and who left it in the living room?",
+          "chinese": "这是谁的包，又是谁把它放在客厅的？",
+          "frame": "Whose 【名词】 is this, and who 【过去式】?",
+          "tip": "whose 问归属，who 问人；后半 who 本身作主语，不加 did。",
+          "grammar": [
+            "POSSESS",
+            "SUBJQ",
+            "PAST"
+          ],
+          "phraseUses": [
+            {
+              "id": 118,
+              "surface": "living room"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "bag",
+              "surface": "bag"
+            },
+            {
+              "lemma": "leave",
+              "surface": "left"
+            },
+            {
+              "lemma": "room",
+              "surface": "room"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Whose phone is this, and who found it?",
+              "chinese": "这是谁的手机，又是谁找到的？"
+            },
+            {
+              "english": "Whose idea was it, and who agreed to it?",
+              "chinese": "这是谁的主意，又是谁同意的？"
+            }
+          ],
+          "id": "M093",
+          "speaker": "A"
+        },
+        {
+          "english": "It's the bag that belongs to the friend who helped us move.",
+          "chinese": "这是那个帮我们搬家的朋友的包。",
+          "frame": "It's the 【事物】 that 【谓语】 the 【人】 who 【谓语】.",
+          "tip": "that 修饰 bag，who 修饰 friend；两个关系词在各自从句里作主语，不能直接删掉。",
+          "grammar": [
+            "REL",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 230,
+              "surface": "belongs to the friend"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "bag",
+              "surface": "bag"
+            },
+            {
+              "lemma": "friend",
+              "surface": "friend"
+            },
+            {
+              "lemma": "help",
+              "surface": "helped"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "It's the book that belongs to the teacher who called you.",
+              "chinese": "这是给你打电话那位老师的书。"
+            },
+            {
+              "english": "It's the key that opens the room where we keep the boxes.",
+              "chinese": "这是打开我们存箱子那个房间的钥匙。"
+            }
+          ],
+          "id": "M094",
+          "speaker": "B"
+        },
+        {
+          "english": "Is that the friend whose sister works with you?",
+          "chinese": "就是那个姐姐和你一起工作的朋友吗？",
+          "frame": "Is that the 【人】 whose 【名词】 【谓语】?",
+          "tip": "whose 在关系从句中表示所属，相当于那位朋友的 sister。",
+          "grammar": [
+            "REL",
+            "POSSESS",
+            "PRES"
+          ],
+          "phraseUses": [
+            {
+              "id": 192,
+              "surface": "works with you"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "friend",
+              "surface": "friend"
+            },
+            {
+              "lemma": "sister",
+              "surface": "sister"
+            },
+            {
+              "lemma": "work",
+              "surface": "works"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Is that the student whose phone was lost?",
+              "chinese": "就是那个丢了手机的学生吗？"
+            },
+            {
+              "english": "Is that the neighbour whose dog you look after?",
+              "chinese": "就是那个你帮忙照看狗的邻居吗？"
+            }
+          ],
+          "id": "M095",
+          "speaker": "A"
+        },
+        {
+          "english": "Yes, and the book I borrowed is in the bag as well.",
+          "chinese": "是的，而且我借的那本书也在包里。",
+          "frame": "The 【名词】 (that/which) 【人＋谓语】 is 【位置】.",
+          "tip": "I borrowed 修饰 book；被省略的关系词在从句里作宾语，所以可以省略。",
+          "grammar": [
+            "REL",
+            "BE"
+          ],
+          "phraseUses": [
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "book",
+              "surface": "book"
+            },
+            {
+              "lemma": "borrow",
+              "surface": "borrowed"
+            },
+            {
+              "lemma": "bag",
+              "surface": "bag"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "The message you sent is on my phone.",
+              "chinese": "你发的那条消息在我手机上。"
+            },
+            {
+              "english": "The chair we bought is in the kitchen.",
+              "chinese": "我们买的那把椅子在厨房里。"
+            }
+          ],
+          "id": "M096",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "说明原因、让步与目的",
+      "goal": "让一段解释同时说清为什么、尽管什么和为了什么。",
+      "priority": "扩展",
+      "lines": [
+        {
+          "english": "Why are you leaving early instead of staying for the whole meeting?",
+          "chinese": "你为什么要提前走，不把整场会开完呢？",
+          "frame": "Why are you 【V-ing】 instead of 【V-ing】?",
+          "tip": "instead of 后接名词或 V-ing；前后两个动作在这里保持同类形式。",
+          "grammar": [
+            "PROG",
+            "WH",
+            "ING"
+          ],
+          "phraseUses": [
+            {
+              "id": 301,
+              "surface": "instead of"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "leave",
+              "surface": "leaving"
+            },
+            {
+              "lemma": "early",
+              "surface": "early"
+            },
+            {
+              "lemma": "meeting",
+              "surface": "meeting"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Why are you taking the bus instead of driving?",
+              "chinese": "你为什么坐公交而不开车？"
+            },
+            {
+              "english": "Why is she working at home instead of coming to the office?",
+              "chinese": "她为什么在家办公，而不到办公室来？"
+            }
+          ],
+          "id": "M097",
+          "speaker": "A"
+        },
+        {
+          "english": "Because I have to pick my daughter up, even though I'd like to stay.",
+          "chinese": "因为我得接女儿，虽然我也想留下来。",
+          "frame": "Because 【原因句】, even though 【让步句】.",
+          "tip": "这是回答 why 的省略式话轮；pick sb up 表去接人；even though 后接完整句。",
+          "grammar": [
+            "REASON",
+            "CONTRAST",
+            "ADVICE"
+          ],
+          "phraseUses": [
+            {
+              "id": 335,
+              "surface": "pick my daughter up"
+            },
+            {
+              "id": 424,
+              "surface": "even though"
+            },
+            {
+              "id": 193,
+              "surface": "'d like"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "daughter",
+              "surface": "daughter"
+            },
+            {
+              "lemma": "pick",
+              "surface": "pick"
+            },
+            {
+              "lemma": "stay",
+              "surface": "stay"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Because I have to catch a train, even though I'd like to talk longer.",
+              "chinese": "因为我得赶火车，虽然我也想多聊一会儿。"
+            },
+            {
+              "english": "Because she needs some rest, even though she'd like to join us.",
+              "chinese": "因为她需要休息，虽然她也想参加。"
+            }
+          ],
+          "id": "M098",
+          "speaker": "B"
+        },
+        {
+          "english": "Could you still send us your notes so that we can follow the discussion?",
+          "chinese": "你还是能把笔记发给我们，好让我们跟上讨论吗？",
+          "frame": "Could you still 【动词原形】 so that 【目的完整句】?",
+          "tip": "still 承接前面提前离开的情况；so that 后接完整目的句。",
+          "grammar": [
+            "PURPOSE",
+            "POLITE",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 348,
+              "surface": "so that"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "send",
+              "surface": "send"
+            },
+            {
+              "lemma": "note",
+              "surface": "notes"
+            },
+            {
+              "lemma": "discussion",
+              "surface": "discussion"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Could you still call her so that she can prepare for the trip?",
+              "chinese": "你还是能给她打个电话，好让她准备旅行吗？"
+            },
+            {
+              "english": "Could you still come early so that we can finish before lunch?",
+              "chinese": "你还是能早点来，好让我们午饭前完成吗？"
+            }
+          ],
+          "id": "M099",
+          "speaker": "A"
+        },
+        {
+          "english": "Of course, and I'll keep them short in order to make them easy to use.",
+          "chinese": "当然，我会写得简短些，让它们容易使用。",
+          "frame": "I'll keep 【对象】 【形容词】 in order to make 【对象】 【形容词】.",
+          "tip": "keep them short 和 make them easy 都有宾语加补充说明；them 指复数 notes。",
+          "grammar": [
+            "PURPOSE",
+            "OBJCOMP",
+            "PRON"
+          ],
+          "phraseUses": [
+            {
+              "id": 129,
+              "surface": "Of course"
+            },
+            {
+              "id": 460,
+              "surface": "in order to make"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "keep",
+              "surface": "keep"
+            },
+            {
+              "lemma": "short",
+              "surface": "short"
+            },
+            {
+              "lemma": "easy",
+              "surface": "easy"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'll keep the message simple in order to make it clear.",
+              "chinese": "我会把消息写得简单些，让它清楚明白。"
+            },
+            {
+              "english": "We'll keep the bags light in order to make them easy to carry.",
+              "chinese": "我们会让包轻一点，方便携带。"
+            }
+          ],
+          "id": "M100",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "没听清时继续聊下去",
+      "goal": "请求重复、确认模糊词，再用自己的话核实。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Could you say that again, a little more slowly?",
+          "chinese": "你能再说一遍，稍微慢一点吗？",
+          "frame": "Could you 【动词原形】 a little more 【副词】?",
+          "tip": "请求调整说话方式；用 slowly 修饰 say，而不是单用形容词 slow。",
+          "grammar": [
+            "POLITE",
+            "REPAIR",
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 384,
+              "surface": "a little more"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "say",
+              "surface": "say"
+            },
+            {
+              "lemma": "again",
+              "surface": "again"
+            },
+            {
+              "lemma": "slowly",
+              "surface": "slowly"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Could you explain that again, a little more clearly?",
+              "chinese": "你能再解释一遍，稍微清楚一点吗？"
+            },
+            {
+              "english": "Could you speak a little more quietly?",
+              "chinese": "你能稍微轻一点说吗？"
+            }
+          ],
+          "id": "M101",
+          "speaker": "A"
+        },
+        {
+          "english": "I mean we'll get back to you soon.",
+          "chinese": "我的意思是，我们很快会再联系你。",
+          "frame": "I mean 【完整内容】.",
+          "tip": "I mean 用来澄清刚才的意思；get back to you 是稍后再回复你，作为补充搭配理解。",
+          "grammar": [
+            "REPAIR",
+            "FUT",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 293,
+              "surface": "I mean"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "mean",
+              "surface": "mean"
+            },
+            {
+              "lemma": "get",
+              "surface": "get"
+            },
+            {
+              "lemma": "soon",
+              "surface": "soon"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I mean we can change the date, not cancel the trip.",
+              "chinese": "我的意思是可以改日期，不是取消旅行。"
+            },
+            {
+              "english": "I mean you only need to finish the first part today.",
+              "chinese": "我的意思是你今天只需要完成第一部分。"
+            }
+          ],
+          "id": "M102",
+          "speaker": "B"
+        },
+        {
+          "english": "For example, do you mean today or later this week?",
+          "chinese": "比如，你指的是今天，还是本周晚些时候？",
+          "frame": "Do you mean 【选项A】 or 【选项B】?",
+          "tip": "用具体选项核实 soon、later 等模糊表达，不必靠猜。",
+          "grammar": [
+            "REPAIR",
+            "PRES",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 49,
+              "surface": "For example"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "mean",
+              "surface": "mean"
+            },
+            {
+              "lemma": "today",
+              "surface": "today"
+            },
+            {
+              "lemma": "week",
+              "surface": "week"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Do you mean the room upstairs or the one next door?",
+              "chinese": "你指楼上的房间，还是隔壁那个？"
+            },
+            {
+              "english": "Do you mean before lunch or after the meeting?",
+              "chinese": "你指午饭前，还是开会后？"
+            }
+          ],
+          "id": "M103",
+          "speaker": "A"
+        },
+        {
+          "english": "In other words, we'll reply by Friday, and I'll write that down for you.",
+          "chinese": "换句话说，我们最晚周五回复，我会给你写下来。",
+          "frame": "In other words, 【完整内容】, and I'll 【动作】.",
+          "tip": "by Friday 表最晚周五；write that down 中代词放在动词与小品词之间。",
+          "grammar": [
+            "REPAIR",
+            "FUT",
+            "PREP"
+          ],
+          "phraseUses": [
+            {
+              "id": 461,
+              "surface": "In other words"
+            },
+            {
+              "id": 375,
+              "surface": "write that down"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "reply",
+              "surface": "reply"
+            },
+            {
+              "lemma": "Friday",
+              "surface": "Friday"
+            },
+            {
+              "lemma": "write",
+              "surface": "write"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "In other words, the price includes breakfast, and I'll confirm that by email.",
+              "chinese": "换句话说，价格含早餐，我会用邮件确认。"
+            },
+            {
+              "english": "In other words, we can start tomorrow, and I'll send you the details.",
+              "chinese": "换句话说，我们明天可以开始，我会把细节发给你。"
+            }
+          ],
+          "id": "M104",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "不确定时怎样表达",
+      "goal": "区分猜测、强推断与稳妥的下一步。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "Do you think he's still on the phone?",
+          "chinese": "你觉得他还在打电话吗？",
+          "frame": "Do you think 【主语＋谓语】?",
+          "tip": "think 后直接接内容；he's 在这里是 he is，不是 he has。",
+          "grammar": [
+            "PRES",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 142,
+              "surface": "on the phone"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "think",
+              "surface": "think"
+            },
+            {
+              "lemma": "still",
+              "surface": "still"
+            },
+            {
+              "lemma": "phone",
+              "surface": "phone"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Do you think she's still at work?",
+              "chinese": "你觉得她还在上班吗？"
+            },
+            {
+              "english": "Do you think they know about the change?",
+              "chinese": "你觉得他们知道这个变化吗？"
+            }
+          ],
+          "id": "M105",
+          "speaker": "A"
+        },
+        {
+          "english": "He might be, but I guess it depends on how busy he is.",
+          "chinese": "可能吧，不过我想这得看他有多忙。",
+          "frame": "【人】 might be, but I guess it depends on 【内容】.",
+          "tip": "might be 省略已知状态；how busy he is 保持陈述语序。",
+          "grammar": [
+            "DEDUCE",
+            "NOUNCL",
+            "INDIRECT"
+          ],
+          "phraseUses": [
+            {
+              "id": 291,
+              "surface": "I guess"
+            },
+            {
+              "id": 249,
+              "surface": "depends on how busy he is"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "guess",
+              "surface": "guess"
+            },
+            {
+              "lemma": "depend",
+              "surface": "depends"
+            },
+            {
+              "lemma": "busy",
+              "surface": "busy"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "She might be, but I guess it depends on when the meeting ends.",
+              "chinese": "可能吧，不过我想这得看会议何时结束。"
+            },
+            {
+              "english": "They might be, but I guess it depends on how much time they have.",
+              "chinese": "可能吧，不过我想这得看他们有多少时间。"
+            }
+          ],
+          "id": "M106",
+          "speaker": "B"
+        },
+        {
+          "english": "His office light is off, so he must have gone home.",
+          "chinese": "他办公室灯关了，所以他应该已经回家了。",
+          "frame": "【线索】, so 【人】 must have 【过去分词】.",
+          "tip": "must have gone 是依据迹象推测过去发生了什么，不是‘必须回过家’。",
+          "grammar": [
+            "DEDUCE",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 53,
+              "surface": "gone home"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "office",
+              "surface": "office"
+            },
+            {
+              "lemma": "light",
+              "surface": "light"
+            },
+            {
+              "lemma": "go",
+              "surface": "gone"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Her car isn't here, so she must have left already.",
+              "chinese": "她的车不在这里，所以她应该已经走了。"
+            },
+            {
+              "english": "The floor is wet, so someone must have cleaned it.",
+              "chinese": "地面湿着，所以应该有人打扫过。"
+            }
+          ],
+          "id": "M107",
+          "speaker": "A"
+        },
+        {
+          "english": "Not necessarily, but we'd better leave a message in case he's out.",
+          "chinese": "也不一定，不过我们最好留个消息，以防他出去了。",
+          "frame": "Not necessarily, but we'd better 【动词原形】 in case 【情况】.",
+          "tip": "we'd better = we had better；better 后不加 to。这个建议比普通 should 更有提醒意味。",
+          "grammar": [
+            "ADVICE",
+            "DEDUCE"
+          ],
+          "phraseUses": [
+            {
+              "id": 487,
+              "surface": "Not necessarily"
+            },
+            {
+              "id": 614,
+              "surface": "'d better"
+            },
+            {
+              "id": 454,
+              "surface": "in case"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "leave",
+              "surface": "leave"
+            },
+            {
+              "lemma": "message",
+              "surface": "message"
+            },
+            {
+              "lemma": "out",
+              "surface": "out"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Not necessarily, but we'd better check before we pay.",
+              "chinese": "也不一定，不过付款前我们最好核实一下。"
+            },
+            {
+              "english": "Not necessarily, but we'd better bring a spare key.",
+              "chinese": "也不一定，不过我们最好带把备用钥匙。"
+            }
+          ],
+          "id": "M108",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "表达担心与给予支持",
+      "goal": "说感受、给对方空间，并表达互相支持。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "You seem worried about something, and I'm here if you want to talk.",
+          "chinese": "你好像在担心什么，想聊的话我在。",
+          "frame": "You seem 【形容词】, and I'm here if you want to 【V】.",
+          "tip": "seem 后接形容词描述感受；if you want to 给对方选择的空间。",
+          "grammar": [
+            "SVC",
+            "COND1"
+          ],
+          "phraseUses": [
+            {
+              "id": 373,
+              "surface": "worried about something"
+            },
+            {
+              "id": 290,
+              "surface": "if you want to"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "worried",
+              "surface": "worried"
+            },
+            {
+              "lemma": "something",
+              "surface": "something"
+            },
+            {
+              "lemma": "talk",
+              "surface": "talk"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "You seem tired, and I can help if you want to rest.",
+              "chinese": "你好像累了，想休息的话我可以帮忙。"
+            },
+            {
+              "english": "You seem unsure, and we can check if you want to be certain.",
+              "chinese": "你好像不太确定，想确认的话我们可以查一查。"
+            }
+          ],
+          "id": "M109",
+          "speaker": "A"
+        },
+        {
+          "english": "I'm afraid I'll make a mistake when I speak in public.",
+          "chinese": "我怕当众说话时犯错。",
+          "frame": "I'm afraid 【完整内容】 when 【情境】.",
+          "tip": "这里 afraid 是担心，不只是礼貌拒绝；when 从句用现在时。",
+          "grammar": [
+            "NOUNCL",
+            "FUT",
+            "TIME"
+          ],
+          "phraseUses": [
+            {
+              "id": 292,
+              "surface": "I'm afraid"
+            },
+            {
+              "id": 316,
+              "surface": "make a mistake"
+            },
+            {
+              "id": 463,
+              "surface": "in public"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "afraid",
+              "surface": "afraid"
+            },
+            {
+              "lemma": "mistake",
+              "surface": "mistake"
+            },
+            {
+              "lemma": "speak",
+              "surface": "speak"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'm afraid I'll forget the words when I get nervous.",
+              "chinese": "我怕一紧张就忘词。"
+            },
+            {
+              "english": "I'm afraid they'll misunderstand me when I explain the change.",
+              "chinese": "我怕解释变化时他们会误解我。"
+            }
+          ],
+          "id": "M110",
+          "speaker": "B"
+        },
+        {
+          "english": "Making mistakes is part of learning, and we can help each other.",
+          "chinese": "犯错是学习的一部分，我们可以互相帮忙。",
+          "frame": "【V-ing 短语】 is 【名词短语】, and we can 【V】 each other.",
+          "tip": "Making mistakes 整体作主语；each other 表互相。复数 mistakes 不再用 a。",
+          "grammar": [
+            "ING",
+            "PRON",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 316,
+              "surface": "Making mistakes"
+            },
+            {
+              "id": 41,
+              "surface": "each other"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "mistake",
+              "surface": "mistakes"
+            },
+            {
+              "lemma": "learn",
+              "surface": "learning"
+            },
+            {
+              "lemma": "help",
+              "surface": "help"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Asking questions is part of learning, and we can support each other.",
+              "chinese": "提问是学习的一部分，我们可以互相支持。"
+            },
+            {
+              "english": "Sharing information is part of teamwork, and we can learn from each other.",
+              "chinese": "分享信息是合作的一部分，我们可以互相学习。"
+            }
+          ],
+          "id": "M111",
+          "speaker": "A"
+        },
+        {
+          "english": "What a difference it makes to know that someone cares about my progress!",
+          "chinese": "知道有人关心我的进步，带来的感受真不一样！",
+          "frame": "What a difference it makes to 【V】!",
+          "tip": "What + a + 名词构成感叹；to know 说明是什么带来影响，that 后是知道的内容。",
+          "grammar": [
+            "EXCL",
+            "INF",
+            "NOUNCL"
+          ],
+          "phraseUses": [
+            {
+              "id": 478,
+              "surface": "What a difference it makes"
+            },
+            {
+              "id": 234,
+              "surface": "cares about my progress"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "difference",
+              "surface": "difference"
+            },
+            {
+              "lemma": "care",
+              "surface": "cares"
+            },
+            {
+              "lemma": "progress",
+              "surface": "progress"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What a difference it makes to have clear instructions!",
+              "chinese": "有清楚的说明，带来的帮助真不一样！"
+            },
+            {
+              "english": "What a difference it makes to work with people you trust!",
+              "chinese": "和信任的人共事，感受真不一样！"
+            }
+          ],
+          "id": "M112",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "今晚怎么安排",
+      "goal": "问偏好、给选择，再作决定。",
+      "priority": "起步",
+      "lines": [
+        {
+          "english": "Would you rather go out or stay in tonight?",
+          "chinese": "你今晚更想出去，还是待在家里？",
+          "frame": "Would you rather 【V】 or 【V】?",
+          "tip": "rather 后两项都用动词原形，不能加 to。",
+          "grammar": [
+            "PREFER",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 675,
+              "surface": "Would you rather"
+            },
+            {
+              "id": 69,
+              "surface": "go out"
+            },
+            {
+              "id": 163,
+              "surface": "stay in"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "go",
+              "surface": "go"
+            },
+            {
+              "lemma": "stay",
+              "surface": "stay"
+            },
+            {
+              "lemma": "tonight",
+              "surface": "tonight"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Would you rather cook or order something?",
+              "chinese": "你更想做饭，还是点些吃的？"
+            },
+            {
+              "english": "Would she rather call or send a message?",
+              "chinese": "她更想打电话，还是发消息？"
+            }
+          ],
+          "id": "M113",
+          "speaker": "A"
+        },
+        {
+          "english": "I'd rather stay in because I'm a bit tired.",
+          "chinese": "我更想待在家里，因为有点累。",
+          "frame": "I'd rather 【V】 because 【原因句】.",
+          "tip": "I'd 在这里是 I would；because 后接完整原因。",
+          "grammar": [
+            "PREFER",
+            "REASON"
+          ],
+          "phraseUses": [
+            {
+              "id": 675,
+              "surface": "'d rather"
+            },
+            {
+              "id": 163,
+              "surface": "stay in"
+            },
+            {
+              "id": 201,
+              "surface": "a bit"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "stay",
+              "surface": "stay"
+            },
+            {
+              "lemma": "tired",
+              "surface": "tired"
+            },
+            {
+              "lemma": "because",
+              "surface": "because"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I'd rather walk because it's not far.",
+              "chinese": "我更想走路，因为不远。"
+            },
+            {
+              "english": "I'd rather start early because I have plans later.",
+              "chinese": "我更想早点开始，因为之后有安排。"
+            }
+          ],
+          "id": "M114",
+          "speaker": "B"
+        },
+        {
+          "english": "We can either watch a film or listen to music.",
+          "chinese": "我们可以看电影，也可以听音乐，选一个。",
+          "frame": "We can either 【V】 or 【V】.",
+          "tip": "either…or… 给两个选择；watch 与 listen 共享 can，保持原形。",
+          "grammar": [
+            "COORD",
+            "MODAL"
+          ],
+          "phraseUses": [
+            {
+              "id": 116,
+              "surface": "listen to music"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "watch",
+              "surface": "watch"
+            },
+            {
+              "lemma": "film",
+              "surface": "film"
+            },
+            {
+              "lemma": "music",
+              "surface": "music"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "We can either meet outside or wait in the café.",
+              "chinese": "我们可以在外面碰面，也可以在咖啡馆里等。"
+            },
+            {
+              "english": "You can either save the file or print a copy.",
+              "chinese": "你可以保存文件，也可以打印一份。"
+            }
+          ],
+          "id": "M115",
+          "speaker": "A"
+        },
+        {
+          "english": "Neither sounds bad, but I'd prefer a film rather than music tonight.",
+          "chinese": "两个都不错，不过今晚我更想看电影，而不是听音乐。",
+          "frame": "Neither sounds 【形容词】, but I'd prefer 【A】 rather than 【B】.",
+          "tip": "Neither sounds bad 说两项都不糟；prefer 后这里接名词，两项保持同类形式。",
+          "grammar": [
+            "COORD",
+            "PREFER",
+            "SVC"
+          ],
+          "phraseUses": [
+            {
+              "id": 509,
+              "surface": "rather than"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "sound",
+              "surface": "sounds"
+            },
+            {
+              "lemma": "prefer",
+              "surface": "prefer"
+            },
+            {
+              "lemma": "tonight",
+              "surface": "tonight"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "Neither looks bad, but I'd prefer the smaller one rather than the larger one.",
+              "chinese": "两个看着都不错，不过我更想要小的那个，而不是大的。"
+            },
+            {
+              "english": "Neither seems difficult, but I'd prefer the first task rather than the second one.",
+              "chinese": "两个看着都不难，不过我更想做第一项，而不是第二项。"
+            }
+          ],
+          "id": "M116",
+          "speaker": "B"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "比较两个学习工具",
+      "goal": "表达意见、补充考虑因素，并确认共同结论。",
+      "priority": "巩固",
+      "lines": [
+        {
+          "english": "What's your point of view on the two options we've discussed?",
+          "chinese": "关于我们讨论的这两个选项，你怎么看？",
+          "frame": "What's your point of view on 【主题】?",
+          "tip": "we've discussed 修饰 options，省略了作宾语的关系词；这句比 What do you think…? 稍正式。",
+          "grammar": [
+            "WH",
+            "REL",
+            "PERF"
+          ],
+          "phraseUses": [
+            {
+              "id": 501,
+              "surface": "point of view"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "option",
+              "surface": "options"
+            },
+            {
+              "lemma": "discuss",
+              "surface": "discussed"
+            },
+            {
+              "lemma": "view",
+              "surface": "view"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What's your point of view on working from home?",
+              "chinese": "你怎么看在家办公？"
+            },
+            {
+              "english": "What's your point of view on the plan we made yesterday?",
+              "chinese": "你怎么看我们昨天作出的计划？"
+            }
+          ],
+          "id": "M117",
+          "speaker": "A"
+        },
+        {
+          "english": "I agree with you about the price, but we need to take quality into account as well.",
+          "chinese": "价格方面我同意你，不过我们也得考虑质量。",
+          "frame": "I agree with 【人】 about 【方面】, but we need to 【V】.",
+          "tip": "agree with 人表示同意其意见；take…into account 把因素纳入考虑。",
+          "grammar": [
+            "PRES",
+            "INF",
+            "COORD"
+          ],
+          "phraseUses": [
+            {
+              "id": 3,
+              "surface": "agree with you"
+            },
+            {
+              "id": 667,
+              "surface": "take quality into account"
+            },
+            {
+              "id": 219,
+              "surface": "as well"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "agree",
+              "surface": "agree"
+            },
+            {
+              "lemma": "price",
+              "surface": "price"
+            },
+            {
+              "lemma": "quality",
+              "surface": "quality"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "I agree with her about the location, but we need to consider the cost.",
+              "chinese": "地点方面我同意她，不过我们需要考虑费用。"
+            },
+            {
+              "english": "I agree with you about the speed, but we need to check the accuracy.",
+              "chinese": "速度方面我同意你，不过我们需要检查准确性。"
+            }
+          ],
+          "id": "M118",
+          "speaker": "B"
+        },
+        {
+          "english": "What matters most is whether we'll use it every day, isn't it?",
+          "chinese": "最重要的是我们会不会每天用，对吧？",
+          "frame": "What 【谓语】 is whether 【完整内容】, isn't it?",
+          "tip": "What matters most 整体作主语；主句是 is，附加问句用 isn't it。",
+          "grammar": [
+            "NOUNCL",
+            "TAG"
+          ],
+          "phraseUses": [
+            {
+              "id": 43,
+              "surface": "every day"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "matter",
+              "surface": "matters"
+            },
+            {
+              "lemma": "use",
+              "surface": "use"
+            },
+            {
+              "lemma": "day",
+              "surface": "day"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "What matters most is whether we can keep doing it, isn't it?",
+              "chinese": "最重要的是我们能不能坚持做，对吧？"
+            },
+            {
+              "english": "What matters most is whether everyone understands, isn't it?",
+              "chinese": "最重要的是大家是否理解，对吧？"
+            }
+          ],
+          "id": "M119",
+          "speaker": "A"
+        },
+        {
+          "english": "Exactly, and the simpler one is not only cheaper but also easier to use.",
+          "chinese": "没错，而且简单的那个不仅更便宜，也更容易用。",
+          "frame": "【事物】 is not only 【形容词A】 but also 【形容词B】.",
+          "tip": "not only…but also… 两边这里都是形容词性成分；the simpler one 代指更简单的那个工具。",
+          "grammar": [
+            "COORD",
+            "COMP"
+          ],
+          "phraseUses": [
+            {
+              "id": 488,
+              "surface": "not only"
+            }
+          ],
+          "keywords": [
+            {
+              "lemma": "simple",
+              "surface": "simpler"
+            },
+            {
+              "lemma": "cheap",
+              "surface": "cheaper"
+            },
+            {
+              "lemma": "easy",
+              "surface": "easier"
+            }
+          ],
+          "transfers": [
+            {
+              "english": "The new route is not only shorter but also safer.",
+              "chinese": "新路线不仅更短，也更安全。"
+            },
+            {
+              "english": "This guide is not only clear but also easy to follow.",
+              "chinese": "这份指南不仅清楚，也容易照着做。"
+            }
+          ],
+          "id": "M120",
+          "speaker": "B"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "E01",
+      "english": "Good morning!",
+      "chinese": "早上好！",
+      "note": "开场；下午可换 Good afternoon。",
+      "phraseUses": [
+        {
+          "id": 66,
+          "surface": "Good morning"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "english": "How are you?",
+      "chinese": "你好吗／最近怎么样？",
+      "note": "普通问候；根据关系决定回答的详略。",
+      "phraseUses": [
+        {
+          "id": 84,
+          "surface": "How are you"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "english": "Pretty good, thanks.",
+      "chinese": "挺好的，谢谢。",
+      "note": "简短回答近况；pretty 在这里是相当，不是漂亮。",
+      "phraseUses": [
+        {
+          "id": 152,
+          "surface": "Pretty good"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "english": "What about you?",
+      "chinese": "你呢？",
+      "note": "把同一个问题递回去。",
+      "phraseUses": [
+        {
+          "id": 187,
+          "surface": "What about"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "english": "Let me think for a moment.",
+      "chinese": "让我想一下。",
+      "note": "给自己一点组织语言的时间。",
+      "phraseUses": [
+        {
+          "id": 311,
+          "surface": "Let me"
+        },
+        {
+          "id": 48,
+          "surface": "for a moment"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "english": "I'm not sure yet.",
+      "chinese": "我还不确定。",
+      "note": "保留判断，不必硬猜。",
+      "phraseUses": []
+    },
+    {
+      "id": "E07",
+      "english": "I have no idea.",
+      "chinese": "我不知道。",
+      "note": "坦率说不知道；服务场景可再补一句 I'll check。",
+      "phraseUses": [
+        {
+          "id": 445,
+          "surface": "have no idea"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "english": "It depends.",
+      "chinese": "这要看情况。",
+      "note": "后面可以补 on + 名词，或具体说明条件。",
+      "phraseUses": [
+        {
+          "id": 307,
+          "surface": "It depends"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "english": "I think so.",
+      "chinese": "我想是的。",
+      "note": "表示倾向于肯定，不等于百分之百确定。",
+      "phraseUses": [
+        {
+          "id": 308,
+          "surface": "I think so"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "english": "That makes sense.",
+      "chinese": "这说得通／我明白这个道理了。",
+      "note": "回应对方的解释。",
+      "phraseUses": [
+        {
+          "id": 318,
+          "surface": "makes sense"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "english": "Sorry, I mean Friday, not Thursday.",
+      "chinese": "不好意思，我是说周五，不是周四。",
+      "note": "改口时给出正确内容；根据实际情况换日期。",
+      "phraseUses": [
+        {
+          "id": 293,
+          "surface": "I mean"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "english": "Could you give me an example?",
+      "chinese": "你能举个例子吗？",
+      "note": "不清楚抽象解释时，请对方具体化。",
+      "phraseUses": []
+    },
+    {
+      "id": "E13",
+      "english": "Hang on a moment.",
+      "chinese": "稍等一下。",
+      "note": "偏随意的口语；正式服务场景可用 One moment, please。",
+      "phraseUses": [
+        {
+          "id": 615,
+          "surface": "Hang on"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "english": "Go ahead.",
+      "chinese": "请说／继续吧。",
+      "note": "这里是许可或鼓励继续，不是指路的直走。",
+      "phraseUses": [
+        {
+          "id": 442,
+          "surface": "Go ahead"
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "english": "By the way, how was your weekend?",
+      "chinese": "对了，你周末过得怎么样？",
+      "note": "轻轻转向一个相关新话题。",
+      "phraseUses": []
+    },
+    {
+      "id": "E16",
+      "english": "That sounds good to me.",
+      "chinese": "我觉得可以。",
+      "note": "接受提议；sounds 后这里接形容词 good。",
+      "phraseUses": []
+    },
+    {
+      "id": "E17",
+      "english": "I'm sorry to hear that.",
+      "chinese": "听到这个我很难过。",
+      "note": "回应坏消息、表示关心。",
+      "phraseUses": [
+        {
+          "id": 90,
+          "surface": "I'm sorry"
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "english": "You're welcome.",
+      "chinese": "不客气。",
+      "note": "回应感谢。",
+      "phraseUses": [
+        {
+          "id": 200,
+          "surface": "You're welcome"
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "english": "Thank you for your help.",
+      "chinese": "谢谢你的帮助。",
+      "note": "for 后接感谢的原因。",
+      "phraseUses": [
+        {
+          "id": 167,
+          "surface": "Thank you"
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "english": "See you next time.",
+      "chinese": "下次见。",
+      "note": "结束交谈，也可按情境换 tomorrow 等。",
+      "phraseUses": [
+        {
+          "id": 157,
+          "surface": "See you"
+        },
+        {
+          "id": 126,
+          "surface": "next time"
+        }
+      ]
+    }
+  ]
+}

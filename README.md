@@ -17,6 +17,7 @@
 | [oxford-3000-by-cefr-level.pdf](oxford-3000-by-cefr-level.pdf) | 按 CEFR 等级整理的 Oxford 3000 词表 |
 | [Oxford 3000 原序学习包](Oxford3000_学习包/README.md) | 3,306 条中文释义、搭配和双语例句；2 小时 3 分钟真人连续音频及可搜索播放器 |
 | [Oxford Phrase List 原序学习包](OxfordPhraseList_学习包/README.md) | 750 条短语、1,500 组双语搭配及 750 个双语例句；38 分 56 秒连续听读，真人优先、AI 补音 |
+| [日常对话母体 · 120句](日常对话母体_120句/README.md) | 30 段四轮对话、120 个可替换母句、240 个迁移例句；句式地图、Oxford 对照索引及接话工具 |
 
 ## 保存学习进度
 

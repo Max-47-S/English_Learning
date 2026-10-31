@@ -1,0 +1,2891 @@
+{
+  "date": "2026-10-29",
+  "sources": {
+    "words": {
+      "path": "../../Oxford3000_学习包/data/vocabulary.json",
+      "entries": 3306,
+      "sha256": "bb898ac56f95586f1f0ea32eda3edb7542cb9651ab9b3970551b7b8aa8d73866"
+    },
+    "phrases": {
+      "path": "../../OxfordPhraseList_学习包/data/vocabulary.json",
+      "entries": 750,
+      "sha256": "e1a8c222a505ab8b64d9b206d5c8ae2cb8272fd7be83e275609bf91b7de4da5b"
+    }
+  },
+  "counts": {
+    "scenes": 30,
+    "coreTurns": 120,
+    "transferExamples": 240,
+    "conversationTools": 20,
+    "grammarTags": 52,
+    "selectedWordHeads": 231,
+    "corePhraseEntries": 153,
+    "phraseEntriesIncludingTools": 168
+  },
+  "phraseLevels": {
+    "B1": 32,
+    "A1": 79,
+    "A2": 50,
+    "B2": 7
+  },
+  "selectedPhraseIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    15,
+    20,
+    22,
+    23,
+    24,
+    25,
+    29,
+    31,
+    36,
+    41,
+    43,
+    44,
+    46,
+    48,
+    49,
+    50,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    66,
+    69,
+    70,
+    72,
+    73,
+    75,
+    78,
+    79,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    90,
+    94,
+    95,
+    102,
+    103,
+    112,
+    113,
+    114,
+    116,
+    118,
+    126,
+    128,
+    129,
+    132,
+    135,
+    136,
+    141,
+    142,
+    146,
+    149,
+    152,
+    153,
+    156,
+    157,
+    163,
+    167,
+    171,
+    176,
+    181,
+    187,
+    191,
+    192,
+    193,
+    194,
+    196,
+    200,
+    201,
+    202,
+    218,
+    219,
+    220,
+    228,
+    230,
+    233,
+    234,
+    237,
+    241,
+    247,
+    249,
+    260,
+    262,
+    264,
+    269,
+    278,
+    283,
+    285,
+    290,
+    291,
+    292,
+    293,
+    301,
+    303,
+    307,
+    308,
+    311,
+    312,
+    313,
+    316,
+    318,
+    319,
+    321,
+    329,
+    335,
+    348,
+    351,
+    352,
+    354,
+    357,
+    359,
+    364,
+    365,
+    368,
+    371,
+    373,
+    374,
+    375,
+    384,
+    405,
+    406,
+    414,
+    415,
+    424,
+    439,
+    440,
+    442,
+    445,
+    451,
+    454,
+    455,
+    460,
+    461,
+    463,
+    476,
+    478,
+    487,
+    488,
+    490,
+    493,
+    496,
+    499,
+    501,
+    509,
+    517,
+    527,
+    529,
+    545,
+    547,
+    548,
+    565,
+    575,
+    614,
+    615,
+    651,
+    667,
+    675
+  ],
+  "selectedWordEntries": [
+    {
+      "word": "happen",
+      "sourceIds": [
+        344
+      ],
+      "uses": [
+        "M001"
+      ]
+    },
+    {
+      "word": "way",
+      "sourceIds": [
+        854,
+        3284
+      ],
+      "uses": [
+        "M001",
+        "M004",
+        "M032"
+      ]
+    },
+    {
+      "word": "work",
+      "sourceIds": [
+        883
+      ],
+      "uses": [
+        "M001",
+        "M003",
+        "M007",
+        "M008",
+        "M009",
+        "M011",
+        "M025",
+        "M054",
+        "M060",
+        "M077",
+        "M078",
+        "M095"
+      ]
+    },
+    {
+      "word": "traffic",
+      "sourceIds": [
+        808
+      ],
+      "uses": [
+        "M002"
+      ]
+    },
+    {
+      "word": "accident",
+      "sourceIds": [
+        904
+      ],
+      "uses": [
+        "M002"
+      ]
+    },
+    {
+      "word": "station",
+      "sourceIds": [
+        731
+      ],
+      "uses": [
+        "M002",
+        "M034"
+      ]
+    },
+    {
+      "word": "get",
+      "sourceIds": [
+        322
+      ],
+      "uses": [
+        "M003",
+        "M020",
+        "M029",
+        "M031",
+        "M066",
+        "M102"
+      ]
+    },
+    {
+      "word": "end",
+      "sourceIds": [
+        239
+      ],
+      "uses": [
+        "M003"
+      ]
+    },
+    {
+      "word": "bus",
+      "sourceIds": [
+        108
+      ],
+      "uses": [
+        "M004",
+        "M007",
+        "M033",
+        "M034"
+      ]
+    },
+    {
+      "word": "walk",
+      "sourceIds": [
+        847
+      ],
+      "uses": [
+        "M004",
+        "M025"
+      ]
+    },
+    {
+      "word": "time",
+      "sourceIds": [
+        793,
+        3242
+      ],
+      "uses": [
+        "M005",
+        "M037",
+        "M053",
+        "M068",
+        "M077",
+        "M080"
+      ]
+    },
+    {
+      "word": "usually",
+      "sourceIds": [
+        836
+      ],
+      "uses": [
+        "M005"
+      ]
+    },
+    {
+      "word": "morning",
+      "sourceIds": [
+        490
+      ],
+      "uses": [
+        "M005"
+      ]
+    },
+    {
+      "word": "sister",
+      "sourceIds": [
+        693
+      ],
+      "uses": [
+        "M006",
+        "M095"
+      ]
+    },
+    {
+      "word": "half",
+      "sourceIds": [
+        342,
+        1254
+      ],
+      "uses": [
+        "M006"
+      ]
+    },
+    {
+      "word": "hour",
+      "sourceIds": [
+        375
+      ],
+      "uses": [
+        "M006",
+        "M062",
+        "M079"
+      ]
+    },
+    {
+      "word": "often",
+      "sourceIds": [
+        538
+      ],
+      "uses": [
+        "M007"
+      ]
+    },
+    {
+      "word": "week",
+      "sourceIds": [
+        860
+      ],
+      "uses": [
+        "M008",
+        "M103"
+      ]
+    },
+    {
+      "word": "home",
+      "sourceIds": [
+        368,
+        1276
+      ],
+      "uses": [
+        "M008",
+        "M029"
+      ]
+    },
+    {
+      "word": "moment",
+      "sourceIds": [
+        485
+      ],
+      "uses": [
+        "M009",
+        "M055",
+        "M085"
+      ]
+    },
+    {
+      "word": "try",
+      "sourceIds": [
+        815,
+        3256
+      ],
+      "uses": [
+        "M010"
+      ]
+    },
+    {
+      "word": "page",
+      "sourceIds": [
+        560
+      ],
+      "uses": [
+        "M010"
+      ]
+    },
+    {
+      "word": "open",
+      "sourceIds": [
+        548
+      ],
+      "uses": [
+        "M010"
+      ]
+    },
+    {
+      "word": "need",
+      "sourceIds": [
+        507,
+        1407,
+        2220
+      ],
+      "uses": [
+        "M011",
+        "M091"
+      ]
+    },
+    {
+      "word": "hand",
+      "sourceIds": [
+        343,
+        2096
+      ],
+      "uses": [
+        "M011"
+      ]
+    },
+    {
+      "word": "look",
+      "sourceIds": [
+        447,
+        1357
+      ],
+      "uses": [
+        "M012",
+        "M016"
+      ]
+    },
+    {
+      "word": "link",
+      "sourceIds": [
+        1353
+      ],
+      "uses": [
+        "M012"
+      ]
+    },
+    {
+      "word": "computer",
+      "sourceIds": [
+        163
+      ],
+      "uses": [
+        "M012"
+      ]
+    },
+    {
+      "word": "quiet",
+      "sourceIds": [
+        627
+      ],
+      "uses": [
+        "M013"
+      ]
+    },
+    {
+      "word": "place",
+      "sourceIds": [
+        591,
+        2270
+      ],
+      "uses": [
+        "M013"
+      ]
+    },
+    {
+      "word": "talk",
+      "sourceIds": [
+        754,
+        1678
+      ],
+      "uses": [
+        "M013",
+        "M109"
+      ]
+    },
+    {
+      "word": "empty",
+      "sourceIds": [
+        1156,
+        2003
+      ],
+      "uses": [
+        "M014"
+      ]
+    },
+    {
+      "word": "seat",
+      "sourceIds": [
+        1580,
+        3152
+      ],
+      "uses": [
+        "M014",
+        "M015"
+      ]
+    },
+    {
+      "word": "window",
+      "sourceIds": [
+        875
+      ],
+      "uses": [
+        "M014"
+      ]
+    },
+    {
+      "word": "left",
+      "sourceIds": [
+        428
+      ],
+      "uses": [
+        "M015",
+        "M016",
+        "M017"
+      ]
+    },
+    {
+      "word": "door",
+      "sourceIds": [
+        215
+      ],
+      "uses": [
+        "M015",
+        "M016"
+      ]
+    },
+    {
+      "word": "milk",
+      "sourceIds": [
+        478
+      ],
+      "uses": [
+        "M017"
+      ]
+    },
+    {
+      "word": "have",
+      "sourceIds": [
+        349,
+        1257
+      ],
+      "uses": [
+        "M017"
+      ]
+    },
+    {
+      "word": "little",
+      "sourceIds": [
+        443,
+        1355
+      ],
+      "uses": [
+        "M018",
+        "M026"
+      ]
+    },
+    {
+      "word": "run",
+      "sourceIds": [
+        655,
+        1561
+      ],
+      "uses": [
+        "M018"
+      ]
+    },
+    {
+      "word": "bread",
+      "sourceIds": [
+        100
+      ],
+      "uses": [
+        "M018"
+      ]
+    },
+    {
+      "word": "egg",
+      "sourceIds": [
+        231
+      ],
+      "uses": [
+        "M019"
+      ]
+    },
+    {
+      "word": "shopping",
+      "sourceIds": [
+        684
+      ],
+      "uses": [
+        "M019"
+      ]
+    },
+    {
+      "word": "list",
+      "sourceIds": [
+        441
+      ],
+      "uses": [
+        "M019"
+      ]
+    },
+    {
+      "word": "enough",
+      "sourceIds": [
+        241
+      ],
+      "uses": [
+        "M020"
+      ]
+    },
+    {
+      "word": "fruit",
+      "sourceIds": [
+        314
+      ],
+      "uses": [
+        "M020"
+      ]
+    },
+    {
+      "word": "like",
+      "sourceIds": [
+        437,
+        438,
+        2175
+      ],
+      "uses": [
+        "M021",
+        "M045"
+      ]
+    },
+    {
+      "word": "lunch",
+      "sourceIds": [
+        451
+      ],
+      "uses": [
+        "M021"
+      ]
+    },
+    {
+      "word": "what",
+      "sourceIds": [
+        865
+      ],
+      "uses": [
+        "M021"
+      ]
+    },
+    {
+      "word": "soup",
+      "sourceIds": [
+        717
+      ],
+      "uses": [
+        "M022"
+      ]
+    },
+    {
+      "word": "large",
+      "sourceIds": [
+        421
+      ],
+      "uses": [
+        "M022",
+        "M043"
+      ]
+    },
+    {
+      "word": "meal",
+      "sourceIds": [
+        466
+      ],
+      "uses": [
+        "M022"
+      ]
+    },
+    {
+      "word": "feel",
+      "sourceIds": [
+        275,
+        2844
+      ],
+      "uses": [
+        "M023"
+      ]
+    },
+    {
+      "word": "share",
+      "sourceIds": [
+        678,
+        2412
+      ],
+      "uses": [
+        "M023"
+      ]
+    },
+    {
+      "word": "salad",
+      "sourceIds": [
+        657
+      ],
+      "uses": [
+        "M023"
+      ]
+    },
+    {
+      "word": "sound",
+      "sourceIds": [
+        716
+      ],
+      "uses": [
+        "M024",
+        "M116"
+      ]
+    },
+    {
+      "word": "good",
+      "sourceIds": [
+        328,
+        1244
+      ],
+      "uses": [
+        "M024",
+        "M074"
+      ]
+    },
+    {
+      "word": "much",
+      "sourceIds": [
+        498
+      ],
+      "uses": [
+        "M024"
+      ]
+    },
+    {
+      "word": "after",
+      "sourceIds": [
+        14,
+        917
+      ],
+      "uses": [
+        "M025"
+      ]
+    },
+    {
+      "word": "love",
+      "sourceIds": [
+        450
+      ],
+      "uses": [
+        "M026"
+      ]
+    },
+    {
+      "word": "brother",
+      "sourceIds": [
+        104
+      ],
+      "uses": [
+        "M026"
+      ]
+    },
+    {
+      "word": "meet",
+      "sourceIds": [
+        470
+      ],
+      "uses": [
+        "M027",
+        "M030"
+      ]
+    },
+    {
+      "word": "weekend",
+      "sourceIds": [
+        861
+      ],
+      "uses": [
+        "M027"
+      ]
+    },
+    {
+      "word": "instead",
+      "sourceIds": [
+        1299
+      ],
+      "uses": [
+        "M027"
+      ]
+    },
+    {
+      "word": "idea",
+      "sourceIds": [
+        385
+      ],
+      "uses": [
+        "M028"
+      ]
+    },
+    {
+      "word": "see",
+      "sourceIds": [
+        670
+      ],
+      "uses": [
+        "M028"
+      ]
+    },
+    {
+      "word": "Saturday",
+      "sourceIds": [
+        661
+      ],
+      "uses": [
+        "M028"
+      ]
+    },
+    {
+      "word": "do",
+      "sourceIds": [
+        211
+      ],
+      "uses": [
+        "M029",
+        "M053",
+        "M060",
+        "M073"
+      ]
+    },
+    {
+      "word": "friend",
+      "sourceIds": [
+        310
+      ],
+      "uses": [
+        "M030",
+        "M050",
+        "M094",
+        "M095"
+      ]
+    },
+    {
+      "word": "ready",
+      "sourceIds": [
+        634
+      ],
+      "uses": [
+        "M030",
+        "M040"
+      ]
+    },
+    {
+      "word": "know",
+      "sourceIds": [
+        418
+      ],
+      "uses": [
+        "M031",
+        "M092"
+      ]
+    },
+    {
+      "word": "there",
+      "sourceIds": [
+        779
+      ],
+      "uses": [
+        "M031"
+      ]
+    },
+    {
+      "word": "call",
+      "sourceIds": [
+        118
+      ],
+      "uses": [
+        "M032",
+        "M053"
+      ]
+    },
+    {
+      "word": "back",
+      "sourceIds": [
+        52,
+        966,
+        2633
+      ],
+      "uses": [
+        "M032",
+        "M048",
+        "M075",
+        "M083"
+      ]
+    },
+    {
+      "word": "near",
+      "sourceIds": [
+        506
+      ],
+      "uses": [
+        "M033"
+      ]
+    },
+    {
+      "word": "stop",
+      "sourceIds": [
+        734
+      ],
+      "uses": [
+        "M033"
+      ]
+    },
+    {
+      "word": "straight",
+      "sourceIds": [
+        1654
+      ],
+      "uses": [
+        "M034"
+      ]
+    },
+    {
+      "word": "reach",
+      "sourceIds": [
+        1516,
+        3104
+      ],
+      "uses": [
+        "M035"
+      ]
+    },
+    {
+      "word": "city",
+      "sourceIds": [
+        144
+      ],
+      "uses": [
+        "M035"
+      ]
+    },
+    {
+      "word": "centre",
+      "sourceIds": [
+        131,
+        1869
+      ],
+      "uses": [
+        "M035"
+      ]
+    },
+    {
+      "word": "next",
+      "sourceIds": [
+        514,
+        2225
+      ],
+      "uses": [
+        "M036"
+      ]
+    },
+    {
+      "word": "main",
+      "sourceIds": [
+        454
+      ],
+      "uses": [
+        "M036"
+      ]
+    },
+    {
+      "word": "square",
+      "sourceIds": [
+        1640
+      ],
+      "uses": [
+        "M036"
+      ]
+    },
+    {
+      "word": "send",
+      "sourceIds": [
+        672
+      ],
+      "uses": [
+        "M037",
+        "M040",
+        "M086",
+        "M099"
+      ]
+    },
+    {
+      "word": "address",
+      "sourceIds": [
+        10,
+        2593
+      ],
+      "uses": [
+        "M037"
+      ]
+    },
+    {
+      "word": "mind",
+      "sourceIds": [
+        1388
+      ],
+      "uses": [
+        "M038"
+      ]
+    },
+    {
+      "word": "music",
+      "sourceIds": [
+        501
+      ],
+      "uses": [
+        "M038",
+        "M054",
+        "M055",
+        "M115"
+      ]
+    },
+    {
+      "word": "first",
+      "sourceIds": [
+        289,
+        1208
+      ],
+      "uses": [
+        "M038",
+        "M068"
+      ]
+    },
+    {
+      "word": "turn",
+      "sourceIds": [
+        818
+      ],
+      "uses": [
+        "M039",
+        "M056"
+      ]
+    },
+    {
+      "word": "right",
+      "sourceIds": [
+        649
+      ],
+      "uses": [
+        "M039"
+      ]
+    },
+    {
+      "word": "now",
+      "sourceIds": [
+        530,
+        2230
+      ],
+      "uses": [
+        "M039"
+      ]
+    },
+    {
+      "word": "soon",
+      "sourceIds": [
+        714
+      ],
+      "uses": [
+        "M040",
+        "M102"
+      ]
+    },
+    {
+      "word": "jacket",
+      "sourceIds": [
+        403
+      ],
+      "uses": [
+        "M041",
+        "M076"
+      ]
+    },
+    {
+      "word": "cost",
+      "sourceIds": [
+        170
+      ],
+      "uses": [
+        "M041"
+      ]
+    },
+    {
+      "word": "blue",
+      "sourceIds": [
+        87
+      ],
+      "uses": [
+        "M041",
+        "M042"
+      ]
+    },
+    {
+      "word": "cheap",
+      "sourceIds": [
+        136,
+        1877
+      ],
+      "uses": [
+        "M042",
+        "M120"
+      ]
+    },
+    {
+      "word": "warm",
+      "sourceIds": [
+        850,
+        2550
+      ],
+      "uses": [
+        "M042"
+      ]
+    },
+    {
+      "word": "wear",
+      "sourceIds": [
+        856
+      ],
+      "uses": [
+        "M043"
+      ]
+    },
+    {
+      "word": "sweater",
+      "sourceIds": [
+        749
+      ],
+      "uses": [
+        "M043"
+      ]
+    },
+    {
+      "word": "pay",
+      "sourceIds": [
+        573,
+        1448
+      ],
+      "uses": [
+        "M044"
+      ]
+    },
+    {
+      "word": "both",
+      "sourceIds": [
+        95
+      ],
+      "uses": [
+        "M044"
+      ]
+    },
+    {
+      "word": "afford",
+      "sourceIds": [
+        1784
+      ],
+      "uses": [
+        "M044"
+      ]
+    },
+    {
+      "word": "find",
+      "sourceIds": [
+        285
+      ],
+      "uses": [
+        "M045",
+        "M069"
+      ]
+    },
+    {
+      "word": "check",
+      "sourceIds": [
+        137,
+        1033
+      ],
+      "uses": [
+        "M045",
+        "M085"
+      ]
+    },
+    {
+      "word": "copy",
+      "sourceIds": [
+        1077
+      ],
+      "uses": [
+        "M046",
+        "M082",
+        "M084"
+      ]
+    },
+    {
+      "word": "email",
+      "sourceIds": [
+        238
+      ],
+      "uses": [
+        "M046"
+      ]
+    },
+    {
+      "word": "phone",
+      "sourceIds": [
+        582
+      ],
+      "uses": [
+        "M046",
+        "M056",
+        "M079",
+        "M081",
+        "M082",
+        "M105"
+      ]
+    },
+    {
+      "word": "leave",
+      "sourceIds": [
+        427,
+        2957
+      ],
+      "uses": [
+        "M047",
+        "M093",
+        "M097",
+        "M108"
+      ]
+    },
+    {
+      "word": "bag",
+      "sourceIds": [
+        54
+      ],
+      "uses": [
+        "M047",
+        "M093",
+        "M094",
+        "M096"
+      ]
+    },
+    {
+      "word": "room",
+      "sourceIds": [
+        652
+      ],
+      "uses": [
+        "M047",
+        "M093"
+      ]
+    },
+    {
+      "word": "care",
+      "sourceIds": [
+        1015
+      ],
+      "uses": [
+        "M048",
+        "M112"
+      ]
+    },
+    {
+      "word": "come",
+      "sourceIds": [
+        158
+      ],
+      "uses": [
+        "M048"
+      ]
+    },
+    {
+      "word": "go",
+      "sourceIds": [
+        327,
+        2087
+      ],
+      "uses": [
+        "M049",
+        "M075",
+        "M107",
+        "M113"
+      ]
+    },
+    {
+      "word": "holiday",
+      "sourceIds": [
+        367
+      ],
+      "uses": [
+        "M049"
+      ]
+    },
+    {
+      "word": "year",
+      "sourceIds": [
+        892
+      ],
+      "uses": [
+        "M049"
+      ]
+    },
+    {
+      "word": "town",
+      "sourceIds": [
+        807
+      ],
+      "uses": [
+        "M050"
+      ]
+    },
+    {
+      "word": "grow",
+      "sourceIds": [
+        337
+      ],
+      "uses": [
+        "M050"
+      ]
+    },
+    {
+      "word": "best",
+      "sourceIds": [
+        75,
+        983
+      ],
+      "uses": [
+        "M051"
+      ]
+    },
+    {
+      "word": "thing",
+      "sourceIds": [
+        781
+      ],
+      "uses": [
+        "M051"
+      ]
+    },
+    {
+      "word": "trip",
+      "sourceIds": [
+        812,
+        3251
+      ],
+      "uses": [
+        "M051"
+      ]
+    },
+    {
+      "word": "local",
+      "sourceIds": [
+        445,
+        2182
+      ],
+      "uses": [
+        "M052"
+      ]
+    },
+    {
+      "word": "life",
+      "sourceIds": [
+        435
+      ],
+      "uses": [
+        "M052"
+      ]
+    },
+    {
+      "word": "part",
+      "sourceIds": [
+        568
+      ],
+      "uses": [
+        "M052",
+        "M088"
+      ]
+    },
+    {
+      "word": "neighbour",
+      "sourceIds": [
+        509
+      ],
+      "uses": [
+        "M054"
+      ]
+    },
+    {
+      "word": "ask",
+      "sourceIds": [
+        45
+      ],
+      "uses": [
+        "M055",
+        "M092"
+      ]
+    },
+    {
+      "word": "realize",
+      "sourceIds": [
+        1518
+      ],
+      "uses": [
+        "M056"
+      ]
+    },
+    {
+      "word": "take",
+      "sourceIds": [
+        753
+      ],
+      "uses": [
+        "M057",
+        "M076"
+      ]
+    },
+    {
+      "word": "online",
+      "sourceIds": [
+        546
+      ],
+      "uses": [
+        "M057"
+      ]
+    },
+    {
+      "word": "class",
+      "sourceIds": [
+        145
+      ],
+      "uses": [
+        "M057"
+      ]
+    },
+    {
+      "word": "learn",
+      "sourceIds": [
+        426
+      ],
+      "uses": [
+        "M058",
+        "M061",
+        "M111"
+      ]
+    },
+    {
+      "word": "short",
+      "sourceIds": [
+        685
+      ],
+      "uses": [
+        "M058",
+        "M070",
+        "M100"
+      ]
+    },
+    {
+      "word": "course",
+      "sourceIds": [
+        173
+      ],
+      "uses": [
+        "M058"
+      ]
+    },
+    {
+      "word": "finish",
+      "sourceIds": [
+        287,
+        1207
+      ],
+      "uses": [
+        "M059",
+        "M088"
+      ]
+    },
+    {
+      "word": "exercise",
+      "sourceIds": [
+        255
+      ],
+      "uses": [
+        "M059"
+      ]
+    },
+    {
+      "word": "still",
+      "sourceIds": [
+        733,
+        2456
+      ],
+      "uses": [
+        "M059",
+        "M105"
+      ]
+    },
+    {
+      "word": "last",
+      "sourceIds": [
+        422,
+        1332,
+        1333
+      ],
+      "uses": [
+        "M060"
+      ]
+    },
+    {
+      "word": "long",
+      "sourceIds": [
+        446
+      ],
+      "uses": [
+        "M061"
+      ]
+    },
+    {
+      "word": "own",
+      "sourceIds": [
+        559,
+        1434
+      ],
+      "uses": [
+        "M061"
+      ]
+    },
+    {
+      "word": "study",
+      "sourceIds": [
+        739
+      ],
+      "uses": [
+        "M062"
+      ]
+    },
+    {
+      "word": "month",
+      "sourceIds": [
+        488
+      ],
+      "uses": [
+        "M062"
+      ]
+    },
+    {
+      "word": "notice",
+      "sourceIds": [
+        1416
+      ],
+      "uses": [
+        "M063"
+      ]
+    },
+    {
+      "word": "change",
+      "sourceIds": [
+        134
+      ],
+      "uses": [
+        "M063",
+        "M081"
+      ]
+    },
+    {
+      "word": "speak",
+      "sourceIds": [
+        720
+      ],
+      "uses": [
+        "M063",
+        "M072",
+        "M110"
+      ]
+    },
+    {
+      "word": "become",
+      "sourceIds": [
+        65
+      ],
+      "uses": [
+        "M064"
+      ]
+    },
+    {
+      "word": "confident",
+      "sourceIds": [
+        1910
+      ],
+      "uses": [
+        "M064"
+      ]
+    },
+    {
+      "word": "practise",
+      "sourceIds": [
+        610
+      ],
+      "uses": [
+        "M064",
+        "M071",
+        "M072"
+      ]
+    },
+    {
+      "word": "stay",
+      "sourceIds": [
+        732,
+        1647
+      ],
+      "uses": [
+        "M065",
+        "M074",
+        "M098",
+        "M113",
+        "M114"
+      ]
+    },
+    {
+      "word": "late",
+      "sourceIds": [
+        423
+      ],
+      "uses": [
+        "M065"
+      ]
+    },
+    {
+      "word": "university",
+      "sourceIds": [
+        829
+      ],
+      "uses": [
+        "M065"
+      ]
+    },
+    {
+      "word": "early",
+      "sourceIds": [
+        227
+      ],
+      "uses": [
+        "M066",
+        "M097"
+      ]
+    },
+    {
+      "word": "day",
+      "sourceIds": [
+        190
+      ],
+      "uses": [
+        "M066",
+        "M086",
+        "M119"
+      ]
+    },
+    {
+      "word": "difficult",
+      "sourceIds": [
+        206
+      ],
+      "uses": [
+        "M067",
+        "M069"
+      ]
+    },
+    {
+      "word": "new",
+      "sourceIds": [
+        511
+      ],
+      "uses": [
+        "M067"
+      ]
+    },
+    {
+      "word": "routine",
+      "sourceIds": [
+        653,
+        3137
+      ],
+      "uses": [
+        "M067"
+      ]
+    },
+    {
+      "word": "bed",
+      "sourceIds": [
+        66
+      ],
+      "uses": [
+        "M068"
+      ]
+    },
+    {
+      "word": "conversation",
+      "sourceIds": [
+        165
+      ],
+      "uses": [
+        "M069"
+      ]
+    },
+    {
+      "word": "start",
+      "sourceIds": [
+        729,
+        1645
+      ],
+      "uses": [
+        "M070",
+        "M090"
+      ]
+    },
+    {
+      "word": "pattern",
+      "sourceIds": [
+        1447
+      ],
+      "uses": [
+        "M070"
+      ]
+    },
+    {
+      "word": "fast",
+      "sourceIds": [
+        270
+      ],
+      "uses": [
+        "M071"
+      ]
+    },
+    {
+      "word": "speech",
+      "sourceIds": [
+        1636
+      ],
+      "uses": [
+        "M071"
+      ]
+    },
+    {
+      "word": "improve",
+      "sourceIds": [
+        389
+      ],
+      "uses": [
+        "M072"
+      ]
+    },
+    {
+      "word": "rain",
+      "sourceIds": [
+        630
+      ],
+      "uses": [
+        "M073"
+      ]
+    },
+    {
+      "word": "Monday",
+      "sourceIds": [
+        486
+      ],
+      "uses": [
+        "M073"
+      ]
+    },
+    {
+      "word": "weather",
+      "sourceIds": [
+        857
+      ],
+      "uses": [
+        "M074"
+      ]
+    },
+    {
+      "word": "dark",
+      "sourceIds": [
+        187,
+        1097
+      ],
+      "uses": [
+        "M075"
+      ]
+    },
+    {
+      "word": "cold",
+      "sourceIds": [
+        155
+      ],
+      "uses": [
+        "M076"
+      ]
+    },
+    {
+      "word": "keep",
+      "sourceIds": [
+        413
+      ],
+      "uses": [
+        "M077",
+        "M100"
+      ]
+    },
+    {
+      "word": "hobby",
+      "sourceIds": [
+        366
+      ],
+      "uses": [
+        "M078"
+      ]
+    },
+    {
+      "word": "add",
+      "sourceIds": [
+        9
+      ],
+      "uses": [
+        "M078"
+      ]
+    },
+    {
+      "word": "difference",
+      "sourceIds": [
+        204
+      ],
+      "uses": [
+        "M079",
+        "M112"
+      ]
+    },
+    {
+      "word": "something",
+      "sourceIds": [
+        710
+      ],
+      "uses": [
+        "M080",
+        "M109"
+      ]
+    },
+    {
+      "word": "enjoy",
+      "sourceIds": [
+        240
+      ],
+      "uses": [
+        "M080"
+      ]
+    },
+    {
+      "word": "photo",
+      "sourceIds": [
+        583
+      ],
+      "uses": [
+        "M081"
+      ]
+    },
+    {
+      "word": "save",
+      "sourceIds": [
+        1571
+      ],
+      "uses": [
+        "M082",
+        "M084"
+      ]
+    },
+    {
+      "word": "lose",
+      "sourceIds": [
+        448
+      ],
+      "uses": [
+        "M083"
+      ]
+    },
+    {
+      "word": "future",
+      "sourceIds": [
+        318,
+        1233
+      ],
+      "uses": [
+        "M084"
+      ]
+    },
+    {
+      "word": "report",
+      "sourceIds": [
+        642,
+        1539
+      ],
+      "uses": [
+        "M085"
+      ]
+    },
+    {
+      "word": "everyone",
+      "sourceIds": [
+        249
+      ],
+      "uses": [
+        "M086"
+      ]
+    },
+    {
+      "word": "information",
+      "sourceIds": [
+        392
+      ],
+      "uses": [
+        "M087"
+      ]
+    },
+    {
+      "word": "put",
+      "sourceIds": [
+        622
+      ],
+      "uses": [
+        "M087"
+      ]
+    },
+    {
+      "word": "together",
+      "sourceIds": [
+        798
+      ],
+      "uses": [
+        "M087",
+        "M090"
+      ]
+    },
+    {
+      "word": "final",
+      "sourceIds": [
+        284,
+        1204
+      ],
+      "uses": [
+        "M088"
+      ]
+    },
+    {
+      "word": "manager",
+      "sourceIds": [
+        1370
+      ],
+      "uses": [
+        "M089"
+      ]
+    },
+    {
+      "word": "say",
+      "sourceIds": [
+        662
+      ],
+      "uses": [
+        "M089",
+        "M101"
+      ]
+    },
+    {
+      "word": "plan",
+      "sourceIds": [
+        592
+      ],
+      "uses": [
+        "M089"
+      ]
+    },
+    {
+      "word": "easy",
+      "sourceIds": [
+        229
+      ],
+      "uses": [
+        "M090",
+        "M100",
+        "M120"
+      ]
+    },
+    {
+      "word": "tell",
+      "sourceIds": [
+        764
+      ],
+      "uses": [
+        "M091"
+      ]
+    },
+    {
+      "word": "prepare",
+      "sourceIds": [
+        612
+      ],
+      "uses": [
+        "M091"
+      ]
+    },
+    {
+      "word": "system",
+      "sourceIds": [
+        1676
+      ],
+      "uses": [
+        "M092"
+      ]
+    },
+    {
+      "word": "help",
+      "sourceIds": [
+        357
+      ],
+      "uses": [
+        "M094",
+        "M111"
+      ]
+    },
+    {
+      "word": "book",
+      "sourceIds": [
+        90,
+        998
+      ],
+      "uses": [
+        "M096"
+      ]
+    },
+    {
+      "word": "borrow",
+      "sourceIds": [
+        999
+      ],
+      "uses": [
+        "M096"
+      ]
+    },
+    {
+      "word": "meeting",
+      "sourceIds": [
+        471
+      ],
+      "uses": [
+        "M097"
+      ]
+    },
+    {
+      "word": "daughter",
+      "sourceIds": [
+        189
+      ],
+      "uses": [
+        "M098"
+      ]
+    },
+    {
+      "word": "pick",
+      "sourceIds": [
+        1462,
+        3054
+      ],
+      "uses": [
+        "M098"
+      ]
+    },
+    {
+      "word": "note",
+      "sourceIds": [
+        527,
+        2229
+      ],
+      "uses": [
+        "M099"
+      ]
+    },
+    {
+      "word": "discussion",
+      "sourceIds": [
+        1127
+      ],
+      "uses": [
+        "M099"
+      ]
+    },
+    {
+      "word": "again",
+      "sourceIds": [
+        16
+      ],
+      "uses": [
+        "M101"
+      ]
+    },
+    {
+      "word": "slowly",
+      "sourceIds": [
+        1616
+      ],
+      "uses": [
+        "M101"
+      ]
+    },
+    {
+      "word": "mean",
+      "sourceIds": [
+        467
+      ],
+      "uses": [
+        "M102",
+        "M103"
+      ]
+    },
+    {
+      "word": "today",
+      "sourceIds": [
+        797
+      ],
+      "uses": [
+        "M103"
+      ]
+    },
+    {
+      "word": "reply",
+      "sourceIds": [
+        1538
+      ],
+      "uses": [
+        "M104"
+      ]
+    },
+    {
+      "word": "Friday",
+      "sourceIds": [
+        309
+      ],
+      "uses": [
+        "M104"
+      ]
+    },
+    {
+      "word": "write",
+      "sourceIds": [
+        887
+      ],
+      "uses": [
+        "M104"
+      ]
+    },
+    {
+      "word": "think",
+      "sourceIds": [
+        782
+      ],
+      "uses": [
+        "M105"
+      ]
+    },
+    {
+      "word": "guess",
+      "sourceIds": [
+        338
+      ],
+      "uses": [
+        "M106"
+      ]
+    },
+    {
+      "word": "depend",
+      "sourceIds": [
+        1109
+      ],
+      "uses": [
+        "M106"
+      ]
+    },
+    {
+      "word": "busy",
+      "sourceIds": [
+        110
+      ],
+      "uses": [
+        "M106"
+      ]
+    },
+    {
+      "word": "office",
+      "sourceIds": [
+        537
+      ],
+      "uses": [
+        "M107"
+      ]
+    },
+    {
+      "word": "light",
+      "sourceIds": [
+        436,
+        1350,
+        1351
+      ],
+      "uses": [
+        "M107"
+      ]
+    },
+    {
+      "word": "message",
+      "sourceIds": [
+        474
+      ],
+      "uses": [
+        "M108"
+      ]
+    },
+    {
+      "word": "out",
+      "sourceIds": [
+        556
+      ],
+      "uses": [
+        "M108"
+      ]
+    },
+    {
+      "word": "worried",
+      "sourceIds": [
+        1763
+      ],
+      "uses": [
+        "M109"
+      ]
+    },
+    {
+      "word": "afraid",
+      "sourceIds": [
+        13
+      ],
+      "uses": [
+        "M110"
+      ]
+    },
+    {
+      "word": "mistake",
+      "sourceIds": [
+        482,
+        2993
+      ],
+      "uses": [
+        "M110",
+        "M111"
+      ]
+    },
+    {
+      "word": "progress",
+      "sourceIds": [
+        1495,
+        3084
+      ],
+      "uses": [
+        "M112"
+      ]
+    },
+    {
+      "word": "tonight",
+      "sourceIds": [
+        802
+      ],
+      "uses": [
+        "M113",
+        "M116"
+      ]
+    },
+    {
+      "word": "tired",
+      "sourceIds": [
+        794
+      ],
+      "uses": [
+        "M114"
+      ]
+    },
+    {
+      "word": "because",
+      "sourceIds": [
+        64
+      ],
+      "uses": [
+        "M114"
+      ]
+    },
+    {
+      "word": "watch",
+      "sourceIds": [
+        852
+      ],
+      "uses": [
+        "M115"
+      ]
+    },
+    {
+      "word": "film",
+      "sourceIds": [
+        283,
+        1203
+      ],
+      "uses": [
+        "M115"
+      ]
+    },
+    {
+      "word": "prefer",
+      "sourceIds": [
+        611
+      ],
+      "uses": [
+        "M116"
+      ]
+    },
+    {
+      "word": "option",
+      "sourceIds": [
+        1426
+      ],
+      "uses": [
+        "M117"
+      ]
+    },
+    {
+      "word": "discuss",
+      "sourceIds": [
+        209
+      ],
+      "uses": [
+        "M117"
+      ]
+    },
+    {
+      "word": "view",
+      "sourceIds": [
+        1737,
+        2545
+      ],
+      "uses": [
+        "M117"
+      ]
+    },
+    {
+      "word": "agree",
+      "sourceIds": [
+        19
+      ],
+      "uses": [
+        "M118"
+      ]
+    },
+    {
+      "word": "price",
+      "sourceIds": [
+        615,
+        3074
+      ],
+      "uses": [
+        "M118"
+      ]
+    },
+    {
+      "word": "quality",
+      "sourceIds": [
+        1506
+      ],
+      "uses": [
+        "M118"
+      ]
+    },
+    {
+      "word": "matter",
+      "sourceIds": [
+        1377
+      ],
+      "uses": [
+        "M119"
+      ]
+    },
+    {
+      "word": "use",
+      "sourceIds": [
+        834,
+        1729
+      ],
+      "uses": [
+        "M119"
+      ]
+    },
+    {
+      "word": "simple",
+      "sourceIds": [
+        1604
+      ],
+      "uses": [
+        "M120"
+      ]
+    }
+  ],
+  "grammarUses": {
+    "SUBJQ": [
+      "M001",
+      "M093"
+    ],
+    "PAST": [
+      "M001",
+      "M002",
+      "M003",
+      "M004",
+      "M049",
+      "M050",
+      "M053",
+      "M055",
+      "M056",
+      "M065",
+      "M068",
+      "M081",
+      "M089",
+      "M091",
+      "M093"
+    ],
+    "WH": [
+      "M001",
+      "M003",
+      "M005",
+      "M007",
+      "M009",
+      "M015",
+      "M017",
+      "M019",
+      "M021",
+      "M029",
+      "M033",
+      "M035",
+      "M041",
+      "M046",
+      "M049",
+      "M051",
+      "M053",
+      "M057",
+      "M061",
+      "M073",
+      "M079",
+      "M081",
+      "M085",
+      "M087",
+      "M089",
+      "M097",
+      "M117"
+    ],
+    "THERE": [
+      "M002",
+      "M013",
+      "M014"
+    ],
+    "REASON": [
+      "M002",
+      "M008",
+      "M016",
+      "M064",
+      "M098",
+      "M114"
+    ],
+    "ADVICE": [
+      "M004",
+      "M026",
+      "M072",
+      "M098",
+      "M108"
+    ],
+    "COORD": [
+      "M004",
+      "M006",
+      "M011",
+      "M015",
+      "M018",
+      "M030",
+      "M034",
+      "M059",
+      "M090",
+      "M103",
+      "M107",
+      "M113",
+      "M115",
+      "M116",
+      "M118",
+      "M120"
+    ],
+    "PRES": [
+      "M005",
+      "M006",
+      "M007",
+      "M008",
+      "M011",
+      "M023",
+      "M041",
+      "M095",
+      "M103",
+      "M105",
+      "M118"
+    ],
+    "FREQ": [
+      "M005",
+      "M007",
+      "M008",
+      "M062"
+    ],
+    "COMP": [
+      "M006",
+      "M033",
+      "M041",
+      "M042",
+      "M051",
+      "M101",
+      "M120"
+    ],
+    "PROG": [
+      "M009",
+      "M010",
+      "M028",
+      "M059",
+      "M085",
+      "M097"
+    ],
+    "INF": [
+      "M010",
+      "M015",
+      "M021",
+      "M022",
+      "M025",
+      "M026",
+      "M030",
+      "M043",
+      "M044",
+      "M045",
+      "M055",
+      "M060",
+      "M067",
+      "M069",
+      "M092",
+      "M112",
+      "M118"
+    ],
+    "INDIRECT": [
+      "M010",
+      "M033",
+      "M091",
+      "M106"
+    ],
+    "PREFER": [
+      "M011",
+      "M022",
+      "M024",
+      "M078",
+      "M113",
+      "M114",
+      "M116"
+    ],
+    "PRON": [
+      "M011",
+      "M039",
+      "M046",
+      "M048",
+      "M056",
+      "M059",
+      "M082",
+      "M094",
+      "M100",
+      "M111"
+    ],
+    "POLITE": [
+      "M012",
+      "M025",
+      "M033",
+      "M037",
+      "M038",
+      "M099",
+      "M101"
+    ],
+    "MODAL": [
+      "M012",
+      "M013",
+      "M019",
+      "M020",
+      "M035",
+      "M037",
+      "M044",
+      "M045",
+      "M047",
+      "M071",
+      "M072",
+      "M075",
+      "M080",
+      "M086",
+      "M090",
+      "M099",
+      "M111",
+      "M115"
+    ],
+    "REL": [
+      "M013",
+      "M050",
+      "M063",
+      "M080",
+      "M094",
+      "M095",
+      "M096",
+      "M117"
+    ],
+    "QUANT": [
+      "M014",
+      "M017",
+      "M018",
+      "M019",
+      "M020",
+      "M022",
+      "M024",
+      "M044"
+    ],
+    "PREP": [
+      "M014",
+      "M016",
+      "M027",
+      "M034",
+      "M036",
+      "M054",
+      "M104"
+    ],
+    "SVC": [
+      "M016",
+      "M024",
+      "M028",
+      "M109",
+      "M116"
+    ],
+    "PERF": [
+      "M018",
+      "M057",
+      "M058",
+      "M059",
+      "M060",
+      "M063",
+      "M064",
+      "M117"
+    ],
+    "SUGGEST": [
+      "M020",
+      "M027",
+      "M028",
+      "M070"
+    ],
+    "DEGREE": [
+      "M020",
+      "M043"
+    ],
+    "ING": [
+      "M023",
+      "M027",
+      "M028",
+      "M038",
+      "M052",
+      "M066",
+      "M068",
+      "M072",
+      "M077",
+      "M087",
+      "M097",
+      "M111"
+    ],
+    "FUT": [
+      "M029",
+      "M030",
+      "M031",
+      "M032",
+      "M036",
+      "M039",
+      "M040",
+      "M048",
+      "M071",
+      "M073",
+      "M074",
+      "M084",
+      "M102",
+      "M104",
+      "M110"
+    ],
+    "TIME": [
+      "M029",
+      "M031",
+      "M032",
+      "M040",
+      "M047",
+      "M048",
+      "M056",
+      "M088",
+      "M110"
+    ],
+    "IMP": [
+      "M031",
+      "M034",
+      "M036",
+      "M070",
+      "M076"
+    ],
+    "COND1": [
+      "M035",
+      "M071",
+      "M073",
+      "M074",
+      "M075",
+      "M076",
+      "M109"
+    ],
+    "DOUBLE": [
+      "M037",
+      "M040"
+    ],
+    "REPAIR": [
+      "M039",
+      "M060",
+      "M101",
+      "M102",
+      "M103",
+      "M104"
+    ],
+    "BE": [
+      "M043",
+      "M051",
+      "M052",
+      "M067",
+      "M096"
+    ],
+    "PASSIVE": [
+      "M047",
+      "M085"
+    ],
+    "PASTPROG": [
+      "M053",
+      "M054"
+    ],
+    "PERFPROG": [
+      "M061",
+      "M062"
+    ],
+    "DURATION": [
+      "M061",
+      "M062"
+    ],
+    "USED": [
+      "M065",
+      "M066",
+      "M067",
+      "M068"
+    ],
+    "OBJCOMP": [
+      "M069",
+      "M100"
+    ],
+    "WISH": [
+      "M077"
+    ],
+    "COND2": [
+      "M078",
+      "M079"
+    ],
+    "PURPOSE": [
+      "M080",
+      "M099",
+      "M100"
+    ],
+    "PASTPERF": [
+      "M082",
+      "M083"
+    ],
+    "REPORTED": [
+      "M082",
+      "M090",
+      "M092"
+    ],
+    "COND3": [
+      "M083"
+    ],
+    "NOUNCL": [
+      "M084",
+      "M091",
+      "M092",
+      "M102",
+      "M105",
+      "M106",
+      "M110",
+      "M112",
+      "M119"
+    ],
+    "MODPASS": [
+      "M086"
+    ],
+    "FUTPERF": [
+      "M088"
+    ],
+    "POSSESS": [
+      "M093",
+      "M095"
+    ],
+    "CONTRAST": [
+      "M098"
+    ],
+    "DEDUCE": [
+      "M106",
+      "M107",
+      "M108"
+    ],
+    "EXCL": [
+      "M112"
+    ],
+    "TAG": [
+      "M119"
+    ]
+  },
+  "errors": []
+}

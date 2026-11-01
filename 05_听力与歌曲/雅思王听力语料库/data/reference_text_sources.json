@@ -1,0 +1,144 @@
+{
+  "retrieved_date": "2026-11-01",
+  "source_repository": "https://github.com/PipiTang233/wanglu-dictation-app",
+  "source_blob_sha": "2004d5360af631d562e72238449b93c0d608b4eb",
+  "source_file": "王陆语料库听写练习_v5.html",
+  "edition": "网络整理参考版；来源采用旧版分节编号，未声明确切剑桥版次",
+  "alignment": "未与 20260920 官方音频逐词核对；不可当作剑21官方原书扫描件",
+  "chapters": [
+    {
+      "chapter": 3,
+      "entries": 1135,
+      "groups": 9,
+      "source_groups": {
+        "3.3-1": 112,
+        "3.3-2": 143,
+        "3.3-3": 113,
+        "3.3-4": 112,
+        "3.3-5": 145,
+        "3.3-6": 113,
+        "3.3-7": 104,
+        "3.3-8": 151,
+        "3.3-9": 142
+      },
+      "original_source_groups": {
+        "3.3-1": 112,
+        "3.3-2": 143,
+        "3.3-3": 113,
+        "3.3-4": 112,
+        "3.3-5": 145,
+        "3.3-6": 113,
+        "3.3-7": 104,
+        "3.3-8": 152,
+        "3.3-9": 142
+      },
+      "outputs": [
+        {
+          "file": "Chapter03_特别名词/文本/Chapter03_网络整理参考词表.md",
+          "sha256": "742f14f92231fe513531f682855db0fa936632fa6e078743503e1f33211f0398"
+        },
+        {
+          "file": "Chapter03_特别名词/文本/Chapter03_网络整理参考词表.txt",
+          "sha256": "4c7505d14219efb1b219ee128c1cd9e5fba25846d41b9637c0ccfa860e45c838"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "entries": 346,
+      "groups": 4,
+      "source_groups": {
+        "4.3-1": 104,
+        "4.3-2": 104,
+        "4.3-3": 126,
+        "4.4": 12
+      },
+      "original_source_groups": {
+        "4.3-1": 104,
+        "4.3-2": 104,
+        "4.3-3": 126,
+        "4.4": 12
+      },
+      "outputs": [
+        {
+          "file": "Chapter04_形容词副词/文本/Chapter04_网络整理参考词表.md",
+          "sha256": "6aa5df978254cb692530aa02dfbdd3fe52047da57a651fb5624a42f400815900"
+        },
+        {
+          "file": "Chapter04_形容词副词/文本/Chapter04_网络整理参考词表.txt",
+          "sha256": "060a149053fbc69eb3ffb13fe0fc188a200b589efeb927b75946739ca061736e"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "entries": 1570,
+      "groups": 12,
+      "source_groups": {
+        "5.3-1": 114,
+        "5.3-2": 111,
+        "5.3-3": 114,
+        "5.3-4": 105,
+        "5.3-5": 100,
+        "5.3-6": 108,
+        "5.3-7": 130,
+        "5.3-8": 144,
+        "5.3-9": 140,
+        "5.3-10": 142,
+        "5.3-11": 127,
+        "5.3-12": 235
+      },
+      "original_source_groups": {
+        "5.3-1": 114,
+        "5.3-2": 111,
+        "5.3-3": 114,
+        "5.3-4": 105,
+        "5.3-5": 100,
+        "5.3-6": 108,
+        "5.3-7": 130,
+        "5.3-8": 144,
+        "5.3-9": 140,
+        "5.3-10": 142,
+        "5.3-11": 127,
+        "5.3-12": 235
+      },
+      "outputs": [
+        {
+          "file": "Chapter05_吞音连读/文本/Chapter05_网络整理参考词表.md",
+          "sha256": "8862eb924cdbb5d672d1fd24414537f70c0a8b9a2f31aa818b8912348aa756aa"
+        },
+        {
+          "file": "Chapter05_吞音连读/文本/Chapter05_网络整理参考词表.txt",
+          "sha256": "3666f32b99ac89401ff9b871e37f48ea97ba984c9930594e025705f8b4d8c107"
+        }
+      ]
+    }
+  ],
+  "manual_corrections": {
+    "file": "data/manual_text_corrections.json",
+    "sha256": "4b5449bd6b0fede4a3cf5bd96c942776c9c1d8f4c6b4a9f192097828b3218d54",
+    "applied": [
+      {
+        "group": "3.3-8",
+        "chapter": 3,
+        "test_paper": 8,
+        "start_index": 127,
+        "expected_original_count": 152,
+        "expected_previous_word": "style",
+        "expected_start_word": "subject",
+        "source": {
+          "type": "user_provided_photo",
+          "description": "用户提供的 Chapter 3 Test Paper 8 书页照片；从左到右逐行读取",
+          "sha256": "c4b66e55372bdd073a8115705dd5fcc13b8a27961565bb767fb8cd0dff8bfc0e"
+        },
+        "note": "第127词起按书页照片校订；删除误收的 submit，修正后段词序、音标与中文提示；末词为 tape，本组共151词。",
+        "original_entries": 152,
+        "corrected_entries": 151,
+        "corrected_range": [
+          127,
+          151
+        ]
+      }
+    ]
+  }
+}

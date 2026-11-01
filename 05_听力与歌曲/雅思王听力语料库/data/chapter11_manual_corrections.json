@@ -1,0 +1,172 @@
+[
+  {
+    "pdfPage": 6,
+    "ocrWord": "socialíse = socialize",
+    "set": {
+      "word": "socialise",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 13,
+    "ocrWord": "Dacknowledgement",
+    "set": {
+      "word": "acknowledgement",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 17,
+    "ocrWord": "gratetul",
+    "set": {
+      "word": "grateful",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 23,
+    "ocrWord": "porttollo",
+    "set": {
+      "word": "portfolio",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 24,
+    "ocrWord": "repondents",
+    "set": {
+      "word": "respondents",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 30,
+    "ocrWord": "poor payıng",
+    "set": {
+      "word": "poor paying",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 31,
+    "ocrWord": "greater utılity",
+    "set": {
+      "word": "greater utility",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 43,
+    "ocrWord": "mentall",
+    "set": {
+      "word": "mental",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 54,
+    "ocrWord": "Deye-opener",
+    "set": {
+      "word": "eye-opener",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 54,
+    "ocrWord": "Ofilthy",
+    "set": {
+      "word": "filthy",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 55,
+    "ocrWord": "Otemporary",
+    "set": {
+      "word": "temporary",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 56,
+    "ocrWord": "OWI",
+    "set": {
+      "word": "owl",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 57,
+    "ocrWord": "Drocky",
+    "set": {
+      "word": "rocky",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 57,
+    "ocrWord": "Odye",
+    "set": {
+      "word": "dye",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 59,
+    "ocrWord": "Otiming",
+    "set": {
+      "word": "timing",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 61,
+    "ocrWord": "open root",
+    "set": {
+      "word": "open roof",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 62,
+    "ocrWord": "emergency locator beacor",
+    "set": {
+      "word": "emergency locator beacon",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 62,
+    "ocrWord": "i still water",
+    "set": {
+      "word": "still water",
+      "reviewIssues": [],
+      "correctionNote": "按原 PDF 字形校正 OCR"
+    }
+  },
+  {
+    "pdfPage": 23,
+    "ocrWord": "verbalisation",
+    "set": {
+      "meaning": "用语言表达；冗长",
+      "correctionNote": "按原 PDF 补回 OCR 遗漏的“长”字"
+    }
+  }
+]

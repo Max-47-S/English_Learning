@@ -1,0 +1,20 @@
+{
+  "project_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1",
+  "url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site",
+  "access": "private",
+  "status": "succeeded",
+  "commit_sha": "af7c41485f2bd6205af4b6b8c28e59d5e54b5537",
+  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_2ee92a77e9f88191b87d287d0b21e1e4",
+  "deployment_id": "appgdep_6ae747b181308191821b7babfc74393b",
+  "published_at": "2026-11-01T14:08:05.872186+00:00",
+  "note": "Sites 网站源码另行保存于私人站点源仓库；本地 English_Learning 仓库未提交或推送。",
+  "title": "英语听读 · Oxford 3000 / 750 短语 / 雅思",
+  "collections": {
+    "oxford3000": 3306,
+    "phrases750": 750,
+    "ielts": 5571
+  },
+  "entries": 9627,
+  "oxford_audio_source_revision": "3a5c95b9647b24abdcfa72eed1c423718b7b4adb",
+  "last_change": "系统连续朗读默认词间停顿 1 秒；新增不停顿、0.5/1/1.5/2/3 秒设置，独立于发音速度；停顿时保留当前词卡。"
+}

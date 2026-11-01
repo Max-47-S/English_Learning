@@ -1,5 +1,7 @@
 # Oxford Phrase List · 连续听读学习包
 
+手机使用：[打开统一手机版](https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=phrases750) · [使用说明](../手机学习入口.md)。保留现有 750 条内容与逐词音轨；当前音轨含 350 条真人录音、400 条 AI 配音，播放时逐条标明来源。
+
 750 条短语，按原 PDF 的级别与四栏阅读顺序整理。每条配有中文释义、两组中英用法搭配、原创双语例句；其中 248 条另有语法或辨析提示。
 
 | 级别 | 条数 | 学习文件 |

@@ -1,0 +1,35 @@
+{
+  "tested_at": "2026-11-01",
+  "chapters": 4,
+  "entries": 5571,
+  "original_audio_tracks": 59,
+  "md_rows_chapter11": 2520,
+  "checks": {
+    "all_expected_audio_files_present": true,
+    "chapter3_paper8_photo_correction_preserved": true,
+    "chapter11_section_headers_not_exported_as_words": true,
+    "inline_html_has_no_unresolved_template_markers": true,
+    "javascript_syntax_check": "pass",
+    "production_build": "pass",
+    "chrome_390px_no_horizontal_overflow": true,
+    "search_and_favorites_and_hide_meaning": "pass",
+    "progress_restored_after_reload": "pass",
+    "system_speech_single_word_stops_and_next_cancels_continuous": "pass",
+    "original_audio_http_range_206": "pass",
+    "original_audio_plays_from_indexeddb_blob": "pass",
+    "replay_restarts_at_zero_and_cancels_continuous": "pass",
+    "private_site_normal_login": "pass",
+    "production_original_audio_actual_playback": {
+      "duration_seconds": 613.154375,
+      "playback_position_observed": 2.85104,
+      "paused": false
+    }
+  },
+  "limits": [
+    "未在实体 iPhone 或 Android 上实测",
+    "原版音轨尚无逐词时间轴",
+    "Chapter 11 为 OCR 转写，并非逐字人工校对；音标列为参考音标",
+    "音频文件导入功能尚未做文件选择器实测",
+    "离线壳已实现并检查缓存逻辑，尚未做实体手机断网测试"
+  ]
+}

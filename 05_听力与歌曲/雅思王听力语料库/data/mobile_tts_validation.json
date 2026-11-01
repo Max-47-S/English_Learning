@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "source_commit": "9170d6e61b5fb6d177ae665569402e726f2516aa",
+  "deployment_id": "appgdep_6ae74259f5748191a94b7b92c95d0368",
+  "checks": {
+    "speech_queue": "17 词原生队列；缺少 start 或部分 end 回调；停止/重听/连续切换；旧回调隔离；暂停引擎恢复；错误取消",
+    "app_handlers": "Oxford 3000、750 短语、雅思全部标签；上一词/下一词/重听一词即停；隐藏原版音频 play/seeked/ended 不打断系统语音",
+    "recording_timeline": "4056 条时间轴边界、单词停止、音频来源和真人/AI 标记通过",
+    "build": "Vinext 生产构建成功",
+    "browser_ui": "三个资料入口连续换词；雅思副词 12 条到末尾；单词读完暂停；390px 页面无横向溢出",
+    "recorded_audio_browser": "Oxford 首词从 0 播放至约 1.49 秒后自动暂停",
+    "deployment": "succeeded"
+  },
+  "verification_limit": "没有连接 iPhone 实机；桌面自动化中的系统语音很快发出结束回调，不能据此确认实际出声或发音时长。iPhone 连续出声效果需刷新后实机确认。"
+}

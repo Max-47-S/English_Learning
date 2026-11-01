@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "source_commit": "af7c41485f2bd6205af4b6b8c28e59d5e54b5537",
+  "deployment_id": "appgdep_6ae747b181308191821b7babfc74393b",
+  "default_gap_ms": 1000,
+  "gap_options_ms": [
+    0,
+    500,
+    1000,
+    1500,
+    2000,
+    3000
+  ],
+  "tests": {
+    "speech_queue": "词读完之后才开始计时；等待结束前不换卡、不排入下一词；0.5–3 秒设置全部通过；缺失 end 的原生忙碌转空闲恢复；等待期间暂停、旧回调、重听通过",
+    "app_handlers": "三个资料入口默认 1 秒停顿，设置跨标签保存，与语速独立；手动切词和重听仍单词即停；隐藏音频事件隔离通过",
+    "original_recordings": "4056 条时间轴回归通过",
+    "build": "Vinext 生产构建通过",
+    "browser": "三个资料入口均显示词间停顿并继续；1 秒与 2 秒设置通过；线上雅思 12 条完成；390px 无横向溢出",
+    "deployment": "succeeded"
+  },
+  "verification_limit": "未连接 iPhone 实机；手机实际连续发声和停顿体验需刷新后实机确认。"
+}

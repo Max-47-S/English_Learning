@@ -1,0 +1,26 @@
+.collections{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:8px 0 9px}
+.collection-button{text-align:left;padding:15px 17px;min-width:0;border-radius:14px}
+.collection-button b{display:block;font-size:17px;line-height:1.35}
+.collection-button small{display:block;font-size:11px;color:var(--muted);margin-top:4px}
+.collection-button[aria-pressed=true]{background:var(--green);border-color:var(--green);color:white}
+.collection-button[aria-pressed=true] small{color:#d8e6df}
+.collection-button[aria-pressed=true]:hover{background:#1a5a53}
+.collection-note{font-size:12px;color:var(--muted);margin:8px 2px 22px;line-height:1.7}
+.mode-switch b{font:inherit}
+.speech-options{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 0;font-size:13px;color:var(--muted)}
+.speech-options select{width:120px;max-width:55%;color:var(--ink)}
+.word-meta{font-size:13px;color:var(--muted);margin:5px 0}
+.word-forms,.usage-note{font-size:13px;color:var(--muted);padding-top:11px;margin-top:12px;border-top:1px solid var(--line)}
+.audio-credit{font-size:11px;color:var(--muted);margin-top:15px;overflow-wrap:anywhere}
+.audio-credit summary{cursor:pointer}
+.audio-credit p{margin:7px 0}
+.recording-kind{display:inline-block;margin:9px 0 0;padding:3px 9px;border-radius:6px;background:var(--soft);font-size:12px;color:var(--green)}
+.recording-kind[data-kind=ai]{background:#fff0d6;color:#89571c}
+.audio-now-playing{display:grid;gap:2px;margin-top:12px;padding:12px 14px;border:1px solid #c7dacd;border-radius:11px;background:#edf5ef}
+.audio-now-playing strong{font-size:23px;line-height:1.35;overflow-wrap:anywhere}
+.audio-now-playing span{font-size:13px;line-height:1.6;overflow-wrap:anywhere}
+.audio-now-playing small{font-size:10px;color:var(--muted)}
+.entry.current{border-left:3px solid var(--green);padding-left:5px}
+.word sup{font-size:12px;letter-spacing:normal;margin-left:3px}
+@media(max-width:700px){.collections{gap:6px;margin-top:5px}.collection-button{padding:12px 9px;min-height:74px}.collection-button b{font-size:14px}.collection-button small{font-size:10px;line-height:1.4}.collection-note{margin:8px 2px 15px;font-size:11px}.word-card .word-meta{font-size:12px}.audio-now-playing strong{font-size:21px}.recording-kind{font-size:11px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}

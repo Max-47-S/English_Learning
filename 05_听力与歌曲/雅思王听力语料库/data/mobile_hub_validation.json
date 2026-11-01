@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-01",
+  "entries": 9627,
+  "oxfordRecordingCues": 4056,
+  "phraseAudioKinds": {
+    "human": 350,
+    "ai": 400
+  },
+  "checks": {
+    "existingOxfordAudioAndContentPreserved": true,
+    "localGitBlobsEqualPinnedSource": true,
+    "sourceAudioRangeRequests": "206 for both Oxford tracks",
+    "timelineBoundaryChecks": "4056 cues passed",
+    "singleWordStopAndResume": "passed in browser",
+    "searchSeekToBecome": "132.8 seconds observed",
+    "cefrFilterC1": "above all at 2087.76888 seconds, paused",
+    "separateCollectionProgress": "Oxford become and phrases C1 restored",
+    "favoritesAndHideMeaningAfterReload": "passed",
+    "systemSpeechAutomaticAdvance": "subject -> suit -> subsidy observed",
+    "chapter3PhotoCorrection": "subject remains item 127 of 151",
+    "chrome390pxNoOverflow": true,
+    "productionOxfordPlayback": "about at 3.327732 seconds; human label; playing",
+    "productionPhrasePlayback": "a lot of sth at 17.246013 seconds; playing",
+    "productionPhraseAILabel": "a good idea at 3.649365 seconds; AI label",
+    "build": "passed",
+    "privatePublication": "succeeded"
+  },
+  "limits": [
+    "未在实体 iPhone 上实测新版；浏览器验证采用 Chrome 390px 窄屏。",
+    "雅思原版音频仍为整段，尚未启用逐词同步。",
+    "Oxford 750 短语沿用已有 350 条真人音频与 400 条 AI 配音。"
+  ]
+}

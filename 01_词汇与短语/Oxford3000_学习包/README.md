@@ -1,5 +1,7 @@
 # Oxford 3000 原序学习包
 
+手机使用：[打开统一手机版](https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=oxford3000) · [使用说明](../手机学习入口.md)。已接入现有全部词目和真人音频，支持播放时词卡跟随、单词定位与读完一词后暂停。
+
 从这里开始：[打开连续听读播放器](连续听读.html) · [阅读完整 Markdown](Oxford3000_原序学习完整版.md) · [下载完整 MP3](audio/Oxford3000_完整连续真人音频.mp3)
 
 本学习包严格按项目内 `oxford-3000-by-cefr-level.pdf` 的阅读顺序编排：每页从左列到右列，每列从上到下。保留同一个词在不同 CEFR 等级、词性和义项下的重复出现，没有重新按字母排序或去重。

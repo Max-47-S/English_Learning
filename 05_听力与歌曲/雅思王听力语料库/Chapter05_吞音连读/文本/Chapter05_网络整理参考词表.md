@@ -1,0 +1,1661 @@
+# Chapter 5 · 吞音连读 · 网络整理参考词表
+
+本文件为网络整理参考版，含英文、音标和中文提示。未与本次官方音频逐词核对，拼写、释义及顺序可能存在差异；原书小节编号随版本变化，请按 Test Paper 对照。不包含旧版预测试，不代替官方原书文本。
+
+共 12 组、1570 条。词汇原作者：王陆；网络整理来源：[PipiTang233/wanglu-dictation-app](https://github.com/PipiTang233/wanglu-dictation-app)。
+
+来源文件校验值（Git blob SHA）：`2004d5360af631d562e72238449b93c0d608b4eb`。
+
+## Test Paper 1
+
+来源小节：`5.3-1`；114 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | a great variety of | ə ˈɡreɪt vəˈraɪəti ɒv | 很多种 |
+| 2 | a balanced diet | ə ˌbælənst ˈdaɪət | 均衡饮食 |
+| 3 | a couple of | ə ˈkʌpl̩ ɒv | 几个 |
+| 4 | a pair of glasses | ə peər əv ˈɡlɑːsɪz | 一副眼镜 |
+| 5 | a period of time | ə ˈpɪərɪəd əv ˈtaɪm | 一段时间 |
+| 6 | A plus | ə plʌs | A+ |
+| 7 | a series of | ə ˈsɪəriːz ɒv | 一系列的 |
+| 8 | a serious person | ə ˈsɪərɪəs ˈpɜːsn̩ | 一个严肃的人 |
+| 9 | a sharp turn | ə ʃɑːp tɜːn | 急转弯 |
+| 10 | abilities | əˈbɪlətiz | 能力（复数） |
+| 11 | academic English | ˌækəˈdemɪk ˈɪŋɡlɪʃ | 学术英语 |
+| 12 | academic problems | ˌækəˈdemɪk ˈprɒbləmz | 学术问题，学习问题 |
+| 13 | academic system | ˌækəˈdemɪk ˈsɪstəm | 学术系统 |
+| 14 | academic teaching staff | ˌækəˈdemɪk ˈtiːtʃɪŋ stɑːf | 教学人员 |
+| 15 | accommodation expense | əˌkɒməˈdeɪʃn̩ ɪkˈspens | 住宿费 |
+| 16 | accommodation fee | əˌkɒməˈdeɪʃn̩ fiː | 住宿费 |
+| 17 | accommodation form | əˌkɒməˈdeɪʃn̩ ˈfɔːm | 住宿单 |
+| 18 | accountants | əˈkaʊntənts | 会计 |
+| 19 | action plan | ˈækʃn̩ plæn | 行动计划 |
+| 20 | added panic | ˈædɪd ˈpænɪk | 增加恐惧心理 |
+| 21 | admission card | ədˈmɪʃn̩ kɑːd | 借书卡 |
+| 22 | admission office | ədˈmɪʃn̩ ˈɒfɪs | 招生办公室 |
+| 23 | adult students | ˈædʌlt ˈstjuːdnts | 成年学生 |
+| 24 | advanced course | ədˈvɑːnst kɔːs | 高级课程 |
+| 25 | advanced degree | ədˈvɑːnst dɪˈɡriː | 高阶 |
+| 26 | Advanced English Studies | ədˈvɑːnst ˈɪŋɡlɪʃ ˈstʌdɪz | 高级英语研究 |
+| 27 | agrarian reform | əˈɡreəriən rɪˈfɔːm | 土地改革 |
+| 28 | ahead of time | əˈhed əv ˈtaɪm | 预先 |
+| 29 | aim of lecture | eɪm əv ˈlektʃə | 授课目标 |
+| 30 | aims | eɪmz | 目标 |
+| 31 | air pollution | eə pəˈluːʃn̩ | 空气污染 |
+| 32 | air pump | eə pʌmp | 空气泵 |
+| 33 | air shuttle bus | eə ˈʃʌtl̩ bʌs | 机场巴士 |
+| 34 | air conditioner | eə kənˈdɪʃənə | 空调 |
+| 35 | alarm system | əˈlɑːm ˈsɪstəm | 警报系统 |
+| 36 | alternative energies | ɔːlˈtɜːnətɪv ˈenədʒɪz | 可替代能源 |
+| 37 | ATM | ˌeɪtiːˈem | 自动取款机 |
+| 38 | amusement park | əˈmjuːzmənt pɑːk | 游乐场 |
+| 39 | an educational film | ən ˌedʒʊˈkeɪʃn̩əl fɪlm | 有教育意义的影片 |
+| 40 | analyse data | ˈænəlaɪz ˈdeɪtə | 分析数据 |
+| 41 | ancient temple | ˈeɪnʃənt ˈtempl̩ | 古庙 |
+| 42 | annual membership fee | ˈænjuəl ˈmembəʃɪp fiː | 年会费 |
+| 43 | answer questions | ˈɑːnsə ˈkwestʃənz | 回答问题 |
+| 44 | ant intelligence | ænt ɪnˈtelɪdʒəns | 蚂蚁的智商 |
+| 45 | antibiotics and acid | ˌæntibaɪˈɒtɪks ənd ˈæsɪd | 抗生素和酸 |
+| 46 | appearances | əˈpɪərənsɪz | 外貌 |
+| 47 | apple juice | ˈæpl̩ dʒuːs | 苹果汁 |
+| 48 | application form | ˌæplɪˈkeɪʃn̩ ˈfɔːm | 申请表 |
+| 49 | applied mathematics | əˈplaɪd ˌmæθəˈmætɪks | 应用数学 |
+| 50 | applied science | əˈplaɪd ˈsaɪəns | 应用科学 |
+| 51 | architecture style | ˈɑːkɪtektʃə staɪl | 建筑风格 |
+| 52 | Arctic Ocean | ˈɑːktɪk ˈəʊʃn̩ | 北冰洋 |
+| 53 | Atlantic Ocean | ətˌlæntɪk ˈəʊʃn̩ | 大西洋 |
+| 54 | avoid touching rocks | əˈvɔɪd ˈtʌtʃɪŋ rɒks | 不要接触岩石 |
+| 55 | arm badge | ɑːm bædʒ | 胳膊上戴的臂章 |
+| 56 | arrive at one's destination | əˈraɪv ət wʌnz ˌdestɪˈneɪʃn̩ | 到达目的地 |
+| 57 | art gallery | ɑːt ˈɡæləri | 画廊，美术馆 |
+| 58 | art museum | ɑːt mjuːˈzɪəm | 艺术博物馆 |
+| 59 | articles from journal | ˈɑːtɪkl̩z frəm ˈdʒɜːnl̩ | 期刊文章 |
+| 60 | artistic approach | ɑːˈtɪstɪk əˈprəʊtʃ | 艺术的方法 |
+| 61 | Asian studies | ˈeɪdʒn̩ ˈstʌdɪz | 亚洲研究 |
+| 62 | assessment methods | əˈsesmənt ˈmeθədz | 评估方法 |
+| 63 | assessment of patients | əˈsesmənt əv ˈpeɪʃnts | 对病人的评估 |
+| 64 | assistant professor | əˌsɪstənt prəˈfesə | 助教，副教授 |
+| 65 | associate with | əˈsəʊsieɪt wɪð | 与。。。关联 |
+| 66 | assume the responsibility | əˈsjuːm ðə rɪˌspɒnsəˈbɪlɪti | 承担责任 |
+| 67 | at least | ət liːst | 至少 |
+| 68 | area for improvement | ˈeəriə fər ɪmˈpruːvmənt | 不足之处 |
+| 69 | awards | əˈwɔːdz | 奖励 |
+| 70 | atmospheric pollution | ˌætməsˈferɪk pəˈluːʃn̩ | 大气污染 |
+| 71 | atmospheric warming | ˌætməsˈferɪk ˈwɔːmɪŋ | 全球气候变暖 |
+| 72 | Australian dollars | ɒˈstreɪliən ˈdɒləz | 澳元 |
+| 73 | average ability | ˈævərɪdʒ əˈbɪləti | 平均能力 |
+| 74 | bricks | brɪks | 砖 |
+| 75 | bowls | bəʊlz | 碗 |
+| 76 | Bachelor's degree | ˈbætʃələz dɪˌgri: | 学士学位 |
+| 77 | bad eyesight | bæd ˈaɪsaɪt | 视力不好 |
+| 78 | bad management | bæd ˈmænɪdʒmənt | 管理不善 |
+| 79 | Baked Earth | beɪkt ɜːθ | 烤热的地球 |
+| 80 | bank statement | bæŋk ˌsteɪtmənt | 银行对账单 |
+| 81 | bank transfer | bæŋk ˈtrænsfɜː | 银行转账 |
+| 82 | banking center | bæŋkɪŋ ˈsentə | 银行中心 |
+| 83 | bar chart | bɑ:r tʃɑːt | 柱状图 |
+| 84 | bar code | bɑː kəʊd | 条形码 |
+| 85 | barbecue set | ˈbɑːbɪkjuː set | 烧烤架 |
+| 86 | barren land | ˈbærən lænd | 荒地 |
+| 87 | barren mine | ˈbærən maɪn | 废弃矿 |
+| 88 | basic course | ˈbeɪsɪk kɔːs | 基础课 |
+| 89 | basic rule | ˈbeɪsɪk ruːl | 基本规则 |
+| 90 | be allergic to sth. | bi əˈlɜːdʒɪk tə &lt;sth&gt;. | 对。。。过敏 |
+| 91 | be out of temper | bi ˈaʊt əv ˈtempə | 生气 |
+| 92 | bed sheet | bed ʃiːt | 床单 |
+| 93 | bed linen | bed ˈlɪnɪn | 床单 |
+| 94 | be prone to | bi prəʊn tuː | 易于 |
+| 95 | beginning course | bɪˈɡɪnɪŋ kɔːs | 入门课程 |
+| 96 | belts | belts | 带子，腰带 |
+| 97 | biological clock | ˌbaɪəˈlɒdʒɪkl̩ ˈklɒk | 生物钟 |
+| 98 | black raincoat | blæk ˈreɪnkəʊt | 黑雨衣 |
+| 99 | black skirt | blæk skɜːt | 黑色短裙 |
+| 100 | black tea | blæk tiː | 红茶 |
+| 101 | black trousers | blæk ˈtraʊzəz | 黑色裤子 |
+| 102 | black velvet | blæk ˈvelvɪt | 黑天鹅绒 |
+| 103 | blocks | ˈblɒks | 街区 |
+| 104 | blood flow | blʌd fləʊ | 血流 |
+| 105 | blood sample | blʌd ˈsɑːmpl̩ | 血液样本 |
+| 106 | bloom of flowers | bluːm əv ˈflaʊəz | 百花盛开 |
+| 107 | blue sweater | bluː ˈswetə | 蓝色毛衣 |
+| 108 | boarding school | ˈbɔːdɪŋ skuːl | 住宿学校(常指小学和中学) |
+| 109 | boat trip | bəʊt trɪp | 划船之旅 |
+| 110 | book in advance | bʊk ɪn ədˈvɑːns | 预订 |
+| 111 | book reservation | bʊk ˌrezəˈveɪʃn̩ | 预订书 |
+| 112 | bones | bəʊnz | 骨头 |
+| 113 | bowling alley | ˈbəʊlɪŋ ˈæli | 保龄球道 |
+| 114 | botanical garden | bəˈtænɪkl̩ ˈɡɑːdn̩ | 植物园 |
+
+## Test Paper 2
+
+来源小节：`5.3-2`；111 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | bulletin board | ˈbʊlətɪn bɔːd | 布告栏 |
+| 2 | breathtaking | ˈbreθteɪkɪŋ | 令人屏住呼吸的 |
+| 3 | breed fish | briːd fɪʃ | 养鱼 |
+| 4 | British Council | ˈbrɪtɪʃ ˈkaʊnsl̩ | 英国使馆文化处 |
+| 5 | British Library | ˈbrɪtɪʃ ˈlaɪbrəri | 大英图书馆 |
+| 6 | British Museum | ˈbrɪtɪʃ mjuːˈzɪəm | 大英博物馆 |
+| 7 | broaden one's horizon | ˈbrɔːdn̩ wʌnz həˈraɪzn̩ | 拓宽视野 |
+| 8 | broaden one's view | ˈbrɔːdn̩ wʌnz vjuː | 拓宽视野 |
+| 9 | brother-in-law | ˈbrʌðərɪnˌlɔː | 姐夫，妹夫 |
+| 10 | buses | ˈbʌsɪz | 公共汽车 |
+| 11 | bus pass | bʌs pɑːs | 月票 |
+| 12 | bus routes | bʌs ruːts | 乘车路线 |
+| 13 | business card | ˈbɪznəs kɑːd | 名片 |
+| 14 | business class | ˈbɪznəs klɑːs | 商务舱 |
+| 15 | business culture | ˈbɪznəs ˈkʌltʃə | 企业文化 |
+| 16 | business ethics | ˈbɪznəs ˈeθɪks | 商业道德 |
+| 17 | business faculty | ˈbɪznəs ˈfæklti | 商务系 |
+| 18 | business studies | ˈbɪznəs ˈstʌdɪz | 商业研究 |
+| 19 | business trip | ˈbɪznəs trɪp | 出差 |
+| 20 | cages | ˈkeɪdʒɪz | 笼子 |
+| 21 | cabin keys | ˈkæbɪn kiːz | 小屋钥匙 |
+| 22 | cable car | ˈkeɪbl̩ kɑː | 缆车 |
+| 23 | circulation desk | ˌsɜːkjʊˈleɪʃn̩ desk | 借书台 |
+| 24 | call slip | kɔːl slɪp | 借书证 |
+| 25 | campus crime | ˈkæmpəs kraɪm | 校园犯罪 |
+| 26 | candles | ˈkændl̩z | 蜡烛 |
+| 27 | cannot meet the deadline | ˈkænɒt miːt ðə ˈdedlaɪn | 不能在最后期限内完成 |
+| 28 | car model | kɑː ˈmɒdl̩ | 汽车模型 |
+| 29 | car rental | kɑː ˈrentl̩ | 租车 |
+| 30 | car tires | kɑː ˈtaɪəz | 汽车轮胎 |
+| 31 | card index | kɑːd ˈɪndeks | 卡片索引 |
+| 32 | card catalog | kɑːd ˈkætəlɒɡ | 卡片目录 |
+| 33 | comment card | ˈkɒment kɑːd | 注解卡片 |
+| 34 | carbon dioxide | ˈkɑːbən daɪˈɒksaɪd | 二氧化碳 |
+| 35 | carve | kɑːv | 雕刻东西 |
+| 36 | carving wood | ˈkɑːvɪŋ wʊd | 木头雕刻 |
+| 37 | case study | keɪs ˈstʌdi | 个案分析 |
+| 38 | case studies | keɪs ˈstʌdɪz | 个案分析 |
+| 39 | choices for facilities | ˈtʃɔɪsɪz fə fəˈsɪlɪtɪz | 设施选择 |
+| 40 | cassette recorders | kəˈset rɪˈkɔːdəz | 卡带式录音机 |
+| 41 | CD player | ˌsiːˈdiː ˈpleɪə | CD播放器 |
+| 42 | CD-ROM | ˌsiˌdiˈrɑːm | 光驱 |
+| 43 | casual clothes | ˈkæʒʊəl kləʊðz | 休闲服 |
+| 44 | casual wear | ˈkæʒʊəl weə | 休闲服 |
+| 45 | charges | ˈtʃɑːdʒɪz | 收费 |
+| 46 | cater to | ˈkeɪtə tuː | 迎合 |
+| 47 | catering facilities | ˈkeɪtərɪŋ fəˈsɪlɪtɪz | 餐饮设施 |
+| 48 | catering staff | ˈkeɪtərɪŋ stɑːf | 餐饮部员工 |
+| 49 | center hall | ˈsentə hɔːl | 中央大厅 |
+| 50 | center manager | ˈsentə ˈmænɪdʒə | 中心经理 |
+| 51 | central heating | ˈsentrəl ˈhiːtɪŋ | 中央取暖 |
+| 52 | Central Avenue | ˈsentrəl ˈævənjuː | 中央大街 |
+| 53 | Central Park | ˈsentrəl pɑːk | 中央公园 |
+| 54 | Central Station | ˈsentrəl ˈsteɪʃn̩ | 中央火车站 |
+| 55 | certificate of childcare | səˈtɪfɪkeɪt əv ˈtʃaɪldkeə | 儿童护理证书 |
+| 56 | charitable organization | ˈtʃærɪtəbl̩ ˌɔːɡənaɪˈzeɪʃn̩ | 慈善机构 |
+| 57 | charity hospital | ˈtʃærɪti ˈhɒspɪtl̩ | 慈善医院 |
+| 58 | check in | tʃek ɪn | 办理登机，入住手续 |
+| 59 | check out | tʃek ˈaʊt | 结账 |
+| 60 | checklist | ˈtʃeklɪst | 核对清单 |
+| 61 | chest infection | tʃest ɪnˈfekʃn̩ | 胸部发炎 |
+| 62 | chemistry lab | ˈkemɪstri læb | 化学实验室 |
+| 63 | Church Road | tʃɜːtʃ rəʊd | 教堂路 |
+| 64 | chequebook | ˈtʃekbʊk | 支票本 |
+| 65 | cheque card | tʃek kɑːd | 支票卡 |
+| 66 | concentrate on | ˈkɒnsəntreɪt ɒn | 注意 |
+| 67 | circus performance | ˈsɜːkəs pəˈfɔːməns | 马戏团的表演 |
+| 68 | Children's Day | ˈtʃɪldrənz ˈdeɪ | 儿童节 |
+| 69 | cheese production | tʃiːz prəˈdʌkʃn̩ | 奶酪生产 |
+| 70 | city's expansion | ˈsɪtiz ɪkˈspænʃn̩ | 城市扩张 |
+| 71 | city council | ˈsɪti ˈkaʊnsl̩ | 城市委员会 |
+| 72 | city overhead view | ˈsɪti ˌəʊvəˈhed vjuː | 城市俯视图 |
+| 73 | commuters | kəˈmjuːtəz | 通勤者 |
+| 74 | class representative | klɑːs ˌreprɪˈzentətɪv | 班级代表 |
+| 75 | conquerors | ˈkɒŋkərəz | 征服者 |
+| 76 | cleaning equipment | ˈkliːnɪŋ ɪˈkwɪpmənt | 清洁设备 |
+| 77 | cleaning materials | ˈkliːnɪŋ məˈtɪərɪəlz | 清洁材料 |
+| 78 | clear argument | klɪər ˈɑːɡjumənt | 清晰论证 |
+| 79 | classmates | ˈklɑːsmeɪts | 同学 |
+| 80 | coarse texture | kɔːs ˈtekstʃə | 质地粗糙 |
+| 81 | comfortable clothes | ˈkʌmftəbl̩ kləʊðz | 舒服的衣服 |
+| 82 | colleagues | ˈkɒliːɡz | 同事 |
+| 83 | clock watch | ˈklɒk wɒtʃ | 报时表 |
+| 84 | closed shelves | kləʊzd ʃelvz | 闭架书库 |
+| 85 | close-book exam | &lt;close-book&gt; ɪɡˈzæm | 闭卷考试 |
+| 86 | closed reserve | kləʊzd rɪˈzɜːv | 闭架书库 |
+| 87 | closed-circuit TV | &lt;closed-circuit&gt; ˌtiːˈviː | 闭路电视 |
+| 88 | coffee shop | ˈkɒfi ʃɒp | 咖啡店 |
+| 89 | coffee break | ˈkɒfi breɪk | 喝咖啡的休息时间 |
+| 90 | coffee machine | ˈkɒfi məˈʃiːn | 咖啡机 |
+| 91 | collection tank | kəˈlekʃn̩ tæŋk | 储存罐 |
+| 92 | collections | kəˈlekʃn̩z | 收藏 |
+| 93 | college close-up | ˈkɒlɪdʒ ˈkləʊs ʌp | 大学特写 |
+| 94 | common residence | ˈkɒmən ˈrezɪdəns | 普通住宅 |
+| 95 | common room | ˈkɒmən ruːm | 师生公用的休息室 |
+| 96 | common sense | ˈkɒmən sens | 常识 |
+| 97 | communication skills | kəˌmjuːnɪˈkeɪʃn̩ skɪlz | 交流技巧 |
+| 98 | communication strategies | kəˌmjuːnɪˈkeɪʃn̩ ˈstrætədʒɪz | 交际策略 |
+| 99 | communication technology | kəˌmjuːnɪˈkeɪʃn̩ tekˈnɒlədʒi | 通信技术 |
+| 100 | conference reports | ˈkɒnfərəns rɪˈpɔːts | 会议报告 |
+| 101 | contact list | ˈkɒntækt lɪst | 联系人清单 |
+| 102 | company actions | ˈkʌmpəni ˈækʃn̩z | 公司行动 |
+| 103 | compulsory course | kəmˈpʌlsəri kɔːs | 必修课 |
+| 104 | computer model | kəmˈpjuːtə ˈmɒdl̩ | 电脑模型 |
+| 105 | computer programmer | kəmˈpjuːtə ˈprəʊɡræmə | 电脑程序员 |
+| 106 | computer sound card | kəmˈpjuːtə ˈsaʊnd kɑːd | 电脑声卡 |
+| 107 | computer system | kəmˈpjuːtə ˈsɪstəm | 计算机系统 |
+| 108 | connecting flight | kəˈnektɪŋ flaɪt | 转机 |
+| 109 | concert hall | kənˈsɜːt hɔːl | 音乐厅 |
+| 110 | concert room | kənˈsɜːt ruːm | 音乐厅 |
+| 111 | classical music | ˈkl̩æsɪkl ˈmjuːzɪk | 古典音乐 |
+
+## Test Paper 3
+
+来源小节：`5.3-3`；114 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | contact lenses | ˈkɒntækt ˈlenzɪz | 隐形眼镜 |
+| 2 | cooperating research elements | kəʊˈɒpəreɪtɪŋ rɪˈsɜːtʃ ˈelɪmənts | 合作研究原理 |
+| 3 | coping with stress | ˈkəʊpɪŋ wɪð stres | 环节压力 |
+| 4 | corporate loan | ˈkɔːpərət ləʊn | 筹资 |
+| 5 | cost effective | kɒst ɪˈfektɪv | 性价比较高 |
+| 6 | cost of living | kɒst əv ˈlɪvɪŋ | 生活开销 |
+| 7 | costume party | ˈkɒstjuːm ˈpɑːti | 化装晚会 |
+| 8 | cough mixture | kɒf ˈmɪkstʃə | 止咳药 |
+| 9 | country music | ˈkʌntri ˈmjuːzɪk | 乡村音乐 |
+| 10 | course fee | kɔːs fiː | 学费 |
+| 11 | course and materials | kɔːs ənd məˈtɪərɪəlz | 课程和材料 |
+| 12 | course director | kɔːs dɪˈrektə | 课程主管 |
+| 13 | cover the cost | ˈkʌvə ðə kɒst | 足以支付成本 |
+| 14 | craft goods | krɑːft ɡʊdz | 手工艺制品 |
+| 15 | credit card | ˈkredɪt kɑːd | 信用卡 |
+| 16 | creeks | kriːks | 小溪 |
+| 17 | crime awareness | kraɪm əˈweənəs | 犯罪意识 |
+| 18 | crime rate | kraɪm reɪt | 犯罪率 |
+| 19 | cross passage | ˈkrɒs ˈpæsɪdʒ | 通道 |
+| 20 | cultural differences | ˈkʌltʃərəl ˈdɪfrənsɪz | 文化差异 |
+| 21 | culture shock | ˈkʌltʃə ʃɒk | 文化冲击 |
+| 22 | curve chart | kɜːv tʃɑːt | 曲线图 |
+| 23 | currency form | ˈkʌrənsi ˈfɔːm | 货币申报单 |
+| 24 | current account | ˈkʌrənt əˈkaʊnt | 现金账户 |
+| 25 | cycling route | ˈsaɪkl̩ɪŋ ruːt | 路线 |
+| 26 | customs service | ˈkʌstəmz ˈsɜːvɪs | 海关服务 |
+| 27 | cut and polished | kʌt ənd ˈpɒlɪʃt | 经过切割和抛光的 |
+| 28 | damages | ˈdæmɪdʒɪz | 损害 |
+| 29 | dark clothes | dɑːk kləʊðz | 深色衣服 |
+| 30 | dark trousers | dɑːk ˈtraʊzəz | 深色裤子 |
+| 31 | dateline | ˈdeɪtlaɪn | 日界线 |
+| 32 | data analysis | ˈdeɪtə əˈnæləsɪs | 数据分析 |
+| 33 | data assessment | ˈdeɪtə əˈsesmənt | 数据评估 |
+| 34 | date of birth | deɪt əv bɜːθ | 出生日期 |
+| 35 | date of expiry | deɪt əv ɪkˈspaɪəri | 期限 |
+| 36 | date slip | deɪt slɪp | 期限 |
+| 37 | day pupil | ˈdeɪ ˈpjuːpl̩ | 只是白天来上学的学生 |
+| 38 | day school | ˈdeɪ skuːl | 不住宿的学校 |
+| 39 | day shift | ˈdeɪ ʃɪft | 白班 |
+| 40 | debts | dets | 债 |
+| 41 | decades | ˈdekeɪdz | 十年 |
+| 42 | decayed teeth | dɪˈkeɪd tiːθ | 蛀牙 |
+| 43 | decoration balloons | ˌdekəˈreɪʃn̩ bəˈluːnz | 装饰气球 |
+| 44 | deliver a speech | dɪˈlɪvər ə spiːtʃ | 作演讲 |
+| 45 | delivery desk | dɪˈlɪvəri desk | 借书台 |
+| 46 | department building | dɪˈpɑːtmənt ˈbɪldɪŋ | 系里的建筑物 |
+| 47 | department store | dɪˈpɑːtmənt stɔː | 商场 |
+| 48 | departmental address | ˌdiːpɑːtˈmentl̩ əˈdres | 系的地址 |
+| 49 | desire to learn | dɪˈzaɪə tə lɜːn | 学习的欲望 |
+| 50 | desk lamp | desk læmp | 台灯 |
+| 51 | details | ˈdiːteɪlz | 细节 |
+| 52 | detective film | dɪˈtektɪv fɪlm | 侦探片 |
+| 53 | digital camera | ˈdɪdʒɪtl̩ ˈkæmərə | 数码相机 |
+| 54 | digital system | ˈdɪdʒɪtl̩ ˈsɪstəm | 数码系统 |
+| 55 | different levels | ˈdɪfrənt ˈlevl̩z | 不同水平 |
+| 56 | dining hall | ˈdaɪnɪŋ hɔːl | 学校的餐厅 |
+| 57 | dining room | ˈdaɪnɪŋ ruːm | 餐厅 |
+| 58 | diseases | dɪˈziːzɪz | 疾病 |
+| 59 | distant deadline | ˈdɪstənt ˈdedlaɪn | 离最后期限还有段时间 |
+| 60 | distance learning | ˈdɪstəns ˈlɜːnɪŋ | 远程教育 |
+| 61 | divorce rate | dɪˈvɔːs reɪt | 离婚率 |
+| 62 | distinguishing feature | dɪˈstɪŋɡwɪʃɪŋ ˈfiːtʃə | 显著特色 |
+| 63 | distribution of population | ˌdɪstrɪˈbjuːʃn̩ əv ˌpɒpjʊˈleɪʃn̩ | 人口分布 |
+| 64 | downward trend | ˈdaʊnwəd trend | 下降趋势 |
+| 65 | do training courses | də ˈtreɪnɪŋ ˈkɔːsɪz | 上培训课 |
+| 66 | Doctor's degree | ˈdɒktəz dɪˈɡriː | 博士学位 |
+| 67 | domestic factors | dəˈmestɪk ˈfæktəz | 内部因素 |
+| 68 | domestic student | dəˈmestɪk ˈstjuːdnt | 当地学生 |
+| 69 | domestic violence | dəˈmestɪk ˈvaɪələns | 家庭暴力 |
+| 70 | door key | dɔː kiː | 门钥匙 |
+| 71 | door-to-door service | ˌdɔː tə ˈdɔː ˈsɜːvɪs | 上门服务 |
+| 72 | drugs | ˈdrʌɡz | 药品 |
+| 73 | double lock | ˈdʌbl̩ lɒk | 反锁 |
+| 74 | double room | ˈdʌbl̩ ruːm | 配有一张双人床的房间 |
+| 75 | double grill | ˈdʌbl̩ ɡrɪl | 双层烤架，双格栅 |
+| 76 | Drama Theater | ˈdrɑːmə ˈθiːətə | 戏剧影院 |
+| 77 | Drama Festival | ˈdrɑːmə ˈfestɪvl̩ | 戏剧节 |
+| 78 | drama teacher | ˈdrɑːmə ˈtiːtʃə | 话剧老师 |
+| 79 | draw a conclusion | drɔː ə kənˈkluːʒn̩ | 得出结论 |
+| 80 | disabled access | dɪsˈeɪbl̩d ˈækses | 残疾人通道 |
+| 81 | dropout rate | ˈdrɒpaʊt reɪt | 辍学率 |
+| 82 | dress code | dres kəʊd | 着装要求 |
+| 83 | dress rehearsal | dres rɪˈhɜːsl̩ | 彩排 |
+| 84 | disputes | dɪˈspjuːts | 争论 |
+| 85 | drinking machine | ˈdrɪŋkɪŋ məˈʃiːn | 饮水机 |
+| 86 | drinks and snacks | drɪŋks ənd snæks | 饮料和零食 |
+| 87 | drink less coffee | drɪŋk les ˈkɒfi | 少喝咖啡 |
+| 88 | driver's license | ˈdraɪvərz ˈlaɪsns | 驾照 |
+| 89 | driving license | ˈdraɪvɪŋ ˈlaɪsns | 驾照 |
+| 90 | directors | dɪˈrektəz | 董事 |
+| 91 | drop-off site | ˈdrɑːˌpɒf saɪt | 丢垃圾的地点 |
+| 92 | drop-off | ˈdrɑːˌpɒf | 放下 |
+| 93 | El Nino | ˌel ˈniːnjəʊ ˈniːnəʊ | 厄尔尼诺现象 |
+| 94 | Eagle Road | ˈiːɡl̩ rəʊd | 鹰路 |
+| 95 | eastern beach | ˈiːstən biːtʃ | 东海滩 |
+| 96 | eat harmful insects | iːt ˈhɑːmfəl ˈɪnsekts | 吃有害昆虫 |
+| 97 | economic growth | ˌiːkəˈnɒmɪk ɡrəʊθ | 经济增长 |
+| 98 | economic history | ˌiːkəˈnɒmɪk ˈhɪstr̩i | 经济学史 |
+| 99 | economy class | ɪˈkɒnəmi klɑːs | 经济舱 |
+| 100 | education exhibition | ˌedʒʊˈkeɪʃn̩ ˌeksɪˈbɪʃn̩ | 教育展 |
+| 101 | education officer | ˌedʒʊˈkeɪʃn̩ ˈɒfɪsə | 教育官员 |
+| 102 | education standard | ˌedʒʊˈkeɪʃn̩ ˈstændəd | 教育标准 |
+| 103 | education system | ˌedʒʊˈkeɪʃn̩ ˈsɪstəm | 教育制度 |
+| 104 | electronic director | ˌɪlekˈtrɒnɪk dɪˈrektə | 电子监控器 |
+| 105 | electric fan | ɪˈlektrɪk fæn | 电风扇 |
+| 106 | electricity bill | ɪˌlekˈtrɪsɪti bɪl | 电费 |
+| 107 | electricity fee | ɪˌlekˈtrɪsɪti fiː | 电费 |
+| 108 | electronic dictionary | ˌɪlekˈtrɒnɪk ˈdɪkʃənri | 电子词典 |
+| 109 | email attachment | ˈiːmeɪl əˈtætʃmənt | 电子邮件附件 |
+| 110 | email account | ˈiːmeɪl əˈkaʊnt | 电邮账户 |
+| 111 | email address | ˈiːmeɪl əˈdres | 电子邮箱地址 |
+| 112 | emergency contact person | ɪˈmɜːdʒənsi ˈkɒntækt ˈpɜːsn̩ | 紧急联系人 |
+| 113 | emergency telephone number | ɪˈmɜːdʒənsi ˈtelɪfəʊn ˈnʌmbə | 紧急电话号码 |
+| 114 | dial | ˈdaɪəl | 表盘，拨 |
+
+## Test Paper 4
+
+来源小节：`5.3-4`；105 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | emotion and mood | ɪˈməʊʃn̩ ənd muːd | 感情和情绪 |
+| 2 | end of term | end əv tɜːm | 学期末 |
+| 3 | endangered species | ɪnˈdeɪndʒəd ˈspiːʃiːz | 濒危物种 |
+| 4 | energy industry | ˈenədʒi ˈɪndəstri | 能源业 |
+| 5 | engineers | ˌendʒɪˈnɪəz | 工程师 |
+| 6 | engineering room | ˌendʒɪˈnɪərɪŋ ruːm | 工程室 |
+| 7 | engrave | ɪnˈɡreɪv | 雕刻东西 |
+| 8 | enrollment fee | enˈrolmənt fiː | 报名费 |
+| 9 | entrance fee | ɪnˈtrɑːns fiː | 游览门票 |
+| 10 | environment agency | ɪnˈvaɪərənmənt ˈeɪdʒənsi | 环境机构 |
+| 11 | environmental damage | ɪnˌvaɪərənˈmentl̩ ˈdæmɪdʒ | 环境破坏 |
+| 12 | environmental issues | ɪnˌvaɪərənˈmentl̩ ˈɪʃuːz | 环境问题 |
+| 13 | environmental science | ɪnˌvaɪərənˈmentl̩ ˈsaɪəns | 环境科学 |
+| 14 | environmental studies | ɪnˌvaɪərənˈmentl̩ ˈstʌdɪz | 环境研究 |
+| 15 | environmentally-friendly | &lt;environmentally-friendly&gt; | 环保的 |
+| 16 | Evening News | ˈiːvn̩ɪŋ njuːz | 晚间新闻 |
+| 17 | evening appointment | ˈiːvn̩ɪŋ əˈpɔɪntmənt | 晚间约会 |
+| 18 | exercise one's muscles | ˈeksəsaɪz wʌnz ˈmʌsl̩z | 锻炼肌肉 |
+| 19 | exhibition of instruments | ˌeksɪˈbɪʃn̩ əv ˈɪnstrʊmənts | 乐器展 |
+| 20 | experimental for construction | ɪkˌsperɪˈmentl̩ fə kənˈstrʌkʃn̩ | 建筑实验 |
+| 21 | experimental facilities | ɪkˌsperɪˈmentl̩ fəˈsɪlɪtɪz | 实验设施 |
+| 22 | expected duration | ɪkˈspektɪd djʊˈreɪʃn̩ | 预计持续时间 |
+| 23 | express train | ɪkˈspres treɪn | 特快列车 |
+| 24 | express way | ɪkˈspres ˈweɪ | 高速公路 |
+| 25 | extension number | ɪkˈstenʃn̩ ˈnʌmbə | 分机号 |
+| 26 | extensive writing | ɪkˈstensɪv ˈraɪtɪŋ | 大量的写作 |
+| 27 | exchange drafts | ɪkˈstʃeɪndʒ drɑːfts | 交换草稿 |
+| 28 | extra charge | ˈekstrə tʃɑːdʒ | 小费 |
+| 29 | extra workload | ˈekstrə ˈwɜːkləʊd | 额外工作量 |
+| 30 | ethical film | ˈeθɪkl̩ fɪlm | 伦理片 |
+| 31 | eye doctor | aɪ ˈdɒktə | 眼科医生 |
+| 32 | eye contacts | aɪ ˈkɒntækts | 目光交流 |
+| 33 | essay plan | eˈseɪ plæn | 提纲，论文计划 |
+| 34 | extinct species | ɪkˈstɪŋt ˈspiːʃiːz | 灭绝物种 |
+| 35 | face-to-face interview | &lt;face-to-face&gt; ˈɪntəvjuː | 面对面采访 |
+| 36 | failure rate | ˈfeɪljə reɪt | 不及格率 |
+| 37 | family medical history | ˈfæmli ˈmedɪkl̩ ˈhɪstr̩i | 家族病史 |
+| 38 | familiar with | fəˈmɪlɪə wɪð | 熟悉，通晓 |
+| 39 | family abuse | ˈfæmli əˈbjuːs | 家庭暴力 |
+| 40 | family ticket | ˈfæmli ˈtɪkɪt | 家庭套票 |
+| 41 | family name | ˈfæmli ˈneɪm | 姓 |
+| 42 | family relationship | ˈfæmli rɪˈleɪʃnʃɪp | 家庭关系 |
+| 43 | fancy dress | ˈfænsi dres | 奇装异服 |
+| 44 | fancy ball | ˈfænsi bɔːl | 化装舞会 |
+| 45 | fancy dress party | ˈfænsi dres ˈpɑːti | 化装舞会 |
+| 46 | falcons | ˈfɔːlkənz | 隼 |
+| 47 | farewell party | ˌfeəˈwel ˈpɑːti | 告别会 |
+| 48 | farming products | ˈfɑːmɪŋ ˈprɒdʌkts | 农产品 |
+| 49 | fear of unemployment | fɪər əv ˌʌnɪmˈploɪmənt | 担心失业 |
+| 50 | feel one's pulse | fiːl wʌnz pʌls | 测脉搏 |
+| 51 | female corpse study | ˈfiːmeɪl kɔːps ˈstʌdi | 女尸的研究 |
+| 52 | field method | fiːld ˈmeθəd | 土地作业方式 |
+| 53 | field system | fiːld ˈsɪstəm | 土地系统 |
+| 54 | field trip | fiːld trɪp | 实习 |
+| 55 | field work | fiːld ˈwɜːk | 实习 |
+| 56 | film festival | fɪlm ˈfestɪvl̩ | 电影节 |
+| 57 | film studio | fɪlm ˈstjuːdɪəʊ | 电影工作室 |
+| 58 | financial advice | faɪˈnænʃl̩ ədˈvaɪs | 理财建议 |
+| 59 | financial affairs | faɪˈnænʃl̩ əˈfeəz | 财务问题 |
+| 60 | financial budget | faɪˈnænʃl̩ ˈbʌdʒət | 财政预算 |
+| 61 | financial department | faɪˈnænʃl̩ dɪˈpɑːtmənt | 金融系 |
+| 62 | financial executive | faɪˈnænʃl̩ ɪɡˈzekjʊtɪv | 财务主管 |
+| 63 | financial goals | faɪˈnænʃl̩ ɡəʊlz | 经济目标 |
+| 64 | financial market | faɪˈnænʃl̩ ˈmɑːkɪt | 金融市场 |
+| 65 | financial organization | faɪˈnænʃl̩ ˌɔːɡənaɪˈzeɪʃn̩ | 金融团体 |
+| 66 | financial policy | faɪˈnænʃl̩ ˈpɒləsi | 金融政策 |
+| 67 | financial problems | faɪˈnænʃl̩ ˈprɒbləmz | 财务问题，经济问题 |
+| 68 | financial shortage | faɪˈnænʃl̩ ˈʃɔːtɪdʒ | 缺钱 |
+| 69 | financial source | faɪˈnænʃl̩ sɔːs | 经济来源 |
+| 70 | fine arts | faɪn ɑːts | 美术 |
+| 71 | fine texture | faɪn ˈtekstʃə | 质地细腻 |
+| 72 | fire alarm | ˈfaɪər əˈlɑːm | 火警 |
+| 73 | fire blanket | ˈfaɪə ˈblæŋkɪt | 灭火毯 |
+| 74 | fire drill | ˈfaɪə drɪl | 火警演习 |
+| 75 | fire management | ˈfaɪə ˈmænɪdʒmənt | 火灾防范 |
+| 76 | first floor | ˈfɜːst flɔː | 二楼(英),一楼(美) |
+| 77 | first name | ˈfɜːst ˈneɪm | 名 |
+| 78 | first-aid kit | ˈfɜːsteɪd kɪt | 急救箱 |
+| 79 | first-year student | &lt;first-year&gt; ˈstjuːdnt | 大一学生 |
+| 80 | fish cakes | fɪʃ keɪks | 鱼饼 |
+| 81 | fish tank | fɪʃ tæŋk | 鱼缸 |
+| 82 | fishing boat | ˈfɪʃɪŋ bəʊt | 渔船 |
+| 83 | fishing industry | ˈfɪʃɪŋ ˈɪndəstri | 渔业 |
+| 84 | fitness centre | ˈfɪtnəs ˈsentə | 健身中心 |
+| 85 | fitness club | ˈfɪtnəs klʌb | 健身会所，健身俱乐部 |
+| 86 | fitness level | ˈfɪtnəs ˈlevl̩ | 身体状况 |
+| 87 | fitness training | ˈfɪtnəs ˈtreɪnɪŋ | 健身训练 |
+| 88 | fixed expenses | fɪkst ɪkˈspensɪz | 固定花费 |
+| 89 | flexible working time | ˈfleksəbl̩ ˈwɜːkɪŋ ˈtaɪm | 弹性工作时间 |
+| 90 | flight number | flaɪt ˈnʌmbə | 航班号 |
+| 91 | flowers' taste | ˈflaʊəz teɪst | 花朵的味道(注意所有格写法) |
+| 92 | flying craft | ˈflaɪɪŋ krɑːft | 飞行器 |
+| 93 | flying speed | ˈflaɪɪŋ spiːd | 飞行速度 |
+| 94 | food processing | fuːd ˈprəʊsesɪŋ | 食品加工 |
+| 95 | food and oil | fuːd ənd ɔɪl | 食物和油 |
+| 96 | food chain | fuːd tʃeɪn | 食物链 |
+| 97 | focus on | ˈfəʊkəs ɒn | 集中于 |
+| 98 | football club | ˈfʊtbɔːl klʌb | 足球俱乐部 |
+| 99 | football match | ˈfʊtbɔːl mætʃ | 足球比赛 |
+| 100 | for sale | fə seɪl | 出售 |
+| 101 | forestry industry | ˈfɒrəstri ˈɪndəstri | 林业 |
+| 102 | formal clothes | ˈfɔːml̩ kləʊðz | 正式服装 |
+| 103 | four nights | fɔː naɪts | 四个晚上 |
+| 104 | fortnight | ˈfɔːtnaɪt | 十四天 |
+| 105 | fourth-year student | &lt;fourth-year&gt; ˈstjuːdnt | 大四学生 |
+
+## Test Paper 5
+
+来源小节：`5.3-5`；100 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | free for heating | friː fə ˈhiːtɪŋ | 免费供暖 |
+| 2 | free of charge | friː əv tʃɑːdʒ | 免费 |
+| 3 | free transportation | friː ˌtrænspɔːˈteɪʃn̩ | 免费运送 |
+| 4 | fruit juice | fruːt dʒuːs | 果汁 |
+| 5 | fruit trees | fruːt triːz | 果树 |
+| 6 | functions and places | ˈfʌŋkʃn̩z ənd ˈpleɪsɪz | 位置及其功能 |
+| 7 | full-time | fʊl ˈtaɪm | 全日制 |
+| 8 | full name | fʊl ˈneɪm | 全名 |
+| 9 | fur trade | fɜː treɪd | 皮毛交易 |
+| 10 | further education | ˈfɜːðər ˌedʒʊˈkeɪʃn̩ | 继续教育 |
+| 11 | Garden Hall | ˈɡɑːdn̩ hɔːl | 花园大厅 |
+| 12 | garden tools | ˈɡɑːdn̩ tuːlz | 园艺工具 |
+| 13 | generation of electricity | ˌdʒenəˈreɪʃn̩ əv ɪˌlekˈtrɪsɪti | 发电 |
+| 14 | gas station | ɡæs ˈsteɪʃn̩ | 加油站 |
+| 15 | general election | ˈdʒenr̩əl ɪˈlekʃn̩ | 大选，普选 |
+| 16 | general English | ˈdʒenr̩əl ˈɪŋɡlɪʃ | 普通英语 |
+| 17 | general English practice | ˈdʒenr̩əl ˈɪŋɡlɪʃ ˈpræktɪs | 普通英语练习 |
+| 18 | general health | ˈdʒenr̩əl helθ | 总体健康 |
+| 19 | general ideas | ˈdʒenr̩əl aɪˈdɪəz | 综合观点 |
+| 20 | general method | ˈdʒenr̩əl ˈmeθəd | 常规方法 |
+| 21 | general science | ˈdʒenr̩əl ˈsaɪəns | 大众科学 |
+| 22 | geography trip | dʒɪˈɒɡrəfi trɪp | 地理考察 |
+| 23 | geographic location | ˌdʒiəˈɡræfɪk ləʊˈkeɪʃn̩ | 地理位置 |
+| 24 | geographical value | ˌdʒɪəˈɡræfɪkl̩ ˈvæljuː | 地理的价值 |
+| 25 | give sb. A sack | ɡɪv &lt;sb&gt;. ə sæk | 解雇 |
+| 26 | given name | ɡɪvn̩ ˈneɪm | 名 |
+| 27 | give a prescription | ɡɪv ə prɪˈskrɪpʃn̩ | 开药方 |
+| 28 | give up | ɡɪv ʌp | 放弃 |
+| 29 | give a speech | ɡɪv ə spiːtʃ | 作演讲 |
+| 30 | give confirmation | ɡɪv ˌkɒnfəˈmeɪʃn̩ | 发出确认信 |
+| 31 | get feedback | ˈɡet ˈfiːdbæk | 获得反馈 |
+| 32 | guide book | ɡaɪd bʊk | 指导手册 |
+| 33 | guided tour | ˈɡaɪdɪd tʊə | 有导游带领的旅行 |
+| 34 | go to hospital | ˈɡəʊ tə ˈhɒspɪtl̩ | 去医院看病 |
+| 35 | global listening | ˈɡləʊbl̩ ˈlɪsn̩ɪŋ | 整体听力 |
+| 36 | global warming | ˈɡləʊbl̩ ˈwɔːmɪŋ | 全球变暖 |
+| 37 | gold medal | ɡəʊld ˈmedl̩ | 金牌 |
+| 38 | Gold Street | ɡəʊld striːt | 金色大街 |
+| 39 | Golf Club | ɡɒlf klʌb | 高尔夫俱乐部 |
+| 40 | good eyesight | ɡʊd ˈaɪsaɪt | 视力好 |
+| 41 | good shoes | ɡʊd ʃuːz | 运动鞋 |
+| 42 | good steering | ɡʊd ˈstɪərɪŋ | 方便操纵 |
+| 43 | goodbye party | ˌɡʊdˈbaɪ ˈpɑːti | 告别会 |
+| 44 | government policy | ˈɡʌvənmənt ˈpɒləsi | 政府政策 |
+| 45 | government-funded | &lt;government-funded&gt; | 政府资助的 |
+| 46 | grasp keywords | ɡrɑːsp ˈkiːwɜːdz | 抓住关键词 |
+| 47 | graduate school | ˈɡrædʒʊeɪt skuːl | 研究生院 |
+| 48 | graduation announcements | ˌɡrædʒʊˈeɪʃn̩ əˈnaʊnsmənts | 毕业典礼请柬 |
+| 49 | grain pattern of timber | ɡreɪn ˈpætn̩ əv ˈtɪmbə | 木材的花纹，细腻的木纹图案 |
+| 50 | grain pattern | ɡreɪn ˈpætn̩ | 图案 |
+| 51 | great favourites | ˈɡreɪt ˈfeɪvərɪts | 最喜爱的 |
+| 52 | ground floor | ɡraʊnd flɔː | 底层，一楼 |
+| 53 | green waste | ˈɡriːn weɪst | 可回收垃圾，可降解废物 |
+| 54 | greyhound bus | ˈɡreɪhaʊnd bʌs | 灰狗巴士 |
+| 55 | group discussion | ɡruːp dɪˈskʌʃn̩ | 小组讨论 |
+| 56 | gym membership | dʒɪm ˈmembəʃɪp | 健身房会员 |
+| 57 | hens | henz | 母鸡 |
+| 58 | high wind | haɪ wɪnd | 大风 |
+| 59 | half human | hɑːf ˈhjuːmən | 半人 |
+| 60 | half term | hɑːf tɜːm | 学期中 |
+| 61 | hard-hoofed animals | &lt;hard-hoofed&gt; ˈænɪml̩z | 硬蹄动物 |
+| 62 | hall of residence | hɔːl əv ˈrezɪdəns | 英国学生宿舍 |
+| 63 | halls of residence | hɔːlz əv ˈrezɪdəns | 英国学生宿舍 |
+| 64 | hand pump | hænd pʌmp | 手提式灭火器 |
+| 65 | hands broken | hændz ˈbrəʊkən | 指针坏了 |
+| 66 | have access to | həv ˈækses tuː | 拥有，，，权利，接近 |
+| 67 | harmful insects | ˈhɑːmfəl ˈɪnsekts | 有害昆虫 |
+| 68 | harmful to humans | ˈhɑːmfəl tə ˈhjuːmənz | 对人类有害 |
+| 69 | have strong hearts and lungs | həv strɒŋ hɑːts ənd lʌŋz | 心肺功能良好 |
+| 70 | have an operation | həv ən ˌɒpəˈreɪʃn̩ | 动手术 |
+| 71 | have high rank in geography | həv haɪ ræŋk ɪn dʒɪˈɒɡrəfi | 地理级别高 |
+| 72 | have strong financial muscles | həv strɒŋ faɪˈnænʃl̩ ˈmʌsl̩z | 经济实力雄厚 |
+| 73 | help desk | help desk | 咨询处 |
+| 74 | headmaster | hedˈmɑːstə | 高中以下学校校长 |
+| 75 | head office | hed ˈɒfɪs | 总部 |
+| 76 | healthcare | ˈhelθˌker | 健康护理 |
+| 77 | health check | helθ tʃek | 体检 |
+| 78 | health club | helθ klʌb | 健身会所 |
+| 79 | heart attack | hɑːt əˈtæk | 心脏病 |
+| 80 | heartbeats | ˈhɑːtbiːts | 心跳 |
+| 81 | heart disease | hɑːt dɪˈziːz | 心脏病 |
+| 82 | heat indicator | hiːt ˈɪndɪkeɪtə | 热度指示 |
+| 83 | horse hair | hɔːs heə | 马毛 |
+| 84 | horse riding | hɔːs ˈraɪdɪŋ | 骑马 |
+| 85 | herb tea | hɜːb tiː | 草药茶 |
+| 86 | herd of cattle | hɜːd əv ˈkætl̩ | 牧群 |
+| 87 | host family | həʊst ˈfæmli | 接待家庭 |
+| 88 | high rank | haɪ ræŋk | 高级 |
+| 89 | highly-trained staff | &lt;highly-trained&gt; stɑːf | 高度受训的员工 |
+| 90 | higher education | ˈhaɪər ˌedʒʊˈkeɪʃn̩ | 高等教育 |
+| 91 | high-rise buildings | ˈhaɪ raɪz ˈbɪldɪŋz | 高层建筑 |
+| 92 | high-quality camera | &lt;high-quality&gt; ˈkæmərə | 高质量相机 |
+| 93 | honeymoon suite | ˈhʌnɪmuːn swiːt | 蜜月套房suite读音\[swiːt\] |
+| 94 | historical museum | hɪˈstɒrɪkl̩ mjuːˈzɪəm | 历史博物馆 |
+| 95 | history of school | ˈhɪstr̩i əv skuːl | 学校历史 |
+| 96 | historical maps | hɪˈstɒrɪkl̩ mæps | 历史地图 |
+| 97 | horror film | ˈhɒrə fɪlm | 恐怖片 |
+| 98 | hot dog | hɒt dɒɡ | 热狗 |
+| 99 | hot meal | hɒt miːl | 热饭 |
+| 100 | hothouse effect | ˈhɒthaʊs ɪˈfekt | 温室效应 |
+
+## Test Paper 6
+
+来源小节：`5.3-6`；108 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | hotel crime | ˌhəʊˈtel kraɪm | 酒店犯罪 |
+| 2 | hunt for | hʌnt fɔː | 寻找 |
+| 3 | house insurance | ˈhaʊs ɪnˈʃʊərəns | 房屋财产险 |
+| 4 | house key | ˈhaʊs kiː | 门钥匙 |
+| 5 | housing agency | ˈhaʊzɪŋ ˈeɪdʒənsi | 房屋中介 |
+| 6 | human beings | ˈhjuːmən ˈbiːɪŋz | 人类 |
+| 7 | human consumption | ˈhjuːmən kənˈsʌmpʃn̩ | 人类消费 |
+| 8 | human race | ˈhjuːmən reɪs | 人类 |
+| 9 | human resources | ˈhjuːmən rɪˈzɔːsɪz | 人力资源 |
+| 10 | ice curling | aɪs ˈkɜːlɪŋ | 冰壶运动 |
+| 11 | ice pack | aɪs pæk | 冰袋 |
+| 12 | ice skating | aɪs ˈskeɪtɪŋ | 滑冰 |
+| 13 | identities | aɪˈdentɪtɪz | 身份 |
+| 14 | identity card | aɪˈdentɪti kɑːd | 身份证 |
+| 15 | illegal profits | ɪˈliːɡl̩ ˈprɒfɪts | 非法利润 |
+| 16 | in visible view | ɪn ˈvɪzəbl̩ vjuː | 在视野范围内 |
+| 17 | immune system | ɪˈmjuːn ˈsɪstəm | 免疫系统 |
+| 18 | in advance | ɪn ədˈvɑːns | 预先 |
+| 19 | in chemistry lab | ɪn ˈkemɪstri læb | 在化学实验室 |
+| 20 | in circles | ɪn ˈsɜːkl̩z | 在剧场中圆形的位置 |
+| 21 | in circulation | ɪn ˌsɜːkjʊˈleɪʃn̩ | 在流通的 |
+| 22 | Indian Ocean | ˈɪndɪən ˈəʊʃn̩ | 印度洋 |
+| 23 | incoming calls | ˌɪnˈkʌmɪŋ kɔːlz | 打入的电话，接电话 |
+| 24 | Independence Day | ˌɪndɪˈpendəns ˈdeɪ | 独立纪念日 |
+| 25 | industrial material | ɪnˈdʌstrɪəl məˈtɪərɪəl | 工业材料 |
+| 26 | information board | ˌɪnfəˈmeɪʃn̩ bɔːd | 布告栏 |
+| 27 | information video | ˌɪnfəˈmeɪʃn̩ ˈvɪdɪəʊ | 介绍内容的录像 |
+| 28 | information desk | ˌɪnfəˈmeɪʃn̩ desk | 咨询台 |
+| 29 | information page | ˌɪnfəˈmeɪʃn̩ peɪdʒ | 信息页 |
+| 30 | information sector | ˌɪnfəˈmeɪʃn̩ ˈsektə | 信息部门 |
+| 31 | inland region | ɪnˈlænd ˈriːdʒən | 内陆地区 |
+| 32 | initial migration | ɪˈnɪʃl̩ maɪˈɡreɪʃn̩ | 最初的迁徙，移民 |
+| 33 | injection of vaccine | ɪnˈdʒekʃn̩ əv ˈvæksiːn | 疫苗注射 |
+| 34 | institutes | ˈɪnstɪtjuːts | 机构 |
+| 35 | institutions | ˌɪnstɪˈtjuːʃn̩z | 机构 |
+| 36 | insects haunting | ˈɪnsekts ˈhɔːntɪŋ | 闹昆虫 |
+| 37 | instructors | ɪnˈstrʌktəz | 教练 |
+| 38 | instruction of handbook | ɪnˈstrʌkʃn̩ əv ˈhændbʊk | 手册中的要求 |
+| 39 | instant coffee | ˈɪnstənt ˈkɒfi | 速溶咖啡 |
+| 40 | interpersonal skills | ˌɪntəˈpɜːsənl̩ skɪlz | 人际交往能力 |
+| 41 | insurance companies | ɪnˈʃʊərəns ˈkʌmpənɪz | 保险公司 |
+| 42 | insurance company | ɪnˈʃʊərəns ˈkʌmpəni | 保险公司 |
+| 43 | intensive course | ɪnˈtensɪv kɔːs | 强化课 |
+| 44 | intensive study | ɪnˈtensɪv ˈstʌdi | 集中学习 |
+| 45 | interlibrary service | &lt;interlibrary&gt; ˈsɜːvɪs | 图书馆际服务 |
+| 46 | intermediate course | ˌɪntəˈmiːdɪət kɔːs | 中级课程 |
+| 47 | internal clock | ɪnˈtɜːnl̩ ˈklɒk | 生物钟 |
+| 48 | international club | ˌɪntəˈnæʃn̩əl klʌb | 国际俱乐部 |
+| 49 | international evening | ˌɪntəˈnæʃn̩əl ˈiːvn̩ɪŋ | 国际学生晚会 |
+| 50 | international student card | ˌɪntəˈnæʃn̩əl ˈstjuːdnt kɑːd | 国际学生证 |
+| 51 | international student | ˌɪntəˈnæʃn̩əl ˈstjuːdnt | 国际学生 |
+| 52 | internet access | ˈɪntənet ˈækses | 互联网接口 |
+| 53 | internet cafe | ˈɪntənet ˈkæfeɪ | 网吧 |
+| 54 | internet system | ˈɪntənet ˈsɪstəm | 互联网系统 |
+| 55 | investigators | ɪnˈvestɪɡeɪtəz | 调查者 |
+| 56 | irrigable land | &lt;irrigable&gt; lænd | 水浇地 |
+| 57 | isolated spot | ˈaɪsəleɪtɪd spɒt | 离市区较远的地方 |
+| 58 | job interview | dʒɒb ˈɪntəvjuː | 求职面试 |
+| 59 | jaws | dʒɔːz | 下巴 |
+| 60 | joint membership | dʒɔɪnt ˈmembəʃɪp | 联合会员资格 |
+| 61 | keepers | ˈkiːpəz | 看守的人 |
+| 62 | jump the queue | dʒʌmp ðə kjuː | 插队 |
+| 63 | jump the line | dʒʌmp ðə laɪn | 插队 |
+| 64 | killer whales | ˈkɪlə weɪlz | 杀人鲸 |
+| 65 | Kungfu film | &lt;kungfu&gt; fɪlm | 功夫片 |
+| 66 | kelp forest | kelp ˈfɒrɪst | 成片海藻 |
+| 67 | key approach | kiː əˈprəʊtʃ | 主要方法 |
+| 68 | key to reception | kiː tə rɪˈsepʃn̩ | 接待处钥匙 |
+| 69 | keywords | ˈkiːwɜːdz | 关键词 |
+| 70 | kick sb. out of work | ˈkɪk &lt;sb&gt;. ˈaʊt əv ˈwɜːk | 解雇 |
+| 71 | king-sized bed | ˈkɪŋ saɪzd bed | 1.8米大床 |
+| 72 | King's suite | ˈkɪŋz swiːt | 国王套房 |
+| 73 | knives | naɪvz | 小刀 |
+| 74 | kitchen table | ˈkɪtʃən ˈteɪbl̩ | 餐桌 |
+| 75 | kitchen utensils | ˈkɪtʃən juːˈtensɪlz | 厨房器皿 |
+| 76 | lamps | læmps | 灯 |
+| 77 | listening tapescript | ˈlɪsn̩ɪŋ &lt;tapescript&gt; | 听力原文 |
+| 78 | lab equipment | læb ɪˈkwɪpmənt | 实验器材 |
+| 79 | lack confidence | læk ˈkɒnfɪdəns | 缺乏自信 |
+| 80 | lack of confidence | læk əv ˈkɒnfɪdəns | 缺乏自信 |
+| 81 | landmark | ˈlændmɑːk | 地标 |
+| 82 | large slide | lɑːdʒ slaɪd | 大型滑梯 |
+| 83 | large-scale housing | ˈlɑːdʒ skeɪl ˈhaʊzɪŋ | 大规模住房 |
+| 84 | lecture hall | ˈlektʃə hɔːl | 阶梯教室 |
+| 85 | laser printing | ˈleɪzə ˈprɪntɪŋ | 激光打印 |
+| 86 | last but not least | lɑːst bət nɒt liːst | 最后的但是也是很重要的 |
+| 87 | last name | lɑːst ˈneɪm | 姓 |
+| 88 | lawyers | ˈlɔːjəz | 律师 |
+| 89 | layout of resume | ˈleɪaʊt əv rɪˈzjuːm | 简历布局 |
+| 90 | learning strategies | ˈlɜːnɪŋ ˈstrætədʒɪz | 学习策略 |
+| 91 | learning styles | ˈlɜːnɪŋ staɪlz | 学习方式 |
+| 92 | leisure wear | ˈleʒə weə | 休闲服 |
+| 93 | leisure activities | ˈleʒə ækˈtɪvətiz | 休闲活动 |
+| 94 | level of maturity | ˈlevl̩ əv məˈtjʊərɪti | 成熟水平 |
+| 95 | lemon tree | ˈlemən triː | 柠檬树 |
+| 96 | letter of recommendation | ˈletər əv ˌrekəmenˈdeɪʃn̩ | 推荐信 |
+| 97 | library card | ˈlaɪbrəri kɑːd | 借书卡 |
+| 98 | library resource | ˈlaɪbrəri rɪˈzɔːs | 图书馆资源 |
+| 99 | life science | laɪf ˈsaɪəns | 生命科学 |
+| 100 | life cycle | laɪf ˈsaɪkl̩ | 生命周期 |
+| 101 | life expectancy | laɪf ɪkˈspektənsi | 预期寿命 |
+| 102 | life insurance | laɪf ɪnˈʃʊərəns | 寿险 |
+| 103 | lights | laɪts | 灯 |
+| 104 | link to | lɪŋk tuː | 关于 |
+| 105 | literary film | ˈlɪtərəri fɪlm | 文艺片 |
+| 106 | list of headings | lɪst əv ˈhedɪŋz | 标题列表 |
+| 107 | list of objectives | lɪst əv əbˈdʒektɪvz | 列出本文目的 |
+| 108 | lecture theater | ˈlektʃə ˈθiːətə | 阶梯教室 |
+
+## Test Paper 7
+
+来源小节：`5.3-7`；130 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | living cost | ˈlɪvɪŋ kɒst | 生活开销 |
+| 2 | living expenses | ˈlɪvɪŋ ɪkˈspensɪz | 生活费 |
+| 3 | loans | ləʊnz | 贷款 |
+| 4 | local walking club | ˈləʊkl̩ ˈwɔːkɪŋ klʌb | 当地徒步俱乐部 |
+| 5 | local history | ˈləʊkl̩ ˈhɪstr̩i | 当地历史 |
+| 6 | local industry | ˈləʊkl̩ ˈɪndəstri | 当地工业 |
+| 7 | local pet shop | ˈləʊkl̩ pet ʃɒp | 当地宠物店 |
+| 8 | local product | ˈləʊkl̩ ˈprɒdʌkt | 当地产品 |
+| 9 | local resident | ˈləʊkl̩ ˈrezɪdənt | 当地居民 |
+| 10 | local school | ˈləʊkl̩ skuːl | 当地学校 |
+| 11 | local shop | ˈləʊkl̩ ʃɒp | 当地商店 |
+| 12 | local student | ˈləʊkl̩ ˈstjuːdnt | 当地学生 |
+| 13 | local tribes | ˈləʊkl̩ traɪbz | 当地部落 |
+| 14 | lookout points | ˈlʊkaʊt pɔɪnts | 观看景点 |
+| 15 | lock all windows | lɒk ɔːl ˈwɪndəʊz | 锁上所有窗户 |
+| 16 | long-term loan | ˈlɒŋ tɜːm ləʊn | 长期贷款 |
+| 17 | loss of soil | lɒs əv sɔɪl | 土壤流失 |
+| 18 | lose temper | luːz ˈtempə | 生气 |
+| 19 | loudspeaker | laʊdˈspiːkə | 扬声器 |
+| 20 | love story | ˈlʌv ˈstɔːri | 爱情片 |
+| 21 | low nutrition | ləʊ njuːˈtrɪʃn̩ | 低营养 |
+| 22 | low-frequency noise | &lt;low-frequency&gt; nɔɪz | 低频噪声 |
+| 23 | low income | ləʊ ˈɪŋkʌm | 低收入 |
+| 24 | magazines and journals | ˌmæɡəˈziːnz ənd ˈdʒɜːnl̩z | 杂志和期刊 |
+| 25 | magical animals | ˈmædʒɪkl̩ ˈænɪml̩z | 神奇的动物 |
+| 26 | machines and robots | məˈʃiːnz ənd ˈrəʊbɒts | 机器和机器人 |
+| 27 | martial art | ˈmɑːʃl̩ ɑːt | 武术 |
+| 28 | maid servant | meɪd ˈsɜːvənt | 女佣人 |
+| 29 | mails | meɪlz | 邮件 |
+| 30 | mailing list | ˈmeɪlɪŋ lɪst | 邮寄清单 |
+| 31 | major in nursing | ˈmeɪdʒər ɪn ˈnɜːsɪŋ | 护理专业 |
+| 32 | main course | meɪn kɔːs | 主菜 |
+| 33 | main entrance | meɪn ɪnˈtrɑːns | 主入口，主入口处 |
+| 34 | main hall | meɪn hɔːl | 主厅 |
+| 35 | main kitchen | meɪn ˈkɪtʃən | 主厨房 |
+| 36 | main library | meɪn ˈlaɪbrəri | 主要图书馆 |
+| 37 | make an appointment | ˈmeɪk ən əˈpɔɪntmənt | 预约 |
+| 38 | make plans | ˈmeɪk plænz | 制订计划 |
+| 39 | map of cave | mæp əv keɪv | 山洞的地图 |
+| 40 | manage time better | ˈmænɪdʒ ˈtaɪm ˈbetə | 合理管理时间 |
+| 41 | manmade dam | ˈmænˈmeɪd dæm | 人造大坝 |
+| 42 | manual facilities | ˈmænjʊəl fəˈsɪlɪtɪz | 手工设施 |
+| 43 | market research | ˈmɑːkɪt rɪˈsɜːtʃ | 市场调查 |
+| 44 | market cycle | ˈmɑːkɪt ˈsaɪkl̩ | 市场周期 |
+| 45 | market economy | ˈmɑːkɪt ɪˈkɒnəmi | 市场经济 |
+| 46 | marketing management | ˈmɑːkɪtɪŋ ˈmænɪdʒmənt | 销售管理 |
+| 47 | marketing research | ˈmɑːkɪtɪŋ rɪˈsɜːtʃ | 销售调研 |
+| 48 | marketing techniques | ˈmɑːkɪtɪŋ tekˈniːks | 销售技巧 |
+| 49 | marketing seminar | ˈmɑːkɪtɪŋ ˈsemɪnɑː | 市场营销研讨会 |
+| 50 | marketing strategies | ˈmɑːkɪtɪŋ ˈstrætədʒɪz | 营销策略，市场战略 |
+| 51 | mass media | mæs ˈmiːdɪə | 大众传媒 |
+| 52 | mind map | maɪnd mæp | 提纲 |
+| 53 | Master's degree | ˈmɑːstəz dɪˈɡriː | 硕士学位 |
+| 54 | Master Card | ˈmɑːstə kɑːd | 万事达信用卡 |
+| 55 | meat and cheese | miːt ənd tʃiːz | 肉类和乳酪 |
+| 56 | mathematic formula | ˌmæθəˈmætɪk ˈfɔːmjʊlə | 数学公式 |
+| 57 | mature students | məˈtjʊə ˈstjuːdnts | 成年学生 |
+| 58 | media studies | ˈmiːdɪə ˈstʌdɪz | 媒体研究 |
+| 59 | media centre | ˈmiːdɪə ˈsentə | 媒体中心 |
+| 60 | media room | ˈmiːdɪə ruːm | 媒体房间 |
+| 61 | medical science | ˈmedɪkl̩ ˈsaɪəns | 医学 |
+| 62 | medical centre | ˈmedɪkl̩ ˈsentə | 医疗中心 |
+| 63 | medical history | ˈmedɪkl̩ ˈhɪstr̩i | 病史 |
+| 64 | booklist | &lt;booklist&gt; | 书单 |
+| 65 | membership consultant | ˈmembəʃɪp kənˈsʌltənt | 会籍顾问 |
+| 66 | membership of a club | ˈmembəʃɪp əv ə klʌb | 俱乐部会员资格 |
+| 67 | mental ability | ˈmentl̩ əˈbɪləti | 精神能力 |
+| 68 | mental education | ˈmentl̩ ˌedʒʊˈkeɪʃn̩ | 思想教育 |
+| 69 | microwave oven | ˈmaɪkrəweɪv ˈʌvn̩ | 微波炉 |
+| 70 | mid-autumn festival | &lt;mid-autumn&gt; ˈfestɪvl̩ | 中秋节 |
+| 71 | midmorning snacks | ˈmɪdˌmɔːnɪŋ snæks | 加餐（上午十点左右喝咖啡吃零食） |
+| 72 | mid-range | ˈmɪˌdrendʒ | 中间范围 |
+| 73 | mid-semester | &lt;mid-semester&gt; | 学期中 |
+| 74 | migration patterns | maɪˈɡreɪʃn̩ ˈpætn̩z | 迁徙方式，迁徙路线 |
+| 75 | mileage ticket | ˈmaɪlɪdʒ ˈtɪkɪt | 可乘坐一定英里数的火车票 |
+| 76 | miles | maɪlz | 英里 |
+| 77 | military museum | ˈmɪlɪtri mjuːˈzɪəm | 军事博物馆 |
+| 78 | mill the grain on the ground | mɪl ðə ɡreɪn ɒn ðə ɡraʊnd | 在地上把谷物磨细 |
+| 79 | millions of | ˈmɪlɪənz ɒv | 上百万的 |
+| 80 | mountains | ˈmaʊntɪnz | 山 |
+| 81 | mineral water | ˈmɪnərəl ˈwɔːtə | 矿泉水 |
+| 82 | minimum qualification | ˈmɪnɪməm ˌkwɒlɪfɪˈkeɪʃn̩ | 最低资格 |
+| 83 | mining industry | ˈmaɪnɪŋ ˈɪndəstri | 矿业，采矿业 |
+| 84 | mobile phone | ˈməʊbaɪl fəʊn | 手机 |
+| 85 | Modern Languages | ˈmɒdn̩ ˈlæŋɡwɪdʒɪz | 现代语言(建筑物的名称) |
+| 86 | modern management hotel | ˈmɒdn̩ ˈmænɪdʒmənt ˌhəʊˈtel | 现代化管理的酒店 |
+| 87 | modern sports facilities | ˈmɒdn̩ spɔːts fəˈsɪlɪtɪz | 现代体育设施 |
+| 88 | money diary | ˈmʌni ˈdaɪəri | 花销日记 |
+| 89 | money lender | ˈmʌni ˈlendə | 钱商 |
+| 90 | money management | ˈmʌni ˈmænɪdʒmənt | 理财 |
+| 91 | money order | ˈmʌni ˈɔːdə | 汇票 |
+| 92 | monopoly of education | məˈnɒpəli əv ˌedʒʊˈkeɪʃn̩ | 教育垄断 |
+| 93 | mosquito net | məˈskiːtəʊ net | 蚊帐 |
+| 94 | mother-in-law | ˈmʌðərɪnˌlɔː | 岳母或者婆婆 |
+| 95 | movie poster | ˈmuːvi ˈpəʊstə | 电影海报 |
+| 96 | movement of muscle | ˈmuːvmənt əv ˈmʌsl̩ | 肌肉运动 |
+| 97 | music equipment | ˈmjuːzɪk ɪˈkwɪpmənt | 音乐设备 |
+| 98 | music instrument | ˈmjuːzɪk ˈɪnstrʊmənt | 乐器 |
+| 99 | notice board | ˈnəʊtɪs bɔːd | 布告栏 |
+| 100 | name badge | ˈneɪm bædʒ | 写有名字的胸牌 |
+| 101 | native animals | ˈneɪtɪv ˈænɪml̩z | 本土动物 |
+| 102 | negative effect | ˈneɡətɪv ɪˈfekt | 消极影响 |
+| 103 | natural medicine | ˈnætʃrəl ˈmedsn̩ | 天然药品 |
+| 104 | natural museum | ˈnætʃrəl mjuːˈzɪəm | 自然博物馆 |
+| 105 | natural fiber | ˈnætʃrəl ˈfaɪbə | 自然纤维 |
+| 106 | new technologies | njuː tekˈnɒlədʒɪz | 新科技 |
+| 107 | nights | naɪts | 夜 |
+| 108 | night shift | naɪt ʃɪft | 晚班 |
+| 109 | no allergy | nəʊ ˈælədʒi | 不过敏 |
+| 110 | no charge | nəʊ tʃɑːdʒ | 免费 |
+| 111 | no nuts | nəʊ nʌts | 不吃坚果 |
+| 112 | non-medicine items | &lt;non-medicine&gt; ˈaɪtəmz | 非药品类东西 |
+| 113 | non-stop flight | ˈnɒnˈstɒp flaɪt | 直达航班 |
+| 114 | not check identities | nɒt tʃek aɪˈdentɪtɪz | 不检查身份 |
+| 115 | not for circulation | nɒt fə ˌsɜːkjʊˈleɪʃn̩ | 不外借 |
+| 116 | number of exposure | ˈnʌmbər əv ɪkˈspəʊʒə | 拍照的数量 |
+| 117 | number of occupants | ˈnʌmbər əv ˈɒkjʊpənts | 居住者人数 |
+| 118 | nursing care | ˈnɜːsɪŋ keə | 护理，医疗护理 |
+| 119 | Nursing Diploma | ˈnɜːsɪŋ dɪˈpləʊmə | 护理毕业证，护理文凭 |
+| 120 | occupational factors | ˌɒkjʊˈpeɪʃnəl ˈfæktəz | 职业因素 |
+| 121 | nursery | ˈnɜːsəri | 托儿所 |
+| 122 | nursery school | ˈnɜːsəri skuːl | 托儿所 |
+| 123 | obligatory course | əˈblɪɡətr̩i kɔːs | 必修课 |
+| 124 | self-sufficient | self səˈfɪʃnt | 自给自足 |
+| 125 | off campus | ɒf ˈkæmpəs | 校外 |
+| 126 | office assistant | ˈɒfɪs əˈsɪstənt | 办公室助手 |
+| 127 | overfill | ˈəʊvəˌfɪl | 填满 |
+| 128 | oil explosion | ɔɪl ɪkˈspləʊʒn̩ | 石油爆炸 |
+| 129 | olive oil | ˈɒlɪv ɔɪl | 橄榄油 |
+| 130 | OHPEN | &lt;ohpen&gt; | 用来在白板上写字的笔 |
+
+## Test Paper 8
+
+来源小节：`5.3-8`；144 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | on campus | ɒn ˈkæmpəs | 在学校 |
+| 2 | on foot | ɒn fʊt | 步行 |
+| 3 | on sale | ɒn seɪl | 热卖，打折 |
+| 4 | on small scale | ɒn smɔːl skeɪl | 小范围地 |
+| 5 | one-way ticket | ˌwʌnˈweɪ ˈtɪkɪt | 单程票 |
+| 6 | one-way | ˌwʌnˈweɪ | 单程 |
+| 7 | online shopping | ˈɒnˌlaɪn ˈʃɒpɪŋ | 电子购物，网上购物 |
+| 8 | open admission | ˈəʊpən ədˈmɪʃn̩ | 免试入学制 |
+| 9 | open shelves | ˈəʊpən ʃelvz | 开架书库 |
+| 10 | open-book exam | &lt;open-book&gt; ɪɡˈzæm | 开卷考试 |
+| 11 | optic examination | ˈɒptɪk ɪɡˌzæmɪˈneɪʃn̩ | 眼部检查 |
+| 12 | optional course | ˈɒpʃnəl kɔːs | 选修课 |
+| 13 | optional expenses | ˈɒpʃnəl ɪkˈspensɪz | 选择性花销 |
+| 14 | oral defence | ˈɔːrəl dɪˈfens | 回答问题部分，答辩 |
+| 15 | orange juice | ˈɒrɪndʒ dʒuːs | 橙汁 |
+| 16 | ordinary farmers | ˈɔːdɪnri ˈfɑːməz | 普通农民 |
+| 17 | organic farming | ɔːˈɡænɪk ˈfɑːmɪŋ | 有机农业 |
+| 18 | organic fiber | ɔːˈɡænɪk ˈfaɪbə | 有机纤维 |
+| 19 | organic food | ɔːˈɡænɪk fuːd | 有机食物 |
+| 20 | organic material | ɔːˈɡænɪk məˈtɪərɪəl | 有机材料 |
+| 21 | Oriental studies | ˌɔːrɪˈentl̩ ˈstʌdɪz | 东方研究 |
+| 22 | original reason | əˈrɪdʒn̩əl ˈriːzən | 最初理由 |
+| 23 | out circulation | ˈaʊt ˌsɜːkjʊˈleɪʃn̩ | 已借走 |
+| 24 | out of temper | ˈaʊt əv ˈtempə | 生气 |
+| 25 | out on loan | ˈaʊt ɒn ləʊn | 借出的（书，CD等） |
+| 26 | outside activity | ˌaʊtˈsaɪd ækˈtɪvəti | 户外活动 |
+| 27 | overall aim of the health club | ˌəʊvəˈrɔːl eɪm əv ðə helθ klʌb | 健康俱乐部的总目标 |
+| 28 | overall trend | ˌəʊvəˈrɔːl trend | 总体趋势 |
+| 29 | overdue and pay a fine | ˌəʊvəˈdjuː ənd peɪ ə faɪn | 过期并交罚款 |
+| 30 | overhead projector | ˌəʊvəˈhed prəˈdʒektə | 投影仪 |
+| 31 | overhead view | ˌəʊvəˈhed vjuː | 俯视图 |
+| 32 | overseas student | ˌəʊvəˈsiːz ˈstjuːdnt | 国际学生，留学生 |
+| 33 | hitchhike | ˈhɪtʃhaɪk | 搭便车旅行 |
+| 34 | packages | ˈpækɪdʒɪz | 包裹 |
+| 35 | package tour | ˈpækɪdʒ tʊə | 全包游 |
+| 36 | packing list | ˈpækɪŋ lɪst | (旅行时的)打包单 |
+| 37 | Pacific Ocean | pəˈsɪfɪk ˈəʊʃn̩ | 太平洋 |
+| 38 | paddling pool | ˈpædl̩ɪŋ puːl | 嬉水池 |
+| 39 | pages | ˈpeɪdʒɪz | 页 |
+| 40 | pal group relationship | pæl ɡruːp rɪˈleɪʃnʃɪp | 伙伴关系 |
+| 41 | palaces | ˈpælɪsɪz | 宫殿 |
+| 42 | palm tree | pɑːm triː | 棕榈树 |
+| 43 | paper jam | ˈpeɪpə dʒæm | 卷纸现象 |
+| 44 | parent's meeting's aim | ˈperənts ˈmiːtɪŋz eɪm | 家长会的目的 |
+| 45 | parental teaching | pəˈrentl̩ ˈtiːtʃɪŋ | 父母的教育 |
+| 46 | part-time job | ˈpɑːt taɪm dʒɒb | 兼职工作 |
+| 47 | part-time | ˈpɑːt taɪm | 兼职的，业余时间的 |
+| 48 | party wears | ˈpɑːti weəz | 晚宴装 |
+| 49 | passport photos | ˈpɑːspɔːt ˈfəʊtəʊz | 护照照片 |
+| 50 | pay for loss | peɪ fə lɒs | 补偿损失 |
+| 51 | payment method | ˈpeɪmənt ˈmeθəd | 付款方式 |
+| 52 | per day | pɜː ˈdeɪ | 每天 |
+| 53 | per month | pɜː mʌnθ | 每月 |
+| 54 | per person | pɜː ˈpɜːsn̩ | 每人 |
+| 55 | per week | pɜː wiːk | 每周 |
+| 56 | per year | pɜː ˈjiə | 每年 |
+| 57 | permit required | pəˈmɪt rɪˈkwaɪəd | 查许可证 |
+| 58 | personal alarm | ˈpɜːsənl̩ əˈlɑːm | 个人警报 |
+| 59 | personal statement | ˈpɜːsənl̩ ˈsteɪtmənt | 个人陈述 |
+| 60 | personal trainer | ˈpɜːsənl̩ ˈtreɪnə | 私人教练 |
+| 61 | PHD | ˌpi:ˌeɪtʃˈdiː | 博士Doctor of Philosophy |
+| 62 | philosophers | fɪˈlɒsəfəz | 哲学家 |
+| 63 | phone bill | fəʊn bɪl | 电话费，电话账单 |
+| 64 | photocopies of notes | ˈfəʊtəʊkɒpɪz əv nəʊts | 复印笔记 |
+| 65 | photocopies of articles | ˈfəʊtəʊkɒpɪz əv ˈɑːtɪkl̩z | 复印文章 |
+| 66 | photocopy of article | ˈfəʊtəʊkɒpi əv ˈɑːtɪkl̩ | 复印文章 |
+| 67 | photocopy office | ˈfəʊtəʊkɒpi ˈɒfɪs | 复印室 |
+| 68 | physical activities | ˈfɪzɪkl̩ ækˈtɪvətiz | 体育活动 |
+| 69 | physical education | ˈfɪzɪkl̩ ˌedʒʊˈkeɪʃn̩ | 体育课 |
+| 70 | physical surroundings | ˈfɪzɪkl̩ səˈraʊndɪŋz | 周边环境 |
+| 71 | physical therapy | ˈfɪzɪkl̩ ˈθerəpi | 理疗 |
+| 72 | pie chart | paɪ tʃɑːt | 饼图 |
+| 73 | pine tree | paɪn triː | 松树 |
+| 74 | pink slip | pɪŋk slɪp | 解雇通知书 |
+| 75 | placement test | ˈpleɪsmənt ˈtest | 分班考试 |
+| 76 | planet science | ˈplænɪt ˈsaɪəns | 行星科学 |
+| 77 | Planet Society | ˈplænɪt səˈsaɪəti | 行星协会 |
+| 78 | planning meeting | ˈplænɪŋ ˈmiːtɪŋ | 筹划会 |
+| 79 | planting garden | ˈplɑːntɪŋ ˈɡɑːdn̩ | 种植园 |
+| 80 | plastic bags | ˈplæstɪk bæɡz | 塑料袋 |
+| 81 | plastic collection | ˈplæstɪk kəˈlekʃn̩ | 回收塑料 |
+| 82 | plus | plʌs | 加 |
+| 83 | pocket money | ˈpɒkɪt ˈmʌni | 零用钱 |
+| 84 | point of view | pɔɪnt əv vjuː | 观点 |
+| 85 | polish cars | ˈpɒlɪʃ kɑːz | 汽车抛光 |
+| 86 | poor area | pʊər ˈeəriə | 不发达地区 |
+| 87 | pop test | pɒp ˈtest | 抽考 |
+| 88 | population explosion | ˌpɒpjʊˈleɪʃn̩ ɪkˈspləʊʒn̩ | 人口爆炸 |
+| 89 | population growth | ˌpɒpjʊˈleɪʃn̩ ɡrəʊθ | 人口增长 |
+| 90 | population of crocodiles | ˌpɒpjʊˈleɪʃn̩ əv ˈkrɒkədaɪlz | 鳄鱼的数量 |
+| 91 | positive effect | ˈpɒzətɪv ɪˈfekt | 积极影响 |
+| 92 | possible causes of stress | ˈpɒsəbl̩ ˈkɔːzɪz əv stres | 可能的压力来源 |
+| 93 | postal survey | ˈpəʊstl̩ səˈveɪ | 邮寄调查 |
+| 94 | power company | ˈpaʊə ˈkʌmpəni | 供电公司 |
+| 95 | practical material | ˈpræktɪkl̩ məˈtɪərɪəl | 实用材料 |
+| 96 | practical skills | ˈpræktɪkl̩ skɪlz | 实用技能 |
+| 97 | precautions | prɪˈkɔːʃn̩z | 预防措施 |
+| 98 | precious stone | ˈpreʃəs stəʊn | 宝石 |
+| 99 | presentation skills | ˌpreznˈteɪʃn̩ skɪlz | 陈述技巧 |
+| 100 | President's suite | ˈprezədənts swiːt | 总统套房 |
+| 101 | previous data | ˈpriːvɪəs ˈdeɪtə | 原来的数据 |
+| 102 | previous insurance company | ˈpriːvɪəs ɪnˈʃʊərəns ˈkʌmpəni | 原来的保险公司 |
+| 103 | previous result | ˈpriːvɪəs rɪˈzʌlt | 原来的结果 |
+| 104 | previous studies | ˈpriːvɪəs ˈstʌdɪz | 前人的研究 |
+| 105 | price list | praɪs lɪst | 价目单 |
+| 106 | principal | ˈprɪnsəpl̩ | 高中以下学校校长 |
+| 107 | printed card | ˈprɪntɪd kɑːd | 打印出的卡片 |
+| 108 | printed catalogue | ˈprɪntɪd ˈkætəlɒɡ | 打印出的目录 |
+| 109 | private bathroom | ˈpraɪvɪt ˈbɑːθruːm | 私人卫生间 |
+| 110 | private property | ˈpraɪvɪt ˈprɒpəti | 私人财产 |
+| 111 | private school | ˈpraɪvɪt skuːl | 私立学校 |
+| 112 | private trip | ˈpraɪvɪt trɪp | 私人旅行 |
+| 113 | prize giving | praɪz ˈɡɪvɪŋ | 分配奖品 |
+| 114 | professional learning | prəˈfeʃnəl ˈlɜːnɪŋ | 专业学习 |
+| 115 | project work | prəˈdʒekt ˈwɜːk | 项目 |
+| 116 | project background | prəˈdʒekt ˈbækɡraʊnd | 项目背景 |
+| 117 | project outline | prəˈdʒekt ˈaʊtlaɪn | 项目大纲 |
+| 118 | profits | ˈprɒfɪts | 利润 |
+| 119 | psychological patients | ˌsaɪkəˈlɒdʒɪkl̩ ˈpeɪʃnts | 有心理疾病的人 |
+| 120 | psychological course | ˌsaɪkəˈlɒdʒɪkl̩ kɔːs | 心理课 |
+| 121 | public transport | ˈpʌblɪk ˈtrænspɔːt | 公交 |
+| 122 | public awareness | ˈpʌblɪk əˈweənəs | 公众意识 |
+| 123 | public examination | ˈpʌblɪk ɪɡˌzæmɪˈneɪʃn̩ | 公共考试 |
+| 124 | public facilities | ˈpʌblɪk fəˈsɪlɪtɪz | 公共设施 |
+| 125 | public health | ˈpʌblɪk helθ | 公共健康 |
+| 126 | public interest | ˈpʌblɪk ˈɪntrəst | 公共利益 |
+| 127 | public school | ˈpʌblɪk skuːl | 公立学校 |
+| 128 | public service | ˈpʌblɪk ˈsɜːvɪs | 大众服务 |
+| 129 | public skills | ˈpʌblɪk skɪlz | 大众技能 |
+| 130 | quality of teaching | ˈkwɒlɪti əv ˈtiːtʃɪŋ | 教学质量 |
+| 131 | quality of education | ˈkwɒlɪti əv ˌedʒʊˈkeɪʃn̩ | 教育质量 |
+| 132 | quality of personnel | ˈkwɒlɪti əv ˌpɜːsəˈnel | 职员的素质 |
+| 133 | quarry tiles | ˈkwɒri taɪlz | 瓦片的一种 |
+| 134 | property insurance | ˈprɒpəti ɪnˈʃʊərəns | 财产险 |
+| 135 | question handling | ˈkwestʃən ˈhændl̩ɪŋ | 问题处理 |
+| 136 | Queen's suite | ˈkwiːnz swiːt | 皇后套房 |
+| 137 | queen-sized bed | &lt;queen-sized&gt; bed | 1.5床 |
+| 138 | Queen's Park | ˈkwiːnz pɑːk | 女王公园 |
+| 139 | RA(research assistant) | ˌɑːˈreɪ rɪˈsɜːtʃ əˈsɪstənt | 研究助理 |
+| 140 | railway rail | ˈreɪlweɪ reɪl | 铁轨 |
+| 141 | railway station | ˈreɪlweɪ ˈsteɪʃn̩ | 火车站 |
+| 142 | railway tracks | ˈreɪlweɪ træks | 铁轨 |
+| 143 | railway worker | ˈreɪlweɪ ˈwɜːkə | 铁路工人 |
+| 144 | random selection | ˈrændəm sɪˈlekʃn̩ | 随机选取 |
+
+## Test Paper 9
+
+来源小节：`5.3-9`；140 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | range of English level | reɪndʒ əv ˈɪŋɡlɪʃ ˈlevl̩ | 英语水平范围 |
+| 2 | rapid population growth | ˈræpɪd ˌpɒpjʊˈleɪʃn̩ ɡrəʊθ | 快速人口增长 |
+| 3 | raw materials | rɔː məˈtɪərɪəlz | 原材料 |
+| 4 | rare lions | reə ˈlaɪənz | 罕见的狮子 |
+| 5 | rare species | reə ˈspiːʃiːz | 稀有物种 |
+| 6 | rare fish | reə fɪʃ | 稀有鱼类 |
+| 7 | reach one's destination | riːtʃ wʌnz ˌdestɪˈneɪʃn̩ | 到达目的地 |
+| 8 | readers | ˈriːdəz | 读者 |
+| 9 | reading habits | ˈriːdɪŋ ˈhæbɪts | 阅读习惯 |
+| 10 | reading hits | ˈriːdɪŋ hɪts | 阅读技巧 |
+| 11 | reading list | ˈriːdɪŋ lɪst | 书单，阅读清单 |
+| 12 | reading session | ˈriːdɪŋ ˈseʃn̩ | 阅读课 |
+| 13 | recall library books | rɪˈkɔːl ˈlaɪbrəri bʊks | 要求归还图书馆图书 |
+| 14 | recall system | rɪˈkɔːl ˈsɪstəm | 图书查询系统 |
+| 15 | receive prizes | rɪˈsiːv ˈpraɪzɪz | 收到奖品 |
+| 16 | reception area | rɪˈsepʃn̩ ˈeəriə | 接待处 |
+| 17 | reception centre | rɪˈsepʃn̩ ˈsentə | 接待处 |
+| 18 | reception desk | rɪˈsepʃn̩ desk | 接待处 |
+| 19 | recreation therapy | ˌrekrɪˈeɪʃn̩ ˈθerəpi | 娱乐疗法 |
+| 20 | recruit method | rɪˈkruːt ˈmeθəd | 招聘方法 |
+| 21 | recruiting method | rɪˈkruːtɪŋ ˈmeθəd | 招聘方法 |
+| 22 | recycling material | ˌriːˈsaɪkl̩ɪŋ məˈtɪərɪəl | 回收材料 |
+| 23 | Red Flag | red flæɡ | 一家保险公司的名称 |
+| 24 | red kangaroo | red ˌkæŋɡəˈruː | 红袋鼠 |
+| 25 | red meat | red miːt | 红肉 |
+| 26 | reference books | ˈrefrəns bʊks | 参考书目 |
+| 27 | reference skills | ˈrefrəns skɪlz | 参考技能 |
+| 28 | reference stacks | ˈrefrəns stæks | 书库 |
+| 29 | refresher course | rɪˈfreʃə kɔːs | 进修课 |
+| 30 | registered mail | ˈredʒɪstəd meɪl | 挂号信 |
+| 31 | regular meetings | ˈreɡjʊlə ˈmiːtɪŋz | 定期召开的会议 |
+| 32 | regulations | ˌreɡjʊˈleɪʃn̩z | 规则 |
+| 33 | reinforced by wood and steel | ˌriːɪnˈfɔːst baɪ wʊd ənd stiːl | 由木头和钢材加固 |
+| 34 | relate to | rɪˈleɪt tuː | 关于 |
+| 35 | remain steady | rɪˈmeɪn ˈstedi | 保持稳定 |
+| 36 | replacement of jobs | rɪˈpleɪsmənt əv dʒɒbz | 换工作 |
+| 37 | replacement policy | rɪˈpleɪsmənt ˈpɒləsi | 替代政策 |
+| 38 | required course | rɪˈkwaɪəd kɔːs | 必修课 |
+| 39 | research approach | rɪˈsɜːtʃ əˈprəʊtʃ | 研究方法 |
+| 40 | research assistant | rɪˈsɜːtʃ əˈsɪstənt | 助理研究员 |
+| 41 | research findings | rɪˈsɜːtʃ ˈfaɪndɪŋz | 研究结果 |
+| 42 | research methods | rɪˈsɜːtʃ ˈmeθədz | 科研方法，搜集数据的方式 |
+| 43 | research opportunities | rɪˈsɜːtʃ ˌɒpəˈtjuːnɪtɪz | 科研机会 |
+| 44 | research results | rɪˈsɜːtʃ rɪˈzʌlts | 研究结果 |
+| 45 | research source | rɪˈsɜːtʃ sɔːs | 研究来源 |
+| 46 | resident student | ˈrezɪdənt ˈstjuːdnt | 当地学生 |
+| 47 | residential college | ˌrezɪˈdenʃl̩ ˈkɒlɪdʒ | 大学里的寄宿学院 |
+| 48 | resistance from parents | rɪˈzɪstəns frəm ˈpeərənts | 来自家长的反对 |
+| 49 | resource management | rɪˈzɔːs ˈmænɪdʒmənt | 资源管理 |
+| 50 | resource protection | rɪˈzɔːs prəˈtekʃn̩ | 资源保护 |
+| 51 | resource sharing | rɪˈzɔːs ˈʃeərɪŋ | 资源共享 |
+| 52 | resources room | rɪˈzɔːsɪz ruːm | 资源中心 |
+| 53 | respect the local environment | rɪˈspekt ðə ˈləʊkl̩ ɪnˈvaɪərənmənt | 保护当地环境 |
+| 54 | result from | rɪˈzʌlt frɒm | 归因于 |
+| 55 | result in | rɪˈzʌlt ɪn | 导致 |
+| 56 | review of literature | rɪˈvjuː əv ˈlɪtrətʃə | 文献综述 |
+| 57 | review promptly | rɪˈvjuː ˈprɒmptli | 立刻复习 |
+| 58 | rice cultivation | raɪs ˌkʌltɪˈveɪʃn̩ | 水稻培养 |
+| 59 | Riverside Restaurant | ˈrɪvəsaɪd ˈrestrɒnt | 河边餐厅 |
+| 60 | Rose Lane | rəʊz leɪn | 玫瑰小巷 |
+| 61 | robots | ˈrəʊbɒts | 机器人 |
+| 62 | rock salt | rɒk sɔːlt | 岩盐 |
+| 63 | romance story | rəʊˈmæns ˈstɔːri | 爱情片 |
+| 64 | Rose Garden | rəʊz ˈɡɑːdn̩ | 玫瑰花园 |
+| 65 | row house | raʊ ˈhaʊs | 联排房屋 |
+| 66 | round trip ticket | ˈraʊnd trɪp ˈtɪkɪt | 往返票 |
+| 67 | round trip | ˈraʊnd trɪp | 往返 |
+| 68 | route map | ruːt mæp | 路线图 |
+| 69 | road map | rəʊd mæp | 道路图 |
+| 70 | royal commission | ˈrɔɪəl kəˈmɪʃn̩ | 皇家委员会 |
+| 71 | rubber blanket | ˈrʌbə ˈblæŋkɪt | 橡胶毯 |
+| 72 | rubber tree | ˈrʌbə triː | 橡胶树 |
+| 73 | rules and regulations | ruːlz ənd ˌreɡjʊˈleɪʃn̩z | 规章制度 |
+| 74 | run risks | rʌn rɪsks | 冒风险 |
+| 75 | running facilities | ˈrʌnɪŋ fəˈsɪlɪtɪz | 跑步的设施 |
+| 76 | running tunnel | ˈrʌnɪŋ ˈtʌnl̩ | 行车隧道 |
+| 77 | rural area | ˈrʊərəl ˈeəriə | 乡下地区 |
+| 78 | role of staff | rəʊl əv stɑːf | 员工的角色 |
+| 79 | rush hour | rʌʃ ˈaʊə | 交通高峰期 |
+| 80 | safety check | ˈseɪfti tʃek | 安全检查 |
+| 81 | safety helmet | ˈseɪfti ˈhelmɪt | 安全头盔 |
+| 82 | safety helmets | ˈseɪfti ˈhelmɪts | 安全头盔 |
+| 83 | sales team | seɪlz tiːm | 销售小组 |
+| 84 | safety office | ˈseɪfti ˈɒfɪs | 保卫处 |
+| 85 | safety regulations | ˈseɪfti ˌreɡjʊˈleɪʃn̩z | 安全规则 |
+| 86 | Silent Island | ˈsaɪlənt ˈaɪlənd | CD名称 |
+| 87 | sandglass clock | ˈsændɡlɑːs ˈklɒk | 沙漏 |
+| 88 | satellite TV station | ˈsætəlaɪt ˌtiːˈviː ˈsteɪʃn̩ | 卫星电视台 |
+| 89 | School of Arts and Sciences | skuːl əv ɑːts ənd ˈsaɪənsɪz | 文理学院 |
+| 90 | school uniform | skuːl ˈjuːnɪfɔːm | 校服 |
+| 91 | science fiction | ˈsaɪəns ˈfɪkʃn̩ | 科幻片 |
+| 92 | science museum | ˈsaɪəns mjuːˈzɪəm | 科技博物馆 |
+| 93 | scientific approach | ˌsaɪənˈtɪfɪk əˈprəʊtʃ | 科学方法 |
+| 94 | scientific research | ˌsaɪənˈtɪfɪk rɪˈsɜːtʃ | 科学研究 |
+| 95 | scores | skɔːz | 分数 |
+| 96 | sea otter | siː ˈɒtə | 水獭 |
+| 97 | sea urchin | siː ˈɜːtʃɪn | 海胆 |
+| 98 | sea watch | siː wɒtʃ | 海洋监测 |
+| 99 | seafood restaurant | ˈsiːfuːd ˈrestrɒnt | 海鲜店 |
+| 100 | seat belt | siːt belt | 安全带 |
+| 101 | seating capacity | ˈsiːtɪŋ kəˈpæsɪti | 容纳观众人数 |
+| 102 | second floor | ˈsekənd flɔː | 二楼 |
+| 103 | second-hand textbooks | ˈsekənd hænd ˈteksbʊks | 二手教材 |
+| 104 | secondary school | ˈsekəndri skuːl | 中学 |
+| 105 | second-year student | &lt;second-year&gt; ˈstjuːdnt | 大二学生 |
+| 106 | sedentary lifestyle | ˈsedntri ˈlaɪfstaɪl | 久坐的生活方式 |
+| 107 | selection method | sɪˈlekʃn̩ ˈmeθəd | 选择方法 |
+| 108 | self-access lab | &lt;self-access&gt; læb | 自学实验室 |
+| 109 | self-defense | &lt;self-defense&gt; | 自卫 |
+| 110 | self-service restaurant | self ˈsɜːvɪs ˈrestrɒnt | 自助餐厅 |
+| 111 | senior advisor | ˈsiːnɪə ædˈvaɪzə | 资深督导师 |
+| 112 | senior manager | ˈsiːnɪə ˈmænɪdʒə | 高级经理 |
+| 113 | senior staff | ˈsiːnɪə stɑːf | 高级员工 |
+| 114 | sense of achievement | sens əv əˈtʃiːvmənt | 成就感 |
+| 115 | sense of success | sens əv səkˈses | 成就感 |
+| 116 | sensible exercise | ˈsensəbl̩ ˈeksəsaɪz | 合适的运动 |
+| 117 | sentences | ˈsentənsɪz | 句子 |
+| 118 | service manager | ˈsɜːvɪs ˈmænɪdʒə | 服务经理 |
+| 119 | set money aside | set ˈmʌni əˈsaɪd | 存钱 |
+| 120 | shared bathroom | ʃeəd ˈbɑːθruːm | 公用卫生间 |
+| 121 | shared social area | ʃeəd ˈsəʊʃl̩ ˈeəriə | 公共活动区域 |
+| 122 | shear the sheep | ʃɪə ðə ʃiːp | 剪羊毛 |
+| 123 | sheep and cattle | ʃiːp ənd ˈkætl̩ | 畜群，羊和牛 |
+| 124 | sheep shearing | ʃiːp ˈʃɪərɪŋ | 剪羊毛 |
+| 125 | shift work | ʃɪft ˈwɜːk | 倒班 |
+| 126 | shop assistant | ʃɒp əˈsɪstənt | 售货员 |
+| 127 | shop manager | ʃɒp ˈmænɪdʒə | 商店经理 |
+| 128 | shopping centre | ˈʃɒpɪŋ ˈsentə | 购物中心 |
+| 129 | shopping list | ˈʃɒpɪŋ lɪst | 购物清单 |
+| 130 | shopping mall | ˈʃɒpɪŋ mɔːl | 购物中心 |
+| 131 | shortage of money | ˈʃɔːtɪdʒ əv ˈmʌni | 缺钱 |
+| 132 | sick note | sɪk nəʊt | 病假条 |
+| 133 | side effects | saɪd ɪˈfekts | 副作用 |
+| 134 | safari zoo | səˈfɑːri zuː | 野生动物园 |
+| 135 | safari park | səˈfɑːri pɑːk | 野生动物园 |
+| 136 | similar experiments | ˈsɪmələr ɪkˈsperɪmənts | 相似实验 |
+| 137 | single item | ˈsɪŋɡl̩ ˈaɪtəm | 单件物品 |
+| 138 | size of population | saɪz əv ˌpɒpjʊˈleɪʃn̩ | 人口规模 |
+| 139 | size of sample | saɪz əv ˈsɑːmpl̩ | 样本的大小 |
+| 140 | silver cloth | ˈsɪlvə klɒθ | 银布 |
+
+## Test Paper 10
+
+来源小节：`5.3-10`；142 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | sky dome | skaɪ dəʊm | 穹顶 |
+| 2 | sleeping pills | ˈsliːpɪŋ pɪlz | 安眠药片 |
+| 3 | sleeping sickness | ˈsliːpɪŋ ˈsɪknəs | 嗜睡症 |
+| 4 | slide presentation | slaɪd ˌpreznˈteɪʃn̩ | 幻灯演讲 |
+| 5 | small scale | smɔːl skeɪl | 小规模 |
+| 6 | small scar on his chin | smɔːl skɑːr ɒn ɪz tʃɪn | 他下巴上的小伤疤 |
+| 7 | smoke alarms | sməʊk əˈlɑːmz | 烟雾警报 |
+| 8 | social activities | ˈsəʊʃl̩ ækˈtɪvətiz | 社会活动 |
+| 9 | social isolation | ˈsəʊʃl̩ ˌaɪsəˈleɪʃn̩ | 人之间的隔阂，没有交流 |
+| 10 | social issues | ˈsəʊʃl̩ ˈɪʃuːz | 社会问题 |
+| 11 | social matter effects | ˈsəʊʃl̩ ˈmætər ɪˈfekts | 社会问题影响 |
+| 12 | social matters | ˈsəʊʃl̩ ˈmætəz | 社会问题 |
+| 13 | social problems | ˈsəʊʃl̩ ˈprɒbləmz | 社会问题 |
+| 14 | social status | ˈsəʊʃl̩ ˈsteɪtəs | 社会地位 |
+| 15 | social workers | ˈsəʊʃl̩ ˈwɜːkəz | 社工 |
+| 16 | soft drinks | sɒft drɪŋks | 软饮料 |
+| 17 | soft toys | sɒft tɔɪz | 软软的玩具 |
+| 18 | sound effect | ˈsaʊnd ɪˈfekt | 音效 |
+| 19 | solar system | ˈsəʊlə ˈsɪstəm | 太阳系 |
+| 20 | solar power | ˈsəʊlə ˈpaʊə | 太阳能 |
+| 21 | sore throat | sɔː θrəʊt | 嗓子痛 |
+| 22 | spare time | speə ˈtaɪm | 业余时间 |
+| 23 | spare parts | speə pɑːts | 零件 |
+| 24 | spare socks | speə ˈsɒks | 备用袜子 |
+| 25 | space shuttle | speɪs ˈʃʌtl̩ | 太空飞船 |
+| 26 | special audio equipment | ˈspeʃl̩ ˈɔːdiəʊ ɪˈkwɪpmənt | 特别听力设备 |
+| 27 | special chemicals | ˈspeʃl̩ ˈkemɪkl̩z | 特别的化学物质 |
+| 28 | special mail | ˈspeʃl̩ meɪl | 速递 |
+| 29 | special offers | ˈspeʃl̩ ˈɒfəz | 特别优惠 |
+| 30 | special party hats | ˈspeʃl̩ ˈpɑːti hæts | 晚会戴的帽子 |
+| 31 | special rule | ˈspeʃl̩ ruːl | 特别规则 |
+| 32 | specialist engine design | ˈspeʃəlɪst ˈendʒɪn dɪˈzaɪn | 专业发动机设计 |
+| 33 | specialized course | ˈspeʃəlaɪzd kɔːs | 专业课 |
+| 34 | specialized museum | ˈspeʃəlaɪzd mjuːˈzɪəm | 专业博物馆 |
+| 35 | specialized sports facilities | ˈspeʃəlaɪzd spɔːts fəˈsɪlɪtɪz | 专业体育设施 |
+| 36 | species in rare animal area | ˈspiːʃiːz ɪn reə ˈænɪml̩ ˈeəriə | 稀有动物的种类 |
+| 37 | species of crocodiles | ˈspiːʃiːz əv ˈkrɒkədaɪlz | 鳄鱼的种类 |
+| 38 | spending plans | ˈspendɪŋ plænz | 花销计划 |
+| 39 | spiders | ˈspaɪdəz | 蜘蛛 |
+| 40 | spinose plants | &lt;spinose&gt; plɑːnts | 有刺的植物 |
+| 41 | spiral notebook | ˈspaɪərəl ˈnəʊtbʊk | 旋转笔记本 |
+| 42 | sports articles | spɔːts ˈɑːtɪkl̩z | 运动文章 |
+| 43 | sports suit | spɔːts suːt | 运动服 |
+| 44 | sports center | spɔːts ˈsentə | 体育中心 |
+| 45 | sports hall | spɔːts hɔːl | 运动大厅 |
+| 46 | sports shoes | spɔːts ʃuːz | 运动鞋 |
+| 47 | stack system | stæk ˈsɪstəm | 书库体系 |
+| 48 | stacks | stæks | 书库 |
+| 49 | standard of education | ˈstændəd əv ˌedʒʊˈkeɪʃn̩ | 教育标准 |
+| 50 | standard suite | ˈstændəd swiːt | 标准间 |
+| 51 | stars | stɑːz | 星 |
+| 52 | starter project | ˈstɑːtə prəˈdʒekt | 初始项目 |
+| 53 | starting point | ˈstɑːtɪŋ pɔɪnt | 起始点 |
+| 54 | states | steɪts | 州，状态 |
+| 55 | steak set | steɪk set | 一套牛排刀叉 |
+| 56 | steam engine ship | stiːm ˈendʒɪn ʃɪp | 蒸汽船 |
+| 57 | steel and wood | stiːl ənd wʊd | 钢材和木头 |
+| 58 | stiff neck | stɪf nek | 脖子僵硬 |
+| 59 | still water | stɪl ˈwɔːtə | 纯净水 |
+| 60 | stock market | stɒk ˈmɑːkɪt | 股票市场 |
+| 61 | stomach and heart | ˈstʌmək ənd hɑːt | 胃和心脏 |
+| 62 | stomach muscles training | ˈstʌmək ˈmʌsl̩z ˈtreɪnɪŋ | 腹肌练习 |
+| 63 | stones | stəʊnz | 石头 |
+| 64 | storage space | ˈstɔːrɪdʒ speɪs | 存储空间 |
+| 65 | storehouse and temples | ˈstɔːhaʊs ənd ˈtempl̩z | 仓库和寺庙 |
+| 66 | stories | ˈstɔːrɪz | 故事 |
+| 67 | story conference | ˈstɔːri ˈkɒnfərəns | 故事会 |
+| 68 | stress levels | stres ˈlevl̩z | 压力程度 |
+| 69 | stress management | stres ˈmænɪdʒmənt | 对压力的管理 |
+| 70 | stressful | ˈstresfl̩ | 有压力的 |
+| 71 | stretching | ˈstretʃɪŋ | 伸展的 |
+| 72 | stretching movements | ˈstretʃɪŋ ˈmuːvmənts | 拉伸移动 |
+| 73 | strict control | strɪkt kənˈtrəʊl | 严格控制 |
+| 74 | strong scent | strɒŋ sent | 很重的味道 |
+| 75 | strong wind | strɒŋ wɪnd | 大风 |
+| 76 | student account | ˈstjuːdnt əˈkaʊnt | 学生账户 |
+| 77 | student banking | ˈstjuːdnt bæŋkɪŋ | 学生银行业务 |
+| 78 | student debt | ˈstjuːdnt det | 学生债务 |
+| 79 | student hostel | ˈstjuːdnt ˈhɒstl̩ | 学生旅店 |
+| 80 | student information desk | ˈstjuːdnt ˌɪnfəˈmeɪʃn̩ desk | 学生信息处 |
+| 81 | student representative | ˈstjuːdnt ˌreprɪˈzentətɪv | 学生代表 |
+| 82 | student service | ˈstjuːdnt ˈsɜːvɪs | 学生服务 |
+| 83 | student support service | ˈstjuːdnt səˈpɔːt ˈsɜːvɪs | 对学生的帮助 |
+| 84 | student union | ˈstjuːdnt ˈjuːnɪən | 学生会 |
+| 85 | studio apartment | ˈstjuːdɪəʊ əˈpɑːtmənt | 筒子楼 |
+| 86 | study aids | ˈstʌdi eɪdz | 教具 |
+| 87 | study circle | ˈstʌdi ˈsɜːkl̩ | 研究小组 |
+| 88 | study club | ˈstʌdi klʌb | 学习小组 |
+| 89 | study techniques | ˈstʌdi tekˈniːks | 学习技巧 |
+| 90 | styles | staɪlz | 风格 |
+| 91 | stuffed nose | stʌft nəʊz | 鼻子不通 |
+| 92 | stuffed toys | stʌft tɔɪz | 毛绒玩具 |
+| 93 | stuff of purse | stʌf əv pɜːs | 钱包的材料 |
+| 94 | subject access guide | sʌbˈdʒekt ˈækses ɡaɪd | 主题索引 |
+| 95 | subject access | sʌbˈdʒekt ˈækses | 主题索引 |
+| 96 | submit the document | səbˈmɪt ðə ˈdɒkjʊment | 上交文件 |
+| 97 | sufficient details | səˈfɪʃnt ˈdiːteɪlz | 足够多的细节 |
+| 98 | supportive atmosphere | səˈpɔːtɪv ˈætməsfɪə | 支持氛围 |
+| 99 | support service | səˈpɔːt ˈsɜːvɪs | 售后服务，辅助服务 |
+| 100 | sun's position | ˈsənz pəˈzɪʃn̩ | 太阳的位置 |
+| 101 | suntan block | ˈsʌntæn ˈblɒk | 防晒 |
+| 102 | sun cream | sʌn kriːm | 防晒霜 |
+| 103 | summary report | ˈsʌməri rɪˈpɔːt | 摘要报告 |
+| 104 | survey conducted | səˈveɪ kənˈdʌktɪd | 已做的调查 |
+| 105 | survey of reading | səˈveɪ əv ˈriːdɪŋ | 阅读习惯调查 |
+| 106 | survival course | səˈvaɪvl̩ kɔːs | 生存课程 |
+| 107 | swimming costume | ˈswɪmɪŋ ˈkɒstjuːm | 游泳衣 |
+| 108 | swimming in waterfall | ˈswɪmɪŋ ɪn ˈwɔːtəfɔːl | 在瀑布里游泳 |
+| 109 | swimming pool | ˈswɪmɪŋ puːl | 游泳池 |
+| 110 | swimming suit | ˈswɪmɪŋ suːt | 游泳衣 |
+| 111 | TA | tɑː | 助教teaching assistant |
+| 112 | tablets | ˈtæblɪts | 药片 |
+| 113 | take notes | ˈteɪk nəʊts | 记笔记 |
+| 114 | take blood pressure | ˈteɪk blʌd ˈpreʃə | 量血压 |
+| 115 | take one's temperature | ˈteɪk wʌnz ˈtemprətʃə | 量体温 |
+| 116 | take regular exercise | ˈteɪk ˈreɡjʊlər ˈeksəsaɪz | 定期运动 |
+| 117 | take risks | ˈteɪk rɪsks | 冒风险 |
+| 118 | taxi stand | ˈtæksi stænd | 出租车站 |
+| 119 | technical vocabulary | ˈteknɪkl̩ vəˈkæbjʊləri | 术语 |
+| 120 | technical institution | ˈteknɪkl̩ ˌɪnstɪˈtjuːʃn̩ | 技校 |
+| 121 | teaching club | ˈtiːtʃɪŋ klʌb | 教师俱乐部 |
+| 122 | teaching hours | ˈtiːtʃɪŋ ˈaʊəz | 学时 |
+| 123 | teaching method | ˈtiːtʃɪŋ ˈmeθəd | 教学法 |
+| 124 | teaching staff | ˈtiːtʃɪŋ stɑːf | 教学人员 |
+| 125 | teaching syllabus | ˈtiːtʃɪŋ ˈsɪləbəs | 教学大纲 |
+| 126 | teachers and faculty | ˈtiːtʃəz ənd ˈfæklti | 老师和院系情况 |
+| 127 | tape recorder | teɪp rɪˈkɔːdə | 录音机 |
+| 128 | telephone survey | ˈtelɪfəʊn səˈveɪ | 电话调查 |
+| 129 | television drama | ˈtelɪˌvɪʒn̩ ˈdrɑːmə | 电视戏剧 |
+| 130 | temple wall | ˈtempl̩ wɔːl | 寺庙的墙 |
+| 131 | temples | ˈtempl̩z | 寺庙 |
+| 132 | tennis club | ˈtenɪs klʌb | 网球俱乐部 |
+| 133 | terraced house | ˈterəst ˈhaʊs | 联排房屋 |
+| 134 | terrestrial heat | tɪˈrestrɪəl hiːt | 地热 |
+| 135 | tertiary education | ˈtɜːʃəri ˌedʒʊˈkeɪʃn̩ | 高等教育 |
+| 136 | text structure | tekst ˈstrʌktʃə | 文章的结构 |
+| 137 | textbook allowance | ˈteksbʊk əˈlaʊəns | 教材补贴 |
+| 138 | the marketing department | ðə ˈmɑːkɪtɪŋ dɪˈpɑːtmənt | 市场部 |
+| 139 | the disabled | ðə dɪsˈeɪbl̩d | 残疾人 |
+| 140 | the old | ði əʊld | 老人 |
+| 141 | the poor | ðə pʊə | 穷人 |
+| 142 | the Milky Way | ðə ˈmɪlki ˈweɪ | 银河 |
+
+## Test Paper 11
+
+来源小节：`5.3-11`；127 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | theme garden | θiːm ˈɡɑːdn̩ | 主题公园 |
+| 2 | theme of project | θiːm əv prəˈdʒekt | 项目主题 |
+| 3 | theme park | θiːm pɑːk | 主题公园 |
+| 4 | theoretical background | θɪəˈretɪkl̩ ˈbækɡraʊnd | 理论背景 |
+| 5 | theoretical framework | θɪəˈretɪkl̩ ˈfreɪmwɜːk | 理论架构 |
+| 6 | tiger shark | ˈtaɪɡə ʃɑːk | 虎鲨 |
+| 7 | theory chapters | ˈθɪəri ˈtʃæptəz | 理论章节 |
+| 8 | theory of application | ˈθɪəri əv ˌæplɪˈkeɪʃn̩ | 应用理论 |
+| 9 | therapy method | ˈθerəpi ˈmeθəd | 治疗方法 |
+| 10 | tilled land | tɪld lænd | 耕地 |
+| 11 | third floor | ˈθɜːd flɔː | 三楼 |
+| 12 | third-year student | &lt;third-year&gt; ˈstjuːdnt | 大三学生 |
+| 13 | thinking pattern | ˈθɪŋkɪŋ ˈpætn̩ | 思维模式 |
+| 14 | way of thinking | ˈweɪ əv ˈθɪŋkɪŋ | 思考方式 |
+| 15 | timetable | ˈtaɪmˌteɪbl̩ | 时间表 |
+| 16 | time measurement | ˈtaɪm ˈmeʒəmənt | 对时间进行测量 |
+| 17 | time priority | ˈtaɪm praɪˈɒrɪti | 时间先后顺序 |
+| 18 | time management | ˈtaɪm ˈmænɪdʒmənt | 时间管理课 |
+| 19 | title of essay | ˈtaɪtl̩ əv eˈseɪ | 论文标题 |
+| 20 | to some degree | tə səm dɪˈɡriː | 从某种程度上说 |
+| 21 | to some extent | tə səm ɪkˈstent | 在某种程度上 |
+| 22 | toilet facilities | ˈtɔɪlɪt fəˈsɪlɪtɪz | 卫生间设施 |
+| 23 | too much work | tuː ˈmʌtʃ ˈwɜːk | 工作负荷大 |
+| 24 | tomatoes | təˈmɑːtəʊz | 西红柿 |
+| 25 | tones | təʊnz | 语调 |
+| 26 | top shelf | tɒp ʃelf | 最高的架子 |
+| 27 | top ten | tɒp ten | 十大畅销品 |
+| 28 | touching rocks | ˈtʌtʃɪŋ rɒks | 接触岩石 |
+| 29 | tour guide | tʊə ɡaɪd | 导游 |
+| 30 | tourism organization | ˈtʊərɪzəm ˌɔːɡənaɪˈzeɪʃn̩ | 旅游组织 |
+| 31 | tourist brochures | ˈtʊərɪst ˈbrəʊʃəz | 游客手册 |
+| 32 | Town Hall | taʊn hɔːl | 市政厅 |
+| 33 | toy factory | tɔɪ ˈfæktəri | 玩具工厂 |
+| 34 | traffic flow | ˈtræfɪk fləʊ | 车流，车流量 |
+| 35 | traffic jam | ˈtræfɪk dʒæm | 交通堵塞 |
+| 36 | traffic lights | ˈtræfɪk laɪts | 交通灯 |
+| 37 | traffic rules | ˈtræfɪk ruːlz | 交通规则 |
+| 38 | traffic safety | ˈtræfɪk ˈseɪfti | 交通安全 |
+| 39 | transportation card | ˌtrænspɔːˈteɪʃn̩ kɑːd | 公交卡 |
+| 40 | travel agency | ˈtrævl̩ ˈeɪdʒənsi | 旅行社 |
+| 41 | travel package | ˈtrævl̩ ˈpækɪdʒ | 旅行打包行程 |
+| 42 | traveller's check | ˈtrævləɪz tʃek | 旅行支票 |
+| 43 | treatment method | ˈtriːtmənt ˈmeθəd | 治疗方法 |
+| 44 | Trinity College | ˈtrɪnɪti ˈkɒlɪdʒ | 三一学院 |
+| 45 | tropical diseases | ˈtrɒpɪkl̩ dɪˈziːzɪz | 热带病 |
+| 46 | tuition fee | tjuːˈɪʃn̩ fiː | 学费 |
+| 47 | tutorial system | tjuːˈtɔːrɪəl ˈsɪstəm | 小组讨论系统 |
+| 48 | twin room | twɪn ruːm | 两张单人床的房间 |
+| 49 | TV series | ˌtiːˈviː ˈsɪəriːz | 电视连续剧 |
+| 50 | TV chat show | ˌtiːˈviː tʃæt ʃəʊ | 电视访谈 |
+| 51 | under pressure | ˈʌndə ˈpreʃə | 有压力 |
+| 52 | undergo processing | ˌʌndəˈɡəʊ ˈprəʊsesɪŋ | 进行处理 |
+| 53 | underground car park | ˈʌndəɡraʊnd kɑː pɑːk | 地下停车场 |
+| 54 | underground railway | ˈʌndəɡraʊnd ˈreɪlweɪ | 地铁 |
+| 55 | unhealthy diet | ʌnˈhelθi ˈdaɪət | 不健康饮食 |
+| 56 | Union Bank | ˈjuːnɪən bæŋk | 联合银行 |
+| 57 | units of measurement | ˈjuːnɪts əv ˈmeʒəmənt | 测量单位 |
+| 58 | University Drive | ˌjuːnɪˈvɜːsɪti draɪv | 大学路 |
+| 59 | university facilities | ˌjuːnɪˈvɜːsɪti fəˈsɪlɪtɪz | 大学设施 |
+| 60 | university guide | ˌjuːnɪˈvɜːsɪti ɡaɪd | 大学指南 |
+| 61 | University of Wollongong | ˌjuːnɪˈvɜːsɪti əv &lt;wollongong&gt; | 卧龙岗大学 |
+| 62 | university resource | ˌjuːnɪˈvɜːsɪti rɪˈzɔːs | 大学资源 |
+| 63 | unsocial hours | ʌnˈsəʊʃl̩ ˈaʊəz | 非正常生活的作息时间 |
+| 64 | upward trend | ˈʌpwəd trend | 上升趋势 |
+| 65 | urban area | ˈɜːbən ˈeəriə | 城市地区 |
+| 66 | vacuum cleaner | ˈvækjʊəm ˈkliːnə | 吸尘器 |
+| 67 | vacuum the stairs | ˈvækjʊəm ðə steəz | 用吸尘器来清洁楼梯 |
+| 68 | vary according to the type,shape | ˈveəri əˈkɔːdɪŋ tə ðə taɪp, ʃeɪp | 因为类别、形状而有差异 |
+| 69 | vary one's diet | ˈveəri wʌnz ˈdaɪət | 改变饮食 |
+| 70 | vegetable burger | ˈvedʒɪtəbl̩ ˈbɜːɡə | 蔬菜汉堡 |
+| 71 | video project | ˈvɪdɪəʊ prəˈdʒekt | 录像作业 |
+| 72 | video recording | ˈvɪdɪəʊ rɪˈkɔːdɪŋ | 录像 |
+| 73 | video signal | ˈvɪdɪəʊ ˈsɪɡnəl | 录像信号 |
+| 74 | videotape editor | ˈvɪdɪəʊteɪp ˈedɪtə | 录像编辑 |
+| 75 | visual aids | ˈvɪʒuəl eɪdz | 视觉辅助 |
+| 76 | VIP class | ˌvi:ˌaɪˈpiː klɑːs | 头等舱 |
+| 77 | virtual learning | ˈvɜːtʃʊəl ˈlɜːnɪŋ | 电脑学习 |
+| 78 | VISA | ˈviːzə | 维萨信用卡 |
+| 79 | violent crimes | ˈvaɪələnt kraɪmz | 暴力犯罪 |
+| 80 | volcanic dust | vɒlˈkænɪk dʌst | 火山灰 |
+| 81 | warm bath | wɔːm bɑːθ | 热水澡 |
+| 82 | volume chart | ˈvɒljuːm tʃɑːt | 体积图 |
+| 83 | voting system | ˈvəʊtɪŋ ˈsɪstəm | 选举系统 |
+| 84 | waiting list | ˈweɪtɪŋ lɪst | 后补清单 |
+| 85 | walking boots | ˈwɔːkɪŋ buːts | 登山靴 |
+| 86 | walking club | ˈwɔːkɪŋ klʌb | 徒步俱乐部 |
+| 87 | weight training | weɪt ˈtreɪnɪŋ | 力量训练 |
+| 88 | washable shoes | ˈwɒʃəbl̩ ʃuːz | 可洗的鞋子 |
+| 89 | washing machine | ˈwɒʃɪŋ məˈʃiːn | 洗衣机 |
+| 90 | wedding photos | ˈwedɪŋ ˈfəʊtəʊz | 婚礼照片 |
+| 91 | waste handling | weɪst ˈhændl̩ɪŋ | 垃圾处理 |
+| 92 | waste disposal | weɪst dɪˈspəʊzl̩ | 废物处理，垃圾处理 |
+| 93 | X-ray | ˈeks reɪ | X射线 |
+| 94 | weaving blanket | ˈwiːvɪŋ ˈblæŋkɪt | 编辑毯子 |
+| 95 | water fee | ˈwɔːtə fiː | 水费 |
+| 96 | water heater | ˈwɔːtə ˈhiːtə | 热水器 |
+| 97 | water park | ˈwɔːtə pɑːk | 水公园 |
+| 98 | water resources | ˈwɔːtə rɪˈzɔːsɪz | 水资源 |
+| 99 | water skiing | ˈwɔːtə ˈskiːɪŋ | 滑水 |
+| 100 | weekly return | ˈwiːkli rɪˈtɜːn | 一周往返 |
+| 101 | welcome package | ˈwelkəm ˈpækɪdʒ | 入学或旅行时收到的欢迎辞 |
+| 102 | welcome party | ˈwelkəm ˈpɑːti | 欢迎会 |
+| 103 | welfare department | ˈwelfeə dɪˈpɑːtmənt | 福利部门 |
+| 104 | Western Europe | ˈwestən ˈjʊərəp | 西欧 |
+| 105 | wheelchair | ˈwiːl̩tʃeə | 轮椅 |
+| 106 | white meat | waɪt miːt | 白肉 |
+| 107 | wholesale | ˈhəʊlseɪl | 批发 |
+| 108 | wide reading | waɪd ˈriːdɪŋ | 广泛阅读 |
+| 109 | wide writing | waɪd ˈraɪtɪŋ | 大量写作 |
+| 110 | widen one's horizon | ˈwaɪdn̩ wʌnz həˈraɪzn̩ | 拓宽视野 |
+| 111 | widen one's view | ˈwaɪdn̩ wʌnz vjuː | 拓宽视野 |
+| 112 | wind power | wɪnd ˈpaʊə | 风能 |
+| 113 | wind tunnels | wɪnd ˈtʌnl̩z | 风洞 |
+| 114 | window dressing | ˈwɪndəʊ ˈdresɪŋ | 商店橱窗装饰 |
+| 115 | wing design | wɪŋ dɪˈzaɪn | 机翼设计 |
+| 116 | withdraw cash | wɪðˈdrɔː kæʃ | 取现金 |
+| 117 | woman author | ˈwʊmən ˈɔːθə | 女作家 |
+| 118 | wood should be cut and seasoned | wʊd ʃəd bi kʌt ənd ˈsiːzn̩d | 树木要砍下来风干 |
+| 119 | work objective | ˈwɜːk əbˈdʒektɪv | 工作目标 |
+| 120 | work place | ˈwɜːk ˈpleɪs | 工作地点 |
+| 121 | work systematically | ˈwɜːk ˌsɪstəˈmætɪkl̩i | 系统地工作 |
+| 122 | World Expo | wɜːld ˈekspəʊ | 世界博览会 |
+| 123 | wretched boat | ˈretʃɪd bəʊt | 废弃的船 |
+| 124 | wild animals | waɪld ˈænɪml̩z | 野生动物 |
+| 125 | youth hostel | juːθ ˈhɒstl̩ | 青年旅店 |
+| 126 | your own embassy | jər əʊn ˈembəsi | 本国大使馆 |
+| 127 | yellow fever | ˈjeləʊ ˈfiːvə | 黄热病 |
+
+## Test Paper 12
+
+来源小节：`5.3-12`；235 条。
+
+| 序号 | 英文 | 音标 | 中文提示 |
+| ---: | --- | --- | --- |
+| 1 | abbreviation | əˌbriːviˈeɪʃn̩ | 缩写 |
+| 2 | access | ˈækses | 接近 |
+| 3 | accessible | əkˈsesəbl̩ | 易接近的 |
+| 4 | accident | ˈæksɪdənt | 事故 |
+| 5 | affair | əˈfeə | 事情 |
+| 6 | announcement | əˈnaʊnsmənt | 公告 |
+| 7 | assume | əˈsjuːm | 假设 |
+| 8 | accommodation | əˌkɒməˈdeɪʃn̩ | 住宿 |
+| 9 | recommendation | ˌrekəmenˈdeɪʃn̩ | 推荐 |
+| 10 | annex | ˈæneks | 配楼 |
+| 11 | according | əˈkɔːdɪŋ | 相符的 |
+| 12 | breeding | ˈbriːdɪŋ | 繁殖 |
+| 13 | surrounding | səˈraʊndɪŋ | 周围 |
+| 14 | cooking | ˈkʊkɪŋ | 做饭 |
+| 15 | account | əˈkaʊnt | 账户 |
+| 16 | accountancy | əˈkaʊntənsi | 会计学 |
+| 17 | accounting | əˈkaʊntɪŋ | 会计 |
+| 18 | addition | əˈdɪʃn̩ | 附加 |
+| 19 | additional | əˈdɪʃn̩əl | 附加的 |
+| 20 | address | əˈdres | 地址 |
+| 21 | dress | dres | 连衣裙 |
+| 22 | dressing | ˈdresɪŋ | 穿衣，沙拉 |
+| 23 | assessment | əˈsesmənt | 评估 |
+| 24 | admission | ədˈmɪʃn̩ | 入场费，承认 |
+| 25 | commission | kəˈmɪʃn̩ | 佣金，委任 |
+| 26 | depression | dɪˈpreʃn̩ | 沮丧，萧条 |
+| 27 | affect | əˈfekt | 影响，装作 |
+| 28 | effect | ɪˈfekt | 结果，作用 |
+| 29 | effective | ɪˈfektɪv | 有效的 |
+| 30 | effectively | ɪˈfektɪvli | 有效地 |
+| 31 | appeal | əˈpiːl | 呼吁，恳求，对。。。上诉 |
+| 32 | annual | ˈænjuəl | 一年的 |
+| 33 | arrival | əˈraɪvl̩ | 到达 |
+| 34 | applicant | ˈæplɪkənt | 申请人 |
+| 35 | application | ˌæplɪˈkeɪʃn̩ | 申请，应用 |
+| 36 | applied | əˈplaɪd | 应用的 |
+| 37 | appliance | əˈplaɪəns | 器具，装置 |
+| 38 | approach | əˈprəʊtʃ | 方法，接近，靠近，近乎 |
+| 39 | appointment | əˈpɔɪntmənt | 预约，任命 |
+| 40 | approval | əˈpruːvl̩ | 同意 |
+| 41 | approximate | əˈprɒksɪmət | 近似的 |
+| 42 | assistance | əˈsɪstəns | 援助 |
+| 43 | assistant | əˈsɪstənt | 助手 |
+| 44 | associate | əˈsəʊsiət | 伙伴 |
+| 45 | association | əˌsəʊʃiˈeɪʃn̩ | 协会 |
+| 46 | attachment | əˈtætʃmənt | 附件 |
+| 47 | attack | əˈtæk | 袭击 |
+| 48 | attempt | əˈtempt | 努力 |
+| 49 | attitude | ˈætɪtjuːd | 态度 |
+| 50 | attend | əˈtend | 出席，参加 |
+| 51 | attendance | əˈtendəns | 到场，出席 |
+| 52 | attention | əˈtenʃn̩ | 注意 |
+| 53 | attentive | əˈtentɪv | 注意的 |
+| 54 | business | ˈbɪznəs | 商业，交易 |
+| 55 | balloon | bəˈluːn | 气球 |
+| 56 | cartoon | kɑːˈtuːn | 卡通片，动画片 |
+| 57 | spoon | spuːn | 汤匙 |
+| 58 | billion | ˈbɪlɪəŋ | 十亿 |
+| 59 | ballroom | ˈbɔːlruːm | 舞会 |
+| 60 | bathroom | ˈbɑːθruːm | 卫生间 |
+| 61 | playroom | ˈpleɪruːm | 娱乐室 |
+| 62 | roommate | ˈruːˌmet | 室友 |
+| 63 | barren | ˈbærən | 不生育的看，贫瘠的 |
+| 64 | barrier | ˈbæriə | 障碍物 |
+| 65 | better | ˈbetə | 更好的 |
+| 66 | buffet | ˈbʊfeɪ | 自助餐 |
+| 67 | beginner | bɪˈɡɪnə | 初始者 |
+| 68 | beginning | bɪˈɡɪnɪŋ | 开始，初级 |
+| 69 | planner | ˈplænə | 计划者 |
+| 70 | planning | ˈplænɪŋ | 制订计划 |
+| 71 | blood | blʌd | 血 |
+| 72 | bloom | bluːm | 花，开花 |
+| 73 | boot | buːt | 靴子 |
+| 74 | book | bʊk | 书 |
+| 75 | booking | ˈbʊkɪŋ | 预订 |
+| 76 | booklet | ˈbʊklɪt | 小册子 |
+| 77 | cannibal | ˈkænɪbəl | 食肉者 |
+| 78 | connect | kəˈnekt | 连接 |
+| 79 | cassette | kəˈset | 录音带 |
+| 80 | cattle | ˈkætl̩ | 牲畜 |
+| 81 | classical | ˈkl̩æsɪkl | 古典的 |
+| 82 | classification | ˌklæsɪfɪˈkeɪʃn̩ | 分类，类别 |
+| 83 | classmate | ˈklɑːsmeɪt | 同班同学 |
+| 84 | comment | ˈkɒment | 注释，评论 |
+| 85 | commercial | kəˈmɜːʃl̩ | 电视广告 |
+| 86 | communication | kəˌmjuːnɪˈkeɪʃn̩ | 交流 |
+| 87 | community | kəˈmjuːnɪti | 社区 |
+| 88 | common | ˈkɒmən | 普通的 |
+| 89 | cotton | ˈkɒtn̩ | 棉花 |
+| 90 | coffee | ˈkɒfi | 咖啡 |
+| 91 | cottage | ˈkɒtɪdʒ | 小屋 |
+| 92 | cramming | ˈkræmɪŋ | 死记硬背 |
+| 93 | running | ˈrʌnɪŋ | 奔跑，运转，奔跑的 |
+| 94 | wedding | ˈwedɪŋ | 婚礼 |
+| 95 | banned | bænd | 禁止 |
+| 96 | current | ˈkʌrənt | 流动，趋势，当前的 |
+| 97 | currency | ˈkʌrənsi | 货币，流通 |
+| 98 | cooperate | kəʊˈɒpəreɪt | 合作，协作 |
+| 99 | crossroads | ˈkrɒsrəʊdz | 交叉路，转折点 |
+| 100 | dessert | dɪˈzɜːt | 甜点心 |
+| 101 | dissertation | ˌdɪsəˈteɪʃn̩ | 论文 |
+| 102 | different | ˈdɪfrənt | 不同的 |
+| 103 | difference | ˈdɪfrəns | 差别 |
+| 104 | dinner | ˈdɪnə | 正餐 |
+| 105 | dizzy | ˈdɪzi | 头晕目眩的 |
+| 106 | little | ˈlɪtl̩ | 小的 |
+| 107 | pizza | ˈpiːtsə | 比萨饼 |
+| 108 | discuss | dɪˈskʌs | 讨论 |
+| 109 | discussion | dɪˈskʌʃn̩ | 讨论 |
+| 110 | speech | spiːtʃ | 演讲，演说 |
+| 111 | suggestion | səˈdʒestʃən | 建议 |
+| 112 | door | dɔː | 门 |
+| 113 | dollar | ˈdɒlə | 美元 |
+| 114 | floor | flɔː | 地板 |
+| 115 | poor | pʊə | 贫穷的 |
+| 116 | efficient | ɪˈfɪʃnt | 效率高的 |
+| 117 | essential | ɪˈsenʃl̩ | 必要的 |
+| 118 | exaggerate | ɪɡˈzædʒəreɪt | 夸张 |
+| 119 | essay | eˈseɪ | 散文，随笔 |
+| 120 | embassy | ˈembəsi | 大使馆 |
+| 121 | issue | ˈɪʃuː | 问题 |
+| 122 | curriculum | kəˈrɪkjʊləm | 课程，课程表 |
+| 123 | express | ɪkˈspres | 快车，快递 |
+| 124 | congress | ˈkɒŋɡres | 会议，国会 |
+| 125 | pressed | prest | 紧的，困难的 |
+| 126 | pressure | ˈpreʃə | 压，压力 |
+| 127 | fee | fiː | 费 |
+| 128 | feedback | ˈfiːdbæk | 反馈，返回 |
+| 129 | ferry | ˈferi | 摆渡，渡轮 |
+| 130 | fossil | ˈfɒsl̩ | 化石 |
+| 131 | food | fuːd | 食物 |
+| 132 | foot | fʊt | 脚 |
+| 133 | football | ˈfʊtbɔːl | 足球 |
+| 134 | footprint | ˈfʊtprɪnt | 脚印 |
+| 135 | goods | ɡʊdz | 商品 |
+| 136 | gallon | ˈɡælən | 加仑 |
+| 137 | grammar | ˈɡræmə | 语法 |
+| 138 | handbook | ˈhændbʊk | 手册 |
+| 139 | textbook | ˈteksbʊk | 教科书 |
+| 140 | notebook | ˈnəʊtbʊk | 笔记本 |
+| 141 | newsletters | ˈnjuːzletəz | 时事通讯 |
+| 142 | hippo | ˈhɪpəʊ | 河马 |
+| 143 | hoover | ˈhuːvə | 真空吸尘器 |
+| 144 | horror | ˈhɒrə | 恐怖，震惊 |
+| 145 | hall | hɔːl | 大厅，门厅 |
+| 146 | immune | ɪˈmjuːn | 免疫的 |
+| 147 | irrigation | ˌɪrɪˈɡeɪʃn̩ | 灌溉 |
+| 148 | irritation | ˌɪrɪˈteɪʃn̩ | 激怒 |
+| 149 | useless | ˈjuːsləs | 无用的 |
+| 150 | impossible | ɪmˈpɒsəbl̩ | 不可能的 |
+| 151 | incorrect | ˌɪnkəˈrekt | 不正确的 |
+| 152 | innovation | ˌɪnəˈveɪʃn̩ | 革新，改革 |
+| 153 | interviewee | ˌɪntəvjuːˈiː | 被采访人 |
+| 154 | lessen | ˈlesn̩ | 变小，使变小 |
+| 155 | degree | dɪˈɡriː | 度 |
+| 156 | likelihood | ˈlaɪklɪhʊd | 可能 |
+| 157 | firewood | ˈfaɪəwʊd | 柴火 |
+| 158 | matter | ˈmætə | 问题，事件 |
+| 159 | mammal | ˈmæml̩ | 哺乳动物 |
+| 160 | mass | mæs | 众多，大众 |
+| 161 | massage | ˈmæsɑːʒ | 按摩 |
+| 162 | midday | ˌmɪdˈdeɪ | 正午 |
+| 163 | million | ˈmɪlɪən | 百万 |
+| 164 | narrator | nəˈreɪtə | 解说员 |
+| 165 | lookout | ˈlʊkaʊt | 守望，监视 |
+| 166 | occasion | əˈkeɪʒn̩ | 场合，时机 |
+| 167 | occupant | ˈɒkjʊpənt | 占有人，居住者 |
+| 168 | occupation | ˌɒkjʊˈpeɪʃn̩ | 工作，职业 |
+| 169 | occupational | ˌɒkjʊˈpeɪʃnəl | 职业的 |
+| 170 | offer | ˈɒfə | 给予奉献，提议，出现 |
+| 171 | office | ˈɒfɪs | 办公室 |
+| 172 | officer | ˈɒfɪsə | 军官，官员 |
+| 173 | passage | ˈpæsɪdʒ | 文章，一节，一段 |
+| 174 | passport | ˈpɑːspɔːt | 护照，通行证 |
+| 175 | password | ˈpɑːswɜːd | 口令 |
+| 176 | pattern | ˈpætn̩ | 花样，图案 |
+| 177 | paddle | ˈpædl̩ | 划桨 |
+| 178 | penny | ˈpeni | 便士 |
+| 179 | personnel | ˌpɜːsəˈnel | 人事，职员 |
+| 180 | pottery | ˈpɒtəri | 陶器 |
+| 181 | process | ˈprəʊses | 过程 |
+| 182 | processing | ˈprəʊsesɪŋ | 加工，处理 |
+| 183 | profession | prəˈfeʃn̩ | 职业 |
+| 184 | professor | prəˈfesə | 教授 |
+| 185 | questionnaire | ˌkwestʃəˈneə | 问卷 |
+| 186 | possibility | ˌpɒsəˈbɪlɪti | 可能性 |
+| 187 | opportunities | ˌɒpəˈtjuːnɪtɪz | 机会，机遇 |
+| 188 | robber | ˈrɒbə | 抢劫者 |
+| 189 | otter | ˈɒtə | 水獭 |
+| 190 | rubbish | ˈrʌbɪʃ | 垃圾 |
+| 191 | Russia | ˈrʌʃə | 俄罗斯 |
+| 192 | school | skuːl | 学校 |
+| 193 | kangaroo | ˌkæŋɡəˈruː | 袋鼠 |
+| 194 | Scottish | ˈskɒtɪʃ | 苏格兰人，苏格兰语 |
+| 195 | screen | skriːn | 屏幕 |
+| 196 | seafood | ˈsiːfuːd | 海鲜 |
+| 197 | settlement | ˈsetlmənt | 解决，结账 |
+| 198 | shuttle | ˈʃʌtl̩ | 梭子 |
+| 199 | shopping | ˈʃɒpɪŋ | 购物 |
+| 200 | swimming | ˈswɪmɪŋ | 游泳 |
+| 201 | skiing | ˈskiːɪŋ | 滑雪 |
+| 202 | setting | ˈsetɪŋ | 安装，设置 |
+| 203 | steel | stiːl | 钢 |
+| 204 | steering | ˈstɪərɪŋ | 掌舵，操纵 |
+| 205 | stress | stres | 紧张，压力 |
+| 206 | stressful | ˈstresfl̩ | 紧张的 |
+| 207 | stiff | stɪf | 硬的 |
+| 208 | staff | stɑːf | 职员 |
+| 209 | stuff | stʌf | 材料，原料 |
+| 210 | cliff | klɪf | 悬崖，峭壁 |
+| 211 | success | səkˈses | 成功 |
+| 212 | successful | səkˈsesfəl | 成功的 |
+| 213 | session | ˈseʃn̩ | 开会，会议 |
+| 214 | concession | kənˈseʃn̩ | 让步 |
+| 215 | summary | ˈsʌməri | 概括的 |
+| 216 | summer | ˈsʌmə | 夏天 |
+| 217 | summit | ˈsʌmɪt | 尖峰，顶峰 |
+| 218 | supplementary | ˌsʌplɪˈmentri | 增补的 |
+| 219 | supply | səˈplaɪ | 供给，供应 |
+| 220 | support | səˈpɔːt | 支撑，支柱 |
+| 221 | supportive | səˈpɔːtɪv | 赞助的 |
+| 222 | tennis | ˈtenɪs | 网球 |
+| 223 | tunnel | ˈtʌnl̩ | 隧道，地道 |
+| 224 | toothache | ˈtuːθeɪk | 牙痛 |
+| 225 | traffic | ˈtræfɪk | 交通 |
+| 226 | terraced | ˈterəst | 有露台的 |
+| 227 | terrestrial | tɪˈrestrɪəl | 疆土的 |
+| 228 | vaccine | ˈvæksiːn | 疫苗 |
+| 229 | vacuum | ˈvækjʊəm | 真空 |
+| 230 | waitress | ˈweɪtrɪs | 女服务员 |
+| 231 | willow | ˈwɪləʊ | 柳树 |
+| 232 | weed | wiːd | 野草 |
+| 233 | wood | wʊd | 木材 |
+| 234 | woods | wʊdz | 森林 |
+| 235 | zoo | zuː | 动物园 |

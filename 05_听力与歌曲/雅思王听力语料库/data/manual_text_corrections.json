@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "corrections": [
+    {
+      "group": "3.3-8",
+      "chapter": 3,
+      "test_paper": 8,
+      "start_index": 127,
+      "expected_original_count": 152,
+      "expected_previous_word": "style",
+      "expected_start_word": "subject",
+      "source": {
+        "type": "user_provided_photo",
+        "description": "用户提供的 Chapter 3 Test Paper 8 书页照片；从左到右逐行读取",
+        "sha256": "c4b66e55372bdd073a8115705dd5fcc13b8a27961565bb767fb8cd0dff8bfc0e"
+      },
+      "note": "第127词起按书页照片校订；删除误收的 submit，修正后段词序、音标与中文提示；末词为 tape，本组共151词。",
+      "entries": [
+        {
+          "w": "subject",
+          "p": "ˈsʌbdʒɪkt",
+          "m": "主题，学科"
+        },
+        {
+          "w": "suit",
+          "p": "sjuːt",
+          "m": "西装"
+        },
+        {
+          "w": "subsidy",
+          "p": "ˈsʌbsɪdɪ",
+          "m": "补贴"
+        },
+        {
+          "w": "suburb",
+          "p": "ˈsʌbɜːb",
+          "m": "郊区"
+        },
+        {
+          "w": "sugar",
+          "p": "ˈʃʊɡə(r)",
+          "m": "糖"
+        },
+        {
+          "w": "surface",
+          "p": "ˈsɜːfɪs",
+          "m": "表面"
+        },
+        {
+          "w": "sunshield",
+          "p": "ˈsʌnʃiːld",
+          "m": "遮阳板"
+        },
+        {
+          "w": "supervisor",
+          "p": "ˈsuːpəvaɪzə(r)",
+          "m": "导师"
+        },
+        {
+          "w": "supports",
+          "p": "səˈpɔːts",
+          "m": "支撑；支柱"
+        },
+        {
+          "w": "survey",
+          "p": "ˈsɜːveɪ",
+          "m": "测量，调查"
+        },
+        {
+          "w": "surgeon",
+          "p": "ˈsɜːdʒən",
+          "m": "外科医生"
+        },
+        {
+          "w": "surname",
+          "p": "ˈsɜːneɪm",
+          "m": "姓"
+        },
+        {
+          "w": "surprise",
+          "p": "səˈpraɪz",
+          "m": "惊奇"
+        },
+        {
+          "w": "switches",
+          "p": "ˈswɪtʃɪz",
+          "m": "开关"
+        },
+        {
+          "w": "survival",
+          "p": "səˈvaɪvl",
+          "m": "生存"
+        },
+        {
+          "w": "sweater",
+          "p": "ˈswetə(r)",
+          "m": "毛衣"
+        },
+        {
+          "w": "switch",
+          "p": "swɪtʃ",
+          "m": "开关"
+        },
+        {
+          "w": "system",
+          "p": "ˈsɪstəm",
+          "m": "系统，体系"
+        },
+        {
+          "w": "symptom",
+          "p": "ˈsɪmptəm",
+          "m": "症状"
+        },
+        {
+          "w": "syndicate",
+          "p": "ˈsɪndɪkət",
+          "m": "财团"
+        },
+        {
+          "w": "syrup",
+          "p": "ˈsɪrəp",
+          "m": "糖浆"
+        },
+        {
+          "w": "tax",
+          "p": "tæks",
+          "m": "税收"
+        },
+        {
+          "w": "table",
+          "p": "ˈteɪbl",
+          "m": "桌子，图表"
+        },
+        {
+          "w": "tablet",
+          "p": "ˈtæblət",
+          "m": "药片"
+        },
+        {
+          "w": "tape",
+          "p": "teɪp",
+          "m": "磁带"
+        }
+      ]
+    }
+  ]
+}

@@ -5,9 +5,12 @@ import hashlib
 import json
 import re
 import shutil
+import os
+from urllib.parse import quote
 
 from build_reference_texts import GROUPS, source_data, apply_corrections
 from mobile_oxford import add_packs
+from ielts_text_fixes import fix_wrapped_phrases
 
 TOOLS = Path(__file__).resolve().parent
 REPO = TOOLS.parents[1]
@@ -15,6 +18,7 @@ ROOT = REPO / '05_听力与歌曲/雅思王听力语料库'
 WEB = TOOLS / 'web'
 SITE_URL = 'https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site'
 PROJECT_ID = 'appgprj_6ae6ef998de48191ae576308e8c9bfa1'
+IELTS_SOURCE_REVISION = '560f3d2b7b475dff5657631b4f16fc60939f6b36'
 
 
 def load(path):
@@ -38,10 +42,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--site-dir', type=Path, default=TOOLS / '_cache/mobile-listening-site')
     parser.add_argument('--site-url', default=SITE_URL)
+    parser.add_argument('--export-pc', action='store_true')
     args = parser.parse_args()
     source = source_data()
     apply_corrections(source)
-    official = load(ROOT / 'data/chapter11_transcription.json')
+    official = fix_wrapped_phrases(load(ROOT / 'data/chapter11_transcription.json'))
     validation = load(ROOT / 'data/download_validation.json')
     tracks, chapters, entries = [], [], []
     for row in validation['entries']:
@@ -101,12 +106,29 @@ def main():
     corrected = [e['word'] for e in entries if e['chapter'] == 3 and e['group'] == 'c3-p8' and e['order'] >= 127]
     assert corrected == [e['w'] for e in load(ROOT / 'data/manual_text_corrections.json')['corrections'][0]['entries']]
     collections, audio_credits = add_packs(chapters, entries, tracks, ROOT)
-    assert len(entries) == 9627 and len(tracks) == 61
-    dataset = {'version': '2026-11-01-oxford-hub', 'collections': collections, 'chapters': chapters, 'entries': entries, 'tracks': tracks,
+    timing = load(ROOT / 'data/original_audio_timeline.json')
+    assert len(timing['tracks']) == 59
+    for track in tracks:
+        if track['id'] not in timing['tracks']:
+            continue
+        aligned = timing['tracks'][track['id']]
+        assert hashlib.sha256((ROOT / track['file']).read_bytes()).hexdigest() == aligned['sourceSha256']
+        track.update(cues=aligned['cues'], duration=aligned['duration'], mp3Index=aligned['mp3Index'],
+                     playbackBytes=aligned['mp3Index']['bytes'], humanEntries=aligned['entryCount'], aiEntries=0,
+                     originalDuration=track['duration'], officialUrl=track['url'])
+        relative = (ROOT / track['file']).relative_to(REPO).as_posix()
+        track['url'] = f'https://raw.githubusercontent.com/Max-47-S/English_Learning/{IELTS_SOURCE_REVISION}/' + quote(relative, safe='/')
+    for c in chapters:
+        if c['collection'] == 'ielts':
+            c.update(audioTitle='王陆原版真人录音', audioSubtitle='真人 · 逐词同步')
+    next(c for c in collections if c['id'] == 'ielts')['defaultMode'] = 'original'
+    assert len(entries) == 9625 and len(tracks) == 61
+    dataset = {'version': '2026-11-02-original-sync', 'collections': collections, 'chapters': chapters, 'entries': entries, 'tracks': tracks,
                'audioCredits': audio_credits,
+               'entryAliases': official['entryAliases'],
                'pdfHref': 'Chapter11_综合测试/文本/Chapter11_综合测试_剑21版.pdf',
                'notes': ['Chapter 3/4/5 为网络参考词表；Chapter 11 为官方 PDF OCR 转写。',
-                         '系统朗读使用设备合成语音；Oxford 两套学习包音频已有逐词时间轴，雅思原音仍为整段。',
+                         '四章原版真人录音均有逐词时间轴，保留原声和原有停顿，卡片随原音频切换。系统朗读另行使用设备合成语音。',
                          'Oxford 3000 音轨为 3306 条真人录音；750 短语音轨含 350 条真人录音与 400 条 AI 配音，逐条标注。',
                          '扩展搭配和例句按英文词形匹配现有 Oxford 学习包，释义仍以本章为主。']}
     save(ROOT / 'data/mobile_study.json', dataset)
@@ -145,7 +167,7 @@ def main():
         md = [f'# Chapter {chapter["id"]} · {chapter["title"]} · 学习卡', '',
               '[打开四章听读页面](../手机听读.html)', '',
               '中文释义取自本章词表。搭配与双语例句按词形匹配现有 Oxford 3000 学习包，作为扩展学习；不保证与本章每个词义相同。例句保留各自来源和授权署名。', '',
-              '逐词朗读使用设备语音；原版音频按音轨整段播放。', '']
+              '原版真人音轨已有逐词时间轴，连续播放保持原录音节奏；系统语音可另外选用。', '']
         for g in chapter['groups']:
             md += [f'## {g["title"]}', '']
             for e in entries:
@@ -164,10 +186,16 @@ def main():
                     md += [f'原 PDF：第 {e["pdfPage"]} 页。', '']
         path = ROOT / chapter['folder'] / f'Chapter{chapter["id"]:02}_学习卡.md'
         path.write_text('\n'.join(md))
-    template = (WEB / 'index.html').read_text().replace('__APP_CSS__', (WEB / 'app.css').read_text() + '\n' + (WEB / 'hub.css').read_text()).replace('__APP_JS__', (WEB / 'timeline-core.js').read_text() + '\n' + (WEB / 'speech-queue.js').read_text() + '\n' + (WEB / 'app.js').read_text()).replace('__SITE_URL__', args.site_url)
+    template = (WEB / 'index.html').read_text().replace('__APP_CSS__', (WEB / 'app.css').read_text() + '\n' + (WEB / 'hub.css').read_text()).replace('__APP_JS__', (WEB / 'timeline-core.js').read_text() + '\n' + (WEB / 'speech-queue.js').read_text() + '\n' + (WEB / 'mp3-index.js').read_text() + '\n' + (WEB / 'app.js').read_text()).replace('__SITE_URL__', args.site_url)
     def page(data):
         return template.replace('__STUDY_DATA__', json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c'))
-    (ROOT / '手机听读.html').write_text(page(dataset))
+    # Local pages use the same indexed audio included in the portable PC pack.
+    export_root = REPO / '_exports/王陆四章PC听读'
+    local_tracks = [{**t, 'file': os.path.relpath(export_root / 'audio' / (t['id'] + '.mp3'), ROOT)} if t.get('mp3Index') else t for t in tracks]
+    (ROOT / '手机听读.html').write_text(page({**dataset, 'tracks': local_tracks, 'localAudioIndexed': True}))
+    if args.export_pc:
+        from export_pc_pack import export_pc
+        export_pc(dataset, template, export_root, ROOT, REPO)
     site = args.site_dir
     hosted = {**dataset, 'pdfHref': '/source/chapter11.pdf'}
     public = site / 'public'
@@ -188,12 +216,13 @@ self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(ur
 """)
     route = site / 'app/api/audio/[id]'
     route.mkdir(parents=True, exist_ok=True)
-    save(route / 'sources.json', {t['id']: {'url': t['url'], 'pageUrl': t['pageUrl']} for t in tracks})
+    save(route / 'sources.json', {t['id']: {'url': t['url'], 'pageUrl': t['pageUrl'], **({'mp3Index': t['mp3Index']} if t.get('mp3Index') else {})} for t in tracks})
     shutil.copyfile(WEB / 'audio-route.ts', route / 'route.ts')
+    shutil.copyfile(WEB / 'audio-range.ts', route / 'audio-range.ts')
     (site / 'app/page.tsx').write_text('import { redirect } from "next/navigation";\nexport default function Page(){redirect("/study/index.html")}\n')
     (site / 'app/layout.tsx').write_text('import type { Metadata } from "next";\nimport "./globals.css";\nexport const metadata:Metadata={title:"英语听读 · Oxford 与雅思",description:"Oxford 3000、750 常用短语与雅思听力，同一入口学习",icons:{icon:"/icon.svg"}};\nexport default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}\n')
     save(WEB / 'site.json', {'project_id': PROJECT_ID, 'url': args.site_url, 'access': 'private'})
-    save(ROOT / 'data/study_build_report.json', {'entries': len(entries), 'chapters': {c['id']: sum(e['chapter'] == c['id'] for e in entries) for c in chapters}, 'collections': {c['id']: sum(e['collection'] == c['id'] for e in entries) for c in collections}, 'audioTracks': len(tracks), 'oxfordExampleMatches': enriched, 'chapter3PhotoCorrectionPreserved': True, 'htmlBytes': (ROOT / '手机听读.html').stat().st_size})
+    save(ROOT / 'data/study_build_report.json', {'entries': len(entries), 'chapters': {c['id']: sum(e['chapter'] == c['id'] for e in entries) for c in chapters}, 'collections': {c['id']: sum(e['collection'] == c['id'] for e in entries) for c in collections}, 'audioTracks': len(tracks), 'ieltsSyncedTracks': len(timing['tracks']), 'ieltsAudioCues': sum(len(t['cues']) for t in timing['tracks'].values()), 'totalAudioCues': sum(len(t['cues']) for t in tracks), 'originalFramesUnchanged': all(t['mp3Index']['audioFramesUnchanged'] for t in timing['tracks'].values()), 'ieltsAudioSourceRevision': IELTS_SOURCE_REVISION, 'oxfordExampleMatches': enriched, 'chapter3PhotoCorrectionPreserved': True, 'htmlBytes': (ROOT / '手机听读.html').stat().st_size})
     print('BUILT', len(entries), 'entries;', len(tracks), 'original tracks;', enriched, 'extension examples')
     print(out)
 

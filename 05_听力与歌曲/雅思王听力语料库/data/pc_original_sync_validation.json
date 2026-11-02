@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-11-02T15:36:43.055Z",
+  "ielts": {
+    "chapters": [
+      3,
+      4,
+      5,
+      11
+    ],
+    "entries": 5569,
+    "tracks": 59,
+    "cues": 8620,
+    "audio_source_revision": "560f3d2b7b475dff5657631b4f16fc60939f6b36",
+    "audio_frames_unchanged": true,
+    "timing": "真实发声边界＋逐词识别核对；原音 currentTime 驱动卡片，保留录音中的停顿。",
+    "manual_corrections": "data/original_audio_alignment_corrections.json"
+  },
+  "automated_checks": {
+    "speech_queue": "passed",
+    "app_speech_and_media_events": "passed",
+    "timeline_all_61_tracks_12676_cues": "passed",
+    "mp3_index_all_59_original_frames_and_range_streaming": "passed",
+    "site_production_build": "passed",
+    "offline_zip_crc_and_59_audio_files": "passed"
+  },
+  "browser_checks": {
+    "browser": "Chrome",
+    "online_pc_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=ielts&mode=original&view=pc",
+    "production_entry_count": 9625,
+    "original_playback": "verified: ability at 51.904053 s, paused automatically at 52.746368 s; duration 614.556735 s",
+    "previous_session_checks": [
+      "Chapter 4 adverbs continuous playback at 2× and manual single-word pause",
+      "Chapter 11 Section 4 last word near 3999 s with corrected duration",
+      "Chapter 5 Test 9 vertical Red Flag native order 8/140",
+      "PC 1366×768 and mobile 390×844 overflow checks",
+      "Space play/pause shortcut"
+    ],
+    "limit": "未人工听完约 11.73 小时全部录音；时间轴已覆盖全量并做结构、边界及词序核验。"
+  },
+  "text_corrections": {
+    "source": "Chapter 11 PDF 第 69 页",
+    "wrapped_phrases": [
+      "rubber-wood furniture business",
+      "digital marketing service providers"
+    ],
+    "old_fragment_ids_migrated": true
+  },
+  "offline": {
+    "zip": "_exports/王陆四章PC听读.zip",
+    "bytes": 867123370,
+    "html": "_exports/王陆四章PC听读/PC听读.html",
+    "tool_limit": "浏览器工具禁止打开 file:// 页面，未直接运行本地 HTML；在线电脑版已实际验证，离线包通过结构、音频索引和 ZIP 完整性检查。"
+  },
+  "site": {
+    "commit_sha": "d6cf68a1ee851799a416b3d51e38f2d80ed355e0",
+    "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_bacc4f12bf1481919de9262ab1d19de8",
+    "deployment_id": "appgdep_6ae8adb615408191883d9b5cc8f746c1",
+    "status": "succeeded"
+  },
+  "screenshot": "99_维护工具/雅思听力/_cache/王陆四章_PC真人同步听读.jpg"
+}

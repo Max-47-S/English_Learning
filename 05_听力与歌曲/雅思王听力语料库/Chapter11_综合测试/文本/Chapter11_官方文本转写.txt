@@ -2382,34 +2382,32 @@ c11-s4-phrases	441	keynote speakers		主讲嘉宾	PDF:69
 c11-s4-phrases	442	inspirational talk		激励演讲	PDF:69
 c11-s4-phrases	443	business-minded teenager		有商业头脑的青少年	PDF:69
 c11-s4-phrases	444	business bank account		商业银行账户	PDF:69
-c11-s4-phrases	445	rubber-wood furniture		橡胶木家具	PDF:69
+c11-s4-phrases	445	rubber-wood furniture business		橡胶木家具生意	PDF:69
 c11-s4-phrases	446	log houses		原木房屋	PDF:69
-c11-s4-phrases	447	business	ˈbɪznəs	生意	PDF:69
+c11-s4-phrases	447	business practices		商业实践	PDF:69
 c11-s4-phrases	448	down-to-earth attitude		务实态度	PDF:69
-c11-s4-phrases	449	business practices		商业实践	PDF:69
+c11-s4-phrases	449	top job		最高职位，最重要任务	PDF:69
 c11-s4-phrases	450	TV contest		电视竞赛	PDF:69
-c11-s4-phrases	451	top job		最高职位，最重要任务	PDF:69
+c11-s4-phrases	451	online deaf sites		在线聋人网站	PDF:69
 c11-s4-phrases	452	business interest		商业兴趣	PDF:69
-c11-s4-phrases	453	online deaf sites		在线聋人网站	PDF:69
-c11-s4-phrases	454	digital marketing		数字营销服	PDF:69
-c11-s4-phrases	455	annual jobs fair		年度招聘会	PDF:69
-c11-s4-phrases	456	service providers		务提供商	PDF:69
-c11-s4-phrases	457	lasting changes		持久性改变	PDF:70
-c11-s4-phrases	458	specific cases		具体案例	PDF:70
-c11-s4-phrases	459	intergenerational living		代际共居	PDF:70
-c11-s4-phrases	460	future demand		未来需求	PDF:70
-c11-s4-phrases	461	multi-storey apartment blocks		多层公寓楼	PDF:70
-c11-s4-phrases	462	one-storey buildings		单层建筑	PDF:70
-c11-s4-phrases	463	different profession		不同职业	PDF:70
-c11-s4-phrases	464	internal walls		内墙	PDF:70
-c11-s4-phrases	465	smart bathroom mirrors		智能浴室镜	PDF:70
-c11-s4-phrases	466	signs of illness		疾病征兆	PDF:70
-c11-s4-phrases	467	electric bikes		电动自行车	PDF:70
-c11-s4-phrases	468	surgical recovery		术后康复	PDF:70
-c11-s4-phrases	469	post-operative care		术后护理模式	PDF:70
-c11-s4-phrases	470	medical notes		医疗记录	PDF:70
-c11-s4-phrases	471	patient choice		患者选择	PDF:70
-c11-s4-phrases	472	general anaesthetic		全身麻醉	PDF:70
+c11-s4-phrases	453	annual jobs fair		年度招聘会	PDF:69
+c11-s4-phrases	454	digital marketing service providers		数字营销服务提供商	PDF:69
+c11-s4-phrases	455	lasting changes		持久性改变	PDF:70
+c11-s4-phrases	456	specific cases		具体案例	PDF:70
+c11-s4-phrases	457	intergenerational living		代际共居	PDF:70
+c11-s4-phrases	458	future demand		未来需求	PDF:70
+c11-s4-phrases	459	multi-storey apartment blocks		多层公寓楼	PDF:70
+c11-s4-phrases	460	one-storey buildings		单层建筑	PDF:70
+c11-s4-phrases	461	different profession		不同职业	PDF:70
+c11-s4-phrases	462	internal walls		内墙	PDF:70
+c11-s4-phrases	463	smart bathroom mirrors		智能浴室镜	PDF:70
+c11-s4-phrases	464	signs of illness		疾病征兆	PDF:70
+c11-s4-phrases	465	electric bikes		电动自行车	PDF:70
+c11-s4-phrases	466	surgical recovery		术后康复	PDF:70
+c11-s4-phrases	467	post-operative care		术后护理模式	PDF:70
+c11-s4-phrases	468	medical notes		医疗记录	PDF:70
+c11-s4-phrases	469	patient choice		患者选择	PDF:70
+c11-s4-phrases	470	general anaesthetic		全身麻醉	PDF:70
 c11-s5-ance	1	academic performance	ˌækəˈdemɪk pəˈfɔːməns	学业成绩	PDF:71
 c11-s5-ance	2	advanced	ədˈvɑːnst	高级的，先进的	PDF:71
 c11-s5-ance	3	advanced course	ədˈvɑːnst kɔːs	高级课程	PDF:71

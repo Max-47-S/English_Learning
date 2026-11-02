@@ -45342,8 +45342,8 @@
       "source": "pdf"
     },
     {
-      "word": "rubber-wood furniture",
-      "meaning": "橡胶木家具",
+      "word": "rubber-wood furniture business",
+      "meaning": "橡胶木家具生意",
       "pos": "",
       "ipa": "",
       "ipaSource": "",
@@ -45358,7 +45358,8 @@
       "order": 445,
       "pdfPage": 69,
       "bookPage": 287,
-      "source": "pdf"
+      "source": "pdf",
+      "reviewNote": "已按原 PDF 第 69 页合并同一表格单元格内的换行。"
     },
     {
       "word": "log houses",
@@ -45380,17 +45381,17 @@
       "source": "pdf"
     },
     {
-      "word": "business",
-      "meaning": "生意",
+      "word": "business practices",
+      "meaning": "商业实践",
       "pos": "",
-      "ipa": "ˈbɪznəs",
-      "ipaSource": "reference",
-      "ocrWord": "business",
-      "y": 0.31784150129674854,
-      "x": 0.12728479286421635,
+      "ipa": "",
+      "ipaSource": "",
+      "ocrWord": "business practices",
+      "y": 0.2830000002400481,
+      "x": 0.1273333328509451,
       "variants": [],
       "reviewIssues": [],
-      "id": "c11-s4-phrases-0447",
+      "id": "c11-s4-phrases-0449",
       "chapter": 11,
       "group": "c11-s4-phrases",
       "order": 447,
@@ -45418,17 +45419,17 @@
       "source": "pdf"
     },
     {
-      "word": "business practices",
-      "meaning": "商业实践",
+      "word": "top job",
+      "meaning": "最高职位，最重要任务",
       "pos": "",
       "ipa": "",
       "ipaSource": "",
-      "ocrWord": "business practices",
-      "y": 0.2830000002400481,
-      "x": 0.1273333328509451,
+      "ocrWord": "top job",
+      "y": 0.25148342274008856,
+      "x": 0.1254584645928764,
       "variants": [],
       "reviewIssues": [],
-      "id": "c11-s4-phrases-0449",
+      "id": "c11-s4-phrases-0451",
       "chapter": 11,
       "group": "c11-s4-phrases",
       "order": 449,
@@ -45456,17 +45457,17 @@
       "source": "pdf"
     },
     {
-      "word": "top job",
-      "meaning": "最高职位，最重要任务",
+      "word": "online deaf sites",
+      "meaning": "在线聋人网站",
       "pos": "",
       "ipa": "",
       "ipaSource": "",
-      "ocrWord": "top job",
-      "y": 0.25148342274008856,
-      "x": 0.1254584645928764,
+      "ocrWord": "online deaf sites",
+      "y": 0.19550000028749265,
+      "x": 0.12733333288084425,
       "variants": [],
       "reviewIssues": [],
-      "id": "c11-s4-phrases-0451",
+      "id": "c11-s4-phrases-0453",
       "chapter": 11,
       "group": "c11-s4-phrases",
       "order": 451,
@@ -45494,17 +45495,17 @@
       "source": "pdf"
     },
     {
-      "word": "online deaf sites",
-      "meaning": "在线聋人网站",
+      "word": "annual jobs fair",
+      "meaning": "年度招聘会",
       "pos": "",
       "ipa": "",
       "ipaSource": "",
-      "ocrWord": "online deaf sites",
-      "y": 0.19550000028749265,
-      "x": 0.12733333288084425,
+      "ocrWord": "annual jobs fair",
+      "y": 0.13277658398999007,
+      "x": 0.1267098673174663,
       "variants": [],
       "reviewIssues": [],
-      "id": "c11-s4-phrases-0453",
+      "id": "c11-s4-phrases-0455",
       "chapter": 11,
       "group": "c11-s4-phrases",
       "order": 453,
@@ -45513,8 +45514,8 @@
       "source": "pdf"
     },
     {
-      "word": "digital marketing",
-      "meaning": "数字营销服",
+      "word": "digital marketing service providers",
+      "meaning": "数字营销服务提供商",
       "pos": "",
       "ipa": "",
       "ipaSource": "",
@@ -45529,45 +45530,8 @@
       "order": 454,
       "pdfPage": 69,
       "bookPage": 287,
-      "source": "pdf"
-    },
-    {
-      "word": "annual jobs fair",
-      "meaning": "年度招聘会",
-      "pos": "",
-      "ipa": "",
-      "ipaSource": "",
-      "ocrWord": "annual jobs fair",
-      "y": 0.13277658398999007,
-      "x": 0.1267098673174663,
-      "variants": [],
-      "reviewIssues": [],
-      "id": "c11-s4-phrases-0455",
-      "chapter": 11,
-      "group": "c11-s4-phrases",
-      "order": 455,
-      "pdfPage": 69,
-      "bookPage": 287,
-      "source": "pdf"
-    },
-    {
-      "word": "service providers",
-      "meaning": "务提供商",
-      "pos": "",
-      "ipa": "",
-      "ipaSource": "",
-      "ocrWord": "service providers",
-      "y": 0.11050000025908285,
-      "x": 0.5050952437007652,
-      "variants": [],
-      "reviewIssues": [],
-      "id": "c11-s4-phrases-0456",
-      "chapter": 11,
-      "group": "c11-s4-phrases",
-      "order": 456,
-      "pdfPage": 69,
-      "bookPage": 287,
-      "source": "pdf"
+      "source": "pdf",
+      "reviewNote": "已按原 PDF 第 69 页合并同一表格单元格内的换行。"
     },
     {
       "word": "lasting changes",
@@ -45583,7 +45547,7 @@
       "id": "c11-s4-phrases-0457",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 457,
+      "order": 455,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45602,7 +45566,7 @@
       "id": "c11-s4-phrases-0458",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 458,
+      "order": 456,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45621,7 +45585,7 @@
       "id": "c11-s4-phrases-0459",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 459,
+      "order": 457,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45640,7 +45604,7 @@
       "id": "c11-s4-phrases-0460",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 460,
+      "order": 458,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45659,7 +45623,7 @@
       "id": "c11-s4-phrases-0461",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 461,
+      "order": 459,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45678,7 +45642,7 @@
       "id": "c11-s4-phrases-0462",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 462,
+      "order": 460,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45697,7 +45661,7 @@
       "id": "c11-s4-phrases-0463",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 463,
+      "order": 461,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45716,7 +45680,7 @@
       "id": "c11-s4-phrases-0464",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 464,
+      "order": 462,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45735,7 +45699,7 @@
       "id": "c11-s4-phrases-0465",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 465,
+      "order": 463,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45754,7 +45718,7 @@
       "id": "c11-s4-phrases-0466",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 466,
+      "order": 464,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45773,7 +45737,7 @@
       "id": "c11-s4-phrases-0467",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 467,
+      "order": 465,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45792,7 +45756,7 @@
       "id": "c11-s4-phrases-0468",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 468,
+      "order": 466,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45811,7 +45775,7 @@
       "id": "c11-s4-phrases-0469",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 469,
+      "order": 467,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45830,7 +45794,7 @@
       "id": "c11-s4-phrases-0470",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 470,
+      "order": 468,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45849,7 +45813,7 @@
       "id": "c11-s4-phrases-0471",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 471,
+      "order": 469,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -45868,7 +45832,7 @@
       "id": "c11-s4-phrases-0472",
       "chapter": 11,
       "group": "c11-s4-phrases",
-      "order": 472,
+      "order": 470,
       "pdfPage": 70,
       "bookPage": 288,
       "source": "pdf"
@@ -47981,7 +47945,7 @@
       "title": "Section 4 · 吞音连读",
       "section": 4,
       "part": "phrases",
-      "entries": 472
+      "entries": 470
     },
     {
       "id": "c11-s5-ance",
@@ -48091,5 +48055,9 @@
   "notes": [
     "英文和中文按 PDF 页面 OCR 后分列重组；双栏词组按横向逐行排列。",
     "音标列优先使用现有参考词库，标记为参考音标；原书音标请对照 PDF。"
-  ]
+  ],
+  "entryAliases": {
+    "c11-s4-phrases-0447": "c11-s4-phrases-0445",
+    "c11-s4-phrases-0456": "c11-s4-phrases-0454"
+  }
 }

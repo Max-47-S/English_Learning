@@ -1,20 +1,22 @@
 {
   "project_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1",
   "url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site",
+  "pc_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=ielts&mode=original&view=pc",
   "access": "private",
   "status": "succeeded",
-  "commit_sha": "af7c41485f2bd6205af4b6b8c28e59d5e54b5537",
-  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_2ee92a77e9f88191b87d287d0b21e1e4",
-  "deployment_id": "appgdep_6ae747b181308191821b7babfc74393b",
-  "published_at": "2026-11-01T14:08:05.872186+00:00",
-  "note": "Sites 网站源码另行保存于私人站点源仓库；本地 English_Learning 仓库未提交或推送。",
+  "commit_sha": "d6cf68a1ee851799a416b3d51e38f2d80ed355e0",
+  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_bacc4f12bf1481919de9262ab1d19de8",
+  "deployment_id": "appgdep_6ae8adb615408191883d9b5cc8f746c1",
+  "published_at": "2026-11-02T15:35:38.574673+00:00",
+  "note": "Sites 网站源码单独保存于私人站点源仓库；English_Learning 学习仓库独立提交。",
   "title": "英语听读 · Oxford 3000 / 750 短语 / 雅思",
   "collections": {
     "oxford3000": 3306,
     "phrases750": 750,
-    "ielts": 5571
+    "ielts": 5569
   },
-  "entries": 9627,
+  "entries": 9625,
   "oxford_audio_source_revision": "3a5c95b9647b24abdcfa72eed1c423718b7b4adb",
-  "last_change": "系统连续朗读默认词间停顿 1 秒；新增不停顿、0.5/1/1.5/2/3 秒设置，独立于发音速度；停顿时保留当前词卡。"
+  "ielts_audio_source_revision": "560f3d2b7b475dff5657631b4f16fc60939f6b36",
+  "last_change": "PC 布局与 59 段真人原音逐词同步；保留原音停顿、横向／纵向顺序；支持 0.5–2 倍速；提供离线 HTML 与无损索引音频包。"
 }

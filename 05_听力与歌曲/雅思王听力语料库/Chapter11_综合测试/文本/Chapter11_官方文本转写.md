@@ -53,7 +53,7 @@
 | Section 3 · 单词训练 | 139 |
 | Section 3 · 吞音连读 | 207 |
 | Section 4 · 单词训练 | 838 |
-| Section 4 · 吞音连读 | 472 |
+| Section 4 · 吞音连读 | 470 |
 | ance 总结 | 34 |
 | ence 总结 | 35 |
 | nn 总结 | 39 |
@@ -2481,34 +2481,32 @@
 | 442 | inspirational talk |  |  | 激励演讲 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 443 | business-minded teenager |  |  | 有商业头脑的青少年 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 444 | business bank account |  |  | 商业银行账户 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 445 | rubber-wood furniture |  |  | 橡胶木家具 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 445 | rubber-wood furniture business |  |  | 橡胶木家具生意 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 446 | log houses |  |  | 原木房屋 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 447 | business | ˈbɪznəs |  | 生意 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 447 | business practices |  |  | 商业实践 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 448 | down-to-earth attitude |  |  | 务实态度 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 449 | business practices |  |  | 商业实践 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 449 | top job |  |  | 最高职位，最重要任务 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 450 | TV contest |  |  | 电视竞赛 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 451 | top job |  |  | 最高职位，最重要任务 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 451 | online deaf sites |  |  | 在线聋人网站 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
 | 452 | business interest |  |  | 商业兴趣 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 453 | online deaf sites |  |  | 在线聋人网站 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 454 | digital marketing |  |  | 数字营销服 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 455 | annual jobs fair |  |  | 年度招聘会 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 456 | service providers |  |  | 务提供商 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
-| 457 | lasting changes |  |  | 持久性改变 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 458 | specific cases |  |  | 具体案例 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 459 | intergenerational living |  |  | 代际共居 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 460 | future demand |  |  | 未来需求 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 461 | multi-storey apartment blocks |  |  | 多层公寓楼 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 462 | one-storey buildings |  |  | 单层建筑 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 463 | different profession |  |  | 不同职业 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 464 | internal walls |  |  | 内墙 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 465 | smart bathroom mirrors |  |  | 智能浴室镜 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 466 | signs of illness |  |  | 疾病征兆 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 467 | electric bikes |  |  | 电动自行车 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 468 | surgical recovery |  |  | 术后康复 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 469 | post-operative care |  |  | 术后护理模式 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 470 | medical notes |  |  | 医疗记录 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 471 | patient choice |  |  | 患者选择 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
-| 472 | general anaesthetic |  |  | 全身麻醉 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 453 | annual jobs fair |  |  | 年度招聘会 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 454 | digital marketing service providers |  |  | 数字营销服务提供商 | [第 69 页](Chapter11_综合测试_剑21版.pdf#page=69) |
+| 455 | lasting changes |  |  | 持久性改变 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 456 | specific cases |  |  | 具体案例 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 457 | intergenerational living |  |  | 代际共居 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 458 | future demand |  |  | 未来需求 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 459 | multi-storey apartment blocks |  |  | 多层公寓楼 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 460 | one-storey buildings |  |  | 单层建筑 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 461 | different profession |  |  | 不同职业 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 462 | internal walls |  |  | 内墙 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 463 | smart bathroom mirrors |  |  | 智能浴室镜 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 464 | signs of illness |  |  | 疾病征兆 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 465 | electric bikes |  |  | 电动自行车 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 466 | surgical recovery |  |  | 术后康复 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 467 | post-operative care |  |  | 术后护理模式 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 468 | medical notes |  |  | 医疗记录 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 469 | patient choice |  |  | 患者选择 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
+| 470 | general anaesthetic |  |  | 全身麻醉 | [第 70 页](Chapter11_综合测试_剑21版.pdf#page=70) |
 
 ## ance 总结
 

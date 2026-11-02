@@ -33,12 +33,14 @@ const collectionIds=['oxford3000','phrases750','ielts'];
 const data={collections:collectionIds.map(id=>({id,title:id,subtitle:'test',defaultMode:'word'})),
  chapters:collectionIds.map((collection,i)=>({id:String(i+1),collection,title:collection,groups:[{id:'group-'+i,title:'test',all:true,trackIds:{default:'track-'+i}}]})),
  entries:collectionIds.flatMap((collection,i)=>Array.from({length:8},(_,j)=>({id:collection+'-'+j,collection,chapter:String(i+1),group:'group-'+i,source:collection,order:j+1,word:collection+' word '+j,meaning:'测试'}))),
- tracks:collectionIds.map((id,i)=>({id:'track-'+i,chapter:String(i+1),title:'test',file:'test.mp3',cues:[]})),audioCredits:{}};
+ tracks:collectionIds.map((id,i)=>({id:'track-'+i,chapter:String(i+1),title:'test',file:'test.mp3',cues:Array.from({length:8},(_,j)=>({entryId:id+'-'+j,start:j*5,spokenEnd:j*5+1,end:(j+1)*5}))})),audioCredits:{},entryAliases:{'old-oxford-entry':'oxford3000-0'}};
 const elements=new Map(),get=id=>{if(!elements.has(id))elements.set(id,new Element());return elements.get(id)};
 const audio=new Audio();elements.set('original-audio',audio);get('study-data').textContent=JSON.stringify(data);
 const synth=new Speech(),storage=new Map(),clock=new FakeClock();
+storage.set('ielts-four-chapters-v1',JSON.stringify({collection:'oxford3000',chapter:'1',group:'group-0',selected:'old-oxford-entry',mode:'word'}));
+storage.set('ielts-four-chapters-v1-favorites',JSON.stringify(['old-oxford-entry']));
 const context={console,JSON,Map,Set,URL,URLSearchParams,Promise,Number,String,Math,
- document:{getElementById:get,querySelectorAll:()=>[],addEventListener:()=>{}},
+ document:{body:get('body'),getElementById:get,querySelectorAll:()=>[],addEventListener:()=>{}},
  location:{search:'?collection=oxford3000',protocol:'https:',hostname:'test.invalid',href:'https://test.invalid/study/?collection=oxford3000'},
  navigator:{},history:{replaceState:()=>{}},localStorage:{getItem:key=>storage.get(key)||null,setItem:(key,value)=>storage.set(key,value)},
  StudySpeechQueue:{create:options=>create({...options,setTimer:clock.set,clearTimer:clock.clear})},StudyTimeline:require('./web/timeline-core.js'),
@@ -50,6 +52,7 @@ const flush=()=>new Promise(resolve=>setImmediate(resolve));
 const selected=()=>JSON.parse(storage.get('ielts-four-chapters-v1')).selected;
 (async()=>{
  await flush();
+ assert.equal(selected(),'oxford3000-0');assert.deepEqual(JSON.parse(storage.get('ielts-four-chapters-v1-favorites')),['oxford3000-0']);
  for(const id of collectionIds){
   get('collections').onclick({target:{closest:()=>({dataset:{collection:id}})}});await flush();
   assert.equal(get('speech-gap').value,'1000');
@@ -83,5 +86,16 @@ const selected=()=>JSON.parse(storage.get('ielts-four-chapters-v1')).selected;
  get('collections').onclick({target:{closest:()=>({dataset:{collection:'oxford3000'}})}});await flush();
  assert.equal(get('speech-gap').value,'2000');
  assert.equal(clock.timers.size,0);
+ // Native recording time, including its silence, drives the card at every rate.
+ get('original-mode').onclick();await flush();audio.duration=40;audio.readyState=1;audio.emit('loadedmetadata');
+ get('word-list').onclick({target:{closest:()=>({dataset:{id:'oxford3000-0'}})}});
+ assert.equal(audio.currentTime,0);audio.currentTime=.7;audio.emit('timeupdate');assert.equal(selected(),'oxford3000-0');
+ audio.currentTime=1.06;audio.emit('timeupdate');assert.equal(audio.paused,true);
+ get('continuous-audio').onclick();audio.currentTime=4.99;audio.emit('timeupdate');assert.equal(selected(),'oxford3000-0');
+ audio.currentTime=5;audio.emit('timeupdate');assert.equal(selected(),'oxford3000-1');assert.equal(audio.paused,false);
+ get('speed').value='2';get('speed').onchange();assert.equal(audio.playbackRate,2);
+ audio.currentTime=10;audio.emit('timeupdate');assert.equal(selected(),'oxford3000-2');
+ assert.equal(clock.timers.size,0,'original recording never uses a synthetic word-gap timer');
+ audio.pause();
  console.log('PASS: three collections with default 1s gaps; hold current card; gap preference persistence; single-word stop; replay → continuous; hidden media isolation.');
 })().catch(error=>{console.error(error);process.exitCode=1});

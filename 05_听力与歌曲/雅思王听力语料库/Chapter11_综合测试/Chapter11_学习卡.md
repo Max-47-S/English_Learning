@@ -4,7 +4,7 @@
 
 中文释义取自本章词表。搭配与双语例句按词形匹配现有 Oxford 3000 学习包，作为扩展学习；不保证与本章每个词义相同。例句保留各自来源和授权署名。
 
-逐词朗读使用设备语音；原版音频按音轨整段播放。
+原版真人音轨已有逐词时间轴，连续播放保持原录音节奏；系统语音可另外选用。
 
 ## Section 1 · 单词训练
 
@@ -20428,9 +20428,9 @@
 
 原 PDF：第 69 页。
 
-### 445. rubber-wood furniture
+### 445. rubber-wood furniture business
 
-**中文：** 橡胶木家具
+**中文：** 橡胶木家具生意
 
 原 PDF：第 69 页。
 
@@ -20440,19 +20440,9 @@
 
 原 PDF：第 69 页。
 
-### 447. business
+### 447. business practices
 
-**中文：** 生意
-
-**参考音标：** /ˈbɪznəs/
-
-**搭配：** my business
-
-> Sorry, that was none of my business.
->
-> 对不起, 那不关我的事。
-
-例句来源：Tatoeba/ManyThings；CC-BY 2.0 (France) Attribution: tatoeba.org #328930 (fcbond) & #778545 (Martha)
+**中文：** 商业实践
 
 原 PDF：第 69 页。
 
@@ -20462,9 +20452,9 @@
 
 原 PDF：第 69 页。
 
-### 449. business practices
+### 449. top job
 
-**中文：** 商业实践
+**中文：** 最高职位，最重要任务
 
 原 PDF：第 69 页。
 
@@ -20474,9 +20464,9 @@
 
 原 PDF：第 69 页。
 
-### 451. top job
+### 451. online deaf sites
 
-**中文：** 最高职位，最重要任务
+**中文：** 在线聋人网站
 
 原 PDF：第 69 页。
 
@@ -20486,121 +20476,109 @@
 
 原 PDF：第 69 页。
 
-### 453. online deaf sites
-
-**中文：** 在线聋人网站
-
-原 PDF：第 69 页。
-
-### 454. digital marketing
-
-**中文：** 数字营销服
-
-原 PDF：第 69 页。
-
-### 455. annual jobs fair
+### 453. annual jobs fair
 
 **中文：** 年度招聘会
 
 原 PDF：第 69 页。
 
-### 456. service providers
+### 454. digital marketing service providers
 
-**中文：** 务提供商
+**中文：** 数字营销服务提供商
 
 原 PDF：第 69 页。
 
-### 457. lasting changes
+### 455. lasting changes
 
 **中文：** 持久性改变
 
 原 PDF：第 70 页。
 
-### 458. specific cases
+### 456. specific cases
 
 **中文：** 具体案例
 
 原 PDF：第 70 页。
 
-### 459. intergenerational living
+### 457. intergenerational living
 
 **中文：** 代际共居
 
 原 PDF：第 70 页。
 
-### 460. future demand
+### 458. future demand
 
 **中文：** 未来需求
 
 原 PDF：第 70 页。
 
-### 461. multi-storey apartment blocks
+### 459. multi-storey apartment blocks
 
 **中文：** 多层公寓楼
 
 原 PDF：第 70 页。
 
-### 462. one-storey buildings
+### 460. one-storey buildings
 
 **中文：** 单层建筑
 
 原 PDF：第 70 页。
 
-### 463. different profession
+### 461. different profession
 
 **中文：** 不同职业
 
 原 PDF：第 70 页。
 
-### 464. internal walls
+### 462. internal walls
 
 **中文：** 内墙
 
 原 PDF：第 70 页。
 
-### 465. smart bathroom mirrors
+### 463. smart bathroom mirrors
 
 **中文：** 智能浴室镜
 
 原 PDF：第 70 页。
 
-### 466. signs of illness
+### 464. signs of illness
 
 **中文：** 疾病征兆
 
 原 PDF：第 70 页。
 
-### 467. electric bikes
+### 465. electric bikes
 
 **中文：** 电动自行车
 
 原 PDF：第 70 页。
 
-### 468. surgical recovery
+### 466. surgical recovery
 
 **中文：** 术后康复
 
 原 PDF：第 70 页。
 
-### 469. post-operative care
+### 467. post-operative care
 
 **中文：** 术后护理模式
 
 原 PDF：第 70 页。
 
-### 470. medical notes
+### 468. medical notes
 
 **中文：** 医疗记录
 
 原 PDF：第 70 页。
 
-### 471. patient choice
+### 469. patient choice
 
 **中文：** 患者选择
 
 原 PDF：第 70 页。
 
-### 472. general anaesthetic
+### 470. general anaesthetic
 
 **中文：** 全身麻醉
 

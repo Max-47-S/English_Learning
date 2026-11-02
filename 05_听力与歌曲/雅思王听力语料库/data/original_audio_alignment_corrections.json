@@ -1,0 +1,34 @@
+{
+  "merges": [
+    {
+      "track": "c4-v02",
+      "sourceSha256": "61811ba36def0fa8cb5d71ff85803e2c18a1c4f9be60ca793a6c786b3d45aa4f",
+      "entryId": "c4-p2-0080",
+      "spanIndices": [
+        97,
+        98
+      ],
+      "reason": "纵向原音先拆读、再连读 neighbouring；两段共用该词卡，modern 不与其合并。"
+    },
+    {
+      "track": "c11-08",
+      "sourceSha256": "dedbd0c7c0366c7228c2a22284df104301955914c6ced5b55b99a21926da20c9",
+      "entryId": "c11-s4-phrases-0306",
+      "spanIndices": [
+        305,
+        306
+      ],
+      "reason": "同一完整短语内部的实际停顿将声音分成两段，保持在同一张词卡上。"
+    },
+    {
+      "track": "c11-08",
+      "sourceSha256": "dedbd0c7c0366c7228c2a22284df104301955914c6ced5b55b99a21926da20c9",
+      "entryId": "c11-s4-phrases-0337",
+      "spanIndices": [
+        337,
+        338
+      ],
+      "reason": "同一完整短语内部的实际停顿将声音分成两段，保持在同一张词卡上。"
+    }
+  ]
+}

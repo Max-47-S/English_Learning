@@ -179,6 +179,9 @@ def main():
               'introductory': introductory,
               'notes': ['英文和中文按 PDF 页面 OCR 后分列重组；双栏词组按横向逐行排列。',
                         '音标列优先使用现有参考词库，标记为参考音标；原书音标请对照 PDF。']}
+    from ielts_text_fixes import fix_wrapped_phrases
+    report = fix_wrapped_phrases(report)
+    entries = report['entries']
     (ROOT / 'data/chapter11_transcription.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     issues = [e for e in entries if e['reviewIssues'] or not e['meaning']]
     (ROOT / 'data/chapter11_transcription_review.json').write_text(json.dumps(

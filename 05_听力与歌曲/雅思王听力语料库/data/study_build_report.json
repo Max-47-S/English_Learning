@@ -1,20 +1,25 @@
 {
-  "entries": 9627,
+  "entries": 9625,
   "chapters": {
     "3": 1135,
     "4": 346,
     "5": 1570,
-    "11": 2520,
+    "11": 2518,
     "oxford3000": 3306,
     "phrases750": 750
   },
   "collections": {
     "oxford3000": 3306,
     "phrases750": 750,
-    "ielts": 5571
+    "ielts": 5569
   },
   "audioTracks": 61,
-  "oxfordExampleMatches": 1266,
+  "ieltsSyncedTracks": 59,
+  "ieltsAudioCues": 8620,
+  "totalAudioCues": 12676,
+  "originalFramesUnchanged": true,
+  "ieltsAudioSourceRevision": "560f3d2b7b475dff5657631b4f16fc60939f6b36",
+  "oxfordExampleMatches": 1265,
   "chapter3PhotoCorrectionPreserved": true,
-  "htmlBytes": 6459084
+  "htmlBytes": 7183805
 }

@@ -1,0 +1,36 @@
+.translation-card .translation-text {
+  visibility: hidden;
+}
+
+.translation-card:focus-visible .translation-text,
+.translation-card:has(> .translation-toggle input:checked) .translation-text {
+  visibility: visible;
+}
+
+@media (hover: hover) {
+  .translation-card:hover .translation-text {
+    visibility: visible;
+  }
+}
+
+.translation-toggle {
+  display: none;
+}
+
+@media (hover: none) {
+  .translation-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    min-height: 44px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .translation-toggle input {
+    flex: none;
+    min-width: 0;
+    margin: 0;
+  }
+}

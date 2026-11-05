@@ -73,6 +73,43 @@
 }
 @keyframes word-arrival{from{opacity:.65;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){body.pc-view .word{animation:none}}
+
+.translation-card .translation-text {
+  visibility: hidden;
+}
+
+.translation-card:focus-visible .translation-text,
+.translation-card:has(> .translation-toggle input:checked) .translation-text {
+  visibility: visible;
+}
+
+@media (hover: hover) {
+  .translation-card:hover .translation-text {
+    visibility: visible;
+  }
+}
+
+.translation-toggle {
+  display: none;
+}
+
+@media (hover: none) {
+  .translation-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    min-height: 44px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .translation-toggle input {
+    flex: none;
+    min-width: 0;
+    margin: 0;
+  }
+}
 </style>
 </head>
 <body>
@@ -81,6 +118,7 @@
 <aside id="file-help" class="notice" hidden>电脑可直接使用 PC 离线包；手机请用 <a id="mobile-site-link" href="https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site">在线网址</a> 打开。音频也可通过“离线音频与导入”保存到浏览器。</aside>
 <section id="help" class="help-panel" hidden>
 <h2>先选章节，再开始练习</h2>
+<p>中文释义和译文默认隐藏。鼠标移到卡片或词条上时显示，键盘可用 Tab 聚焦，触屏可轻点卡片的“显示中文”。</p>
 <p>“系统朗读”使用设备的合成英语语音，上一词、下一词、重听均读完即停；“连续朗读”会依次读下去，默认每词后停 1 秒，可用“词间停顿”调整跟读时间。上方“速度”单独调整发音快慢。</p>
 <p>Oxford 3000 的学习包音频全部为真人发音；750 短语音轨保留原学习包的 350 条真人录音与 400 条 AI 配音，每条均标明来源。两套音轨都会随播放自动换词，目录可定位到本词。</p>
 <p>四章王陆原版真人录音、Oxford 学习包音频均支持逐词同步。连续播放保持录音中的原有停顿与节奏，倍速会同时缩放发音和间隔。上一词、下一词、重听本词均播放一词后暂停；点击音频进度条或连续播放可恢复连续。</p>
@@ -97,7 +135,7 @@
 <section class="selection"><label>选择练习<select id="group-select" aria-label="选择练习"></select></label><label>速度<select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="1.75">1.75×</option><option value="2">2×</option></select></label></section>
 <div class="mode-switch" role="group" aria-label="朗读方式"><button id="word-mode" class="selected" aria-pressed="true">系统朗读<span>合成语音</span></button><button id="original-mode" aria-pressed="false"><b id="recording-mode-title">学习包音频</b><span id="recording-mode-subtitle">逐词同步</span></button></div>
 <div class="progress-line"><span id="position"></span><span id="source-label"></span></div>
-<article id="word-card" class="word-card" aria-live="polite"></article>
+<article id="word-card" class="word-card translation-card" tabindex="0" aria-live="polite"></article>
 <section id="word-player" class="player word-player">
 <div class="word-buttons"><button id="prev-word">← 上一词</button><button id="replay-word" class="primary">重听本词</button><button id="next-word">下一词 →</button></div>
 <label class="speech-options">词间停顿<select id="speech-gap" aria-label="词间停顿"><option value="0">不停顿</option><option value="500">0.5 秒</option><option value="1000" selected>1 秒</option><option value="1500">1.5 秒</option><option value="2000">2 秒</option><option value="3000">3 秒</option></select></label>
@@ -107,7 +145,7 @@
 <div class="audio-heading"><span class="dot"></span><b id="recording-heading">学习包音频</b><select id="direction" aria-label="音轨顺序"><option value="横向测试">横向测试</option><option value="纵向测试">纵向测试</option></select></div>
 <div id="recording-kind" class="recording-kind" role="status"></div>
 <label class="track-label">当前音轨<select id="track-select" aria-label="选择原版音轨"></select></label>
-<div id="audio-now-playing" class="audio-now-playing" hidden><strong id="audio-now-word"></strong><span id="audio-now-meaning"></span><small id="audio-now-position"></small></div>
+<div id="audio-now-playing" class="audio-now-playing translation-card" tabindex="0" hidden><strong id="audio-now-word"></strong><span id="audio-now-meaning" class="translation-text"></span><small id="audio-now-position"></small></div>
 <audio id="original-audio" controls preload="none" playsinline></audio>
 <div id="recording-word-controls" class="word-buttons" hidden><button id="prev-recording-word">← 上一词</button><button id="replay-recording-word" class="primary">重听本词</button><button id="next-recording-word">下一词 →</button></div>
 <div id="track-controls" class="word-buttons"><button id="prev-track">← 上一段</button><button id="replay-track">重听本段</button><button id="next-track">下一段 →</button></div>
@@ -119,7 +157,7 @@
 </details>
 </section>
 </main>
-<aside class="catalog"><div class="catalog-heading"><h2>词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><input id="search" type="search" placeholder="搜索英文或中文" aria-label="搜索英文或中文"><div class="catalog-meta"><span id="result-count"></span><label><input id="hide-meaning" type="checkbox"> 遮住中文</label></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
+<aside class="catalog"><div class="catalog-heading"><h2>词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><input id="search" type="search" placeholder="搜索英文或中文" aria-label="搜索英文或中文"><div class="catalog-meta"><span id="result-count"></span><span class="translation-hint">悬停看中文</span></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
 </div>
 <footer><span id="pack-count"></span><span id="app-offline-status">资料保存在本机浏览器后可继续使用。</span></footer>
 </div>
@@ -243,6 +281,20 @@ async function isIndexed(blob,index){const head=prefix(index);if(blob.size!==ind
 return{prefix,wrapOriginal,isIndexed};
 });
 
+const StudyTranslations = {
+  toggle: '<label class="translation-toggle"><input type="checkbox"> 显示中文</label>',
+  phrase(text, escape) {
+    const translationStart = text.search(/[（(][^（）()]*\p{Script=Han}/u);
+    if (translationStart >= 0) {
+      return escape(text.slice(0, translationStart)) +
+        '<span class="translation-text">' + escape(text.slice(translationStart)) + '</span>';
+    }
+    return /\p{Script=Han}/u.test(text)
+      ? '<span class="translation-text">' + escape(text) + '</span>'
+      : escape(text);
+  }
+};
+
 (()=>{
 'use strict';
 const data=JSON.parse(document.getElementById('study-data').textContent),$=id=>document.getElementById(id);
@@ -262,7 +314,7 @@ const initialPrefs=read(KEY+'-collection-'+initial.id,initial.id===(saved.collec
 const canonicalId=id=>data.entryAliases?.[id]||id;
 const favorites=new Set(read(KEY+'-favorites',[]).map(canonicalId)),positions=read(KEY+'-audio',{});
 if(data.entryAliases)write(KEY+'-favorites',[...favorites]);
-const state={collection:initial.id,chapter:String(initialPrefs.chapter||''),group:initialPrefs.group||'',selected:canonicalId(initialPrefs.selected)||'',mode:['word','original'].includes(requestedMode)?requestedMode:(initialPrefs.mode||data.defaultMode||initial.defaultMode),direction:initialPrefs.direction||'横向测试',rate:Number(saved.rate)||1,gapMs:SPEECH_GAPS.includes(Number(saved.gapMs))?Number(saved.gapMs):1000,hide:!!saved.hide,query:'',onlyFavorites:false,limit:100,track:'',cached:new Set(),cacheBusy:false};
+const state={collection:initial.id,chapter:String(initialPrefs.chapter||''),group:initialPrefs.group||'',selected:canonicalId(initialPrefs.selected)||'',mode:['word','original'].includes(requestedMode)?requestedMode:(initialPrefs.mode||data.defaultMode||initial.defaultMode),direction:initialPrefs.direction||'横向测试',rate:Number(saved.rate)||1,gapMs:SPEECH_GAPS.includes(Number(saved.gapMs))?Number(saved.gapMs):1000,query:'',onlyFavorites:false,limit:100,track:'',cached:new Set(),cacheBusy:false};
 let speechContinuous=false,voices=[];
 let audioContinuous=false,scriptedPlay=false,seekGuard=null,currentBlobUrl=null,trackGeneration=0,trackLoading=false,pendingPosition=0,trackReady=Promise.resolve();
 let singleWordStop=null,animationFrame=0,lastSavedTime=-10,lastCueId='';
@@ -280,7 +332,7 @@ const playbackUrl=t=>location.protocol==='file:'?t.file:'/api/audio/'+encodeURIC
 const cues=()=>track()?.cues||[];
 const selectedCueIndex=()=>cues().findIndex(c=>c.entryId===state.selected);
 const status=(id,text)=>{$(id).textContent=text};
-function save(){const pref={collection:state.collection,chapter:state.chapter,group:state.group,selected:state.selected,mode:state.mode,direction:state.direction,rate:state.rate,gapMs:state.gapMs,hide:state.hide};write(KEY,pref);write(KEY+'-collection-'+state.collection,pref)}
+function save(){const pref={collection:state.collection,chapter:state.chapter,group:state.group,selected:state.selected,mode:state.mode,direction:state.direction,rate:state.rate,gapMs:state.gapMs};write(KEY,pref);write(KEY+'-collection-'+state.collection,pref)}
 const speechQueue=StudySpeechQueue.create({
  synth:window.speechSynthesis,Utterance:window.SpeechSynthesisUtterance,
  prepare:e=>({text:(e.audioText||e.word).split('=')[0].replace(/\(s\)/g,'s').trim(),lang:'en-GB',rate:state.rate,voice:voices.find(v=>/^en-GB$/i.test(v.lang))||voices[0]||null}),
@@ -313,14 +365,13 @@ function renderCard(){
  $('prev-word').disabled=!e||i<=0;$('next-word').disabled=!e||i<0||i>=list.length-1;$('replay-word').disabled=!e;$('continuous-words').disabled=!e;
  if(!e){$('word-card').innerHTML='<p class="empty">没有匹配的词条。试试其他关键词，或关闭“只看收藏”。</p>';renderAudioState();return}
  const example=e.example,tag=e.level?`${e.level} · ${e.order}`:`${group().title} · ${e.order}`;
- $('word-card').innerHTML=`<span class="source-pill">${esc(tag)}</span><button class="favorite-button ${favorites.has(e.id)?'active':''}" id="favorite-word" aria-label="${favorites.has(e.id)?'取消收藏':'收藏本词'}" aria-pressed="${favorites.has(e.id)}">${favorites.has(e.id)?'★':'☆'}</button><h1 class="word">${esc(e.word)}${e.homograph?`<sup>${esc(e.homograph)}</sup>`:''}</h1>${e.pos||e.qualifier?`<p class="word-meta">${esc([e.pos,e.qualifier].filter(Boolean).join(' · '))}</p>`:''}${e.ipa?`<div class="ipa">/${esc(e.ipa)}/${e.ipaSource==='reference'?' <small>参考音标</small>':''}</div>`:''}<div class="meaning">${state.hide?'<button id="reveal-meaning">显示中文</button>':esc(e.meaning)}</div>${e.phrases?.length?`<p class="details-label">常用搭配${e.collection==='ielts'?' · 扩展学习':''}</p><div class="phrases">${e.phrases.slice(0,4).map(p=>`<span class="phrase">${esc(p)}</span>`).join('')}</div>`:''}${example?`<p class="details-label">放进句子里${e.collection==='ielts'?' · Oxford 学习参考':''}</p><div class="example"><p>${esc(example.english)}</p>${!state.hide?`<p class="translation">${esc(example.chinese)}</p>`:''}<details><summary>例句来源</summary>${esc(example.attribution||example.source||'原创学习例句')}</details></div>`:''}${e.wordForms?`<p class="word-forms">词形参考：${esc(e.wordForms)}</p>`:''}${e.usageNote?`<p class="usage-note">用法：${esc(e.usageNote)}</p>`:''}${e.audioText&&e.audioText!==e.word?`<p class="status">音频示范：${esc(e.audioText)}</p>`:''}${e.audioNotes?.length?`<p class="status">${e.audioNotes.map(esc).join(' ')}</p>`:''}${audioCredits(e)}${e.referenceUrl?`<a class="paper-link" href="${esc(e.referenceUrl)}" target="_blank" rel="noopener">查看词典参考</a>`:''}${e.pdfPage?`<a class="paper-link" href="${esc(data.pdfHref)}#page=${e.pdfPage}" target="_blank" rel="noopener">查看原书页 · PDF 第 ${e.pdfPage} 页</a>`:''}${e.reviewNote?`<p class="status">${esc(e.reviewNote)}</p>`:''}`;
+ $('word-card').innerHTML=`<span class="source-pill">${esc(tag)}</span><button class="favorite-button ${favorites.has(e.id)?'active':''}" id="favorite-word" aria-label="${favorites.has(e.id)?'取消收藏':'收藏本词'}" aria-pressed="${favorites.has(e.id)}">${favorites.has(e.id)?'★':'☆'}</button><h1 class="word">${esc(e.word)}${e.homograph?`<sup>${esc(e.homograph)}</sup>`:''}</h1>${e.pos||e.qualifier?`<p class="word-meta">${esc([e.pos,e.qualifier].filter(Boolean).join(' · '))}</p>`:''}${e.ipa?`<div class="ipa">/${esc(e.ipa)}/${e.ipaSource==='reference'?' <small>参考音标</small>':''}</div>`:''}<div class="meaning translation-text">${esc(e.meaning)}</div>${StudyTranslations.toggle}${e.phrases?.length?`<p class="details-label">常用搭配${e.collection==='ielts'?' · 扩展学习':''}</p><div class="phrases">${e.phrases.slice(0,4).map(p=>`<span class="phrase">${StudyTranslations.phrase(p,esc)}</span>`).join('')}</div>`:''}${example?`<p class="details-label">放进句子里${e.collection==='ielts'?' · Oxford 学习参考':''}</p><div class="example"><p>${esc(example.english)}</p><p class="translation translation-text">${esc(example.chinese)}</p><details><summary>例句来源</summary>${esc(example.attribution||example.source||'原创学习例句')}</details></div>`:''}${e.wordForms?`<p class="word-forms translation-text">词形参考：${esc(e.wordForms)}</p>`:''}${e.usageNote?`<p class="usage-note translation-text">用法：${esc(e.usageNote)}</p>`:''}${e.audioText&&e.audioText!==e.word?`<p class="status">音频示范：${esc(e.audioText)}</p>`:''}${e.audioNotes?.length?`<p class="status translation-text">${e.audioNotes.map(esc).join(' ')}</p>`:''}${audioCredits(e)}${e.referenceUrl?`<a class="paper-link" href="${esc(e.referenceUrl)}" target="_blank" rel="noopener">查看词典参考</a>`:''}${e.pdfPage?`<a class="paper-link" href="${esc(data.pdfHref)}#page=${e.pdfPage}" target="_blank" rel="noopener">查看原书页 · PDF 第 ${e.pdfPage} 页</a>`:''}${e.reviewNote?`<p class="status translation-text">${esc(e.reviewNote)}</p>`:''}`;
  $('favorite-word').onclick=()=>{favorites.has(e.id)?favorites.delete(e.id):favorites.add(e.id);write(KEY+'-favorites',[...favorites]);if(state.onlyFavorites){stopSpeech();normalizeSelection()}renderCard();renderList()};
- if($('reveal-meaning'))$('reveal-meaning').onclick=()=>{$('reveal-meaning').parentElement.textContent=e.meaning};
  document.querySelectorAll('.entry').forEach(el=>el.classList.toggle('current',el.dataset.id===state.selected));renderAudioState();save();
 }
 function renderList(){
  const list=entries();$('result-count').textContent=`${list.length.toLocaleString()} 条${state.onlyFavorites?'收藏':''}${state.query?'匹配':''}`;
- $('word-list').innerHTML=list.slice(0,state.limit).map(e=>`<button class="entry ${e.id===state.selected?'current':''}" data-id="${esc(e.id)}"><small>${e.order}</small><span><strong>${esc(e.word)}${e.homograph?' '+esc(e.homograph):''}</strong>${!state.hide?`<span class="zh">${esc(e.meaning)}</span>`:''}</span><span class="star">${favorites.has(e.id)?'★':''}</span></button>`).join('')||'<p class="empty">还没有匹配的词条。</p>';
+ $('word-list').innerHTML=list.slice(0,state.limit).map(e=>`<button class="entry translation-card ${e.id===state.selected?'current':''}" data-id="${esc(e.id)}"><small>${e.order}</small><span><strong>${esc(e.word)}${e.homograph?' '+esc(e.homograph):''}</strong><span class="zh translation-text">${esc(e.meaning)}</span></span><span class="star">${favorites.has(e.id)?'★':''}</span></button>`).join('')||'<p class="empty">还没有匹配的词条。</p>';
  $('more-words').hidden=state.limit>=list.length;$('favorites-only').setAttribute('aria-pressed',String(state.onlyFavorites));
 }
 function renderNavigation(){
@@ -328,7 +379,7 @@ function renderNavigation(){
  status('collection-note',state.collection==='oxford3000'?'保留词性、词形、搭配与双语例句。学习包音频全部为真人发音，播放时自动换词。':state.collection==='phrases750'?'750 条短语均有搭配、例句和用法提示。现有音轨含 350 条真人录音、400 条 AI 配音，每条标明来源。':'四章原版真人录音均支持逐词同步；保留原音的停顿与节奏，横向、纵向分别跟随。');
  $('chapters').hidden=state.collection!=='ielts';$('chapters').innerHTML=collectionChapters().map(c=>`<button class="chapter-button ${String(c.id)===state.chapter?'selected':''}" data-chapter="${c.id}" aria-pressed="${String(c.id)===state.chapter}"><span>CHAPTER ${c.id}</span><b>${esc(c.title)}</b></button>`).join('');
  $('group-select').innerHTML=chapter().groups.map(g=>`<option value="${esc(g.id)}">${esc(g.title)}</option>`).join('');$('group-select').value=state.group;
- $('speed').value=String(state.rate);$('speech-gap').value=String(state.gapMs);$('hide-meaning').checked=state.hide;$('direction').value=state.direction;$('direction').hidden=state.collection!=='ielts'||state.chapter==='11';
+ $('speed').value=String(state.rate);$('speech-gap').value=String(state.gapMs);$('direction').value=state.direction;$('direction').hidden=state.collection!=='ielts'||state.chapter==='11';
  status('recording-mode-title',state.collection==='ielts'?'原版录音':'学习包音频');status('recording-mode-subtitle',chapter().audioSubtitle||'真人整段');status('recording-heading',chapter().audioTitle||'官网真人整段录音');
  $('track-select').innerHTML=chapterTracks().map(t=>`<option value="${t.id}">${esc(t.title)}</option>`).join('');$('track-controls').hidden=state.collection!=='ielts';
  if(location.protocol!=='file:'){const url=new URL(location.href);url.searchParams.set('collection',state.collection);url.searchParams.set('mode',state.mode);if(pcView)url.searchParams.delete('view');else url.searchParams.set('view','pc');$('desktop-link').href=url.href;$('desktop-link').textContent=pcView?'普通布局':'电脑听读'}
@@ -348,7 +399,7 @@ function setMode(mode,stop=true){
 function renderAudioState(){
  const e=current(),hasCues=!!cues().length,index=selectedCueIndex();$('recording-word-controls').hidden=!hasCues;$('audio-now-playing').hidden=!hasCues||!e;
  $('prev-recording-word').disabled=index<=0;$('next-recording-word').disabled=index<0||index>=cues().length-1;$('replay-recording-word').disabled=index<0;
- if(hasCues&&e){status('audio-now-word',e.word);status('audio-now-meaning',state.hide?'中文已遮住':e.meaning);status('audio-now-position',`${e.level||'Chapter '+e.chapter} · 音轨第 ${index+1} / ${cues().length} 条 · 原音节奏`)}
+ if(hasCues&&e){status('audio-now-word',e.word);status('audio-now-meaning',e.meaning);status('audio-now-position',`${e.level||'Chapter '+e.chapter} · 音轨第 ${index+1} / ${cues().length} 条 · 原音节奏`)}
  const ai=hasCues&&e?.audioKind==='ai_generated';$('recording-kind').dataset.kind=ai?'ai':'human';status('recording-kind',hasCues?(!e?'请选择词条':ai?'当前词：AI 配音':'当前词：真人录音'):'官网真人录音 · 整段播放');
  $('continuous-audio').classList.toggle('active',audioContinuous&&!audio.paused);$('continuous-audio').textContent=audioContinuous&&!audio.paused?'暂停连续播放':state.collection==='ielts'?'按原音节奏连续播放':'连续播放学习包音频';
 }
@@ -408,7 +459,6 @@ $('chapters').onclick=event=>{const button=event.target.closest('[data-chapter]'
 $('group-select').onchange=()=>{stopSpeech();audio.pause();singleWordStop=null;state.group=$('group-select').value;state.selected='';state.limit=100;normalizeSelection();renderCard();renderList();syncTrack(false);if(state.mode==='original'&&cues().length&&current())seekToEntry(current().id,false)};
 $('search').oninput=()=>{stopSpeech();state.query=$('search').value.trim().toLowerCase();state.limit=100;normalizeSelection();renderCard();renderList()};
 $('favorites-only').onclick=()=>{stopSpeech();state.onlyFavorites=!state.onlyFavorites;normalizeSelection();renderCard();renderList()};
-$('hide-meaning').onchange=()=>{state.hide=$('hide-meaning').checked;renderCard();renderList()};
 $('word-list').onclick=event=>{const row=event.target.closest('[data-id]');if(row){stopSpeech();selectEntry(row.dataset.id,true)}};
 $('more-words').onclick=()=>{state.limit+=100;renderList()};
 $('prev-word').onclick=()=>moveWord(-1);$('next-word').onclick=()=>moveWord(1);$('replay-word').onclick=()=>speakCurrent(false);

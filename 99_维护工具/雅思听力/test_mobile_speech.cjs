@@ -47,6 +47,7 @@ const context={console,JSON,Map,Set,URL,URLSearchParams,Promise,Number,String,Ma
  SpeechSynthesisUtterance:Utterance,speechSynthesis:synth,
  addEventListener:()=>{},requestAnimationFrame:()=>1,cancelAnimationFrame:()=>{}};
 context.window=context;
+vm.runInNewContext(fs.readFileSync(__dirname+'/../通用/hover-translations.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync(__dirname+'/web/app.js','utf8'),context,{filename:'app.js'});
 const flush=()=>new Promise(resolve=>setImmediate(resolve));
 const selected=()=>JSON.parse(storage.get('ielts-four-chapters-v1')).selected;

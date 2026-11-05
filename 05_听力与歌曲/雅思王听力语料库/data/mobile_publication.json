@@ -4,10 +4,10 @@
   "pc_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=ielts&mode=original&view=pc",
   "access": "private",
   "status": "succeeded",
-  "commit_sha": "d6cf68a1ee851799a416b3d51e38f2d80ed355e0",
-  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_bacc4f12bf1481919de9262ab1d19de8",
-  "deployment_id": "appgdep_6ae8adb615408191883d9b5cc8f746c1",
-  "published_at": "2026-11-02T15:35:38.574673+00:00",
+  "commit_sha": "27305ec33b2cc4792482fe45bae6c2aed0c18375",
+  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_bebf121db59881919774dbb23abd5d1c",
+  "deployment_id": "appgdep_6aec8e07b83c819195147bcc6916b641",
+  "published_at": "2026-11-05T14:09:29.579873+00:00",
   "note": "Sites 网站源码单独保存于私人站点源仓库；English_Learning 学习仓库独立提交。",
   "title": "英语听读 · Oxford 3000 / 750 短语 / 雅思",
   "collections": {
@@ -18,5 +18,5 @@
   "entries": 9625,
   "oxford_audio_source_revision": "3a5c95b9647b24abdcfa72eed1c423718b7b4adb",
   "ielts_audio_source_revision": "560f3d2b7b475dff5657631b4f16fc60939f6b36",
-  "last_change": "PC 布局与 59 段真人原音逐词同步；保留原音停顿、横向／纵向顺序；支持 0.5–2 倍速；提供离线 HTML 与无损索引音频包。"
+  "last_change": "三套听读资料的释义、搭配译文、例句译文和中文用法默认隐藏；电脑悬停显示，触屏可点显示中文。"
 }

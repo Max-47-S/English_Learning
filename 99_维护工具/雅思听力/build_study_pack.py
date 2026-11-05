@@ -186,7 +186,8 @@ def main():
                     md += [f'原 PDF：第 {e["pdfPage"]} 页。', '']
         path = ROOT / chapter['folder'] / f'Chapter{chapter["id"]:02}_学习卡.md'
         path.write_text('\n'.join(md))
-    template = (WEB / 'index.html').read_text().replace('__APP_CSS__', (WEB / 'app.css').read_text() + '\n' + (WEB / 'hub.css').read_text()).replace('__APP_JS__', (WEB / 'timeline-core.js').read_text() + '\n' + (WEB / 'speech-queue.js').read_text() + '\n' + (WEB / 'mp3-index.js').read_text() + '\n' + (WEB / 'app.js').read_text()).replace('__SITE_URL__', args.site_url)
+    shared = TOOLS.parent / '通用'
+    template = (WEB / 'index.html').read_text().replace('__APP_CSS__', (WEB / 'app.css').read_text() + '\n' + (WEB / 'hub.css').read_text() + '\n' + (shared / 'hover-translations.css').read_text()).replace('__APP_JS__', (WEB / 'timeline-core.js').read_text() + '\n' + (WEB / 'speech-queue.js').read_text() + '\n' + (WEB / 'mp3-index.js').read_text() + '\n' + (shared / 'hover-translations.js').read_text() + '\n' + (WEB / 'app.js').read_text()).replace('__SITE_URL__', args.site_url)
     def page(data):
         return template.replace('__STUDY_DATA__', json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c'))
     # Local pages use the same indexed audio included in the portable PC pack.

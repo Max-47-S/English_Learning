@@ -1,0 +1,60 @@
+{
+  "version": "ielts-official-samples-2026-11-08",
+  "kind": "official_sample",
+  "concordance_sha256": "b1b0466cffc1b0c89e742254ba4e29943b165e919309a9500461979ac01c4f63",
+  "credit": "© IELTS Partners (British Council, IDP IELTS and Cambridge University Press & Assessment)",
+  "use": "personal_noncommercial_local",
+  "terms": "https://ielts.org/legal/ielts-copyright-and-trade-mark-statement",
+  "index": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+  "pdfs": {
+    "L01.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-one-answer-transcript.pdf",
+      "sha256": "704d73593ccfc19540f02f63f98d6ab2d2445a91468e11228e8e468753a0e668"
+    },
+    "L02.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-more-than-one-answer-transcript.pdf",
+      "sha256": "bfa1893bf49529365a471e60f13982b7f11b90c225e4021511b8be920199cdaa"
+    },
+    "L03.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-plan-map-diagram-labelling-transcript.pdf",
+      "sha256": "e12447f3b225be11d55c677affaabf9cf49473abf61a1354aad8660cd4d9a113"
+    },
+    "L04.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-note-completion-transcript.pdf",
+      "sha256": "945297e9bcfbc6b9ae7190b1473e31c0acbb5bf59fa12a16700a0b51348411ce"
+    },
+    "L05.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-table-completion-transcript.pdf",
+      "sha256": "45c5eb831de4d1f069bb4c19a59fb66f085c827d0325faeafadb7b8d877d4116"
+    },
+    "L06.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-flow-chart-completion-transcript.pdf",
+      "sha256": "9b72a3e2abb1733817649a32adb14886aafe0d0f0c9ae0510866133046f039a3"
+    },
+    "L07.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-sentence-completion-transcript.pdf",
+      "sha256": "94e31f903ad391b7f22b6ee35fc5c040e53451efea9233d71cb2d685f0b27ed8"
+    },
+    "L08.pdf": {
+      "url": "https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-short-answer-transcript.pdf",
+      "sha256": "4420cd6776e0f0eadc1ef0edec49753df57639dd4efd00d87831d0816c175a91"
+    },
+    "R.pdf": {
+      "url": "https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf",
+      "sha256": "61035d701cbc12b8aff41c6df25bc25d2d394f6e915ea258c82d2b384be7ed8f"
+    }
+  },
+  "sources": [
+    {"id":"L01","section":"listening","part":"3","title":"学位论文讨论","file":"L01.pdf","regions":[[1,5,30]],"speaker":"^[MF]\\d+: +"},
+    {"id":"L02","section":"listening","part":"1","title":"图书馆指南","file":"L02.pdf","regions":[[1,5,20]],"speaker":"^[MF]: +"},
+    {"id":"L03","section":"listening","part":"2","title":"小镇导览","file":"L03.pdf","regions":[[1,5,17]]},
+    {"id":"L04","section":"listening","part":"1","title":"二手家具","file":"L04.pdf","regions":[[1,6,52],[2,1,7,"continue"]],"speaker":"^[MF]: +"},
+    {"id":"L05","section":"listening","part":"4","title":"学习坚持性研究","file":"L05.pdf","regions":[[1,8,30]]},
+    {"id":"L06","section":"listening","part":"3","title":"地球与火星生命研究","file":"L06.pdf","regions":[[1,8,50],[2,1,13]],"speaker":"^[AB] {2,}"},
+    {"id":"L07","section":"listening","part":"3","title":"开放大学学习","file":"L07.pdf","regions":[[1,5,37]],"speaker":"^(?:Paul|Rachel): +"},
+    {"id":"L08","section":"listening","part":"2","title":"服装行业职业介绍","file":"L08.pdf","regions":[[1,5,22]]},
+    {"id":"R01","section":"academic_reading","title":"火箭的发展","file":"R.pdf","regions":[[3,7,45]]},
+    {"id":"R02","section":"academic_reading","title":"蜣螂与牧场","file":"R.pdf","regions":[[6,6,34]]},
+    {"id":"R03","section":"academic_reading","title":"海水温室","file":"R.pdf","regions":[[44,10,46]]}
+  ]
+}

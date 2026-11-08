@@ -14,6 +14,7 @@
 <aside id="file-help" class="notice" hidden>电脑可直接使用 PC 离线包；手机请用 <a id="mobile-site-link" href="__SITE_URL__">在线网址</a> 打开。音频也可通过“离线音频与导入”保存到浏览器。</aside>
 <section id="help" class="help-panel" hidden>
 <h2>先选章节，再开始练习</h2>
+<p>顶部搜索框可用英文或中文查三套资料。点搜索结果即可打开对应词卡。</p>
 <p>中文释义和译文默认隐藏。鼠标移到卡片或词条上时显示，键盘可用 Tab 聚焦，触屏可轻点卡片的“显示中文”。</p>
 <p>“系统朗读”使用设备的合成英语语音，上一词、下一词、重听均读完即停；“连续朗读”会依次读下去，默认每词后停 1 秒，可用“词间停顿”调整跟读时间。上方“速度”单独调整发音快慢。</p>
 <p>Oxford 3000 的学习包音频全部为真人发音；750 短语音轨保留原学习包的 350 条真人录音与 400 条 AI 配音，每条均标明来源。两套音轨都会随播放自动换词，目录可定位到本词。</p>
@@ -22,6 +23,18 @@
 <p>手机在浏览器打开本网址。iPhone 可从 Safari 的分享菜单选择“添加到主屏幕”；首次联网打开后，词表可离线阅读。缓存或导入过的音轨可离线播放。</p>
 <p>Chapter 11 从官方 PDF 转写；其余三章为网络参考词表，其中 Test Paper 8 的指定部分已按书页照片校订。进度与收藏保存在本机浏览器。</p>
 <p>iPhone 系统朗读无声时，请先关闭静音模式，并在播放时调高媒体音量。切换资料会分别记忆学习进度。</p>
+</section>
+<section id="global-search" class="global-search" role="search" aria-label="全局搜索">
+<div class="search-field">
+<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4" stroke-linecap="round"/></svg>
+<input id="search" type="search" aria-label="全局搜索" aria-controls="search-results" placeholder="搜 Oxford 3000、750 短语或雅思听力" autocomplete="off" spellcheck="false" enterkeyhint="search">
+<button id="search-clear" type="button" aria-label="清空搜索" hidden>×</button>
+</div>
+<div id="search-results" class="search-results" hidden>
+<p id="search-count" class="search-count" role="status"></p>
+<div id="search-hits" class="search-hits"></div>
+<button id="search-more" type="button" hidden>显示更多结果</button>
+</div>
 </section>
 <nav id="collections" class="collections" aria-label="选择学习资料"></nav>
 <p id="collection-note" class="collection-note"></p>
@@ -53,7 +66,7 @@
 </details>
 </section>
 </main>
-<aside class="catalog"><div class="catalog-heading"><h2>词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><input id="search" type="search" placeholder="搜索英文或中文" aria-label="搜索英文或中文"><div class="catalog-meta"><span id="result-count"></span><span class="translation-hint">悬停看中文</span></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
+<aside class="catalog"><div class="catalog-heading"><h2>词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><div class="catalog-meta"><span id="result-count"></span><span class="translation-hint">悬停看中文</span></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
 </div>
 <footer><span id="pack-count"></span><span id="app-offline-status">资料保存在本机浏览器后可继续使用。</span></footer>
 </div>

@@ -1,0 +1,110 @@
+{
+  "area": {"forms":["areas"],"senses":{
+    "region":["area%1:15:01::","地区，一带"]}},
+  "book": {"forms":["books","booked","booking"],"senses":{
+    "publication":["book%1:10:00::","书，出版物"],
+    "reserve":["book%2:41:01::","预订，预约"]}},
+  "change": {"forms":["changes","changed","changing"],"senses":{
+    "variation":["change%2:30:02::","发生变化，有所不同"],
+    "alter":["change%2:30:01::","改动，使不同"],
+    "switch":["change%2:30:05::","改用，转为另一种方式"],
+    "difference":["change%1:24:00::","变化，前后状态之差"]}},
+  "condition": {"forms":["conditions","conditioned","conditioning"],"senses":{
+    "state":["condition%1:26:00::","状况，物品当前的状态"]}},
+  "course": {"forms":["courses","coursed","coursing"],"senses":{
+    "classes":["course%1:04:01::","课程，一系列课"],
+    "of-course":["of_course%4:02:00::","当然，这是预料之中的"]}},
+  "design": {"forms":["designs","designed","designing"],"senses":{
+    "create":["design%2:36:01::","设计，创作图样"],
+    "purpose":["design%2:31:00::","为某种用途而设计"],
+    "activity":["design%1:04:00::","设计这一活动或职能"],
+    "layout":["design%1:09:01::","设计方案，布局"]}},
+  "develop": {"forms":["develops","developed","developing"],"senses":{
+    "invent":["develop%2:36:01::","研制，开发出新产品"]}},
+  "find": {"forms":["finds","finding","found"],"senses":{
+    "locate":["find%2:40:00::","找到，寻到所需的东西"],
+    "detect":["find%2:39:02::","发现，查出某种事物的存在"],
+    "find-out":["find_out%2:32:01::","弄清楚，查明"],
+    "opinion":["find%2:31:10::","觉得，认为"],
+    "realise":["find%2:31:09::","意识到，发觉某个事实"]}},
+  "form": {"forms":["forms","formed","forming"],"senses":{
+    "format":["form%1:10:02::","形式，呈现的格式"],
+    "emerge":["form%2:42:02::","形成，逐渐出现"]}},
+  "information": {"forms":[],"senses":{
+    "details":["information%1:10:00::","信息，告知他人的资料"]}},
+  "level": {"forms":["levels","levelled","levelling","leveled","leveling"],"senses":{
+    "rank":["level%1:26:01::","层级，等级"],
+    "degree":["level%1:07:00::","水平，数量、程度或强度"]}},
+  "life": {"forms":["lives"],"senses":{
+    "living":["life%1:26:01::","生活，日常生活方式"],
+    "organisms":["life%1:19:00::","生命，生物存在的现象"]}},
+  "light": {"forms":["lights","lit","lighted","lighting","lighter","lightest"],"senses":{
+    "radiation":["light%1:19:00::","光，本文也用来指红外光。此处按样题语境扩展词典的可见光定义"],
+    "ignite":["light%2:43:00::","点燃，使开始燃烧"]}},
+  "material": {"forms":["materials"],"senses":{
+    "information":["material%1:10:00::","资料，供写作或研究使用的素材"],
+    "fabric":["material%1:06:00::","布料，织物"],
+    "substance":["material%1:27:00::","物质，实物材料"]}},
+  "part": {"forms":["parts","parted","parting"],"senses":{
+    "section":["part%1:09:00::","环节，某个安排或作品的一部分"],
+    "component":["part%1:24:00::","组成部分，整体中的一部分"]}},
+  "point": {"forms":["points","pointed","pointing"],"senses":{
+    "tip":["point%1:06:00::","尖端，尖头"],
+    "stage":["point%1:26:00::","阶段，某个进程中的节点"],
+    "item":["point%1:09:01::","要点，单独列出的一点"]}},
+  "present": {"forms":["presents","presented","presenting"],"senses":{
+    "give":["present%2:32:00::","呈现，向别人展示或说明"],
+    "exist":["present%3:00:02::","存在的，出现在某处的"],
+    "at-present":["at_present%4:02:00::","目前，现在"]}},
+  "produce": {"forms":["produces","produced","producing"],"senses":{
+    "manufacture":["produce%2:36:00::","生产，制造产品"],
+    "yield":["produce%2:36:02::","繁殖，产生后代"],
+    "generate":["produce%2:36:03::","产生，造成某种产出"]}},
+  "range": {"forms":["ranges","ranged","ranging"],"senses":{
+    "variety":["range%1:14:00::","一系列，多种不同的事物"],
+    "distance":["range%1:15:01::","射程，能够有效到达的距离"]}},
+  "research": {"forms":["researches","researched","researching"],"senses":{
+    "investigation":["research%1:04:00::","研究，有系统的调查"]}},
+  "result": {"forms":["results","resulted","resulting"],"senses":{
+    "outcome":["result%1:19:00::","结果，检测或试验所得的结果"]}},
+  "sample": {"forms":["samples","sampled","sampling"],"senses":{
+    "specimen":["sample%1:17:00::","样品，采集的实物样本"]}},
+  "school": {"forms":["schools","schooled","schooling"],"senses":{
+    "building":["school%1:06:00::","校舍，供上课的建筑"],
+    "session":["school%1:28:00::","上课时间，学校上课"],
+    "education":["school%1:09:00::","学校教育，在校学习"],
+    "summer-school":["summer_school%1:28:00::","暑期学校，暑期课程"]}},
+  "source": {"forms":["sources","sourced","sourcing"],"senses":{
+    "document":["source%1:10:00::","资料来源，信息的出处"],
+    "provider":["source%1:18:00::","提供者，某种支持来自的人"]}},
+  "study": {"forms":["studies","studied","studying"],"senses":{
+    "analyse":["study%2:31:02::","研究，仔细考察"],
+    "enrol":["study%2:31:03::","上学，修读，学习课程"],
+    "learning":["study%1:09:03::","学习，读书"],
+    "investigation":["study%1:04:00::","研究，详细的考察"]}},
+  "surface": {"forms":["surfaces","surfaced","surfacing"],"senses":{
+    "ground":["surface%1:17:00::","地表，星球的外表面"],
+    "exterior":["surface%1:15:00::","表面，物体的外层"]}},
+  "take": {"forms":["takes","took","taken","taking"],"senses":{
+    "require":["take%2:40:06::","需要，花费时间"],
+    "photograph":["take%2:32:02::","拍摄，照相"],
+    "buy":["take%2:40:02::","买下，选购"],
+    "feel":["take%2:39:00::","感到，体验（这里指从中获得乐趣）"],
+    "time-off":["take_time_off%2:41:00::","请假，暂停工作或学习一段时间"],
+    "remove":["take%2:30:00::","从某处取走，移走"]}},
+  "time": {"forms":["times","timed","timing"],"senses":{
+    "period":["time%1:28:00::","时期，一段时间"],
+    "resource":["time%1:28:05::","可以支配或腾出的时间"],
+    "occasionally":["from_time_to_time%4:02:00::","时不时，偶尔"],
+    "simultaneous":["at_the_same_time%4:02:03::","同时，在同一时刻"],
+    "per-batch":["at_a_time%4:02:00::","一次，一次处理的数量"],
+    "eventually":["in_time%4:02:00::","过一段时间，终有一天"]}},
+  "use": {"forms":["uses","used","using"],"senses":{
+    "employ":["use%2:34:01::","使用，利用某物完成目的"],
+    "utilisation":["use%1:04:00::","使用，运用的行为"]}},
+  "work": {"forms":["works","worked","working"],"senses":{
+    "activity":["work%1:04:00::","工作，要做的事情或工程"],
+    "employment":["work%2:41:00::","任职，受雇工作"],
+    "operate":["work%2:35:02::","运转，按预期发挥作用"],
+    "do":["work%2:41:02::","干活，为某个目的开展工作"]}}
+}

@@ -11,6 +11,8 @@ class Element{
  setAttribute(name,value){this[name]=value}
  removeAttribute(name){delete this[name]}
  querySelector(){return null}
+ focus(){this.focused=true}
+ scrollIntoView(){}
 }
 class Audio extends Element{
  constructor(){super();this.paused=true;this.currentTime=0;this.readyState=0;this.playCalls=0}
@@ -34,11 +36,15 @@ const data={collections:collectionIds.map(id=>({id,title:id,subtitle:'test',defa
  chapters:collectionIds.map((collection,i)=>({id:String(i+1),collection,title:collection,groups:[{id:'group-'+i,title:'test',all:true,trackIds:{default:'track-'+i}}]})),
  entries:collectionIds.flatMap((collection,i)=>Array.from({length:8},(_,j)=>({id:collection+'-'+j,collection,chapter:String(i+1),group:'group-'+i,source:collection,order:j+1,word:collection+' word '+j,meaning:'测试'}))),
  tracks:collectionIds.map((id,i)=>({id:'track-'+i,chapter:String(i+1),title:'test',file:'test.mp3',cues:Array.from({length:8},(_,j)=>({entryId:id+'-'+j,start:j*5,spokenEnd:j*5+1,end:(j+1)*5}))})),audioCredits:{},entryAliases:{'old-oxford-entry':'oxford3000-0'}};
+data.entries.find(e=>e.id==='ielts-3').word='word 3';
+data.entries.find(e=>e.id==='phrases750-3').word='word 3 practice';
 const elements=new Map(),get=id=>{if(!elements.has(id))elements.set(id,new Element());return elements.get(id)};
 const audio=new Audio();elements.set('original-audio',audio);get('study-data').textContent=JSON.stringify(data);
+get('search').value='word 3';
 const synth=new Speech(),storage=new Map(),clock=new FakeClock();
 storage.set('ielts-four-chapters-v1',JSON.stringify({collection:'oxford3000',chapter:'1',group:'group-0',selected:'old-oxford-entry',mode:'word'}));
 storage.set('ielts-four-chapters-v1-favorites',JSON.stringify(['old-oxford-entry']));
+storage.set('ielts-four-chapters-v1-audio',JSON.stringify({'track-2':35}));
 const context={console,JSON,Map,Set,URL,URLSearchParams,Promise,Number,String,Math,
  document:{body:get('body'),getElementById:get,querySelectorAll:()=>[],addEventListener:()=>{}},
  location:{search:'?collection=oxford3000',protocol:'https:',hostname:'test.invalid',href:'https://test.invalid/study/?collection=oxford3000'},
@@ -54,6 +60,8 @@ const selected=()=>JSON.parse(storage.get('ielts-four-chapters-v1')).selected;
 (async()=>{
  await flush();
  assert.equal(selected(),'oxford3000-0');assert.deepEqual(JSON.parse(storage.get('ielts-four-chapters-v1-favorites')),['oxford3000-0']);
+ assert.equal(get('search-count').textContent,'找到 3 条词条','input entered during loading is searched at startup');
+ get('search').value='';get('search').oninput({isComposing:false});
  for(const id of collectionIds){
   get('collections').onclick({target:{closest:()=>({dataset:{collection:id}})}});await flush();
   assert.equal(get('speech-gap').value,'1000');
@@ -97,6 +105,26 @@ const selected=()=>JSON.parse(storage.get('ielts-four-chapters-v1')).selected;
  get('speed').value='2';get('speed').onchange();assert.equal(audio.playbackRate,2);
  audio.currentTime=10;audio.emit('timeupdate');assert.equal(selected(),'oxford3000-2');
  assert.equal(clock.timers.size,0,'original recording never uses a synthetic word-gap timer');
- audio.pause();
  console.log('PASS: three collections with default 1s gaps; hold current card; gap preference persistence; single-word stop; replay → continuous; hidden media isolation.');
+ const input=get('search'),hits=get('search-hits'),playCalls=audio.playCalls;
+ input.value='  WoRd   3 ';
+ input.oninput({isComposing:true});assert.equal(hits.innerHTML,'');
+ input.oncompositionend();
+ assert.deepEqual([...hits.innerHTML.matchAll(/data-search-id="([^"]+)"/g)].map(m=>m[1]),['ielts-3','phrases750-3','oxford3000-3']);
+ assert.equal(selected(),'oxford3000-2');assert.equal(audio.paused,false);
+ input.value='测试';input.oninput({isComposing:false});
+ assert.match(get('search-count').textContent,/24/);
+ assert.equal([...hits.innerHTML.matchAll(/data-search-id=/g)].length,18);
+ get('search-more').onclick();assert.equal([...hits.innerHTML.matchAll(/data-search-id=/g)].length,24);
+ input.value='word 3';input.oninput({isComposing:false});
+ const ieltsPrefs=JSON.parse(storage.get('ielts-four-chapters-v1-collection-ielts'));
+ storage.set('ielts-four-chapters-v1-collection-ielts',JSON.stringify({...ieltsPrefs,mode:'original'}));
+ hits.onclick({target:{closest:()=>({dataset:{searchId:'ielts-3'}})}});
+ assert.equal(selected(),'ielts-3');assert.equal(get('group-select').value,'group-2');
+ assert.equal(get('search-results').hidden,true);assert.equal(get('word-card').focused,true);
+ await flush();audio.emit('loadedmetadata');audio.emit('seeked');
+ assert.equal(audio.currentTime,15);assert.equal(selected(),'ielts-3');
+ assert.equal(audio.paused,true);assert.equal(audio.playCalls,playCalls);
+ assert.equal(JSON.parse(storage.get('ielts-four-chapters-v1-collection-oxford3000')).selected,'oxford3000-2');
+ console.log('PASS: global search ranks all three collections; Chinese IME, additional results and quiet audio positioning work across collections.');
 })().catch(error=>{console.error(error);process.exitCode=1});

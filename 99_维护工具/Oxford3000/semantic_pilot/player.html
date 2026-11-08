@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oxford 3000 · 雅思语义试点</title>
+  <style>
+__PLAYER_CSS__
+__TRANSLATION_CSS__
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="intro">
+      <nav aria-label="相关资料">
+        <a id="original" href="__ORIGINAL__">Oxford 原序听读</a>
+        <a href="#word-index">找词</a>
+        <a href="#sources">语料与许可</a>
+      </nav>
+      <p class="eyebrow">Oxford 3000 / 本地 30 词试点</p>
+      <h1>雅思语义卡</h1>
+      <p id="scope" class="scope"></p>
+    </header>
+    <section class="player" aria-label="真人音频">
+      <audio id="audio" controls preload="metadata" src="__AUDIO__"></audio>
+      <div class="tools">
+        <button id="prevWord">上一词</button>
+        <button id="nextWord">下一词</button>
+        <button id="replay">重听本词</button>
+        <label>速度
+          <select id="speed">
+            <option value="0.75">0.75×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+          </select>
+        </label>
+        <button id="resume">继续上次进度</button>
+      </div>
+      <p id="status" class="muted" role="status">音频正在载入，点击播放开始连续听读。</p>
+    </section>
+    <div class="study">
+      <div class="reading">
+        <p class="muted translation-hint">鼠标移到卡片上显示中文。触屏可轻点“显示中文”。</p>
+        <article id="card" class="card translation-card" tabindex="0" aria-label="当前词卡"></article>
+      </div>
+      <aside id="word-index" class="index" aria-label="试点词目">
+        <h2>试点词目</h2>
+        <input id="search" type="search" aria-label="搜索英文词头或词形" placeholder="搜索英文词头或词形">
+        <p id="resultCount" class="muted"></p>
+        <div id="list" class="word-list"></div>
+      </aside>
+    </div>
+    <details id="sources" class="provenance">
+      <summary>语料、统计口径与许可</summary>
+      <div class="provenance-content">
+        <p>频次只代表下列官方样题。正文计入统计，题干、选项、答案、标题和说明排除。每个确认用法计一次，固定短语内重复的同一词头只计一次。</p>
+        <p>搭配为经核对的原文连续词块，同一词头的屈折变化合并计数。一个用法可支持多个搭配，搭配次数不能相加当作义项频次。并列时按义项编号或搭配字母顺序排列。</p>
+        <p>样题原句仅用于个人非商业学习。样题署名 <strong id="credit"></strong>。</p>
+        <ul id="sourceLinks" class="source-list"></ul>
+        <p class="links">
+          <a id="officialIndex" target="_blank" rel="noopener">雅思官网样题目录</a>
+          <a id="officialTerms" target="_blank" rel="noopener">雅思版权说明</a>
+          <a href="WORDNET-LICENSE.txt">WordNet 许可</a>
+          <a href="__AUDIO_CREDIT__">真人录音署名与许可</a>
+          <a href="统计与出处.json">本地统计与出处数据</a>
+        </p>
+      </div>
+    </details>
+  </main>
+  <script type="application/json" id="pilotData">__DATA__</script>
+  <script>
+'use strict';
+__TRANSLATION_JS__
+__PLAYER_JS__
+__PLAYBACK_JS__
+initialize();
+  </script>
+</body>
+</html>

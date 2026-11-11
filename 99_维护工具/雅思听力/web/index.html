@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#17635c"><meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<title>英语听读 · Oxford 与雅思</title>
+<title>英语听读 · Oxford 3000 / 5000 与雅思</title>
 <link rel="manifest" href="/manifest.webmanifest">
 <style>__APP_CSS__</style>
 </head>
@@ -14,11 +14,15 @@
 <aside id="file-help" class="notice" hidden>电脑可直接使用 PC 离线包；手机请用 <a id="mobile-site-link" href="__SITE_URL__">在线网址</a> 打开。音频也可通过“离线音频与导入”保存到浏览器。</aside>
 <section id="help" class="help-panel" hidden>
 <h2>先选章节，再开始练习</h2>
-<p>顶部搜索框可用英文或中文查三套资料。点搜索结果即可打开对应词卡。</p>
+<p>顶部搜索框可用英文或中文查全部资料。点搜索结果即可打开对应词卡。</p>
 <p>中文释义和译文默认隐藏。鼠标移到卡片或词条上时显示，键盘可用 Tab 聚焦，触屏可轻点卡片的“显示中文”。</p>
 <p>“系统朗读”使用设备的合成英语语音，上一词、下一词、重听均读完即停；“连续朗读”会依次读下去，默认每词后停 1 秒，可用“词间停顿”调整跟读时间。上方“速度”单独调整发音快慢。</p>
+<p>卡片中的每条常用短语和英文例句旁都有 🔊 按钮。点击即可单独听这条短语或例句，使用设备系统英语语音，读完后自动停止。</p>
 <p>Oxford 3000 的学习包音频全部为真人发音；750 短语音轨保留原学习包的 350 条真人录音与 400 条 AI 配音，每条均标明来源。两套音轨都会随播放自动换词，目录可定位到本词。</p>
+<p>Oxford 5000 页收录 Oxford 3000 之外的 B2–C1 补充词表，保留原 PDF 顺序，并使用设备系统语音朗读；中文参考释义与音标来源见词卡链接和学习包说明。</p>
 <p>四章王陆原版真人录音、Oxford 学习包音频均支持逐词同步。连续播放保持录音中的原有停顿与节奏，倍速会同时缩放发音和间隔。上一词、下一词、重听本词均播放一词后暂停；点击音频进度条或连续播放可恢复连续。</p>
+<p>48 音标按传统英式教学习惯编排，配真人示范与例词。点击音标或例词可单独试听；“跟读本卡”和“连续跟读”会逐项示范三遍，每遍后留出跟读时间。1× 已按慢速制作。</p>
+<p>遇词本收录平时遇到的单词和短语。先选单词或短语，再选备考必记或日常积累，用系统语音连续朗读。</p>
 <p>横向与纵向录音按各自的实际读词顺序切换。电脑布局可用空格播放／暂停、←／→ 切词、R 重听；输入框和按钮保留自身的键盘操作。</p>
 <p>手机在浏览器打开本网址。iPhone 可从 Safari 的分享菜单选择“添加到主屏幕”；首次联网打开后，词表可离线阅读。缓存或导入过的音轨可离线播放。</p>
 <p>Chapter 11 从官方 PDF 转写；其余三章为网络参考词表，其中 Test Paper 8 的指定部分已按书页照片校订。进度与收藏保存在本机浏览器。</p>
@@ -27,7 +31,7 @@
 <section id="global-search" class="global-search" role="search" aria-label="全局搜索">
 <div class="search-field">
 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4" stroke-linecap="round"/></svg>
-<input id="search" type="search" aria-label="全局搜索" aria-controls="search-results" placeholder="搜 Oxford 3000、750 短语或雅思听力" autocomplete="off" spellcheck="false" enterkeyhint="search">
+<input id="search" type="search" aria-label="全局搜索" aria-controls="search-results" placeholder="搜全部资料的英文或中文" autocomplete="off" spellcheck="false" enterkeyhint="search">
 <button id="search-clear" type="button" aria-label="清空搜索" hidden>×</button>
 </div>
 <div id="search-results" class="search-results" hidden>
@@ -41,8 +45,8 @@
 <nav id="chapters" class="chapters" aria-label="选择章节"></nav>
 <div class="study-layout">
 <main>
-<section class="selection"><label>选择练习<select id="group-select" aria-label="选择练习"></select></label><label>速度<select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="1.75">1.75×</option><option value="2">2×</option></select></label></section>
-<div class="mode-switch" role="group" aria-label="朗读方式"><button id="word-mode" class="selected" aria-pressed="true">系统朗读<span>合成语音</span></button><button id="original-mode" aria-pressed="false"><b id="recording-mode-title">学习包音频</b><span id="recording-mode-subtitle">逐词同步</span></button></div>
+<section class="selection"><label><span id="group-caption">选择练习</span><select id="group-select" aria-labelledby="group-caption"></select></label><label>速度<select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1">1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="1.75">1.75×</option><option value="2">2×</option></select></label></section>
+<div id="mode-switch" class="mode-switch" role="group" aria-label="朗读方式"><button id="word-mode" class="selected" aria-pressed="true">系统朗读<span>合成语音</span></button><button id="original-mode" aria-pressed="false"><b id="recording-mode-title">学习包音频</b><span id="recording-mode-subtitle">逐词同步</span></button></div>
 <div class="progress-line"><span id="position"></span><span id="source-label"></span></div>
 <article id="word-card" class="word-card translation-card" tabindex="0" aria-live="polite"></article>
 <section id="word-player" class="player word-player">
@@ -56,6 +60,7 @@
 <label class="track-label">当前音轨<select id="track-select" aria-label="选择原版音轨"></select></label>
 <div id="audio-now-playing" class="audio-now-playing translation-card" tabindex="0" hidden><strong id="audio-now-word"></strong><span id="audio-now-meaning" class="translation-text"></span><small id="audio-now-position"></small></div>
 <audio id="original-audio" controls preload="none" playsinline></audio>
+<p id="ipa-follow" class="ipa-follow" hidden></p>
 <div id="recording-word-controls" class="word-buttons" hidden><button id="prev-recording-word">← 上一词</button><button id="replay-recording-word" class="primary">重听本词</button><button id="next-recording-word">下一词 →</button></div>
 <div id="track-controls" class="word-buttons"><button id="prev-track">← 上一段</button><button id="replay-track">重听本段</button><button id="next-track">下一段 →</button></div>
 <button id="continuous-audio" class="wide">本章连续播放</button><p id="audio-status" class="status" role="status">选择音轨并点击播放。</p>
@@ -66,7 +71,7 @@
 </details>
 </section>
 </main>
-<aside class="catalog"><div class="catalog-heading"><h2>词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><div class="catalog-meta"><span id="result-count"></span><span class="translation-hint">悬停看中文</span></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
+<aside class="catalog"><div class="catalog-heading"><h2 id="catalog-title">词条目录</h2><button id="favorites-only" class="quiet" aria-pressed="false">只看收藏</button></div><div class="catalog-meta"><span id="result-count"></span><span class="translation-hint">悬停看中文</span></div><div id="word-list" class="word-list"></div><button id="more-words" class="wide" hidden>显示更多词条</button></aside>
 </div>
 <footer><span id="pack-count"></span><span id="app-offline-status">资料保存在本机浏览器后可继续使用。</span></footer>
 </div>

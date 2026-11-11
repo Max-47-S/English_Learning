@@ -1,0 +1,41 @@
+[
+  {
+    "id": "blink",
+    "group": "encounter-word-exam",
+    "word": "blink",
+    "ipa": "blɪŋk",
+    "pos": "v.",
+    "meaning": "眨眼 / （灯光）闪烁",
+    "phrases": [
+      "blink twice（眨两次眼）",
+      "a blinking warning light（闪烁的警示灯）"
+    ],
+    "example": {
+      "english": "I blinked when the camera flashed.",
+      "chinese": "相机闪光时，我眨了下眼。",
+      "source": "原创学习例句"
+    },
+    "wordForms": "blinks · blinked · blinking",
+    "usageNote": "主语是人时常表示眨眼。The light on the charger is blinking. 表示充电器上的指示灯在闪。",
+    "referenceUrl": "https://dictionary.cambridge.org/us/dictionary/learner-english/blink"
+  },
+  {
+    "id": "consignment",
+    "group": "encounter-word-accumulation",
+    "word": "consignment",
+    "ipa": "kənˈsaɪn.mənt",
+    "pos": "n. [C]",
+    "meaning": "一票货件 / 一批托运的货物",
+    "phrases": [
+      "a consignment of spare parts（一批托运的备件）",
+      "track a consignment（追踪一票货件）"
+    ],
+    "example": {
+      "english": "Consignment received at the PostNL Acceptance Centre",
+      "chinese": "PostNL 收寄中心已收到这票货件。",
+      "source": "用户提供的 PostNL 物流状态"
+    },
+    "usageNote": "物流状态常用简写。补成完整句子可以说 The consignment has been received at the PostNL Acceptance Centre.",
+    "referenceUrl": "https://dictionary.cambridge.org/us/dictionary/english/consignment"
+  }
+]

@@ -1,0 +1,1308 @@
+{
+  "file": "ipa-48-follow-along.mp3",
+  "duration": 1374.192125,
+  "bytes": 8246030,
+  "sha256": "6a3f538ef7dd3e6eb9e43d58658f99df963a5cce243078bb28babef6cbfd2963",
+  "baseTempo": 0.8,
+  "repetitions": 3,
+  "soundGap": 1.8,
+  "wordGap": 2.25,
+  "cues": [
+    {
+      "entryId": "ipa-fleece",
+      "start": 0.0,
+      "spokenEnd": 23.16,
+      "practiceEnd": 25.41,
+      "end": 26.06,
+      "parts": [
+        {
+          "label": "/iː/",
+          "start": 0.0,
+          "spokenEnd": 0.84,
+          "step": 2.64
+        },
+        {
+          "label": "peace",
+          "start": 7.92,
+          "spokenEnd": 8.57,
+          "step": 2.9
+        },
+        {
+          "label": "see",
+          "start": 16.62,
+          "spokenEnd": 17.3,
+          "step": 2.93
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-kit",
+      "start": 26.06,
+      "spokenEnd": 49.37,
+      "practiceEnd": 51.62,
+      "end": 52.27,
+      "parts": [
+        {
+          "label": "/ɪ/",
+          "start": 26.06,
+          "spokenEnd": 26.86,
+          "step": 2.6
+        },
+        {
+          "label": "ship",
+          "start": 33.86,
+          "spokenEnd": 34.5,
+          "step": 2.89
+        },
+        {
+          "label": "sit",
+          "start": 42.53,
+          "spokenEnd": 43.31,
+          "step": 3.03
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-dress-vowel",
+      "start": 52.27,
+      "spokenEnd": 76.48,
+      "practiceEnd": 78.73,
+      "end": 79.38,
+      "parts": [
+        {
+          "label": "/e/",
+          "start": 52.27,
+          "spokenEnd": 53.6,
+          "step": 3.13
+        },
+        {
+          "label": "bed",
+          "start": 61.66,
+          "spokenEnd": 62.23,
+          "step": 2.82
+        },
+        {
+          "label": "ten",
+          "start": 70.12,
+          "spokenEnd": 70.74,
+          "step": 2.87
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-trap",
+      "start": 79.38,
+      "spokenEnd": 103.085125,
+      "practiceEnd": 105.335125,
+      "end": 105.985125,
+      "parts": [
+        {
+          "label": "/æ/",
+          "start": 79.38,
+          "spokenEnd": 80.351708,
+          "step": 2.771708
+        },
+        {
+          "label": "hat",
+          "start": 87.695125,
+          "spokenEnd": 88.425125,
+          "step": 2.98
+        },
+        {
+          "label": "bad",
+          "start": 96.635125,
+          "spokenEnd": 97.285125,
+          "step": 2.9
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-strut",
+      "start": 105.985125,
+      "spokenEnd": 129.544875,
+      "practiceEnd": 131.794875,
+      "end": 132.444875,
+      "parts": [
+        {
+          "label": "/ʌ/",
+          "start": 105.985125,
+          "spokenEnd": 106.868375,
+          "step": 2.68325
+        },
+        {
+          "label": "cup",
+          "start": 114.034875,
+          "spokenEnd": 114.694875,
+          "step": 2.91
+        },
+        {
+          "label": "sun",
+          "start": 122.764875,
+          "spokenEnd": 123.524875,
+          "step": 3.01
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-start",
+      "start": 132.444875,
+      "spokenEnd": 155.379625,
+      "practiceEnd": 157.629625,
+      "end": 158.279625,
+      "parts": [
+        {
+          "label": "/ɑː/",
+          "start": 132.444875,
+          "spokenEnd": 133.269792,
+          "step": 2.624917
+        },
+        {
+          "label": "car",
+          "start": 140.319625,
+          "spokenEnd": 140.939625,
+          "step": 2.87
+        },
+        {
+          "label": "far",
+          "start": 148.929625,
+          "spokenEnd": 149.579625,
+          "step": 2.9
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-lot",
+      "start": 158.279625,
+      "spokenEnd": 181.409625,
+      "practiceEnd": 183.659625,
+      "end": 184.309625,
+      "parts": [
+        {
+          "label": "/ɒ/",
+          "start": 158.279625,
+          "spokenEnd": 159.069625,
+          "step": 2.59
+        },
+        {
+          "label": "hot",
+          "start": 166.049625,
+          "spokenEnd": 166.679625,
+          "step": 2.88
+        },
+        {
+          "label": "box",
+          "start": 174.689625,
+          "spokenEnd": 175.429625,
+          "step": 2.99
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-thought",
+      "start": 184.309625,
+      "spokenEnd": 207.718625,
+      "practiceEnd": 209.968625,
+      "end": 210.618625,
+      "parts": [
+        {
+          "label": "/ɔː/",
+          "start": 184.309625,
+          "spokenEnd": 185.102625,
+          "step": 2.593
+        },
+        {
+          "label": "saw",
+          "start": 192.088625,
+          "spokenEnd": 192.878625,
+          "step": 3.04
+        },
+        {
+          "label": "law",
+          "start": 201.208625,
+          "spokenEnd": 201.878625,
+          "step": 2.92
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-foot",
+      "start": 210.618625,
+      "spokenEnd": 233.448625,
+      "practiceEnd": 235.698625,
+      "end": 236.348625,
+      "parts": [
+        {
+          "label": "/ʊ/",
+          "start": 210.618625,
+          "spokenEnd": 211.448625,
+          "step": 2.63
+        },
+        {
+          "label": "book",
+          "start": 218.508625,
+          "spokenEnd": 219.128625,
+          "step": 2.87
+        },
+        {
+          "label": "foot",
+          "start": 227.118625,
+          "spokenEnd": 227.728625,
+          "step": 2.86
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-goose",
+      "start": 236.348625,
+      "spokenEnd": 259.748875,
+      "practiceEnd": 261.998875,
+      "end": 262.648875,
+      "parts": [
+        {
+          "label": "/uː/",
+          "start": 236.348625,
+          "spokenEnd": 237.278708,
+          "step": 2.730083
+        },
+        {
+          "label": "food",
+          "start": 244.538875,
+          "spokenEnd": 245.188875,
+          "step": 2.9
+        },
+        {
+          "label": "blue",
+          "start": 253.238875,
+          "spokenEnd": 253.908875,
+          "step": 2.92
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-nurse",
+      "start": 262.648875,
+      "spokenEnd": 286.108125,
+      "practiceEnd": 288.358125,
+      "end": 289.008125,
+      "parts": [
+        {
+          "label": "/ɜː/",
+          "start": 262.648875,
+          "spokenEnd": 263.438625,
+          "step": 2.58975
+        },
+        {
+          "label": "bird",
+          "start": 270.418125,
+          "spokenEnd": 271.068125,
+          "step": 2.9
+        },
+        {
+          "label": "nurse",
+          "start": 279.118125,
+          "spokenEnd": 279.948125,
+          "step": 3.08
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-schwa",
+      "start": 289.008125,
+      "spokenEnd": 312.648125,
+      "practiceEnd": 314.898125,
+      "end": 315.548125,
+      "parts": [
+        {
+          "label": "/ə/",
+          "start": 289.008125,
+          "spokenEnd": 289.738125,
+          "step": 2.53
+        },
+        {
+          "label": "about",
+          "start": 296.598125,
+          "spokenEnd": 297.448125,
+          "step": 3.1
+        },
+        {
+          "label": "ago",
+          "start": 305.898125,
+          "spokenEnd": 306.648125,
+          "step": 3.0
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-face",
+      "start": 315.548125,
+      "spokenEnd": 338.468125,
+      "practiceEnd": 340.718125,
+      "end": 341.368125,
+      "parts": [
+        {
+          "label": "/eɪ/",
+          "start": 315.548125,
+          "spokenEnd": 316.328125,
+          "step": 2.58
+        },
+        {
+          "label": "day",
+          "start": 323.288125,
+          "spokenEnd": 323.848125,
+          "step": 2.81
+        },
+        {
+          "label": "rain",
+          "start": 331.718125,
+          "spokenEnd": 332.468125,
+          "step": 3.0
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-price",
+      "start": 341.368125,
+      "spokenEnd": 365.038125,
+      "practiceEnd": 367.288125,
+      "end": 367.938125,
+      "parts": [
+        {
+          "label": "/aɪ/",
+          "start": 341.368125,
+          "spokenEnd": 342.218125,
+          "step": 2.65
+        },
+        {
+          "label": "time",
+          "start": 349.318125,
+          "spokenEnd": 350.038125,
+          "step": 2.97
+        },
+        {
+          "label": "five",
+          "start": 358.228125,
+          "spokenEnd": 358.998125,
+          "step": 3.02
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-choice",
+      "start": 367.938125,
+      "spokenEnd": 391.998125,
+      "practiceEnd": 394.248125,
+      "end": 394.898125,
+      "parts": [
+        {
+          "label": "/ɔɪ/",
+          "start": 367.938125,
+          "spokenEnd": 368.888125,
+          "step": 2.75
+        },
+        {
+          "label": "boy",
+          "start": 376.188125,
+          "spokenEnd": 376.758125,
+          "step": 2.82
+        },
+        {
+          "label": "oil",
+          "start": 384.648125,
+          "spokenEnd": 385.598125,
+          "step": 3.2
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-goat",
+      "start": 394.898125,
+      "spokenEnd": 416.888125,
+      "practiceEnd": 419.138125,
+      "end": 419.788125,
+      "parts": [
+        {
+          "label": "/əʊ/",
+          "start": 394.898125,
+          "spokenEnd": 395.518125,
+          "step": 2.42
+        },
+        {
+          "label": "go",
+          "start": 402.158125,
+          "spokenEnd": 402.738125,
+          "step": 2.83
+        },
+        {
+          "label": "home",
+          "start": 410.648125,
+          "spokenEnd": 411.228125,
+          "step": 2.83
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-mouth",
+      "start": 419.788125,
+      "spokenEnd": 443.158125,
+      "practiceEnd": 445.408125,
+      "end": 446.058125,
+      "parts": [
+        {
+          "label": "/aʊ/",
+          "start": 419.788125,
+          "spokenEnd": 420.578125,
+          "step": 2.59
+        },
+        {
+          "label": "now",
+          "start": 427.558125,
+          "spokenEnd": 428.238125,
+          "step": 2.93
+        },
+        {
+          "label": "house",
+          "start": 436.348125,
+          "spokenEnd": 437.118125,
+          "step": 3.02
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-near",
+      "start": 446.058125,
+      "spokenEnd": 469.24475,
+      "practiceEnd": 471.49475,
+      "end": 472.14475,
+      "parts": [
+        {
+          "label": "/ɪə/",
+          "start": 446.058125,
+          "spokenEnd": 446.687,
+          "step": 2.428875
+        },
+        {
+          "label": "near",
+          "start": 453.34475,
+          "spokenEnd": 454.15475,
+          "step": 3.06
+        },
+        {
+          "label": "here",
+          "start": 462.52475,
+          "spokenEnd": 463.26475,
+          "step": 2.99
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-square",
+      "start": 472.14475,
+      "spokenEnd": 495.75475,
+      "practiceEnd": 498.00475,
+      "end": 498.65475,
+      "parts": [
+        {
+          "label": "/eə/",
+          "start": 472.14475,
+          "spokenEnd": 472.99475,
+          "step": 2.65
+        },
+        {
+          "label": "hair",
+          "start": 480.09475,
+          "spokenEnd": 480.84475,
+          "step": 3.0
+        },
+        {
+          "label": "chair",
+          "start": 489.09475,
+          "spokenEnd": 489.81475,
+          "step": 2.97
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-cure",
+      "start": 498.65475,
+      "spokenEnd": 523.61475,
+      "practiceEnd": 525.86475,
+      "end": 526.51475,
+      "parts": [
+        {
+          "label": "/ʊə/",
+          "start": 498.65475,
+          "spokenEnd": 499.37475,
+          "step": 2.52
+        },
+        {
+          "label": "during",
+          "start": 506.21475,
+          "spokenEnd": 507.23475,
+          "step": 3.27
+        },
+        {
+          "label": "curious",
+          "start": 516.02475,
+          "spokenEnd": 517.05475,
+          "step": 3.28
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-p",
+      "start": 526.51475,
+      "spokenEnd": 552.82475,
+      "practiceEnd": 555.07475,
+      "end": 555.72475,
+      "parts": [
+        {
+          "label": "/p/",
+          "start": 526.51475,
+          "spokenEnd": 528.48475,
+          "step": 3.77
+        },
+        {
+          "label": "peace",
+          "start": 537.82475,
+          "spokenEnd": 538.47475,
+          "step": 2.9
+        },
+        {
+          "label": "map",
+          "start": 546.52475,
+          "spokenEnd": 547.12475,
+          "step": 2.85
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-b",
+      "start": 555.72475,
+      "spokenEnd": 583.23475,
+      "practiceEnd": 585.48475,
+      "end": 586.13475,
+      "parts": [
+        {
+          "label": "/b/",
+          "start": 555.72475,
+          "spokenEnd": 558.15475,
+          "step": 4.23
+        },
+        {
+          "label": "bed",
+          "start": 568.41475,
+          "spokenEnd": 568.98475,
+          "step": 2.82
+        },
+        {
+          "label": "book",
+          "start": 576.87475,
+          "spokenEnd": 577.49475,
+          "step": 2.87
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-t",
+      "start": 586.13475,
+      "spokenEnd": 613.28475,
+      "practiceEnd": 615.53475,
+      "end": 616.18475,
+      "parts": [
+        {
+          "label": "/t/",
+          "start": 586.13475,
+          "spokenEnd": 588.39475,
+          "step": 4.06
+        },
+        {
+          "label": "tea",
+          "start": 598.31475,
+          "spokenEnd": 598.93475,
+          "step": 2.87
+        },
+        {
+          "label": "ten",
+          "start": 606.92475,
+          "spokenEnd": 607.54475,
+          "step": 2.87
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-d",
+      "start": 616.18475,
+      "spokenEnd": 643.03475,
+      "practiceEnd": 645.28475,
+      "end": 645.93475,
+      "parts": [
+        {
+          "label": "/d/",
+          "start": 616.18475,
+          "spokenEnd": 618.39475,
+          "step": 4.01
+        },
+        {
+          "label": "dog",
+          "start": 628.21475,
+          "spokenEnd": 628.84475,
+          "step": 2.88
+        },
+        {
+          "label": "day",
+          "start": 636.85475,
+          "spokenEnd": 637.41475,
+          "step": 2.81
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-k",
+      "start": 645.93475,
+      "spokenEnd": 673.62475,
+      "practiceEnd": 675.87475,
+      "end": 676.52475,
+      "parts": [
+        {
+          "label": "/k/",
+          "start": 645.93475,
+          "spokenEnd": 648.26475,
+          "step": 4.13
+        },
+        {
+          "label": "key",
+          "start": 658.32475,
+          "spokenEnd": 658.95475,
+          "step": 2.88
+        },
+        {
+          "label": "coat",
+          "start": 666.96475,
+          "spokenEnd": 667.68475,
+          "step": 2.97
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-g",
+      "start": 676.52475,
+      "spokenEnd": 700.02,
+      "practiceEnd": 702.27,
+      "end": 702.92,
+      "parts": [
+        {
+          "label": "/ɡ/",
+          "start": 676.52475,
+          "spokenEnd": 677.5565,
+          "step": 2.83175
+        },
+        {
+          "label": "go",
+          "start": 685.02,
+          "spokenEnd": 685.6,
+          "step": 2.83
+        },
+        {
+          "label": "game",
+          "start": 693.51,
+          "spokenEnd": 694.18,
+          "step": 2.92
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-f",
+      "start": 702.92,
+      "spokenEnd": 726.8425,
+      "practiceEnd": 729.0925,
+      "end": 729.7425,
+      "parts": [
+        {
+          "label": "/f/",
+          "start": 702.92,
+          "spokenEnd": 703.894167,
+          "step": 2.774167
+        },
+        {
+          "label": "fish",
+          "start": 711.2425,
+          "spokenEnd": 711.9325,
+          "step": 2.94
+        },
+        {
+          "label": "leaf",
+          "start": 720.0625,
+          "spokenEnd": 720.8225,
+          "step": 3.01
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-v",
+      "start": 729.7425,
+      "spokenEnd": 757.1025,
+      "practiceEnd": 759.3525,
+      "end": 760.0025,
+      "parts": [
+        {
+          "label": "/v/",
+          "start": 729.7425,
+          "spokenEnd": 730.6825,
+          "step": 2.74
+        },
+        {
+          "label": "very",
+          "start": 737.9625,
+          "spokenEnd": 739.7825,
+          "step": 4.07
+        },
+        {
+          "label": "leave",
+          "start": 750.1725,
+          "spokenEnd": 750.9825,
+          "step": 3.06
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-theta",
+      "start": 760.0025,
+      "spokenEnd": 788.4725,
+      "practiceEnd": 790.7225,
+      "end": 791.3725,
+      "parts": [
+        {
+          "label": "/θ/",
+          "start": 760.0025,
+          "spokenEnd": 762.8625,
+          "step": 4.66
+        },
+        {
+          "label": "thin",
+          "start": 773.9825,
+          "spokenEnd": 774.5325,
+          "step": 2.8
+        },
+        {
+          "label": "think",
+          "start": 782.3825,
+          "spokenEnd": 782.9125,
+          "step": 2.78
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-eth",
+      "start": 791.3725,
+      "spokenEnd": 820.94475,
+      "practiceEnd": 823.19475,
+      "end": 823.84475,
+      "parts": [
+        {
+          "label": "/ð/",
+          "start": 791.3725,
+          "spokenEnd": 794.199917,
+          "step": 4.627417
+        },
+        {
+          "label": "this",
+          "start": 805.25475,
+          "spokenEnd": 806.05475,
+          "step": 3.05
+        },
+        {
+          "label": "that",
+          "start": 814.40475,
+          "spokenEnd": 815.08475,
+          "step": 2.93
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-s",
+      "start": 823.84475,
+      "spokenEnd": 853.30475,
+      "practiceEnd": 855.55475,
+      "end": 856.20475,
+      "parts": [
+        {
+          "label": "/s/",
+          "start": 823.84475,
+          "spokenEnd": 826.67475,
+          "step": 4.63
+        },
+        {
+          "label": "see",
+          "start": 837.73475,
+          "spokenEnd": 838.41475,
+          "step": 2.93
+        },
+        {
+          "label": "sun",
+          "start": 846.52475,
+          "spokenEnd": 847.28475,
+          "step": 3.01
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-z",
+      "start": 856.20475,
+      "spokenEnd": 885.48475,
+      "practiceEnd": 887.73475,
+      "end": 888.38475,
+      "parts": [
+        {
+          "label": "/z/",
+          "start": 856.20475,
+          "spokenEnd": 858.80475,
+          "step": 4.4
+        },
+        {
+          "label": "nose",
+          "start": 869.40475,
+          "spokenEnd": 870.31475,
+          "step": 3.16
+        },
+        {
+          "label": "easy",
+          "start": 878.88475,
+          "spokenEnd": 879.58475,
+          "step": 2.95
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-sh",
+      "start": 888.38475,
+      "spokenEnd": 917.42475,
+      "practiceEnd": 919.67475,
+      "end": 920.32475,
+      "parts": [
+        {
+          "label": "/ʃ/",
+          "start": 888.38475,
+          "spokenEnd": 891.15475,
+          "step": 4.57
+        },
+        {
+          "label": "she",
+          "start": 902.09475,
+          "spokenEnd": 902.76475,
+          "step": 2.92
+        },
+        {
+          "label": "fish",
+          "start": 910.85475,
+          "spokenEnd": 911.54475,
+          "step": 2.94
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-zh",
+      "start": 920.32475,
+      "spokenEnd": 949.99475,
+      "practiceEnd": 952.24475,
+      "end": 952.89475,
+      "parts": [
+        {
+          "label": "/ʒ/",
+          "start": 920.32475,
+          "spokenEnd": 923.07475,
+          "step": 4.55
+        },
+        {
+          "label": "vision",
+          "start": 933.97475,
+          "spokenEnd": 934.85475,
+          "step": 3.13
+        },
+        {
+          "label": "measure",
+          "start": 943.36475,
+          "spokenEnd": 944.07475,
+          "step": 2.96
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-h",
+      "start": 952.89475,
+      "spokenEnd": 981.259,
+      "practiceEnd": 983.509,
+      "end": 984.159,
+      "parts": [
+        {
+          "label": "/h/",
+          "start": 952.89475,
+          "spokenEnd": 955.4895,
+          "step": 4.39475
+        },
+        {
+          "label": "hat",
+          "start": 966.079,
+          "spokenEnd": 966.809,
+          "step": 2.98
+        },
+        {
+          "label": "home",
+          "start": 975.019,
+          "spokenEnd": 975.599,
+          "step": 2.83
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-ch",
+      "start": 984.159,
+      "spokenEnd": 1012.239,
+      "practiceEnd": 1014.489,
+      "end": 1015.139,
+      "parts": [
+        {
+          "label": "/tʃ/",
+          "start": 984.159,
+          "spokenEnd": 986.359,
+          "step": 4.0
+        },
+        {
+          "label": "chair",
+          "start": 996.159,
+          "spokenEnd": 996.879,
+          "step": 2.97
+        },
+        {
+          "label": "cheese",
+          "start": 1005.069,
+          "spokenEnd": 1005.959,
+          "step": 3.14
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-j-affricate",
+      "start": 1015.139,
+      "spokenEnd": 1040.579,
+      "practiceEnd": 1042.829,
+      "end": 1043.479,
+      "parts": [
+        {
+          "label": "/dʒ/",
+          "start": 1015.139,
+          "spokenEnd": 1016.749,
+          "step": 3.41
+        },
+        {
+          "label": "jam",
+          "start": 1025.369,
+          "spokenEnd": 1026.099,
+          "step": 2.98
+        },
+        {
+          "label": "job",
+          "start": 1034.309,
+          "spokenEnd": 1034.899,
+          "step": 2.84
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-m",
+      "start": 1043.479,
+      "spokenEnd": 1071.51675,
+      "practiceEnd": 1073.76675,
+      "end": 1074.41675,
+      "parts": [
+        {
+          "label": "/m/",
+          "start": 1043.479,
+          "spokenEnd": 1045.894917,
+          "step": 4.215917
+        },
+        {
+          "label": "man",
+          "start": 1056.12675,
+          "spokenEnd": 1056.84675,
+          "step": 2.97
+        },
+        {
+          "label": "milk",
+          "start": 1065.03675,
+          "spokenEnd": 1065.69675,
+          "step": 2.91
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-n",
+      "start": 1074.41675,
+      "spokenEnd": 1103.84675,
+      "practiceEnd": 1106.09675,
+      "end": 1106.74675,
+      "parts": [
+        {
+          "label": "/n/",
+          "start": 1074.41675,
+          "spokenEnd": 1077.08675,
+          "step": 4.47
+        },
+        {
+          "label": "no",
+          "start": 1087.82675,
+          "spokenEnd": 1088.50675,
+          "step": 2.93
+        },
+        {
+          "label": "nose",
+          "start": 1096.61675,
+          "spokenEnd": 1097.52675,
+          "step": 3.16
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-ng",
+      "start": 1106.74675,
+      "spokenEnd": 1135.330875,
+      "practiceEnd": 1137.580875,
+      "end": 1138.230875,
+      "parts": [
+        {
+          "label": "/ŋ/",
+          "start": 1106.74675,
+          "spokenEnd": 1109.154792,
+          "step": 4.208042
+        },
+        {
+          "label": "sing",
+          "start": 1119.370875,
+          "spokenEnd": 1120.090875,
+          "step": 2.97
+        },
+        {
+          "label": "long",
+          "start": 1128.280875,
+          "spokenEnd": 1129.130875,
+          "step": 3.1
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-l",
+      "start": 1138.230875,
+      "spokenEnd": 1167.361875,
+      "practiceEnd": 1169.611875,
+      "end": 1170.261875,
+      "parts": [
+        {
+          "label": "/l/",
+          "start": 1138.230875,
+          "spokenEnd": 1140.791208,
+          "step": 4.360333
+        },
+        {
+          "label": "leg",
+          "start": 1151.311875,
+          "spokenEnd": 1152.131875,
+          "step": 3.07
+        },
+        {
+          "label": "light",
+          "start": 1160.521875,
+          "spokenEnd": 1161.301875,
+          "step": 3.03
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-r",
+      "start": 1170.261875,
+      "spokenEnd": 1197.831875,
+      "practiceEnd": 1200.081875,
+      "end": 1200.731875,
+      "parts": [
+        {
+          "label": "/r/",
+          "start": 1170.261875,
+          "spokenEnd": 1172.391875,
+          "step": 3.93
+        },
+        {
+          "label": "red",
+          "start": 1182.051875,
+          "spokenEnd": 1182.631875,
+          "step": 2.83
+        },
+        {
+          "label": "right",
+          "start": 1190.541875,
+          "spokenEnd": 1191.471875,
+          "step": 3.18
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-y",
+      "start": 1200.731875,
+      "spokenEnd": 1229.371375,
+      "practiceEnd": 1231.621375,
+      "end": 1232.271375,
+      "parts": [
+        {
+          "label": "/j/",
+          "start": 1200.731875,
+          "spokenEnd": 1203.238375,
+          "step": 4.3065
+        },
+        {
+          "label": "yes",
+          "start": 1213.651375,
+          "spokenEnd": 1214.421375,
+          "step": 3.02
+        },
+        {
+          "label": "yellow",
+          "start": 1222.711375,
+          "spokenEnd": 1223.431375,
+          "step": 2.97
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-w",
+      "start": 1232.271375,
+      "spokenEnd": 1259.95975,
+      "practiceEnd": 1262.20975,
+      "end": 1262.85975,
+      "parts": [
+        {
+          "label": "/w/",
+          "start": 1232.271375,
+          "spokenEnd": 1234.600833,
+          "step": 4.129458
+        },
+        {
+          "label": "wet",
+          "start": 1244.65975,
+          "spokenEnd": 1245.43975,
+          "step": 3.03
+        },
+        {
+          "label": "we",
+          "start": 1253.74975,
+          "spokenEnd": 1254.31975,
+          "step": 2.82
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-tr",
+      "start": 1262.85975,
+      "spokenEnd": 1284.247,
+      "practiceEnd": 1286.497,
+      "end": 1287.147,
+      "parts": [
+        {
+          "label": "/tr/",
+          "start": 1262.85975,
+          "spokenEnd": 1263.148833,
+          "step": 2.089083
+        },
+        {
+          "label": "tree",
+          "start": 1269.127,
+          "spokenEnd": 1269.767,
+          "step": 2.89
+        },
+        {
+          "label": "train",
+          "start": 1277.797,
+          "spokenEnd": 1278.447,
+          "step": 2.9
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-dr",
+      "start": 1287.147,
+      "spokenEnd": 1309.684125,
+      "practiceEnd": 1311.934125,
+      "end": 1312.584125,
+      "parts": [
+        {
+          "label": "/dr/",
+          "start": 1287.147,
+          "spokenEnd": 1287.429375,
+          "step": 2.082375
+        },
+        {
+          "label": "dream",
+          "start": 1293.394125,
+          "spokenEnd": 1294.274125,
+          "step": 3.13
+        },
+        {
+          "label": "dress",
+          "start": 1302.784125,
+          "spokenEnd": 1303.584125,
+          "step": 3.05
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-ts",
+      "start": 1312.584125,
+      "spokenEnd": 1338.0795,
+      "practiceEnd": 1340.3295,
+      "end": 1340.9795,
+      "parts": [
+        {
+          "label": "/ts/",
+          "start": 1312.584125,
+          "spokenEnd": 1313.502583,
+          "step": 2.718458
+        },
+        {
+          "label": "rats",
+          "start": 1320.7395,
+          "spokenEnd": 1321.9795,
+          "step": 3.49
+        },
+        {
+          "label": "wants",
+          "start": 1331.2095,
+          "spokenEnd": 1331.9995,
+          "step": 3.04
+        }
+      ]
+    },
+    {
+      "entryId": "ipa-dz",
+      "start": 1340.9795,
+      "spokenEnd": 1371.292125,
+      "practiceEnd": 1373.542125,
+      "end": 1374.192125,
+      "parts": [
+        {
+          "label": "/dz/",
+          "start": 1340.9795,
+          "spokenEnd": 1343.733708,
+          "step": 4.554208
+        },
+        {
+          "label": "kids",
+          "start": 1354.642125,
+          "spokenEnd": 1355.432125,
+          "step": 3.04
+        },
+        {
+          "label": "words",
+          "start": 1363.762125,
+          "spokenEnd": 1364.772125,
+          "step": 3.26
+        }
+      ]
+    }
+  ]
+}

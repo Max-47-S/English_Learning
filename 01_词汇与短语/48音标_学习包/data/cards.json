@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "fleece",
+    "group": "monophthong",
+    "symbol": "iː",
+    "tip": "舌面前部抬高，嘴唇微微展开，把声音稳定地保持一小段时间。",
+    "sound": {
+      "source": "sound-fleece"
+    },
+    "examples": [
+      {
+        "spelling": "p|ea|ce",
+        "ipa": "piːs",
+        "meaning": "和平",
+        "source": "word-peace"
+      },
+      {
+        "spelling": "s|ee|",
+        "ipa": "siː",
+        "meaning": "看见",
+        "source": "word-see"
+      }
+    ]
+  },
+  {
+    "id": "kit",
+    "group": "monophthong",
+    "symbol": "ɪ",
+    "tip": "舌位比 /iː/ 略低、略靠后，短而放松。听 ship 和 sheep 的音质差别。",
+    "sound": {
+      "source": "sound-kit"
+    },
+    "examples": [
+      {
+        "spelling": "sh|i|p",
+        "ipa": "ʃɪp",
+        "meaning": "船",
+        "source": "word-ship"
+      },
+      {
+        "spelling": "s|i|t",
+        "ipa": "sɪt",
+        "meaning": "坐",
+        "source": "word-sit"
+      }
+    ]
+  },
+  {
+    "id": "dress-vowel",
+    "group": "monophthong",
+    "symbol": "e",
+    "tip": "嘴巴张开到中等，舌面偏前。和 /æ/ 相比，下巴抬得稍高。",
+    "sound": {
+      "note": "英式词典通常写 /e/，这段音质示范用 [ɛ]。",
+      "source": "sound-dress-vowel"
+    },
+    "examples": [
+      {
+        "spelling": "b|e|d",
+        "ipa": "bed",
+        "meaning": "床",
+        "source": "word-bed"
+      },
+      {
+        "spelling": "t|e|n",
+        "ipa": "ten",
+        "meaning": "十",
+        "source": "word-ten"
+      }
+    ]
+  },
+  {
+    "id": "trap",
+    "group": "monophthong",
+    "symbol": "æ",
+    "tip": "下巴比发 /e/ 时放得更低，舌面仍在前方，嘴唇自然展开。",
+    "sound": {
+      "source": "sound-trap"
+    },
+    "examples": [
+      {
+        "spelling": "h|a|t",
+        "ipa": "hæt",
+        "meaning": "帽子",
+        "source": "word-hat"
+      },
+      {
+        "spelling": "b|a|d",
+        "ipa": "bæd",
+        "meaning": "坏的",
+        "source": "word-bad"
+      }
+    ]
+  },
+  {
+    "id": "strut",
+    "group": "monophthong",
+    "symbol": "ʌ",
+    "tip": "下巴略放低，舌头放松，嘴唇自然打开，短促发声。",
+    "sound": {
+      "source": "sound-strut"
+    },
+    "examples": [
+      {
+        "spelling": "c|u|p",
+        "ipa": "kʌp",
+        "meaning": "杯子",
+        "source": "word-cup"
+      },
+      {
+        "spelling": "s|u|n",
+        "ipa": "sʌn",
+        "meaning": "太阳",
+        "source": "word-sun"
+      }
+    ]
+  },
+  {
+    "id": "start",
+    "group": "monophthong",
+    "symbol": "ɑː",
+    "tip": "下巴放低，舌面偏后，嘴唇放松，把声音保持得稍长。",
+    "sound": {
+      "note": "例词采用词末不卷舌的英音。",
+      "source": "sound-start"
+    },
+    "examples": [
+      {
+        "spelling": "c|ar|",
+        "ipa": "kɑː",
+        "meaning": "汽车",
+        "source": "word-car"
+      },
+      {
+        "spelling": "f|ar|",
+        "ipa": "fɑː",
+        "meaning": "远的",
+        "source": "word-far"
+      }
+    ]
+  },
+  {
+    "id": "lot",
+    "group": "monophthong",
+    "symbol": "ɒ",
+    "tip": "下巴放低，舌面偏后，嘴唇略圆。这个英式元音较短。",
+    "sound": {
+      "source": "sound-lot"
+    },
+    "examples": [
+      {
+        "spelling": "h|o|t",
+        "ipa": "hɒt",
+        "meaning": "热的",
+        "source": "word-hot"
+      },
+      {
+        "spelling": "b|o|x",
+        "ipa": "bɒks",
+        "meaning": "盒子",
+        "source": "word-box"
+      }
+    ]
+  },
+  {
+    "id": "thought",
+    "group": "monophthong",
+    "symbol": "ɔː",
+    "tip": "舌面偏后，嘴唇收圆，音质保持稳定。和 /ɒ/ 对比，嘴巴开得小些。",
+    "sound": {
+      "source": "sound-thought"
+    },
+    "examples": [
+      {
+        "spelling": "s|aw|",
+        "ipa": "sɔː",
+        "meaning": "看见了",
+        "source": "word-saw"
+      },
+      {
+        "spelling": "l|aw|",
+        "ipa": "lɔː",
+        "meaning": "法律",
+        "source": "word-law"
+      }
+    ]
+  },
+  {
+    "id": "foot",
+    "group": "monophthong",
+    "symbol": "ʊ",
+    "tip": "双唇略圆，舌面后部抬起，短而放松。试着对比 foot 和 food。",
+    "sound": {
+      "source": "sound-foot"
+    },
+    "examples": [
+      {
+        "spelling": "b|oo|k",
+        "ipa": "bʊk",
+        "meaning": "书",
+        "source": "word-book"
+      },
+      {
+        "spelling": "f|oo|t",
+        "ipa": "fʊt",
+        "meaning": "脚",
+        "source": "word-foot"
+      }
+    ]
+  },
+  {
+    "id": "goose",
+    "group": "monophthong",
+    "symbol": "uː",
+    "tip": "双唇收圆，舌面抬高，声音比 /ʊ/ 保持得稍长。",
+    "sound": {
+      "source": "sound-goose"
+    },
+    "examples": [
+      {
+        "spelling": "f|oo|d",
+        "ipa": "fuːd",
+        "meaning": "食物",
+        "source": "word-food"
+      },
+      {
+        "spelling": "bl|ue|",
+        "ipa": "bluː",
+        "meaning": "蓝色",
+        "source": "word-blue"
+      }
+    ]
+  },
+  {
+    "id": "nurse",
+    "group": "monophthong",
+    "symbol": "ɜː",
+    "tip": "舌面居中，双唇放松，延长元音。听 bird 中间的音。",
+    "sound": {
+      "source": "sound-nurse"
+    },
+    "examples": [
+      {
+        "spelling": "b|ir|d",
+        "ipa": "bɜːd",
+        "meaning": "鸟",
+        "source": "word-bird"
+      },
+      {
+        "spelling": "n|ur|se",
+        "ipa": "nɜːs",
+        "meaning": "护士",
+        "source": "word-nurse"
+      }
+    ]
+  },
+  {
+    "id": "schwa",
+    "group": "monophthong",
+    "symbol": "ə",
+    "tip": "放松舌头和下巴，轻轻带过。这个音常出现在非重读音节。",
+    "sound": {
+      "note": "单音示范把音质放清楚，例词里的 /ə/ 更轻、更短。",
+      "source": "sound-schwa"
+    },
+    "examples": [
+      {
+        "spelling": "|a|bout",
+        "ipa": "əˈbaʊt",
+        "meaning": "关于",
+        "source": "word-about"
+      },
+      {
+        "spelling": "|a|go",
+        "ipa": "əˈɡəʊ",
+        "meaning": "以前",
+        "source": "word-ago"
+      }
+    ]
+  },
+  {
+    "id": "face",
+    "group": "diphthong",
+    "symbol": "eɪ",
+    "tip": "从较开的 /e/ 一路滑向 /ɪ/，两个位置合成一个音节。",
+    "sound": {
+      "note": "用重读的 a 示范这个双元音。",
+      "source": "sound-face"
+    },
+    "examples": [
+      {
+        "spelling": "d|ay|",
+        "ipa": "deɪ",
+        "meaning": "一天",
+        "source": "word-day"
+      },
+      {
+        "spelling": "r|ai|n",
+        "ipa": "reɪn",
+        "meaning": "雨",
+        "source": "word-rain"
+      }
+    ]
+  },
+  {
+    "id": "price",
+    "group": "diphthong",
+    "symbol": "aɪ",
+    "tip": "从张开的口形滑向较高的前舌位，结尾轻收。",
+    "sound": {
+      "note": "用 eye 的整个读音示范。",
+      "source": "sound-price"
+    },
+    "examples": [
+      {
+        "spelling": "t|i|me",
+        "ipa": "taɪm",
+        "meaning": "时间",
+        "source": "word-time"
+      },
+      {
+        "spelling": "f|i|ve",
+        "ipa": "faɪv",
+        "meaning": "五",
+        "source": "word-five"
+      }
+    ]
+  },
+  {
+    "id": "choice",
+    "group": "diphthong",
+    "symbol": "ɔɪ",
+    "tip": "先用圆唇的后元音起步，再向 /ɪ/ 滑动，嘴唇逐渐放开。",
+    "sound": {
+      "note": "用感叹词 oi 的整个读音示范。",
+      "source": "sound-choice"
+    },
+    "examples": [
+      {
+        "spelling": "b|oy|",
+        "ipa": "bɔɪ",
+        "meaning": "男孩",
+        "source": "word-boy"
+      },
+      {
+        "spelling": "|oi|l",
+        "ipa": "ɔɪl",
+        "meaning": "油",
+        "source": "word-oil"
+      }
+    ]
+  },
+  {
+    "id": "goat",
+    "group": "diphthong",
+    "symbol": "əʊ",
+    "tip": "从居中的元音起步，向 /ʊ/ 滑动时嘴唇逐渐收圆。",
+    "sound": {
+      "note": "用 oh 的英音示范。",
+      "source": "sound-goat"
+    },
+    "examples": [
+      {
+        "spelling": "g|o|",
+        "ipa": "ɡəʊ",
+        "meaning": "去",
+        "source": "word-go"
+      },
+      {
+        "spelling": "h|o|me",
+        "ipa": "həʊm",
+        "meaning": "家",
+        "source": "word-home"
+      }
+    ]
+  },
+  {
+    "id": "mouth",
+    "group": "diphthong",
+    "symbol": "aʊ",
+    "tip": "先张开下巴，再向 /ʊ/ 滑动，嘴唇随之收圆。",
+    "sound": {
+      "source": "sound-mouth"
+    },
+    "examples": [
+      {
+        "spelling": "n|ow|",
+        "ipa": "naʊ",
+        "meaning": "现在",
+        "source": "word-now"
+      },
+      {
+        "spelling": "h|ou|se",
+        "ipa": "haʊs",
+        "meaning": "房子",
+        "source": "word-house"
+      }
+    ]
+  },
+  {
+    "id": "near",
+    "group": "diphthong",
+    "symbol": "ɪə",
+    "tip": "从 /ɪ/ 轻轻滑向 /ə/，保持在一个音节。",
+    "sound": {
+      "note": "用 ear 的传统英音示范。",
+      "source": "sound-near"
+    },
+    "examples": [
+      {
+        "spelling": "n|ear|",
+        "ipa": "nɪə",
+        "meaning": "在附近",
+        "source": "word-near"
+      },
+      {
+        "spelling": "h|ere|",
+        "ipa": "hɪə",
+        "meaning": "这里",
+        "source": "word-here"
+      }
+    ]
+  },
+  {
+    "id": "square",
+    "group": "diphthong",
+    "symbol": "eə",
+    "tip": "传统读法从偏前的元音滑向 /ə/。不少现代英音会读成较平稳的 [ɛː]。",
+    "sound": {
+      "note": "音标示范用传统的 [ɛə]。",
+      "source": "sound-square"
+    },
+    "examples": [
+      {
+        "spelling": "h|air|",
+        "ipa": "heə",
+        "meaning": "头发",
+        "source": "word-hair"
+      },
+      {
+        "spelling": "ch|air|",
+        "ipa": "tʃeə",
+        "meaning": "椅子",
+        "source": "word-chair"
+      }
+    ]
+  },
+  {
+    "id": "cure",
+    "group": "diphthong",
+    "symbol": "ʊə",
+    "tip": "从略圆唇的 /ʊ/ 向轻短的 /ə/ 滑动。这个传统英音在一些单词里有不同读法。",
+    "sound": {
+      "source": "sound-cure"
+    },
+    "examples": [
+      {
+        "spelling": "d|u|ring",
+        "ipa": "ˈdʒʊərɪŋ",
+        "meaning": "在……期间",
+        "source": "word-during"
+      },
+      {
+        "spelling": "c|u|rious",
+        "ipa": "ˈkjʊəriəs",
+        "meaning": "好奇的",
+        "source": "word-curious"
+      }
+    ]
+  },
+  {
+    "id": "p",
+    "group": "consonant",
+    "symbol": "p",
+    "tip": "双唇先闭合再打开，放出短促的气流。词首重读音节里通常送气较明显。",
+    "sound": {
+      "source": "sound-p"
+    },
+    "examples": [
+      {
+        "spelling": "|p|eace",
+        "ipa": "piːs",
+        "meaning": "和平",
+        "source": "word-peace"
+      },
+      {
+        "spelling": "ma|p|",
+        "ipa": "mæp",
+        "meaning": "地图",
+        "source": "word-map"
+      }
+    ]
+  },
+  {
+    "id": "b",
+    "group": "consonant",
+    "symbol": "b",
+    "tip": "同样先闭合双唇，打开时带声带振动。对比 /p/ 的清音。",
+    "sound": {
+      "source": "sound-b"
+    },
+    "examples": [
+      {
+        "spelling": "|b|ed",
+        "ipa": "bed",
+        "meaning": "床",
+        "source": "word-bed"
+      },
+      {
+        "spelling": "|b|ook",
+        "ipa": "bʊk",
+        "meaning": "书",
+        "source": "word-book"
+      }
+    ]
+  },
+  {
+    "id": "t",
+    "group": "consonant",
+    "symbol": "t",
+    "tip": "舌尖抵住上齿龈，再快速放开。听 tea 开头的短气流。",
+    "sound": {
+      "note": "听 [ata] 中间的辅音。",
+      "source": "sound-t"
+    },
+    "examples": [
+      {
+        "spelling": "|t|ea",
+        "ipa": "tiː",
+        "meaning": "茶",
+        "source": "word-tea"
+      },
+      {
+        "spelling": "|t|en",
+        "ipa": "ten",
+        "meaning": "十",
+        "source": "word-ten"
+      }
+    ]
+  },
+  {
+    "id": "d",
+    "group": "consonant",
+    "symbol": "d",
+    "tip": "舌尖碰上齿龈，放开时带声带振动。和 /t/ 对比。",
+    "sound": {
+      "note": "听 [ada] 中间的辅音。",
+      "source": "sound-d"
+    },
+    "examples": [
+      {
+        "spelling": "|d|og",
+        "ipa": "dɒɡ",
+        "meaning": "狗",
+        "source": "word-dog"
+      },
+      {
+        "spelling": "|d|ay",
+        "ipa": "deɪ",
+        "meaning": "一天",
+        "source": "word-day"
+      }
+    ]
+  },
+  {
+    "id": "k",
+    "group": "consonant",
+    "symbol": "k",
+    "tip": "舌面后部短暂贴住软腭，再放开气流。",
+    "sound": {
+      "note": "听 [aka] 中间的辅音。",
+      "source": "sound-k"
+    },
+    "examples": [
+      {
+        "spelling": "|k|ey",
+        "ipa": "kiː",
+        "meaning": "钥匙",
+        "source": "word-key"
+      },
+      {
+        "spelling": "|c|oat",
+        "ipa": "kəʊt",
+        "meaning": "外套",
+        "source": "word-coat"
+      }
+    ]
+  },
+  {
+    "id": "g",
+    "group": "consonant",
+    "symbol": "ɡ",
+    "tip": "舌面后部贴住软腭再放开，同时带声。和 /k/ 对比。",
+    "sound": {
+      "note": "听 [aɡa] 中间的辅音。",
+      "source": "sound-g"
+    },
+    "examples": [
+      {
+        "spelling": "|g|o",
+        "ipa": "ɡəʊ",
+        "meaning": "去",
+        "source": "word-go"
+      },
+      {
+        "spelling": "|g|ame",
+        "ipa": "ɡeɪm",
+        "meaning": "游戏",
+        "source": "word-game"
+      }
+    ]
+  },
+  {
+    "id": "f",
+    "group": "consonant",
+    "symbol": "f",
+    "tip": "上门齿轻触下唇，让气流从狭缝通过，保持清音。",
+    "sound": {
+      "note": "听 [afa] 中间的辅音。",
+      "source": "sound-f"
+    },
+    "examples": [
+      {
+        "spelling": "|f|ish",
+        "ipa": "fɪʃ",
+        "meaning": "鱼",
+        "source": "word-fish"
+      },
+      {
+        "spelling": "lea|f|",
+        "ipa": "liːf",
+        "meaning": "叶子",
+        "source": "word-leaf"
+      }
+    ]
+  },
+  {
+    "id": "v",
+    "group": "consonant",
+    "symbol": "v",
+    "tip": "上门齿轻触下唇，维持气流，同时感受声带振动。",
+    "sound": {
+      "note": "听 [ava] 中间的辅音。",
+      "source": "sound-v"
+    },
+    "examples": [
+      {
+        "spelling": "|v|ery",
+        "ipa": "ˈveri",
+        "meaning": "很",
+        "source": "word-very"
+      },
+      {
+        "spelling": "lea|v|e",
+        "ipa": "liːv",
+        "meaning": "离开",
+        "source": "word-leave"
+      }
+    ]
+  },
+  {
+    "id": "theta",
+    "group": "consonant",
+    "symbol": "θ",
+    "tip": "舌尖轻触上齿边缘，让气流从舌尖和牙齿间通过，保持清音。",
+    "sound": {
+      "note": "示范里的短元音衬出 [θ]。",
+      "source": "sound-theta"
+    },
+    "examples": [
+      {
+        "spelling": "|th|in",
+        "ipa": "θɪn",
+        "meaning": "薄的",
+        "source": "word-thin"
+      },
+      {
+        "spelling": "|th|ink",
+        "ipa": "θɪŋk",
+        "meaning": "想",
+        "source": "word-think"
+      }
+    ]
+  },
+  {
+    "id": "eth",
+    "group": "consonant",
+    "symbol": "ð",
+    "tip": "舌尖位置与 /θ/ 相近，气流通过时声带振动。",
+    "sound": {
+      "note": "示范里的短元音衬出 [ð]。",
+      "source": "sound-eth"
+    },
+    "examples": [
+      {
+        "spelling": "|th|is",
+        "ipa": "ðɪs",
+        "meaning": "这个",
+        "source": "word-this"
+      },
+      {
+        "spelling": "|th|at",
+        "ipa": "ðæt",
+        "meaning": "那个",
+        "source": "word-that"
+      }
+    ]
+  },
+  {
+    "id": "s",
+    "group": "consonant",
+    "symbol": "s",
+    "tip": "舌尖靠近上齿龈，让细气流沿舌面中间通过，发清音。",
+    "sound": {
+      "note": "示范里的短元音衬出 [s]。",
+      "source": "sound-s"
+    },
+    "examples": [
+      {
+        "spelling": "|s|ee",
+        "ipa": "siː",
+        "meaning": "看见",
+        "source": "word-see"
+      },
+      {
+        "spelling": "|s|un",
+        "ipa": "sʌn",
+        "meaning": "太阳",
+        "source": "word-sun"
+      }
+    ]
+  },
+  {
+    "id": "z",
+    "group": "consonant",
+    "symbol": "z",
+    "tip": "舌位接近 /s/，气流通过时加上声带振动。",
+    "sound": {
+      "note": "听 [aza] 中间的辅音。",
+      "source": "sound-z"
+    },
+    "examples": [
+      {
+        "spelling": "no|s|e",
+        "ipa": "nəʊz",
+        "meaning": "鼻子",
+        "source": "word-nose"
+      },
+      {
+        "spelling": "ea|s|y",
+        "ipa": "ˈiːzi",
+        "meaning": "容易的",
+        "source": "word-easy"
+      }
+    ]
+  },
+  {
+    "id": "sh",
+    "group": "consonant",
+    "symbol": "ʃ",
+    "tip": "舌面前部抬起，摩擦位置比 /s/ 更靠后，嘴唇可以稍圆。",
+    "sound": {
+      "note": "示范里的短元音衬出 [ʃ]。",
+      "source": "sound-sh"
+    },
+    "examples": [
+      {
+        "spelling": "|sh|e",
+        "ipa": "ʃiː",
+        "meaning": "她",
+        "source": "word-she"
+      },
+      {
+        "spelling": "fi|sh|",
+        "ipa": "fɪʃ",
+        "meaning": "鱼",
+        "source": "word-fish"
+      }
+    ]
+  },
+  {
+    "id": "zh",
+    "group": "consonant",
+    "symbol": "ʒ",
+    "tip": "用接近 /ʃ/ 的口形，气流通过时带声。听 vision 中间的音。",
+    "sound": {
+      "note": "示范里的短元音衬出 [ʒ]。",
+      "source": "sound-zh"
+    },
+    "examples": [
+      {
+        "spelling": "vi|s|ion",
+        "ipa": "ˈvɪʒən",
+        "meaning": "视力",
+        "source": "word-vision"
+      },
+      {
+        "spelling": "mea|s|ure",
+        "ipa": "ˈmeʒə",
+        "meaning": "测量",
+        "source": "word-measure"
+      }
+    ]
+  },
+  {
+    "id": "h",
+    "group": "consonant",
+    "symbol": "h",
+    "tip": "张开口形，让轻气流从声门通过，再自然进入后面的元音。",
+    "sound": {
+      "note": "听 [aha] 中间的气流。",
+      "source": "sound-h"
+    },
+    "examples": [
+      {
+        "spelling": "|h|at",
+        "ipa": "hæt",
+        "meaning": "帽子",
+        "source": "word-hat"
+      },
+      {
+        "spelling": "|h|ome",
+        "ipa": "həʊm",
+        "meaning": "家",
+        "source": "word-home"
+      }
+    ]
+  },
+  {
+    "id": "ch",
+    "group": "consonant",
+    "symbol": "tʃ",
+    "tip": "先短暂堵住气流，再放成 /ʃ/ 一样的摩擦，一气完成。",
+    "sound": {
+      "note": "示范里的短元音衬出 [t͡ʃ]。",
+      "source": "sound-ch"
+    },
+    "examples": [
+      {
+        "spelling": "|ch|air",
+        "ipa": "tʃeə",
+        "meaning": "椅子",
+        "source": "word-chair"
+      },
+      {
+        "spelling": "|ch|eese",
+        "ipa": "tʃiːz",
+        "meaning": "奶酪",
+        "source": "word-cheese"
+      }
+    ]
+  },
+  {
+    "id": "j-affricate",
+    "group": "consonant",
+    "symbol": "dʒ",
+    "tip": "先短暂堵住气流，放开后带着声带振动进入摩擦。",
+    "sound": {
+      "source": "sound-j-affricate"
+    },
+    "examples": [
+      {
+        "spelling": "|j|am",
+        "ipa": "dʒæm",
+        "meaning": "果酱",
+        "source": "word-jam"
+      },
+      {
+        "spelling": "|j|ob",
+        "ipa": "dʒɒb",
+        "meaning": "工作",
+        "source": "word-job"
+      }
+    ]
+  },
+  {
+    "id": "m",
+    "group": "consonant",
+    "symbol": "m",
+    "tip": "双唇合拢，声带振动，让气流从鼻腔出来。",
+    "sound": {
+      "source": "sound-m"
+    },
+    "examples": [
+      {
+        "spelling": "|m|an",
+        "ipa": "mæn",
+        "meaning": "男子",
+        "source": "word-man"
+      },
+      {
+        "spelling": "|m|ilk",
+        "ipa": "mɪlk",
+        "meaning": "牛奶",
+        "source": "word-milk"
+      }
+    ]
+  },
+  {
+    "id": "n",
+    "group": "consonant",
+    "symbol": "n",
+    "tip": "舌尖贴住上齿龈，让气流从鼻腔出来。",
+    "sound": {
+      "note": "示范里的短元音衬出 [n]。",
+      "source": "sound-n"
+    },
+    "examples": [
+      {
+        "spelling": "|n|o",
+        "ipa": "nəʊ",
+        "meaning": "不",
+        "source": "word-no"
+      },
+      {
+        "spelling": "|n|ose",
+        "ipa": "nəʊz",
+        "meaning": "鼻子",
+        "source": "word-nose"
+      }
+    ]
+  },
+  {
+    "id": "ng",
+    "group": "consonant",
+    "symbol": "ŋ",
+    "tip": "舌面后部抬到软腭，气流走鼻腔。sing 收在这个鼻音上。",
+    "sound": {
+      "source": "sound-ng"
+    },
+    "examples": [
+      {
+        "spelling": "si|ng|",
+        "ipa": "sɪŋ",
+        "meaning": "唱歌",
+        "source": "word-sing"
+      },
+      {
+        "spelling": "lo|ng|",
+        "ipa": "lɒŋ",
+        "meaning": "长的",
+        "source": "word-long"
+      }
+    ]
+  },
+  {
+    "id": "l",
+    "group": "consonant",
+    "symbol": "l",
+    "tip": "舌尖触上齿龈，气流从舌头一侧或两侧通过。",
+    "sound": {
+      "note": "听 [ala] 中间的辅音。",
+      "source": "sound-l"
+    },
+    "examples": [
+      {
+        "spelling": "|l|eg",
+        "ipa": "leɡ",
+        "meaning": "腿",
+        "source": "word-leg"
+      },
+      {
+        "spelling": "|l|ight",
+        "ipa": "laɪt",
+        "meaning": "光",
+        "source": "word-light"
+      }
+    ]
+  },
+  {
+    "id": "r",
+    "group": "consonant",
+    "symbol": "r",
+    "tip": "舌尖向上齿龈后方靠近，留出空隙。词首从这个音滑进元音。",
+    "sound": {
+      "note": "英式词典写 /r/，这里听近音 [ɹ]。",
+      "source": "sound-r"
+    },
+    "examples": [
+      {
+        "spelling": "|r|ed",
+        "ipa": "red",
+        "meaning": "红色",
+        "source": "word-red"
+      },
+      {
+        "spelling": "|r|ight",
+        "ipa": "raɪt",
+        "meaning": "右边",
+        "source": "word-right"
+      }
+    ]
+  },
+  {
+    "id": "y",
+    "group": "consonant",
+    "symbol": "j",
+    "tip": "舌面靠近硬腭，像很短的 /i/，马上滑向后面的元音。",
+    "sound": {
+      "note": "示范里的短元音衬出 [j]。",
+      "source": "sound-y"
+    },
+    "examples": [
+      {
+        "spelling": "|y|es",
+        "ipa": "jes",
+        "meaning": "是的",
+        "source": "word-yes"
+      },
+      {
+        "spelling": "|y|ellow",
+        "ipa": "ˈjeləʊ",
+        "meaning": "黄色",
+        "source": "word-yellow"
+      }
+    ]
+  },
+  {
+    "id": "w",
+    "group": "consonant",
+    "symbol": "w",
+    "tip": "双唇先收圆，舌面后部抬高，然后迅速滑进后面的元音。",
+    "sound": {
+      "source": "sound-w"
+    },
+    "examples": [
+      {
+        "spelling": "|w|et",
+        "ipa": "wet",
+        "meaning": "湿的",
+        "source": "word-wet"
+      },
+      {
+        "spelling": "|w|e",
+        "ipa": "wiː",
+        "meaning": "我们",
+        "source": "word-we"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "group": "cluster",
+    "symbol": "tr",
+    "tip": "从 /t/ 的阻塞直接进入 /r/，两个音紧挨着。tree 开头常带一点摩擦。",
+    "sound": {
+      "note": "组合示范截自 tree 词首。",
+      "excerpt": [
+        0.17,
+        0.34
+      ],
+      "source": "sound-tr"
+    },
+    "examples": [
+      {
+        "spelling": "|tr|ee",
+        "ipa": "triː",
+        "meaning": "树",
+        "source": "sound-tr"
+      },
+      {
+        "spelling": "|tr|ain",
+        "ipa": "treɪn",
+        "meaning": "火车",
+        "source": "word-train"
+      }
+    ]
+  },
+  {
+    "id": "dr",
+    "group": "cluster",
+    "symbol": "dr",
+    "tip": "从 /d/ 的阻塞直接进入 /r/。听 dream 和 dress 的词首。",
+    "sound": {
+      "note": "组合示范截自 dream 词首。",
+      "excerpt": [
+        0.13,
+        0.29
+      ],
+      "source": "sound-dr"
+    },
+    "examples": [
+      {
+        "spelling": "|dr|eam",
+        "ipa": "driːm",
+        "meaning": "梦想",
+        "source": "sound-dr"
+      },
+      {
+        "spelling": "|dr|ess",
+        "ipa": "dres",
+        "meaning": "连衣裙",
+        "source": "word-dress"
+      }
+    ]
+  },
+  {
+    "id": "ts",
+    "group": "cluster",
+    "symbol": "ts",
+    "tip": "舌尖释放 /t/ 后马上接 /s/，练习从词尾轻快地收住。",
+    "sound": {
+      "note": "听 [at͡sa] 中间的连读，再听例词词尾。",
+      "source": "sound-ts"
+    },
+    "examples": [
+      {
+        "spelling": "ra|ts|",
+        "ipa": "ræts",
+        "meaning": "老鼠（复数）",
+        "source": "word-rats"
+      },
+      {
+        "spelling": "wan|ts|",
+        "ipa": "wɒnts",
+        "meaning": "想要（第三人称单数）",
+        "source": "word-wants"
+      }
+    ]
+  },
+  {
+    "id": "dz",
+    "group": "cluster",
+    "symbol": "dz",
+    "tip": "舌尖释放 /d/ 后紧接带声的 /z/。听 kids 词尾的连续发声。",
+    "sound": {
+      "note": "示范里的短元音衬出 [d͡z]。",
+      "source": "sound-dz"
+    },
+    "examples": [
+      {
+        "spelling": "ki|ds|",
+        "ipa": "kɪdz",
+        "meaning": "孩子（复数）",
+        "source": "word-kids"
+      },
+      {
+        "spelling": "wor|ds|",
+        "ipa": "wɜːdz",
+        "meaning": "单词（复数）",
+        "source": "word-words"
+      }
+    ]
+  }
+]

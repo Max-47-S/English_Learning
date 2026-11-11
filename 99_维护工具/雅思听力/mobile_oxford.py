@@ -62,7 +62,7 @@ def add_packs(chapters, entries, tracks, local_html_root):
             cues.append({'entryId': entry_id, 'start': cue['start'],
                          'spokenEnd': cue['spoken_end'], 'end': cue['end']})
         tracks.append({'id': track_id, 'chapter': pack_id, 'direction': '', 'title': title + ' · 完整连续音频',
-            'file': os.path.relpath(audio_file, local_html_root), 'filename': audio_file.name,
+            'file': Path(os.path.relpath(audio_file, local_html_root)).as_posix(), 'filename': audio_file.name,
             'bytes': audio_file.stat().st_size, 'duration': timeline['encoded_duration_seconds'],
             'url': f'https://raw.githubusercontent.com/Max-47-S/English_Learning/{PINNED_REVISION}/' + quote(relative, safe='/'),
             'pageUrl': f'https://github.com/Max-47-S/English_Learning/tree/{PINNED_REVISION}/' + quote(root.relative_to(REPO).as_posix(), safe='/'),
@@ -75,3 +75,44 @@ def add_packs(chapters, entries, tracks, local_html_root):
         {'id': 'ielts', 'title': '雅思听力', 'subtitle': 'Chapter 3 / 4 / 5 / 11', 'defaultMode': 'word'},
     ]
     return collections, credits
+
+
+def add_oxford5000(collections, chapters, entries):
+    root = REPO / '01_词汇与短语/Oxford5000_学习包'
+    vocab = json.loads((root / 'data/vocabulary.json').read_text(encoding='utf-8'))
+    assert len(vocab) == 2012
+    counts = Counter(row['level'] for row in vocab)
+    assert counts == Counter({'B2': 699, 'C1': 1313})
+    collections.insert(1, {
+        'id': 'oxford5000',
+        'title': 'Oxford 5000',
+        'subtitle': '2,012 条 · B2 / C1',
+        'defaultMode': 'word',
+        'note': ('Oxford 5000 在 Oxford 3000 基础上增加的 B2–C1 词表。本页保留 2,012 条官方 PDF 记录，'
+                 '按级别连续朗读；中文为 ECDICT 参考释义，发音使用设备系统语音。')
+    })
+    group_ids = {'B2': 'oxford5000-b2', 'C1': 'oxford5000-c1'}
+    groups = [{'id': group_ids[level], 'title': level, 'count': counts[level]}
+              for level in ('B2', 'C1')]
+    chapters.append({'id': 'oxford5000', 'title': 'Oxford 5000',
+                     'collection': 'oxford5000', 'groups': groups})
+    for row in vocab:
+        entries.append({
+            'id': f"oxford5000-{row['id']:04}",
+            'chapter': 'oxford5000',
+            'collection': 'oxford5000',
+            'group': group_ids[row['level']],
+            'order': row['order'],
+            'level': row['level'],
+            'levelOrder': row['order'],
+            'word': row['word'],
+            'meaning': row['meaning_zh'],
+            'source': 'oxford5000',
+            'pos': row['pos'],
+            'ipa': row['ipa'],
+            'ipaSource': 'reference' if row['ipa'] else '',
+            'homograph': row['homograph'],
+            'qualifier': row['qualifier'],
+            'referenceUrl': row['reference_url'],
+            'sourcePage': row['pdf_page'],
+        })

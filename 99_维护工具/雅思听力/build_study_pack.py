@@ -6,10 +6,11 @@ import json
 import re
 import shutil
 import os
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit
 
 from build_reference_texts import GROUPS, source_data, apply_corrections
-from mobile_oxford import add_packs
+from mobile_oxford import add_oxford5000, add_packs
+from mobile_ipa import add_ipa
 from ielts_text_fixes import fix_wrapped_phrases
 
 TOOLS = Path(__file__).resolve().parent
@@ -36,6 +37,49 @@ def cell(value):
 
 def primary(word):
     return word.split('=')[0].strip().lower().replace('’', "'")
+
+
+def add_encounters(collections, chapters, entries):
+    collection_id = 'encounters'
+    collections.append({
+        'id': collection_id,
+        'title': '遇词本',
+        'subtitle': '自选单词与短语',
+        'defaultMode': 'word',
+        'note': '收录平时遇到的表达。先选单词或短语，再选备考必记或日常积累，用系统语音连续朗读。',
+    })
+    groups = {}
+    for kind, title in [('word', '单词'), ('phrase', '短语')]:
+        chapter_id = 'encounter-' + kind
+        chapter_groups = []
+        for priority, label in [('exam', '备考必记'), ('accumulation', '日常积累')]:
+            group_id = f'{chapter_id}-{priority}'
+            group = {'id': group_id, 'title': label, 'count': 0}
+            groups[group_id] = (chapter_id, group)
+            chapter_groups.append(group)
+        chapters.append({'id': chapter_id, 'title': title, 'collection': collection_id, 'groups': chapter_groups})
+    seen_ids = {entry['id'] for entry in entries}
+    seen_words = set()
+    for row in load(REPO / '01_词汇与短语/遇词本.json'):
+        entry_id = 'encounter-' + row['id']
+        word = ' '.join(row['word'].split()).casefold().replace('’', "'")
+        if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', row['id']) or entry_id in seen_ids:
+            raise ValueError(f'Invalid or duplicate encounter ID: {entry_id}')
+        if not word or word in seen_words:
+            raise ValueError(f'Empty or duplicate encounter word: {word}')
+        reference = urlsplit(row['referenceUrl'])
+        if reference.scheme != 'https' or not reference.hostname:
+            raise ValueError(f'Expected an HTTPS dictionary source: {entry_id}')
+        if row['group'] not in groups:
+            raise ValueError(f'Unknown encounter group: {row["group"]}')
+        chapter_id, group = groups[row['group']]
+        seen_ids.add(entry_id)
+        seen_words.add(word)
+        group['count'] += 1
+        entries.append({
+            **row, 'id': entry_id, 'chapter': chapter_id, 'collection': collection_id,
+            'source': 'encounter', 'order': group['count'],
+        })
 
 
 def main():
@@ -123,13 +167,20 @@ def main():
             c.update(audioTitle='王陆原版真人录音', audioSubtitle='真人 · 逐词同步')
     next(c for c in collections if c['id'] == 'ielts')['defaultMode'] = 'original'
     assert len(entries) == 9625 and len(tracks) == 61
-    dataset = {'version': '2026-11-02-original-sync', 'collections': collections, 'chapters': chapters, 'entries': entries, 'tracks': tracks,
+    add_oxford5000(collections, chapters, entries)
+    add_encounters(collections, chapters, entries)
+    site = args.site_dir
+    public = site / 'public'
+    add_ipa(collections, chapters, entries, tracks, audio_credits, ROOT, public)
+    dataset = {'version': '2026-11-10-ipa-48', 'collections': collections, 'chapters': chapters, 'entries': entries, 'tracks': tracks,
                'audioCredits': audio_credits,
                'entryAliases': official['entryAliases'],
                'pdfHref': 'Chapter11_综合测试/文本/Chapter11_综合测试_剑21版.pdf',
                'notes': ['Chapter 3/4/5 为网络参考词表；Chapter 11 为官方 PDF OCR 转写。',
                          '四章原版真人录音均有逐词时间轴，保留原声和原有停顿，卡片随原音频切换。系统朗读另行使用设备合成语音。',
                          'Oxford 3000 音轨为 3306 条真人录音；750 短语音轨含 350 条真人录音与 400 条 AI 配音，逐条标注。',
+                         'Oxford 5000 页收录官方 B2/C1 补充 PDF 的 2012 条词性记录，音频使用设备系统合成语音；中文参考释义与音标取自固定版本的 ECDICT。',
+                         '48 音标使用有署名与许可的真人录音，慢速制作，每次示范后留跟读停顿。',
                          '扩展搭配和例句按英文词形匹配现有 Oxford 学习包，释义仍以本章为主。']}
     save(ROOT / 'data/mobile_study.json', dataset)
     # Chapter 11 original transcription: keep page references and spelling variants.
@@ -159,8 +210,8 @@ def main():
                 continue
             word = e['word'] + (' = ' + ' / '.join(e['variants']) if e.get('variants') else '')
             md.append(f'| {e["order"]} | {cell(word)} | {cell(e["ipa"])} | {cell(e["pos"])} | {cell(e["meaning"])} | [第 {e["pdfPage"]} 页](Chapter11_综合测试_剑21版.pdf#page={e["pdfPage"]}) |')
-    out.write_text('\n'.join(md) + '\n')
-    out.with_suffix('.txt').write_text('\n'.join(f'{e["group"]}\t{e["order"]}\t{e["word"]}\t{e["ipa"]}\t{e["meaning"]}\tPDF:{e["pdfPage"]}' for e in official['entries']) + '\n')
+    out.write_text('\n'.join(md) + '\n', newline='\n')
+    out.with_suffix('.txt').write_text('\n'.join(f'{e["group"]}\t{e["order"]}\t{e["word"]}\t{e["ipa"]}\t{e["meaning"]}\tPDF:{e["pdfPage"]}' for e in official['entries']) + '\n', newline='\n')
     for chapter in chapters:
         if chapter['collection'] != 'ielts':
             continue
@@ -185,23 +236,21 @@ def main():
                 if e.get('pdfPage'):
                     md += [f'原 PDF：第 {e["pdfPage"]} 页。', '']
         path = ROOT / chapter['folder'] / f'Chapter{chapter["id"]:02}_学习卡.md'
-        path.write_text('\n'.join(md))
+        path.write_text('\n'.join(md), newline='\n')
     shared = TOOLS.parent / '通用'
     template = (WEB / 'index.html').read_text().replace('__APP_CSS__', (WEB / 'app.css').read_text() + '\n' + (WEB / 'hub.css').read_text() + '\n' + (shared / 'hover-translations.css').read_text()).replace('__APP_JS__', (WEB / 'timeline-core.js').read_text() + '\n' + (WEB / 'speech-queue.js').read_text() + '\n' + (WEB / 'mp3-index.js').read_text() + '\n' + (shared / 'hover-translations.js').read_text() + '\n' + (WEB / 'app.js').read_text()).replace('__SITE_URL__', args.site_url)
     def page(data):
         return template.replace('__STUDY_DATA__', json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c'))
     # Local pages use the same indexed audio included in the portable PC pack.
     export_root = REPO / '_exports/王陆四章PC听读'
-    local_tracks = [{**t, 'file': os.path.relpath(export_root / 'audio' / (t['id'] + '.mp3'), ROOT)} if t.get('mp3Index') else t for t in tracks]
-    (ROOT / '手机听读.html').write_text(page({**dataset, 'tracks': local_tracks, 'localAudioIndexed': True}))
+    local_tracks = [{**t, 'file': Path(os.path.relpath(export_root / 'audio' / (t['id'] + '.mp3'), ROOT)).as_posix()} if t.get('mp3Index') else t for t in tracks]
+    (ROOT / '手机听读.html').write_text(page({**dataset, 'tracks': local_tracks, 'localAudioIndexed': True}), newline='\n')
     if args.export_pc:
         from export_pc_pack import export_pc
         export_pc(dataset, template, export_root, ROOT, REPO)
-    site = args.site_dir
     hosted = {**dataset, 'pdfHref': '/source/chapter11.pdf'}
-    public = site / 'public'
     (public / 'study').mkdir(parents=True, exist_ok=True)
-    (public / 'study/index.html').write_text(page(hosted))
+    (public / 'study/index.html').write_text(page(hosted), newline='\n')
     (public / 'source').mkdir(exist_ok=True)
     shutil.copyfile(ROOT / official['sourcePdf'], public / 'source/chapter11.pdf')
     save(public / 'manifest.webmanifest', {'name': '英语听读 · Oxford 与雅思', 'short_name': '英语听读',
@@ -217,11 +266,15 @@ self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(ur
 """)
     route = site / 'app/api/audio/[id]'
     route.mkdir(parents=True, exist_ok=True)
-    save(route / 'sources.json', {t['id']: {'url': t['url'], 'pageUrl': t['pageUrl'], **({'mp3Index': t['mp3Index']} if t.get('mp3Index') else {})} for t in tracks})
+    save(route / 'sources.json', {
+        t['id']: {'url': t['url'], 'pageUrl': t['pageUrl'],
+                  **({'mp3Index': t['mp3Index']} if t.get('mp3Index') else {})}
+        for t in tracks if not t.get('staticUrl')
+    })
     shutil.copyfile(WEB / 'audio-route.ts', route / 'route.ts')
     shutil.copyfile(WEB / 'audio-range.ts', route / 'audio-range.ts')
     (site / 'app/page.tsx').write_text('import { redirect } from "next/navigation";\nexport default function Page(){redirect("/study/index.html")}\n')
-    (site / 'app/layout.tsx').write_text('import type { Metadata } from "next";\nimport "./globals.css";\nexport const metadata:Metadata={title:"英语听读 · Oxford 与雅思",description:"Oxford 3000、750 常用短语与雅思听力，同一入口学习",icons:{icon:"/icon.svg"}};\nexport default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}\n')
+    (site / 'app/layout.tsx').write_text('import type { Metadata } from "next";\nimport "./globals.css";\nexport const metadata:Metadata={title:"英语听读 · Oxford 3000 / 5000 与雅思",description:"Oxford 3000、Oxford 5000、常用短语、雅思听力与遇词本，同一入口学习",icons:{icon:"/icon.svg"}};\nexport default function RootLayout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}\n')
     save(WEB / 'site.json', {'project_id': PROJECT_ID, 'url': args.site_url, 'access': 'private'})
     save(ROOT / 'data/study_build_report.json', {'entries': len(entries), 'chapters': {c['id']: sum(e['chapter'] == c['id'] for e in entries) for c in chapters}, 'collections': {c['id']: sum(e['collection'] == c['id'] for e in entries) for c in collections}, 'audioTracks': len(tracks), 'ieltsSyncedTracks': len(timing['tracks']), 'ieltsAudioCues': sum(len(t['cues']) for t in timing['tracks'].values()), 'totalAudioCues': sum(len(t['cues']) for t in tracks), 'originalFramesUnchanged': all(t['mp3Index']['audioFramesUnchanged'] for t in timing['tracks'].values()), 'ieltsAudioSourceRevision': IELTS_SOURCE_REVISION, 'oxfordExampleMatches': enriched, 'chapter3PhotoCorrectionPreserved': True, 'htmlBytes': (ROOT / '手机听读.html').stat().st_size})
     print('BUILT', len(entries), 'entries;', len(tracks), 'original tracks;', enriched, 'extension examples')

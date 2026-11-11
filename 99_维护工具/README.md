@@ -9,6 +9,7 @@
 | 目录 | 对应内容 |
 | --- | --- |
 | [Oxford3000/](Oxford3000/) | 词表提取、词条补充、录音准备、音频与页面生成、校验及打包 |
+| [Oxford5000/](Oxford5000/) | Oxford 5000 B2–C1 PDF 转录与 ECDICT 释义生成 |
 | [OxfordPhraseList/](OxfordPhraseList/) | 短语提取、真人录音与 AI 补音、材料和页面生成、校验及本地网页服务 |
 | [日常对话/](日常对话/) | 从母句数据生成 120 句学习包 |
 | [通用/](通用/) | 仓库链接检查、两个播放器的操作测试 |
@@ -35,6 +36,10 @@ python "99_维护工具/OxfordPhraseList/build_player.py"
 ```
 
 学习包位于 `01_词汇与短语/OxfordPhraseList_学习包/`。完整制作的依赖见 [requirements.txt](OxfordPhraseList/requirements.txt)；提取、音频、材料、网页和校验脚本都在同一维护目录。原始 PDF 集中放在 `06_原始资料/Oxford词表/`。
+
+## Oxford 5000
+
+运行 `99_维护工具/Oxford5000/prepare_materials.py`，按固定版本的 ECDICT CSV 为官方 PDF 中的 B2–C1 补充词条生成结构化数据和 Markdown。数据包与释义来源说明见 [Oxford5000_学习包](../01_词汇与短语/Oxford5000_学习包/README.md)。
 
 ## 手机通过电脑访问750短语
 

@@ -4,19 +4,25 @@
   "pc_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=ielts&mode=original&view=pc",
   "access": "private",
   "status": "succeeded",
-  "commit_sha": "438556450c7f9cb37030f84cd669f56089535286",
-  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_ecc3c3ff68b88191889643596f50e1f9",
-  "deployment_id": "appgdep_6af07906a7648191b6af138320395fe1",
-  "published_at": "2026-11-08T13:28:55.838054+00:00",
+  "commit_sha": "8cfd27f0f66d7235750258185d76ef18c79eefac",
+  "version_id": "appgprj_6ae6ef998de48191ae576308e8c9bfa1~appgver_1ea125c03fb88191b37a336c2857c10a",
+  "deployment_id": "appgdep_6af3cf2bbf248191995978558a1095c2",
+  "published_at": "2026-11-11T10:13:18.476342+08:00",
   "note": "Sites 网站源码单独保存于私人站点源仓库；English_Learning 学习仓库独立提交。",
   "title": "英语听读 · Oxford 3000 / 750 短语 / 雅思",
   "collections": {
     "oxford3000": 3306,
+    "oxford5000": 2012,
     "phrases750": 750,
-    "ielts": 5569
+    "ielts": 5569,
+    "encounters": 2,
+    "ipa": 48
   },
-  "entries": 9625,
+  "entries": 11687,
   "oxford_audio_source_revision": "3a5c95b9647b24abdcfa72eed1c423718b7b4adb",
   "ielts_audio_source_revision": "560f3d2b7b475dff5657631b4f16fc60939f6b36",
-  "last_change": "页面顶部可用英文或中文同时搜索三套资料。结果标明来源，点选后定位到词卡与音频。"
+  "last_change": "新增 48 张音标卡和 96 个例词。真人音标和例词可单独试听，慢速音轨支持三遍跟读、连续切卡与倍速。",
+  "oxford5000_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=oxford5000",
+  "version_number": 15,
+  "ipa_url": "https://ielts-listening-nov-2026-wx.nimble-goby-1176.chatgpt.site/study/?collection=ipa"
 }

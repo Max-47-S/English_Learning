@@ -8,6 +8,7 @@
 | --- | --- |
 | [American Oxford 3000](Oxford词表/American_Oxford_3000.pdf) | 美式 Oxford 3000 词表 |
 | [Oxford 3000 by CEFR level](Oxford词表/oxford-3000-by-cefr-level.pdf) | 按 CEFR 分级的词表；Oxford 3000 学习包的原序依据 |
+| [Oxford 5000 by CEFR level](Oxford词表/oxford-5000-by-cefr-level.pdf) | Oxford 3000 以外的 B2–C1 补充词表；Oxford 5000 学习包的原序依据 |
 | [Oxford Phrase List](Oxford词表/oxford-phrase-list.pdf) | 750 短语学习包的原表 |
 
 ## 笔记原稿

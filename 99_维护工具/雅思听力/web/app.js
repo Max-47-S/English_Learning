@@ -17,11 +17,15 @@ const initialPrefs=read(KEY+'-collection-'+initial.id,initial.id===(saved.collec
 const canonicalId=id=>data.entryAliases?.[id]||id;
 const favorites=new Set(read(KEY+'-favorites',[]).map(canonicalId)),positions=read(KEY+'-audio',{});
 if(data.entryAliases)write(KEY+'-favorites',[...favorites]);
-const state={collection:initial.id,chapter:String(initialPrefs.chapter||''),group:initialPrefs.group||'',selected:canonicalId(initialPrefs.selected)||'',mode:['word','original'].includes(requestedMode)?requestedMode:(initialPrefs.mode||data.defaultMode||initial.defaultMode),direction:initialPrefs.direction||'横向测试',rate:Number(saved.rate)||1,gapMs:SPEECH_GAPS.includes(Number(saved.gapMs))?Number(saved.gapMs):1000,onlyFavorites:false,limit:100,track:'',cached:new Set(),cacheBusy:false};
-let speechContinuous=false,voices=[];
+let generalRate=Number(saved.generalRate??saved.rate)||1;
+const state={collection:initial.id,chapter:String(initialPrefs.chapter||''),group:initialPrefs.group||'',selected:canonicalId(initialPrefs.selected)||'',mode:initial.id==='ipa'?'original':initial.id==='oxford5000'?'word':['word','original'].includes(requestedMode)?requestedMode:(initialPrefs.mode||data.defaultMode||initial.defaultMode),direction:initialPrefs.direction||'横向测试',rate:initial.id==='ipa'?(Number(initialPrefs.rate)||1):generalRate,gapMs:SPEECH_GAPS.includes(Number(saved.gapMs))?Number(saved.gapMs):1000,onlyFavorites:false,limit:100,track:'',cached:new Set(),cacheBusy:false};
+let speechContinuous=false,voices=[],speechRequest=null;
 let audioContinuous=false,scriptedPlay=false,seekGuard=null,currentBlobUrl=null,trackGeneration=0,trackLoading=false,pendingPosition=0,trackReady=Promise.resolve();
 let singleWordStop=null,animationFrame=0,lastSavedTime=-10,lastCueId='';
 const collection=()=>data.collections.find(c=>c.id===state.collection)||data.collections[0];
+const isEncounter=()=>state.collection==='encounters';
+const isIpa=()=>state.collection==='ipa';
+const systemSpeechOnly=()=>isEncounter()||state.collection==='oxford5000';
 const collectionChapters=()=>data.chapters.filter(c=>c.collection===state.collection);
 const chapter=()=>collectionChapters().find(c=>String(c.id)===state.chapter)||collectionChapters()[0];
 const group=()=>chapter().groups.find(g=>g.id===state.group)||chapter().groups[0];
@@ -30,58 +34,138 @@ const groupEntries=()=>{const selectedGroup=group();return chapterEntries().filt
 const entries=()=>groupEntries().filter(e=>!state.onlyFavorites||favorites.has(e.id));
 const current=()=>entryMap.get(state.selected);
 const chapterTracks=()=>data.tracks.filter(t=>String(t.chapter)===state.chapter&&(!t.direction||t.direction===state.direction));
-const track=()=>trackMap.get(state.track);
-const playbackUrl=t=>location.protocol==='file:'?t.file:'/api/audio/'+encodeURIComponent(t.id)+(t.mp3Index?'?v='+t.mp3Index.sha256.slice(0,12):'');
+const track=()=>isEncounter()?undefined:trackMap.get(state.track);
+const playbackUrl=t=>location.protocol==='file:'?t.file:t.staticUrl||('/api/audio/'+encodeURIComponent(t.id)+(t.mp3Index?'?v='+t.mp3Index.sha256.slice(0,12):''));
 const cues=()=>track()?.cues||[];
 const selectedCueIndex=()=>cues().findIndex(c=>c.entryId===state.selected);
 const status=(id,text)=>{$(id).textContent=text};
-function save(){const pref={collection:state.collection,chapter:state.chapter,group:state.group,selected:state.selected,mode:state.mode,direction:state.direction,rate:state.rate,gapMs:state.gapMs};write(KEY,pref);write(KEY+'-collection-'+state.collection,pref)}
+function save(){
+ if(!isIpa())generalRate=state.rate;
+ const pref={collection:state.collection,chapter:state.chapter,group:state.group,selected:state.selected,mode:state.mode,direction:state.direction,rate:state.rate,gapMs:state.gapMs};
+ write(KEY,{...pref,generalRate});write(KEY+'-collection-'+state.collection,pref);
+}
 const speechQueue=StudySpeechQueue.create({
  synth:window.speechSynthesis,Utterance:window.SpeechSynthesisUtterance,
- prepare:e=>({text:(e.audioText||e.word).split('=')[0].replace(/\(s\)/g,'s').trim(),lang:'en-GB',rate:state.rate,voice:voices.find(v=>/^en-GB$/i.test(v.lang))||voices[0]||null}),
+ prepare:e=>({text:e.speechText||(e.audioText||e.word).split('=')[0].replace(/\(s\)/g,'s').trim(),lang:'en-GB',rate:state.rate,voice:voices.find(v=>/^en-GB$/i.test(v.lang))||voices[0]||null}),
  onState:({continuous})=>{speechContinuous=continuous;$('continuous-words').classList.toggle('active',continuous);$('continuous-words').textContent=continuous?'暂停连续朗读':'▶ 连续朗读'},
- onStart:(e,{continuous})=>{selectEntry(e.id);status('speech-status',continuous?'连续朗读中 · 系统合成语音':'本词朗读中 · 系统合成语音 · 读完后暂停')},
+ onStart:(e,{continuous})=>{if(!e.speechSnippet)selectEntry(e.id);status('speech-status',continuous?'连续朗读中 · 系统合成语音':`${e.speechLabel||'本词'}朗读中 · 系统合成语音 · 读完后暂停`)},
  onGap:(e,{gapMs})=>status('speech-status',`词间停顿 ${gapMs/1000} 秒 · 可以跟读本词`),
- onFinish:({continuous})=>status('speech-status',continuous?'本组已读完，已暂停。':'本词已读完，已暂停。点击“连续朗读”可依次读词。'),
- onError:error=>status('speech-status',error==='unsupported'?'当前浏览器没有系统朗读功能，请切换到学习包音频。':['interrupted','canceled'].includes(error)?'系统朗读已暂停。点击“连续朗读”可继续。':'系统语音暂不可用。可重试，或切换到学习包音频。')
+ onFinish:({continuous})=>{const label=speechRequest?.type==='snippet'?speechRequest.label:'本词';speechRequest=null;status('speech-status',continuous?'本组已读完，已暂停。':label==='本词'?'本词已读完，已暂停。点击“连续朗读”可依次读词。':`${label}已读完，已暂停。`)},
+ onError:error=>{
+  speechRequest=null;
+  if(['interrupted','canceled'].includes(error)){status('speech-status','系统朗读已暂停。点击“连续朗读”可继续。');return}
+  const message=error==='unsupported'?'当前浏览器没有系统朗读功能。':'系统语音暂不可用。可以重试。';
+  status('speech-status',message+(systemSpeechOnly()?'':'也可切换到学习包音频。'));
+ }
 });
-function stopSpeech(message){speechQueue.stop();if(message)status('speech-status',message)}
+function stopSpeech(message){speechRequest=null;speechQueue.stop();if(message)status('speech-status',message)}
 function voiceList(){if('speechSynthesis'in window)voices=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang))}
 voiceList();if('speechSynthesis'in window)speechSynthesis.addEventListener('voiceschanged',voiceList);
 function speakCurrent(continuous=false){
  const e=current();if(!e)return;
  audio.pause();audioContinuous=false;singleWordStop=null;stopAnimation();
  const list=entries(),index=list.findIndex(item=>item.id===e.id);
+ speechRequest={type:'card',continuous};
  status('speech-status',continuous?'连续朗读中 · 系统合成语音':'本词朗读中 · 系统合成语音 · 读完后暂停');
  speechQueue.play(continuous&&index>=0?list.slice(index):[e],{continuous,gapMs:state.gapMs});
 }
+function speakSnippet(text,label){
+ const spoken=String(text||'').trim();if(!spoken)return;
+ audio.pause();audioContinuous=false;singleWordStop=null;stopAnimation();
+ speechRequest={type:'snippet',text:spoken,label};
+ speechQueue.play([{id:'speech-snippet',word:spoken,speechText:spoken,speechSnippet:true,speechLabel:label}],{continuous:false,gapMs:0});
+}
+function phraseEnglish(text){
+ const value=String(text||''),translationStart=value.search(/[（(][^（）()]*\p{Script=Han}/u);
+ const english=(translationStart>=0?value.slice(0,translationStart):value).trim();
+ return /\p{Script=Han}/u.test(english)?'':english;
+}
+function phraseMarkup(text){
+ const english=phraseEnglish(text),button=english?`<button type="button" class="phrase-speak" data-speech-text="${esc(english)}" data-speech-label="短语" aria-label="朗读短语：${esc(english)}" title="朗读短语">🔊</button>`:'';
+ return `<span class="phrase">${StudyTranslations.phrase(text,esc)}${button}</span>`;
+}
 function normalizeSelection(){state.chapter=String(chapter().id);if(!chapter().groups.some(g=>g.id===state.group))state.group=chapter().groups[0].id;const list=entries();if(!list.some(e=>e.id===state.selected))state.selected=list[0]?.id||''}
-function sourceLabel(e){return e.source==='oxford3000'?'Oxford 3000 词表':e.source==='phrases750'?'Oxford 短语词表':e.source==='pdf'?'Chapter 11 · 原书转写':e.corrected?'已按照片校订':'网络参考词表'}
+function sourceLabel(e){
+ if(e.source==='ipa')return '48 音标 · 真人录音';
+ if(e.source==='encounter')return '遇词本 · 自选词条';
+ if(e.source==='oxford5000')return 'Oxford 5000 · CEFR 补充词表';
+ return e.source==='oxford3000'?'Oxford 3000 词表':e.source==='phrases750'?'Oxford 短语词表':e.source==='pdf'?'Chapter 11 · 原书转写':e.corrected?'已按照片校订':'网络参考词表';
+}
 function audioCredits(e){
  const sources=(e.audioCreditIds||[]).map(id=>data.audioCredits[id]).filter(Boolean);if(!sources.length)return'';
- return `<details class="audio-credit"><summary>学习包音频来源与许可</summary>${sources.map(s=>`<p>${esc(s.kind==='ai_generated'?'AI 配音':s.credit||s.artist||'真人录音')}${s.artist&&s.credit&&!s.credit.includes(s.artist)?' · '+esc(s.artist):''}${s.copyright?' · '+esc(s.copyright):''}${s.voice?' · '+esc(s.voice):''}${s.license?' · '+esc(s.license):''}${s.page_url?` · <a href="${esc(s.page_url)}" target="_blank" rel="noopener">来源页面</a>`:''}${s.license_url?` · <a href="${esc(s.license_url)}" target="_blank" rel="noopener">许可</a>`:''}${s.processing?'<br>'+esc(s.processing):''}</p>`).join('')}</details>`;
+ const remix=e.source==='ipa'?'<p>本音轨将真人片段剪辑、减速并拼接。<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">改编音轨许可 CC BY-SA 4.0</a></p>':'';
+ return `<details class="audio-credit"><summary>学习包音频来源与许可</summary>${remix}${sources.map(s=>`<p>${esc(s.kind==='ai_generated'?'AI 配音':s.credit||s.artist||'真人录音')}${s.artist&&s.credit&&!s.credit.includes(s.artist)?' · '+esc(s.artist):''}${s.copyright?' · '+esc(s.copyright):''}${s.voice?' · '+esc(s.voice):''}${s.license?' · '+esc(s.license):''}${s.page_url?` · <a href="${esc(s.page_url)}" target="_blank" rel="noopener">来源页面</a>`:''}${s.license_url?` · <a href="${esc(s.license_url)}" target="_blank" rel="noopener">许可</a>`:''}${s.processing?'<br>'+esc(s.processing):''}</p>`).join('')}</details>`;
+}
+function ipaCard(e,tag){
+ const examples=e.ipaExamples.map((item,index)=>`<button type="button" class="ipa-example" data-ipa-part="${index+1}" aria-label="试听单词 ${esc(item.word)}">
+ <strong>${esc(item.prefix)}<mark>${esc(item.target)}</mark>${esc(item.suffix)}</strong>
+ <span class="ipa-example-meta">/${esc(item.ipa)}/ · ${esc(item.meaning)}</span><span class="ipa-example-icon" aria-hidden="true">🔊</span></button>`).join('');
+ return `<span class="source-pill">${esc(tag)}</span>${favoriteButton(e)}
+ <div class="ipa-card-head"><h1 class="word">${esc(e.word)}</h1><button type="button" class="ipa-sound" data-ipa-part="0">🔊 听音标</button></div>
+ <p class="ipa-tip">${esc(e.ipaTip)}</p>${e.ipaModelNote?`<p class="ipa-model-note">${esc(e.ipaModelNote)}</p>`:''}
+ <p class="details-label">例词 · 点按试听</p><div class="ipa-examples">${examples}</div>${audioCredits(e)}`;
+}
+function favoriteButton(e){
+ const marked=favorites.has(e.id);
+ const label=marked?'取消收藏':e.source==='ipa'?'收藏音标':'收藏本词';
+ return `<button class="favorite-button ${marked?'active':''}" id="favorite-word" aria-label="${label}" aria-pressed="${marked}">${marked?'★':'☆'}</button>`;
 }
 function renderCard(){
  const e=current(),list=entries(),i=list.findIndex(x=>x.id===state.selected);
- $('position').textContent=e?`${e.level?e.level+' · ':''}第 ${e.order} ${e.source==='phrases750'?'条':'词'} · 本组 ${groupEntries().length} 条`:'';
+ const unit=isIpa()?'张':e?.source==='phrases750'||e?.chapter==='encounter-phrase'?'条':'词';
+ $('position').textContent=e?`${e.level?e.level+' · ':''}第 ${e.order} ${unit} · 本组 ${groupEntries().length} ${isIpa()?'张':'条'}`:'';
  $('source-label').textContent=e?sourceLabel(e):'';
  $('prev-word').disabled=!e||i<=0;$('next-word').disabled=!e||i<0||i>=list.length-1;$('replay-word').disabled=!e;$('continuous-words').disabled=!e;
- if(!e){$('word-card').innerHTML='<p class="empty">本组没有可显示的词条。</p>';renderAudioState();return}
- const example=e.example,tag=e.level?`${e.level} · ${e.order}`:`${group().title} · ${e.order}`;
- $('word-card').innerHTML=`<span class="source-pill">${esc(tag)}</span><button class="favorite-button ${favorites.has(e.id)?'active':''}" id="favorite-word" aria-label="${favorites.has(e.id)?'取消收藏':'收藏本词'}" aria-pressed="${favorites.has(e.id)}">${favorites.has(e.id)?'★':'☆'}</button><h1 class="word">${esc(e.word)}${e.homograph?`<sup>${esc(e.homograph)}</sup>`:''}</h1>${e.pos||e.qualifier?`<p class="word-meta">${esc([e.pos,e.qualifier].filter(Boolean).join(' · '))}</p>`:''}${e.ipa?`<div class="ipa">/${esc(e.ipa)}/${e.ipaSource==='reference'?' <small>参考音标</small>':''}</div>`:''}<div class="meaning translation-text">${esc(e.meaning)}</div>${StudyTranslations.toggle}${e.phrases?.length?`<p class="details-label">常用搭配${e.collection==='ielts'?' · 扩展学习':''}</p><div class="phrases">${e.phrases.slice(0,4).map(p=>`<span class="phrase">${StudyTranslations.phrase(p,esc)}</span>`).join('')}</div>`:''}${example?`<p class="details-label">放进句子里${e.collection==='ielts'?' · Oxford 学习参考':''}</p><div class="example"><p>${esc(example.english)}</p><p class="translation translation-text">${esc(example.chinese)}</p><details><summary>例句来源</summary>${esc(example.attribution||example.source||'原创学习例句')}</details></div>`:''}${e.wordForms?`<p class="word-forms translation-text">词形参考：${esc(e.wordForms)}</p>`:''}${e.usageNote?`<p class="usage-note translation-text">用法：${esc(e.usageNote)}</p>`:''}${e.audioText&&e.audioText!==e.word?`<p class="status">音频示范：${esc(e.audioText)}</p>`:''}${e.audioNotes?.length?`<p class="status translation-text">${e.audioNotes.map(esc).join(' ')}</p>`:''}${audioCredits(e)}${e.referenceUrl?`<a class="paper-link" href="${esc(e.referenceUrl)}" target="_blank" rel="noopener">查看词典参考</a>`:''}${e.pdfPage?`<a class="paper-link" href="${esc(data.pdfHref)}#page=${e.pdfPage}" target="_blank" rel="noopener">查看原书页 · PDF 第 ${e.pdfPage} 页</a>`:''}${e.reviewNote?`<p class="status translation-text">${esc(e.reviewNote)}</p>`:''}`;
+ if(!e){
+  const emptyGroup=isEncounter()&&group().count===0;
+  const message=emptyGroup?`这一组还没有收录${chapter().title}。`:state.onlyFavorites?'本组暂无收藏。可关闭“只看收藏”查看全部。':'本组没有可显示的词条。';
+  $('word-card').innerHTML=`<p class="empty">${esc(message)}</p>`;
+  if(isEncounter())status('speech-status','选中词条后即可开始朗读。');
+  renderAudioState();save();return;
+ }
+ const example=e.example,tag=e.level?`${e.level} · ${e.order}`:`${e.pos&&isIpa()?e.pos:group().title} · ${e.order}`;
+ if(isIpa())$('word-card').innerHTML=ipaCard(e,tag);
+ else $('word-card').innerHTML=`<span class="source-pill">${esc(tag)}</span>${favoriteButton(e)}<h1 class="word">${esc(e.word)}${e.homograph?`<sup>${esc(e.homograph)}</sup>`:''}</h1>${e.pos||e.qualifier?`<p class="word-meta">${esc([e.pos,e.qualifier].filter(Boolean).join(' · '))}</p>`:''}${e.ipa?`<div class="ipa">/${esc(e.ipa)}/${e.ipaSource==='reference'?' <small>参考音标</small>':''}</div>`:''}<div class="meaning translation-text">${esc(e.meaning)}</div>${StudyTranslations.toggle}${e.phrases?.length?`<p class="details-label">常用搭配${e.collection==='ielts'?' · 扩展学习':''}</p><div class="phrases">${e.phrases.slice(0,4).map(phraseMarkup).join('')}</div>`:''}${example?`<p class="details-label">放进句子里${e.collection==='ielts'?' · Oxford 学习参考':''}</p><div class="example"><div class="example-line"><p>${esc(example.english)}</p><button type="button" class="example-speak" data-speech-text="${esc(example.english)}" data-speech-label="例句" aria-label="朗读例句">🔊 听例句</button></div><p class="translation translation-text">${esc(example.chinese)}</p><details><summary>例句来源</summary>${esc(example.attribution||example.source||'原创学习例句')}</details></div>`:''}${e.wordForms?`<p class="word-forms translation-text">词形参考：${esc(e.wordForms)}</p>`:''}${e.usageNote?`<p class="usage-note translation-text">用法：${esc(e.usageNote)}</p>`:''}${e.audioText&&e.audioText!==e.word?`<p class="status">音频示范：${esc(e.audioText)}</p>`:''}${e.audioNotes?.length?`<p class="status translation-text">${e.audioNotes.map(esc).join(' ')}</p>`:''}${audioCredits(e)}${e.referenceUrl?`<a class="paper-link" href="${esc(e.referenceUrl)}" target="_blank" rel="noopener">查看词典参考</a>`:''}${e.pdfPage?`<a class="paper-link" href="${esc(data.pdfHref)}#page=${e.pdfPage}" target="_blank" rel="noopener">查看原书页 · PDF 第 ${e.pdfPage} 页</a>`:''}${e.reviewNote?`<p class="status translation-text">${esc(e.reviewNote)}</p>`:''}`;
  $('favorite-word').onclick=()=>{favorites.has(e.id)?favorites.delete(e.id):favorites.add(e.id);write(KEY+'-favorites',[...favorites]);if(state.onlyFavorites){stopSpeech();normalizeSelection()}renderCard();renderList()};
  document.querySelectorAll('.entry').forEach(el=>el.classList.toggle('current',el.dataset.id===state.selected));renderAudioState();save();
 }
+$('word-card').addEventListener('click',event=>{
+ const ipaButton=event.target.closest('[data-ipa-part]');
+ if(ipaButton&&isIpa()){
+  const entry=current();
+  if(entry)playCue(entry.id,true,Number(ipaButton.dataset.ipaPart));
+  return;
+ }
+ const button=event.target.closest('[data-speech-text]');if(!button)return;
+ event.preventDefault();speakSnippet(button.dataset.speechText,button.dataset.speechLabel||'片段');
+});
 function renderList(){
  const list=entries();$('result-count').textContent=`${list.length.toLocaleString()} 条${state.onlyFavorites?'收藏':''}`;
  $('word-list').innerHTML=list.slice(0,state.limit).map(e=>`<button class="entry translation-card ${e.id===state.selected?'current':''}" data-id="${esc(e.id)}"><small>${e.order}</small><span><strong>${esc(e.word)}${e.homograph?' '+esc(e.homograph):''}</strong><span class="zh translation-text">${esc(e.meaning)}</span></span><span class="star">${favorites.has(e.id)?'★':''}</span></button>`).join('')||'<p class="empty">还没有匹配的词条。</p>';
  $('more-words').hidden=state.limit>=list.length;$('favorites-only').setAttribute('aria-pressed',String(state.onlyFavorites));
 }
 function renderNavigation(){
- normalizeSelection();$('collections').innerHTML=data.collections.map(c=>`<button class="collection-button" data-collection="${c.id}" aria-pressed="${c.id===state.collection}"><b>${esc(c.title)}</b><small>${esc(c.subtitle)}</small></button>`).join('');
- status('collection-note',state.collection==='oxford3000'?'保留词性、词形、搭配与双语例句。学习包音频全部为真人发音，播放时自动换词。':state.collection==='phrases750'?'750 条短语均有搭配、例句和用法提示。现有音轨含 350 条真人录音、400 条 AI 配音，每条标明来源。':'四章原版真人录音均支持逐词同步；保留原音的停顿与节奏，横向、纵向分别跟随。');
- $('chapters').hidden=state.collection!=='ielts';$('chapters').innerHTML=collectionChapters().map(c=>`<button class="chapter-button ${String(c.id)===state.chapter?'selected':''}" data-chapter="${c.id}" aria-pressed="${String(c.id)===state.chapter}"><span>CHAPTER ${c.id}</span><b>${esc(c.title)}</b></button>`).join('');
- $('group-select').innerHTML=chapter().groups.map(g=>`<option value="${esc(g.id)}">${esc(g.title)}</option>`).join('');$('group-select').value=state.group;
+ const encounter=isEncounter();
+ if(encounter){state.mode='word';status('speech-status','选中词条后，点击“重听本词”或“连续朗读”。')}
+ if(isIpa())state.mode='original';
+ normalizeSelection();
+ $('collections').classList.toggle('has-encounters',data.collections.some(c=>c.id==='encounters'));
+ $('collections').classList.toggle('has-five-collections',data.collections.length>=5);
+ $('collections').innerHTML=data.collections.map(c=>`<button class="collection-button" data-collection="${c.id}" aria-pressed="${c.id===state.collection}"><b>${esc(c.title)}</b><small>${esc(c.subtitle)}</small></button>`).join('');
+ status('collection-note',collection().note||(state.collection==='oxford3000'?'保留词性、词形、搭配与双语例句。学习包音频全部为真人发音，播放时自动换词。':state.collection==='phrases750'?'750 条短语均有搭配、例句和用法提示。现有音轨含 350 条真人录音、400 条 AI 配音，每条标明来源。':'四章原版真人录音均支持逐词同步；保留原音的停顿与节奏，横向、纵向分别跟随。'));
+ $('chapters').hidden=state.collection!=='ielts'&&!encounter;
+ $('chapters').classList.toggle('encounter-chapters',encounter);
+ $('chapters').innerHTML=collectionChapters().map(c=>{
+  const caption=encounter?`${c.groups.reduce((sum,g)=>sum+g.count,0)} 条`:`CHAPTER ${c.id}`;
+  return `<button class="chapter-button ${String(c.id)===state.chapter?'selected':''}" data-chapter="${c.id}" aria-pressed="${String(c.id)===state.chapter}"><span>${esc(caption)}</span><b>${esc(c.title)}</b></button>`;
+ }).join('');
+ status('group-caption',encounter||isIpa()?'选择分组':state.collection==='oxford5000'?'选择级别':'选择练习');
+ $('group-select').innerHTML=chapter().groups.map(g=>`<option value="${esc(g.id)}">${esc(g.title)}${encounter||isIpa()?`（${g.count}）`:''}</option>`).join('');$('group-select').value=state.group;
+ $('mode-switch').hidden=systemSpeechOnly()||isIpa();
+ status('catalog-title',isIpa()?'音标目录':'词条目录');
+ status('prev-recording-word',isIpa()?'← 上一卡':'← 上一词');
+ status('replay-recording-word',isIpa()?'跟读本卡':'重听本词');
+ status('next-recording-word',isIpa()?'下一卡 →':'下一词 →');
  $('speed').value=String(state.rate);$('speech-gap').value=String(state.gapMs);$('direction').value=state.direction;$('direction').hidden=state.collection!=='ielts'||state.chapter==='11';
  status('recording-mode-title',state.collection==='ielts'?'原版录音':'学习包音频');status('recording-mode-subtitle',chapter().audioSubtitle||'真人整段');status('recording-heading',chapter().audioTitle||'官网真人整段录音');
  $('track-select').innerHTML=chapterTracks().map(t=>`<option value="${t.id}">${esc(t.title)}</option>`).join('');$('track-controls').hidden=state.collection!=='ielts';
@@ -109,6 +193,10 @@ function matchingEntries(query){
  return [...exact,...prefix,...contains,...translated];
 }
 function searchLabel(entry){
+ if(entry.collection==='encounters'){
+  const kind=entry.chapter==='encounter-phrase'?'短语':'单词';
+  return ['遇词本',kind,searchGroups.get(entry.group),entry.pos].filter(Boolean).join(' · ');
+ }
  const details=entry.collection==='ielts'
   ? [`Chapter ${entry.chapter}`,searchGroups.get(entry.group),`第 ${entry.order} 条`]
   : [entry.level,entry.pos,entry.qualifier];
@@ -133,11 +221,16 @@ function pauseForNavigation(){
  stopSpeech();audio.pause();audioContinuous=false;singleWordStop=null;
 }
 function switchCollection(id){
+ const previousWasIpa=isIpa();
  save();saveAudioPosition();pauseForNavigation();
  state.collection=id;
  const prefs=read(KEY+'-collection-'+id,{});
  state.chapter=String(prefs.chapter||'');state.group=prefs.group||'';state.selected=canonicalId(prefs.selected)||'';
  state.mode=prefs.mode||collection().defaultMode;state.direction=prefs.direction||'横向测试';state.onlyFavorites=false;state.limit=100;
+ if(isIpa()||previousWasIpa){
+  state.rate=isIpa()?(Number(prefs.rate)||1):generalRate;
+  audio.playbackRate=state.rate;
+ }
  if(location.protocol!=='file:'){const url=new URL(location.href);url.searchParams.set('collection',id);history.replaceState(null,'',url)}
 }
 function openSearchResult(id){
@@ -161,16 +254,40 @@ function selectEntry(id,play=false){
 }
 function moveWord(offset){stopSpeech();const list=entries(),i=list.findIndex(e=>e.id===state.selected),e=list[Math.max(0,Math.min(list.length-1,i+offset))];if(e)selectEntry(e.id,true)}
 function setMode(mode,stop=true){
+ if(isIpa())mode='original';
+ else if(systemSpeechOnly())mode='word';
  if(stop){stopSpeech();audio.pause();audioContinuous=false;singleWordStop=null}
  state.mode=mode;$('word-mode').classList.toggle('selected',mode==='word');$('original-mode').classList.toggle('selected',mode==='original');$('word-mode').setAttribute('aria-pressed',String(mode==='word'));$('original-mode').setAttribute('aria-pressed',String(mode==='original'));$('word-player').hidden=mode!=='word';$('original-player').hidden=mode!=='original';
  if(mode==='original'){syncTrack(false);if(stop&&cues().length&&current())seekToEntry(current().id,false)}renderAudioState();save();
 }
+function renderIpaFollow(cue){
+ const indicator=$('ipa-follow');
+ indicator.hidden=!isIpa();
+ if(!isIpa())return;
+ let message='每项示范三遍，每次示范后留时间跟读。';
+ if(!audio.paused&&cue?.parts?.length){
+  const part=cue.parts[StudyTimeline.cueIndex(cue.parts,audio.currentTime)];
+  if(part){
+   if(singleWordStop?.preview){
+    message=`试听 · ${part.label}`;
+   }else{
+    const elapsed=audio.currentTime-part.start;
+    const round=Math.min(2,Math.floor(elapsed/part.step));
+    const phase=elapsed-round*part.step<part.spokenEnd-part.start?'听示范':'跟读';
+    message=`${phase} ${round+1} / 3 · ${part.label}`;
+   }
+  }
+ }
+ if(indicator.textContent!==message)indicator.textContent=message;
+}
 function renderAudioState(){
  const e=current(),hasCues=!!cues().length,index=selectedCueIndex();$('recording-word-controls').hidden=!hasCues;$('audio-now-playing').hidden=!hasCues||!e;
  $('prev-recording-word').disabled=index<=0;$('next-recording-word').disabled=index<0||index>=cues().length-1;$('replay-recording-word').disabled=index<0;
- if(hasCues&&e){status('audio-now-word',e.word);status('audio-now-meaning',e.meaning);status('audio-now-position',`${e.level||'Chapter '+e.chapter} · 音轨第 ${index+1} / ${cues().length} 条 · 原音节奏`)}
- const ai=hasCues&&e?.audioKind==='ai_generated';$('recording-kind').dataset.kind=ai?'ai':'human';status('recording-kind',hasCues?(!e?'请选择词条':ai?'当前词：AI 配音':'当前词：真人录音'):'官网真人录音 · 整段播放');
- $('continuous-audio').classList.toggle('active',audioContinuous&&!audio.paused);$('continuous-audio').textContent=audioContinuous&&!audio.paused?'暂停连续播放':state.collection==='ielts'?'按原音节奏连续播放':'连续播放学习包音频';
+ if(hasCues&&e){status('audio-now-word',e.word);status('audio-now-meaning',e.meaning);status('audio-now-position',isIpa()?`第 ${index+1} / ${cues().length} 张 · 慢速跟读`:`${e.level||'Chapter '+e.chapter} · 音轨第 ${index+1} / ${cues().length} 条 · 原音节奏`)}
+ const ai=hasCues&&e?.audioKind==='ai_generated';$('recording-kind').dataset.kind=ai?'ai':'human';status('recording-kind',isIpa()?'真人录音 · 1× 为慢速':hasCues?(!e?'请选择词条':ai?'当前词：AI 配音':'当前词：真人录音'):'官网真人录音 · 整段播放');
+ $('continuous-audio').classList.toggle('active',audioContinuous&&!audio.paused);
+ $('continuous-audio').textContent=audioContinuous&&!audio.paused?'暂停连续播放':isIpa()?'▶ 连续跟读':state.collection==='ielts'?'按原音节奏连续播放':'连续播放学习包音频';
+ renderIpaFollow(cues()[index]);
 }
 function db(){return new Promise((resolve,reject)=>{if(!window.indexedDB){reject(new Error('本浏览器不支持本机音频存储'));return}const r=indexedDB.open('ielts-study-audio-v1',1);r.onupgradeneeded=()=>r.result.createObjectStore('tracks');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
 async function stored(id){const database=await db();return new Promise((resolve,reject)=>{const tx=database.transaction('tracks','readonly'),r=tx.objectStore('tracks').get(id);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);tx.oncomplete=()=>database.close()})}
@@ -187,32 +304,69 @@ function loadTrack(id,autoplay=false,single=true,reset=false){
   let local=null;try{local=await stored(id)}catch{}if(generation!==trackGeneration)return;
   if(local?.encoding==='indexed-mp3-v2'&&local.indexSha&&local.indexSha!==t.mp3Index?.sha256){local=null;state.cached.delete(id)}
   if(local?.blob){const blob=t.mp3Index&&local.encoding!=='indexed-mp3-v2'?StudyMP3Index.wrapOriginal(local.blob,t.mp3Index):local.blob;currentBlobUrl=URL.createObjectURL(blob);audio.src=currentBlobUrl;status('audio-status','使用本机保存的学习音频 · 卡片按原音节奏跟随。')}
-  else{audio.src=playbackUrl(t);status('audio-status',t.cues?.length?(state.collection==='ielts'?'原版真人录音已就绪 · 保留原有停顿，词卡随原音切换。':'学习包音频已就绪 · 播放时词卡自动跟随。'):'官网原版录音 · 整段播放。')}
+  else{
+   audio.src=playbackUrl(t);
+   if(isIpa())status('audio-status','真人慢速录音已就绪。可试听或连续跟读。');
+   else status('audio-status',t.cues?.length?(state.collection==='ielts'?'原版真人录音已就绪 · 保留原有停顿，词卡随原音切换。':'学习包音频已就绪 · 播放时词卡自动跟随。'):'官网原版录音 · 整段播放。');
+  }
   audio.dataset.track=id;audio.preload=t.cues?.length?'metadata':'none';audio.playbackRate=state.rate;audio.preservesPitch=true;audio.load();renderOffline();
   if(autoplay&&state.mode==='original'){scriptedPlay=true;try{await audio.play()}catch{scriptedPlay=false;status('audio-status','音频已就绪，请点击音频栏播放。')}}
  })();return trackReady;
 }
 function syncTrack(autoplay){const wanted=group().trackIds?.[state.direction]||group().trackIds?.default||chapterTracks()[0]?.id;if(wanted&&wanted!==state.track)return loadTrack(wanted,autoplay,true);if(state.track)$('track-select').value=state.track;return trackReady}
 function setAudioTime(time){pendingPosition=time;seekGuard={target:time};try{audio.currentTime=time}catch{}}
-function seekToEntry(id,play=true){const cue=cues().find(c=>c.entryId===id);if(!cue)return;setAudioTime(cue.start);lastCueId='';syncAudioWord();if(play){scriptedPlay=true;audio.play().catch(()=>{scriptedPlay=false;status('audio-status','已定位本词，请点击音频栏播放。')})}}
-async function playCue(id,single=true){
- const requestedTrack=state.track;if(state.mode!=='original')return;
+function seekToEntry(id,play=true,start){
+ const cue=cues().find(c=>c.entryId===id);if(!cue)return;
+ setAudioTime(start??cue.start);
+ if(!isIpa()||state.selected!==id)lastCueId='';
+ syncAudioWord();
+ if(play){
+  scriptedPlay=audio.paused;
+  audio.play().catch(()=>{scriptedPlay=false;status('audio-status',isIpa()?'已定位录音，请点击音频栏播放。':'已定位本词，请点击音频栏播放。')});
+ }
+}
+async function playCue(id,single=true,partIndex=null){
+ const requestedTrack=state.track,requestedCollection=state.collection;
+ if(state.mode!=='original')return;
  if(audio.dataset.track!==requestedTrack)await trackReady;
- if(state.mode!=='original'||state.track!==requestedTrack)return;
+ if(state.mode!=='original'||state.track!==requestedTrack||state.collection!==requestedCollection)return;
  const t=track(),cue=t?.cues?.find(c=>c.entryId===id);if(!cue)return;
- stopSpeech();audioContinuous=!single;singleWordStop=single?{track:t.id,entryId:id,end:StudyTimeline.cueStop(cue)}:null;seekToEntry(id,true);renderAudioState();status('audio-status',single?'本词播放中 · 读完即停。':'连续播放中 · 词卡自动跟随。');
+ const part=partIndex===null?null:cue.parts?.[partIndex];
+ if(partIndex!==null&&!part)return;
+ stopSpeech();audioContinuous=!single;
+ const end=part?part.spokenEnd+.055:cue.practiceEnd??StudyTimeline.cueStop(cue);
+ singleWordStop=single?{track:t.id,entryId:id,end,preview:!!part}:null;
+ seekToEntry(id,true,part?.start);
+ renderAudioState();
+ status('audio-status',recordingStatus());
 }
 function moveRecordingWord(offset){const list=cues(),i=selectedCueIndex(),cue=list[Math.max(0,Math.min(list.length-1,i+offset))];if(cue){selectEntry(cue.entryId);playCue(cue.entryId,true)}}
 function syncAudioWord(){
- if(state.mode!=='original'||!cues().length||trackLoading)return;const index=StudyTimeline.cueIndex(cues(),audio.currentTime),cue=cues()[index];if(!cue)return;
+ if(state.mode!=='original'||!cues().length||trackLoading)return;
+ const time=isIpa()&&singleWordStop?.track===state.track?Math.min(audio.currentTime,singleWordStop.end):audio.currentTime;
+ const index=StudyTimeline.cueIndex(cues(),time),cue=cues()[index];if(!cue)return;
  if(cue.entryId!==lastCueId||state.selected!==cue.entryId){lastCueId=cue.entryId;const e=entryMap.get(cue.entryId);if(!e)return;if(!group().all&&state.group!==e.group){state.group=e.group;$('group-select').value=state.group;renderList()}selectEntry(cue.entryId)}
+ if(isIpa())renderIpaFollow(cue);
 }
-function checkSingleStop(){if(singleWordStop&&singleWordStop.track===state.track&&audio.currentTime>=singleWordStop.end){singleWordStop=null;audioContinuous=false;audio.pause();renderAudioState();status('audio-status','本词已播放完毕，已暂停。点击连续播放或音频进度条可继续。')}}
+function checkSingleStop(){
+ const stop=singleWordStop;
+ if(!stop||stop.track!==state.track||audio.currentTime<stop.end)return;
+ singleWordStop=null;audioContinuous=false;audio.pause();
+ if(isIpa()&&audio.currentTime>stop.end+.1)setAudioTime(stop.end);
+ renderAudioState();
+ status('audio-status',isIpa()?(stop.preview?'试听结束。':'本卡三遍跟读结束。'):'本词已播放完毕，已暂停。点击连续播放或音频进度条可继续。');
+}
 function animate(){animationFrame=0;syncAudioWord();checkSingleStop();if(!audio.paused&&!audio.ended)animationFrame=requestAnimationFrame(animate)}
 function startAnimation(){if(!animationFrame)animationFrame=requestAnimationFrame(animate)}
 function stopAnimation(){if(animationFrame)cancelAnimationFrame(animationFrame);animationFrame=0}
 function moveTrack(offset){const tracks=chapterTracks(),i=tracks.findIndex(t=>t.id===state.track),t=tracks[Math.max(0,Math.min(tracks.length-1,i+offset))];if(t)loadTrack(t.id,true,true)}
-audio.addEventListener('play',()=>{if(state.mode!=='original'){scriptedPlay=false;audio.pause();return}stopSpeech();if(!scriptedPlay){audioContinuous=true;singleWordStop=null}scriptedPlay=false;renderAudioState();status('audio-status',singleWordStop?'本词播放中 · 读完即停。':audioContinuous?'连续播放中 · '+(cues().length?'词卡自动跟随。':'官网真人整段音频。'):'本段播放中 · 结束后暂停。');startAnimation()});
+function recordingStatus(){
+ if(isIpa())return singleWordStop?.preview?'正在试听真人录音。':singleWordStop?'正在跟读本卡 · 每项示范三遍。':'连续跟读中 · 卡片随录音切换。';
+ if(singleWordStop)return '本词播放中 · 读完即停。';
+ if(audioContinuous)return '连续播放中 · '+(cues().length?'词卡自动跟随。':'官网真人整段音频。');
+ return '本段播放中 · 结束后暂停。';
+}
+audio.addEventListener('play',()=>{if(state.mode!=='original'){scriptedPlay=false;audio.pause();return}stopSpeech();if(!scriptedPlay){audioContinuous=true;singleWordStop=null}scriptedPlay=false;renderAudioState();status('audio-status',recordingStatus());startAnimation()});
 audio.addEventListener('pause',()=>{saveAudioPosition();stopAnimation();renderAudioState()});
 audio.addEventListener('timeupdate',()=>{syncAudioWord();checkSingleStop();if(Math.abs(audio.currentTime-lastSavedTime)>=3)saveAudioPosition()});
 audio.addEventListener('loadedmetadata',()=>{trackLoading=false;setAudioTime(Math.min(pendingPosition,Math.max(0,audio.duration-.1)));syncAudioWord()});
@@ -224,7 +378,7 @@ $('collections').onclick=event=>{
  switchCollection(button.dataset.collection);renderNavigation();
 };
 $('chapters').onclick=event=>{const button=event.target.closest('[data-chapter]');if(!button)return;stopSpeech();audio.pause();state.chapter=button.dataset.chapter;state.group='';state.limit=100;renderNavigation()};
-$('group-select').onchange=()=>{stopSpeech();audio.pause();singleWordStop=null;state.group=$('group-select').value;state.selected='';state.limit=100;normalizeSelection();renderCard();renderList();syncTrack(false);if(state.mode==='original'&&cues().length&&current())seekToEntry(current().id,false)};
+$('group-select').onchange=()=>{stopSpeech(isEncounter()?'选中词条后，点击“重听本词”或“连续朗读”。':undefined);audio.pause();singleWordStop=null;state.group=$('group-select').value;state.selected='';state.limit=100;normalizeSelection();renderCard();renderList();syncTrack(false);if(state.mode==='original'&&cues().length&&current())seekToEntry(current().id,false)};
 const searchArea=$('global-search');
 if(data.collections.length===1)searchInput.placeholder='搜雅思听力词汇或中文释义';
 searchInput.oninput=event=>{if(!event.isComposing)resetSearchResults()};
@@ -249,14 +403,26 @@ $('word-list').onclick=event=>{const row=event.target.closest('[data-id]');if(ro
 $('more-words').onclick=()=>{state.limit+=100;renderList()};
 $('prev-word').onclick=()=>moveWord(-1);$('next-word').onclick=()=>moveWord(1);$('replay-word').onclick=()=>speakCurrent(false);
 $('continuous-words').onclick=()=>{if(speechContinuous)stopSpeech('已暂停。点击“连续朗读”可继续。');else speakCurrent(true)};
-$('speed').onchange=()=>{state.rate=Number($('speed').value);audio.playbackRate=state.rate;if(speechQueue.active)speakCurrent(speechContinuous);save()};
+$('speed').onchange=()=>{state.rate=Number($('speed').value);audio.playbackRate=state.rate;if(speechQueue.active){const request=speechRequest;if(request?.type==='snippet')speakSnippet(request.text,request.label);else speakCurrent(speechContinuous)}save()};
 $('speech-gap').onchange=()=>{const gap=Number($('speech-gap').value);if(!SPEECH_GAPS.includes(gap))return;state.gapMs=gap;if(speechContinuous)speakCurrent(true);save()};
 $('word-mode').onclick=()=>setMode('word');$('original-mode').onclick=()=>setMode('original');
 $('direction').onchange=()=>{state.direction=$('direction').value;$('track-select').innerHTML=chapterTracks().map(t=>`<option value="${t.id}">${esc(t.title)}</option>`).join('');syncTrack(false);save()};
 $('track-select').onchange=()=>loadTrack($('track-select').value,false,true);
 $('prev-track').onclick=()=>moveTrack(-1);$('next-track').onclick=()=>moveTrack(1);$('replay-track').onclick=()=>loadTrack(state.track,true,true,true);
 $('prev-recording-word').onclick=()=>moveRecordingWord(-1);$('next-recording-word').onclick=()=>moveRecordingWord(1);$('replay-recording-word').onclick=()=>playCue(state.selected,true);
-$('continuous-audio').onclick=()=>{if(audioContinuous&&!audio.paused){audioContinuous=false;singleWordStop=null;audio.pause();renderAudioState();return}singleWordStop=null;audioContinuous=true;scriptedPlay=true;audio.play().catch(()=>{scriptedPlay=false;status('audio-status','请点击音频栏播放按钮。')});renderAudioState()};
+$('continuous-audio').onclick=()=>{
+ if(audioContinuous&&!audio.paused){
+  if(!isIpa())audioContinuous=false;
+  singleWordStop=null;audio.pause();renderAudioState();return;
+ }
+ if(isIpa()&&!audioContinuous&&current()){
+  const entryId=audio.ended?cues()[0]?.entryId:state.selected;
+  if(entryId){playCue(entryId,false);return;}
+ }
+ singleWordStop=null;audioContinuous=true;scriptedPlay=audio.paused;
+ audio.play().catch(()=>{scriptedPlay=false;status('audio-status','请点击音频栏播放按钮。')});
+ renderAudioState();
+};
 $('cache-audio').onclick=async()=>{
  const t=track();if(!t||state.cacheBusy)return;state.cacheBusy=true;renderOffline();status('offline-status',`正在保存本段音频（约 ${(t.bytes/1024/1024).toFixed(1)} MB），请保持页面打开。`);
  try{const response=await fetch(playbackUrl(t));if(!response.ok)throw new Error('下载未完成');const blob=await response.blob();if(blob.size!==(t.playbackBytes||t.bytes))throw new Error('音频大小不符');await storeAudio(t,blob,t.mp3Index?'indexed-mp3-v2':'original');status('audio-status','本段音频已保存，可离线播放。')}
@@ -277,7 +443,7 @@ document.addEventListener('keydown',event=>{if(!pcView||state.mode!=='original'|
 if(location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1'){
  if('serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').then(()=>navigator.serviceWorker.ready).then(()=>status('app-offline-status','词表已准备离线使用；音频需单独保存或导入。')).catch(()=>status('app-offline-status','可正常联网使用，当前浏览器未开启离线页面。'));
 }
-$('pack-count').textContent=`${data.entries.length.toLocaleString()} 条学习条目 · ${data.collections.length===1?'王陆 Chapter 3 / 4 / 5 / 11':'Oxford 3000 / 750 短语 / 雅思听力'}`;
+$('pack-count').textContent=`${data.entries.length.toLocaleString()} 条学习条目 · ${data.collections.length===1?'王陆 Chapter 3 / 4 / 5 / 11':data.collections.map(c=>c.title).join(' / ')}`;
 renderNavigation();
 if(searchInput.value)resetSearchResults();
 cacheKeys();

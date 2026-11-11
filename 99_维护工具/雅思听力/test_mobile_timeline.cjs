@@ -5,7 +5,24 @@ const root=path.resolve(__dirname,'../..');
 const data=JSON.parse(fs.readFileSync(path.join(root,'05_听力与歌曲/雅思王听力语料库/data/mobile_study.json'),'utf8'));
 const oxford=data.tracks.find(t=>t.id==='oxford3000-recording');
 const phrases=data.tracks.find(t=>t.id==='phrases750-recording');
-assert.equal(data.entries.length,9625);assert.equal(data.tracks.length,61);
+const ipa=data.tracks.find(t=>t.chapter==='ipa-48');
+assert.ok(ipa);
+const wordTracks=data.tracks.filter(t=>t!==ipa);
+const recordedChapters=new Set(wordTracks.map(t=>String(t.chapter)));
+assert.equal(data.entries.filter(e=>recordedChapters.has(String(e.chapter))).length,9625);
+assert.equal(wordTracks.length,61);
+const ipaCards=data.entries.filter(e=>e.collection==='ipa');
+assert.equal(ipaCards.length,48);assert.equal(ipa.cues.length,48);
+assert.equal(ipa.humanEntries,48);assert.equal(ipa.aiEntries,0);
+assert.equal(fs.statSync(path.resolve(root,'05_听力与歌曲/雅思王听力语料库',ipa.file)).size,ipa.bytes);
+for(let i=0;i<ipaCards.length;i++){
+ const card=ipaCards[i],cue=ipa.cues[i];
+ assert.equal(cue.entryId,card.id);
+ assert.equal(card.audioKind,'human_recording');
+ assert.equal(card.ipaExamples.length,2);
+ assert.deepEqual(cue.parts.map(part=>part.label),[card.word,...card.ipaExamples.map(example=>example.word)]);
+ assert.ok(cue.spokenEnd<cue.practiceEnd&&cue.practiceEnd<cue.end);
+}
 assert.equal(oxford.cues.length,3306);assert.equal(phrases.cues.length,750);
 assert.equal(cueIndex(oxford.cues,-.1),-1);
 assert.equal(cueIndex(oxford.cues,0),0);
@@ -33,7 +50,7 @@ const entryMap=new Map(data.entries.map(e=>[e.id,e]));
 for(const track of ielts){
  assert.ok(track.mp3Index.audioFramesUnchanged);assert.equal(track.playbackBytes,track.mp3Index.bytes);
  assert.equal(track.aiEntries,0);assert.equal(track.humanEntries,track.cues.length);
- const groups=new Set(data.chapters.flatMap(c=>c.groups.filter(g=>Object.values(g.trackIds).includes(track.id)).map(g=>g.id)));
+ const groups=new Set(data.chapters.flatMap(c=>c.groups.filter(g=>Object.values(g.trackIds??{}).includes(track.id)).map(g=>g.id)));
  const expected=data.entries.filter(e=>groups.has(e.group));
  assert.equal(track.cues.length,expected.length);assert.equal(new Set(track.cues.map(c=>c.entryId)).size,expected.length);
  for(let i=0;i<track.cues.length;i++){
@@ -61,4 +78,4 @@ assert.equal(data.entryAliases['c11-s4-phrases-0447'],'c11-s4-phrases-0445');
 assert.equal(data.entryAliases['c11-s4-phrases-0456'],'c11-s4-phrases-0454');
 assert.equal(entryMap.has('c11-s4-phrases-0447'),false);
 assert.equal(entryMap.has('c11-s4-phrases-0456'),false);
-console.log('PASS: 12,676 cues in 61 tracks; four IELTS chapters; row/column orders, complete wrapped phrases, recording gaps, and single-word stops.');
+console.log('PASS: 61 vocabulary tracks and 48 IPA practice cards; IELTS ordering, recording gaps, and playback boundaries.');

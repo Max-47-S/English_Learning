@@ -1,0 +1,19 @@
+{
+  "source": "Oxford Learner’s Dictionaries",
+  "source_pdf": "oxford-5000-by-cefr-level.pdf",
+  "source_url": "https://www.oxfordlearnersdictionaries.com/external/pdf/wordlists/oxford-3000-5000/The_Oxford_5000_by_CEFR_level.pdf",
+  "sha256": "41bb14648657bb5b6e0ac64fa6172b6c1f91b1960c5c282746470745de560a20",
+  "pages": 8,
+  "entries": 2012,
+  "unique_headwords_after_qualifier_and_homograph_normalization": 1994,
+  "level_counts": {
+    "B2": 699,
+    "C1": 1313
+  },
+  "reading_order": "PDF page order; the B2 section followed by C1; columns top-to-bottom and left-to-right.",
+  "dictionary_source": "ECDICT, pinned Git revision 39cfb9672c0906b63569e0453c2e6abfb9ab182a",
+  "dictionary_url": "https://github.com/skywind3000/ECDICT/tree/39cfb9672c0906b63569e0453c2e6abfb9ab182a",
+  "dictionary_entries_matched": 1993,
+  "entries_with_ipa_reference": 1980,
+  "glosses_manually_filled": 25
+}
